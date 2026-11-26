@@ -119,4 +119,24 @@ export const groupContent: Record<string, {
       { value: "Video visits", label: "For new rashes" },
     ],
   },
+  "medical-dermatology/skin-infections": {
+    title: "Skin Infections",
+    accent: "Care in Torrance, CA",
+    headTitle: "Clear, healthy",
+    headAccent: "skin again",
+    lede: "Prompt, effective care for warts, cold sores, shingles, fungal and bacterial infections.",
+    description:
+      "Treatment for warts, herpes, shingles, fungal infections and bacterial skin infections in Torrance, CA, for adults and children.",
+    image: "/images/services/index/infections-hero.webp",
+    imageAlt: "Woman with clear, healthy skin resting her hand on her cheek",
+    intro: [
+      "Skin infections are caused by microbes: viruses, fungi and bacteria. They can cause rashes, blisters, bumps and sores.",
+      "Dr. Sandhu confirms the cause so treatment works the first time, and helps you keep the infection from spreading or coming back.",
+    ],
+    approach: "Thoughtful, personalized care with a focus on long-term skin health.",
+    stats: [
+      { value: "5", label: "Conditions treated" },
+      { value: "All ages", label: "From newborns to adults" },
+    ],
+  },
 };

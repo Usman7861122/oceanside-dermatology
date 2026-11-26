@@ -2,7 +2,8 @@
 // Facts about the practice come from oceansidederm.com (medical, pediatric, cosmetic and
 // teledermatology pages). General medical wording is kept simple and conservative:
 // Dr. Sandhu should review every page before launch.
-import { serviceMenu, groupHref } from "./serviceMenu";
+import { serviceMenu, groupHref, groupSlug } from "./serviceMenu";
+import { groupContent } from "./serviceIndex";
 
 export type ServiceContent = {
   slug: string; // last part of the URL, matches the mega menu item
@@ -2572,6 +2573,1142 @@ export const serviceContent: ServiceContent[] = [
       }
     ]
   },
+  {
+    "slug": "warts",
+    "category": "medical-dermatology",
+    "group": "Skin Infections",
+    "name": "Warts",
+    "localTopic": "Wart treatment",
+    "title": "Wart Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Wart Removal & Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified wart treatment in Torrance, CA for adults and children, including common, plantar and flat warts.",
+    "lede": "Clear, smooth skin, with safe and effective care for stubborn warts.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/warts/hero.webp",
+      "heroAlt": "Graceful hands with smooth, clear skin against a warm background",
+      "one": "/images/services/warts/one.webp",
+      "oneAlt": "Dermatologist examining a patient's hand with a dermatoscope",
+      "two": "/images/services/warts/two.webp",
+      "twoAlt": "Smiling woman resting her hands with smooth skin together"
+    },
+    "overview": {
+      "eyebrow": "Understanding Warts",
+      "title": "What are",
+      "accent": "warts?",
+      "text": [
+        "Warts are rough skin growths caused by the human papillomavirus (HPV). They are common on the hands, feet and face, and in children.",
+        "Warts can spread to other areas or other people through direct contact or shared surfaces, such as pool decks.",
+        "Many warts go away on their own, but some last for years. Dr. Sandhu offers treatments that clear warts safely and help prevent spread."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "HPV virus"
+        },
+        {
+          "label": "Common areas",
+          "value": "Hands, feet, face"
+        },
+        {
+          "label": "Who we treat",
+          "value": "Children & adults"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is wart treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when warts spread, hurt, keep coming back, or do not clear with store-bought treatments.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Common warts on the hands",
+        "Plantar warts on the feet",
+        "Flat warts on the face",
+        "Warts around the nails",
+        "Warts in children",
+        "Warts that keep returning"
+      ],
+      "signs": [
+        "Rough bumps on the skin",
+        "Painful spots on the soles",
+        "Warts that are spreading",
+        "Warts near the nails",
+        "Store-bought treatments have not worked",
+        "Any growth you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "The best treatment depends on the wart's type, location and your age. Several visits are often needed.",
+      "items": [
+        {
+          "title": "Cryotherapy",
+          "text": "Freezing treatment in the office that destroys the wart tissue over one or more visits."
+        },
+        {
+          "title": "Prescription topicals",
+          "text": "Creams and solutions used at home to peel away or fight the wart."
+        },
+        {
+          "title": "Other in-office treatments",
+          "text": "For stubborn warts, other options may be used, chosen for your skin and age."
+        },
+        {
+          "title": "Prevention tips",
+          "text": "Simple habits that help stop warts from spreading."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the wart and confirms the diagnosis."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment started and a clear home plan."
+        },
+        {
+          "label": "Weeks",
+          "title": "Clearing",
+          "text": "Warts usually shrink over several weeks. Repeat treatments are common."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We re-treat any remaining wart until the skin is clear."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Some treatments can cause blistering or soreness for a few days. We explain what to expect.",
+        "A growth that bleeds, changes or looks unusual should always be checked to be sure it is a wart."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      },
+      {
+        "q": "Are warts contagious?",
+        "a": "Yes. Warts can spread through direct contact or shared surfaces. Covering them and not picking helps."
+      },
+      {
+        "q": "Will my wart go away on its own?",
+        "a": "Many do over time, but some last for years. Treatment can speed things up."
+      },
+      {
+        "q": "How many treatments will I need?",
+        "a": "It varies. Many warts need a few treatments spaced a few weeks apart."
+      }
+    ]
+  },
+  {
+    "slug": "herpes",
+    "category": "medical-dermatology",
+    "group": "Skin Infections",
+    "name": "Herpes",
+    "localTopic": "Herpes treatment",
+    "title": "Herpes Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Herpes (Cold Sore) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Private, board-certified care for herpes and cold sores in Torrance, CA. Treatment to shorten outbreaks and reduce how often they come back.",
+    "lede": "Private, respectful care to shorten outbreaks and help prevent them.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/herpes/hero.webp",
+      "heroAlt": "Smiling woman applying a soothing lip balm",
+      "one": "/images/services/herpes/one.webp",
+      "oneAlt": "Woman checking her lips in a mirror",
+      "two": "/images/services/herpes/two.webp",
+      "twoAlt": "Woman gently applying ointment to her lips"
+    },
+    "overview": {
+      "eyebrow": "Understanding Herpes",
+      "title": "What is",
+      "accent": "herpes?",
+      "text": [
+        "Herpes is a viral infection causing blisters, typically on the mouth or genitals. Cold sores on the lips are the most common form.",
+        "After the first infection, the virus stays in the body and can flare again, often with stress, sun, illness or tiredness.",
+        "There is no cure, but treatment shortens outbreaks, eases discomfort and can reduce how often they return. Dr. Sandhu offers private, judgment-free care."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "Herpes simplex virus"
+        },
+        {
+          "label": "Common areas",
+          "value": "Lips, mouth, genitals"
+        },
+        {
+          "label": "Approach",
+          "value": "Private & respectful"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is herpes care",
+      "accent": "right for you?",
+      "text": "See a dermatologist for frequent or painful cold sores, a first outbreak, or blisters you are unsure about.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Cold sores on the lips",
+        "Recurring outbreaks",
+        "First outbreaks",
+        "Genital herpes",
+        "Outbreaks triggered by sun or stress",
+        "Blisters you are unsure about"
+      ],
+      "signs": [
+        "Tingling or burning before blisters",
+        "Small, painful blisters",
+        "Sores that crust over",
+        "Outbreaks several times a year",
+        "Sores that heal slowly",
+        "Sores near the eyes (seek prompt care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment works best when started early, at the first tingle.",
+      "items": [
+        {
+          "title": "Antiviral medicines",
+          "text": "Prescription medicines that shorten outbreaks and ease symptoms."
+        },
+        {
+          "title": "Suppressive therapy",
+          "text": "For frequent outbreaks, daily medicine can reduce how often they return."
+        },
+        {
+          "title": "Comfort care",
+          "text": "Ways to ease pain and help sores heal."
+        },
+        {
+          "title": "Trigger guidance",
+          "text": "Sun protection for the lips and tips to avoid common triggers."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area in private and asks about your outbreaks."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a treatment plan, often with medicine to keep on hand."
+        },
+        {
+          "label": "Days",
+          "title": "Healing",
+          "text": "Treated outbreaks usually heal within days to about a week."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We adjust your plan if outbreaks are frequent."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Private, safe care",
+      "text": [
+        "Herpes can pass to others, especially during an outbreak. We share simple ways to protect partners and family.",
+        "Sores near the eye need prompt medical attention."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can herpes be cured?",
+        "a": "No, but treatment shortens outbreaks and can greatly reduce how often they come back."
+      },
+      {
+        "q": "When should I start treatment?",
+        "a": "As early as possible, ideally at the first tingle or burning."
+      },
+      {
+        "q": "Is it contagious?",
+        "a": "Yes, especially when sores are present. Avoid kissing and sharing items during an outbreak."
+      },
+      {
+        "q": "Is my visit private?",
+        "a": "Yes. Your care is always private and respectful."
+      }
+    ]
+  },
+  {
+    "slug": "shingles",
+    "category": "medical-dermatology",
+    "group": "Skin Infections",
+    "name": "Shingles",
+    "localTopic": "Shingles treatment",
+    "title": "Shingles Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Shingles Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified shingles care in Torrance, CA. Fast treatment for the painful rash caused by the chickenpox virus.",
+    "lede": "Fast, careful treatment for a painful shingles rash, because early care matters.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/shingles/hero.webp",
+      "heroAlt": "Dermatologist gently examining a mature woman's face",
+      "one": "/images/services/shingles/one.webp",
+      "oneAlt": "Woman holding her painful upper back",
+      "two": "/images/services/shingles/two.webp",
+      "twoAlt": "Doctor listening to a senior woman during a home consultation"
+    },
+    "overview": {
+      "eyebrow": "Understanding Shingles",
+      "title": "What is",
+      "accent": "shingles?",
+      "text": [
+        "Shingles (herpes zoster) is a painful rash caused by reactivation of the chickenpox virus. Anyone who has had chickenpox can get it.",
+        "It usually appears as a band of blisters on one side of the body or face, often after tingling or burning pain.",
+        "Starting treatment within a few days of the rash helps it heal faster and can lower the risk of lasting nerve pain."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "Chickenpox virus"
+        },
+        {
+          "label": "Main sign",
+          "value": "Painful one-sided rash"
+        },
+        {
+          "label": "Key",
+          "value": "Treat early"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is shingles care",
+      "accent": "right for you?",
+      "text": "See a doctor promptly if you have a painful, blistering rash on one side of your body or face.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "New shingles rash",
+        "Shingles on the face",
+        "Painful blisters",
+        "Rash healing slowly",
+        "Skin care during healing",
+        "Questions about prevention"
+      ],
+      "signs": [
+        "Burning or tingling pain",
+        "A band of blisters on one side",
+        "Rash on the face or near the eye (urgent)",
+        "Fever or tiredness with the rash",
+        "Pain that lingers after the rash",
+        "A weakened immune system"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Prompt treatment is the most important step.",
+      "items": [
+        {
+          "title": "Antiviral medicines",
+          "text": "Started early, they help the rash heal faster."
+        },
+        {
+          "title": "Pain relief",
+          "text": "Medicines and comfort care to ease nerve pain."
+        },
+        {
+          "title": "Skin care",
+          "text": "Gentle care of the blisters to prevent infection and scarring."
+        },
+        {
+          "title": "Prevention advice",
+          "text": "Information about the shingles vaccine from your primary care doctor."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the rash and confirms the diagnosis."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with antiviral medicine and a plan for pain and skin care."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "The rash usually crusts and heals over two to four weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and help with any lingering pain."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Prompt, careful care",
+      "text": [
+        "Shingles near the eye can affect vision. Seek same-day care.",
+        "Shingles blisters can spread chickenpox to people who never had it or the vaccine, so keep them covered."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is shingles contagious?",
+        "a": "You cannot catch shingles, but the blisters can spread chickenpox to people who are not immune."
+      },
+      {
+        "q": "How fast should I be seen?",
+        "a": "As soon as possible. Antivirals work best when started within a few days of the rash."
+      },
+      {
+        "q": "Can shingles come back?",
+        "a": "It can, though it is uncommon. Ask your primary doctor about the shingles vaccine."
+      },
+      {
+        "q": "What if the pain lasts?",
+        "a": "Some people have nerve pain after the rash heals. Treatment can help."
+      }
+    ]
+  },
+  {
+    "slug": "fungal-infections",
+    "category": "medical-dermatology",
+    "group": "Skin Infections",
+    "name": "Fungal Infections",
+    "localTopic": "Fungal infection treatment",
+    "title": "Fungal Skin Infection",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Fungal Skin Infection Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified treatment for fungal skin infections in Torrance, CA, including ringworm, athlete's foot and yeast infections.",
+    "lede": "Clear, comfortable skin, with the right treatment for ringworm, athlete's foot and yeast.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/fungal-infections/hero.webp",
+      "heroAlt": "Woman resting her bare foot on a chair, caring for her feet",
+      "one": "/images/services/fungal-infections/one.webp",
+      "oneAlt": "Woman applying cream between her toes",
+      "two": "/images/services/fungal-infections/two.webp",
+      "twoAlt": "Doctor examining a young woman's scalp in a bright clinic"
+    },
+    "overview": {
+      "eyebrow": "Understanding Fungal Infections",
+      "title": "What are fungal",
+      "accent": "skin infections?",
+      "text": [
+        "Fungal infections include ringworm, athlete's foot and yeast infections. They often cause itchy, red, scaly or ring-shaped patches.",
+        "Fungi grow in warm, damp places such as the feet, groin, skin folds and scalp. They can spread from person to person, pets or surfaces.",
+        "Many rashes look like fungus but are not. Dr. Sandhu confirms the cause, so treatment works the first time."
+      ],
+      "facts": [
+        {
+          "label": "Examples",
+          "value": "Ringworm, athlete's foot"
+        },
+        {
+          "label": "Thrives in",
+          "value": "Warm, damp areas"
+        },
+        {
+          "label": "First step",
+          "value": "Confirm the cause"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is fungal care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when an itchy, scaly or ring-shaped rash spreads, returns, or does not clear with store-bought creams.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Ringworm (tinea)",
+        "Athlete's foot",
+        "Jock itch",
+        "Yeast infections in skin folds",
+        "Scalp ringworm in children",
+        "Tinea versicolor"
+      ],
+      "signs": [
+        "Ring-shaped, itchy patches",
+        "Peeling or cracked skin between toes",
+        "Red rash in skin folds",
+        "Scaly patches on the scalp",
+        "Light or dark spots on the chest or back",
+        "Creams have not worked"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Most fungal infections clear with the right medicine and simple habits.",
+      "items": [
+        {
+          "title": "Confirming the cause",
+          "text": "A quick skin scraping may be checked to confirm fungus."
+        },
+        {
+          "title": "Antifungal creams",
+          "text": "Prescription creams and powders for skin infections."
+        },
+        {
+          "title": "Oral medicines",
+          "text": "For scalp, widespread or stubborn infections, medicine by mouth may be needed."
+        },
+        {
+          "title": "Prevention",
+          "text": "Keeping skin dry, changing socks and treating pets or shared items."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the rash and may take a small scraping."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment and clear instructions."
+        },
+        {
+          "label": "Weeks",
+          "title": "Clearing",
+          "text": "Most skin infections clear within two to four weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We confirm the infection is gone and help prevent it from returning."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Using steroid creams on fungus can make it worse. Check with us before using leftover creams.",
+        "Some oral antifungals need a review of your other medicines."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is ringworm a worm?",
+        "a": "No. Ringworm is a fungal infection named for its ring shape."
+      },
+      {
+        "q": "Is it contagious?",
+        "a": "Yes. Fungal infections can spread through contact with people, pets or surfaces."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      },
+      {
+        "q": "Why does it keep coming back?",
+        "a": "Warm, damp conditions and untreated sources, such as feet or pets, can cause reinfection."
+      }
+    ]
+  },
+  {
+    "slug": "skin-cancer-screenings",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Skin Cancer Screenings",
+    "localTopic": "Skin cancer screening",
+    "title": "Skin Cancer Screenings",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Skin Cancer Screening in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified full-body skin cancer screenings in Torrance, CA. Early detection of melanoma, basal cell and squamous cell carcinoma.",
+    "lede": "A careful, head-to-toe skin check, because early detection saves lives.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/skin-cancer-screenings/hero.webp",
+      "heroAlt": "Woman in a sun hat and white shirt holding sunscreen by the sea",
+      "one": "/images/services/skin-cancer-screenings/one.webp",
+      "oneAlt": "Dermatologist checking a mole on a patient's back with a dermatoscope",
+      "two": "/images/services/skin-cancer-screenings/two.webp",
+      "twoAlt": "Dermatologist examining a spot on a patient's arm"
+    },
+    "overview": {
+      "eyebrow": "Understanding Skin Cancer Screenings",
+      "title": "What is a",
+      "accent": "skin cancer screening?",
+      "text": [
+        "A skin cancer screening is an exam to detect early signs of skin cancer. Dr. Sandhu checks your skin from head to toe, including areas you cannot easily see.",
+        "Skin cancer is the abnormal growth of skin cells, often caused by sun exposure. The main types are basal cell carcinoma, squamous cell carcinoma and melanoma, the most serious type.",
+        "Found early, most skin cancers are highly treatable. Prevention, education and early detection are at the heart of our practice."
+      ],
+      "facts": [
+        {
+          "label": "Exam",
+          "value": "Head to toe"
+        },
+        {
+          "label": "Looks for",
+          "value": "Melanoma, BCC, SCC"
+        },
+        {
+          "label": "Takes",
+          "value": "About 15 minutes"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is a skin check",
+      "accent": "right for you?",
+      "text": "Everyone benefits from a skin check, especially people with many moles, fair skin, a history of sunburns or a family history of skin cancer.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Full-body skin exams",
+        "Checks of new or changing moles",
+        "Personal history of skin cancer",
+        "Family history of melanoma",
+        "Many or unusual moles",
+        "Sun-damaged skin"
+      ],
+      "signs": [
+        "A new spot",
+        "A mole that changes in size, shape or color",
+        "A sore that does not heal",
+        "A spot that bleeds or itches",
+        "A rough, scaly patch",
+        "A spot that looks different from the rest"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "If anything looks suspicious, we act quickly, often at the same visit.",
+      "items": [
+        {
+          "title": "Full-body exam",
+          "text": "A careful head-to-toe check with a dermatoscope for closer looks."
+        },
+        {
+          "title": "Biopsy when needed",
+          "text": "A small sample of a suspicious spot is sent to a lab."
+        },
+        {
+          "title": "Treatment of skin cancer",
+          "text": "Excision, electrodesiccation and curettage, cryosurgery and other treatments."
+        },
+        {
+          "title": "Prevention plan",
+          "text": "Sun protection advice and a schedule for your next skin check."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu asks about your history and checks your skin from head to toe."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave knowing your results, and a biopsy is done if needed."
+        },
+        {
+          "label": "Results",
+          "title": "Lab results",
+          "text": "Biopsy results usually return within about a week to two."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We plan treatment if needed and set your next screening."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, private care",
+      "text": [
+        "The exam is private and respectful. You can keep underwear on and ask to skip any area.",
+        "Any spot that changes, bleeds or does not heal should be checked, even between visits."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How often should I get a skin check?",
+        "a": "Many people benefit from a yearly check. Dr. Sandhu recommends a schedule based on your risk."
+      },
+      {
+        "q": "What are warning signs of melanoma?",
+        "a": "Look for the ABCDEs: Asymmetry, irregular Borders, uneven Color, Diameter larger than a pencil eraser and Evolving or changing spots."
+      },
+      {
+        "q": "Does a screening hurt?",
+        "a": "No. It is a visual exam. A biopsy, if needed, uses numbing medicine."
+      },
+      {
+        "q": "Can I do self-checks?",
+        "a": "Yes. Monthly self-checks help you notice changes early."
+      }
+    ]
+  },
+  {
+    "slug": "actinic-keratoses",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Actinic Keratoses",
+    "localTopic": "Actinic keratosis treatment",
+    "title": "Actinic Keratosis",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Actinic Keratosis Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified treatment of actinic keratoses (precancerous sun spots) in Torrance, CA, to lower the risk of skin cancer.",
+    "lede": "Treat rough, scaly sun spots early, before they can turn into skin cancer.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/actinic-keratoses/hero.webp",
+      "heroAlt": "Smiling mature woman with sunscreen on her cheek",
+      "one": "/images/services/actinic-keratoses/one.webp",
+      "oneAlt": "Dermatologist examining a mature woman's facial skin",
+      "two": "/images/services/actinic-keratoses/two.webp",
+      "twoAlt": "Smiling woman in a sun hat applying sunscreen"
+    },
+    "overview": {
+      "eyebrow": "Understanding Actinic Keratoses",
+      "title": "What are",
+      "accent": "actinic keratoses?",
+      "text": [
+        "Actinic keratoses are rough, scaly patches caused by sun damage, and they can be precancerous. They often appear on the face, scalp, ears, lips, hands and arms.",
+        "They are common in people with fair skin and years of sun exposure. Some can develop into squamous cell carcinoma if left untreated.",
+        "Treating them early lowers your risk. Dr. Sandhu also helps you protect your skin going forward."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "Sun damage"
+        },
+        {
+          "label": "Feels like",
+          "value": "Rough, scaly patch"
+        },
+        {
+          "label": "Why treat",
+          "value": "Can be precancerous"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is AK treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist if you have rough, scaly spots that come back, or a history of sun damage.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Single actinic keratoses",
+        "Many sun-damaged spots",
+        "Spots on the face and scalp",
+        "Spots on the lips",
+        "Spots on hands and arms",
+        "Sun-damaged skin"
+      ],
+      "signs": [
+        "Rough, sandpaper-like spots",
+        "Scaly patches that return",
+        "Spots that are tender or itch",
+        "Pink or red scaly patches",
+        "A spot that grows or bleeds",
+        "Many spots on sun-exposed skin"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on how many spots you have and where they are.",
+      "items": [
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing individual spots in the office."
+        },
+        {
+          "title": "Field treatments",
+          "text": "Prescription creams that treat many spots and sun damage across an area."
+        },
+        {
+          "title": "Chemical peels",
+          "text": "Peels that remove damaged top layers of skin."
+        },
+        {
+          "title": "Sun protection",
+          "text": "Daily sunscreen and protective habits to prevent new spots."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines your sun-exposed skin and checks each spot."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment started, often the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas may be red or crusty for a few days to weeks, then heal."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check for new spots at regular skin exams."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Treated skin may be red, sore or crusty while it heals. We explain what to expect.",
+        "A spot that grows, bleeds or becomes painful should be checked for skin cancer."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are actinic keratoses cancer?",
+        "a": "They are precancerous. Some can turn into squamous cell carcinoma, which is why we treat them."
+      },
+      {
+        "q": "Will they come back?",
+        "a": "New spots can appear with more sun exposure. Regular checks and sunscreen help."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Freezing stings briefly. Creams can cause temporary redness and irritation."
+      },
+      {
+        "q": "How can I prevent them?",
+        "a": "Use broad-spectrum sunscreen daily, wear a hat and avoid peak sun."
+      }
+    ]
+  },
+  {
+    "slug": "moles",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Moles",
+    "localTopic": "Mole evaluation and removal",
+    "title": "Mole Checks & Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Mole Check & Mole Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified mole checks and mole removal in Torrance, CA. Evaluation of new or changing moles and removal for health or cosmetic reasons.",
+    "lede": "Peace of mind for every mole, with expert checks and careful removal.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/moles/hero.webp",
+      "heroAlt": "Dermatologist examining moles on a woman's back with a magnifying glass",
+      "one": "/images/services/moles/one.webp",
+      "oneAlt": "Dermatologist checking a mole on a woman's shoulder with a dermatoscope",
+      "two": "/images/services/moles/two.webp",
+      "twoAlt": "Dermatologist using a digital dermatoscope to check a mole"
+    },
+    "overview": {
+      "eyebrow": "Understanding Moles",
+      "title": "What are",
+      "accent": "moles?",
+      "text": [
+        "Moles are pigmented skin growths that can be flat or raised. They are usually harmless.",
+        "Most people have between 10 and 40 moles. A mole that is new, changing or different from the others should be checked, because melanoma can start in or near a mole.",
+        "Dr. Sandhu checks your moles closely with a dermatoscope and removes any that are suspicious, irritated or unwanted."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Harmless"
+        },
+        {
+          "label": "Check if",
+          "value": "New or changing"
+        },
+        {
+          "label": "Removal",
+          "value": "Medical or cosmetic"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is a mole check",
+      "accent": "right for you?",
+      "text": "See a dermatologist for any mole that is new after age 30, changing, itchy, bleeding or different from your other moles.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Mole checks",
+        "New or changing moles",
+        "Atypical (unusual) moles",
+        "Moles that catch on clothing",
+        "Mole removal for cosmetic reasons",
+        "Many moles"
+      ],
+      "signs": [
+        "A mole that changes size, shape or color",
+        "Uneven borders or colors",
+        "Bigger than a pencil eraser",
+        "Itching, bleeding or crusting",
+        "A new mole in adulthood",
+        "A mole that looks different (the ugly duckling)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every suspicious mole is checked. Removal is quick and done in the office.",
+      "items": [
+        {
+          "title": "Dermatoscope exam",
+          "text": "A close, magnified look at each mole's pattern."
+        },
+        {
+          "title": "Biopsy",
+          "text": "A sample of a suspicious mole sent to a lab."
+        },
+        {
+          "title": "Excision",
+          "text": "Removal of the whole mole with careful stitches for a neat result."
+        },
+        {
+          "title": "Shave removal",
+          "text": "Removal of raised moles level with the skin, often for cosmetic reasons."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu checks your moles and asks about any changes."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave knowing which moles are healthy and what needs attention."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Removal sites heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review lab results and plan your next skin check."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Removal uses numbing medicine and leaves a small scar. We aim for the neatest possible result.",
+        "Every removed mole can be sent to a lab, so nothing is missed."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When should I worry about a mole?",
+        "a": "Use the ABCDEs: Asymmetry, Border, Color, Diameter and Evolving. Any change is a reason to be seen."
+      },
+      {
+        "q": "Does mole removal leave a scar?",
+        "a": "There is usually a small scar. Dr. Sandhu chooses the method that gives the best result."
+      },
+      {
+        "q": "Can I have a mole removed for cosmetic reasons?",
+        "a": "Yes. Moles can be removed if they bother you, after we check that they are healthy."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      }
+    ]
+  },
+  {
+    "slug": "skin-tags",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Skin Tags",
+    "localTopic": "Skin tag removal",
+    "title": "Skin Tag Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Skin Tag Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Quick, board-certified skin tag removal in Torrance, CA for tags on the neck, underarms, eyelids and body.",
+    "lede": "Quick, gentle removal of skin tags that catch, rub or bother you.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/skin-tags/hero.webp",
+      "heroAlt": "Woman with smooth skin touching her neck and collarbone",
+      "one": "/images/services/skin-tags/one.webp",
+      "oneAlt": "Dermatologist examining the skin on a woman's neck",
+      "two": "/images/services/skin-tags/two.webp",
+      "twoAlt": "Woman gently touching the smooth skin on her neck"
+    },
+    "overview": {
+      "eyebrow": "Understanding Skin Tags",
+      "title": "What are",
+      "accent": "skin tags?",
+      "text": [
+        "Skin tags are small, soft growths hanging off the skin. They are often found on the neck, underarms, eyelids and in skin folds.",
+        "They are harmless, but they can catch on jewelry or clothing, become irritated or simply bother you.",
+        "Dr. Sandhu removes them quickly and safely in the office."
+      ],
+      "facts": [
+        {
+          "label": "Harmful?",
+          "value": "No, benign"
+        },
+        {
+          "label": "Common areas",
+          "value": "Neck, underarms, eyelids"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick, in office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is skin tag removal",
+      "accent": "right for you?",
+      "text": "Consider removal when skin tags catch, rub, bleed or bother you, or when you are unsure what a growth is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Skin tags on the neck",
+        "Underarm skin tags",
+        "Eyelid skin tags",
+        "Skin tags in skin folds",
+        "Many small tags",
+        "Irritated or bleeding tags"
+      ],
+      "signs": [
+        "Soft growths hanging from the skin",
+        "Tags that catch on clothing or jewelry",
+        "Tags that bleed or become sore",
+        "Tags you do not like the look of",
+        "A growth you are unsure about",
+        "Tags that keep appearing"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Removal is quick and usually done in a single visit.",
+      "items": [
+        {
+          "title": "Snip removal",
+          "text": "Quick removal with sterile instruments after numbing if needed."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing small tags so they fall off."
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine electric current to remove small tags."
+        },
+        {
+          "title": "Checking any growth",
+          "text": "Making sure each growth is truly a skin tag before removal."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the tags and confirms they are harmless."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Removal is often done the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated spots heal within one to two weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We treat any new tags as needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, gentle care",
+      "text": [
+        "Please do not cut skin tags off at home, which can cause bleeding and infection.",
+        "Removal for cosmetic reasons may not be covered by insurance. We will let you know before treatment."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are skin tags dangerous?",
+        "a": "No. Skin tags are harmless, but any growth you are unsure about should be checked."
+      },
+      {
+        "q": "Does removal hurt?",
+        "a": "Removal is quick, and numbing is used when needed."
+      },
+      {
+        "q": "Will they come back?",
+        "a": "Removed tags do not come back, but new ones can form over time."
+      },
+      {
+        "q": "Can tags near the eyes be removed?",
+        "a": "Yes, with special care."
+      }
+    ]
+  },
 ];
 
 export const getService = (category: string, slug: string) =>
@@ -2587,7 +3724,7 @@ export function serviceContext(s: ServiceContent) {
     crumbs: [
       { label: "Services", href: "/services" },
       { label: cat.title, href: cat.href },
-      { label: grp.title, href: groupHref(cat, grp) },
+      { label: grp.title, href: groupContent[`${cat.slug}/${groupSlug(grp.title)}`] ? groupHref(cat, grp) : `${cat.href}#${groupSlug(grp.title)}` },
     ],
     siblings: grp.items.filter((i) => !i.href.endsWith(`/${s.slug}`)),
   };

@@ -1,0 +1,1001 @@
+  {
+    "slug": "bacterial-infections",
+    "category": "medical-dermatology",
+    "group": "Skin Infections",
+    "name": "Bacterial Infections",
+    "localTopic": "Bacterial skin infection treatment",
+    "title": "Bacterial Skin Infection",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Bacterial Skin Infection Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified treatment for bacterial skin infections in Torrance, CA, including impetigo, cellulitis and folliculitis, for adults and children.",
+    "lede": "Prompt treatment for impetigo, cellulitis and other bacterial skin infections.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/bacterial-infections/hero.webp",
+      "heroAlt": "Mother and daughter caring for their skin together at home",
+      "one": "/images/services/bacterial-infections/one.webp",
+      "oneAlt": "Woman applying a healing ointment to her arm",
+      "two": "/images/services/bacterial-infections/two.webp",
+      "twoAlt": "Dermatologist checking a child's skin with a dermatoscope"
+    },
+    "overview": {
+      "eyebrow": "Understanding Bacterial Infections",
+      "title": "What are bacterial",
+      "accent": "skin infections?",
+      "text": [
+        "Bacterial skin infections include impetigo, cellulitis and folliculitis. They are caused by bacteria entering the skin, often through a cut, scrape, bite or rash.",
+        "Signs include redness, warmth, swelling, pain, crusting or pus. Impetigo is common in children and spreads easily.",
+        "Prompt treatment stops the infection from spreading. Dr. Sandhu treats the infection and helps the skin heal."
+      ],
+      "facts": [
+        {
+          "label": "Examples",
+          "value": "Impetigo, cellulitis"
+        },
+        {
+          "label": "Who we treat",
+          "value": "Children & adults"
+        },
+        {
+          "label": "Key",
+          "value": "Treat promptly"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is infection care",
+      "accent": "right for you?",
+      "text": "See a doctor promptly when skin becomes red, warm, swollen or painful, or a sore crusts or oozes.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Impetigo",
+        "Cellulitis",
+        "Folliculitis",
+        "Infected cuts or bites",
+        "Boils",
+        "Infected eczema"
+      ],
+      "signs": [
+        "Honey-colored crusts",
+        "Red, warm, swollen skin",
+        "Pus or oozing",
+        "A sore that is spreading",
+        "Fever with a skin infection (seek urgent care)",
+        "Red streaks from a wound (seek urgent care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on how deep and widespread the infection is.",
+      "items": [
+        {
+          "title": "Antibiotic ointments",
+          "text": "For small, surface infections such as mild impetigo."
+        },
+        {
+          "title": "Oral antibiotics",
+          "text": "For deeper or more widespread infections."
+        },
+        {
+          "title": "Wound and skin care",
+          "text": "Gentle cleansing and care to help the skin heal."
+        },
+        {
+          "title": "Prevention",
+          "text": "Hand washing, covering sores and treating the skin conditions that let bacteria in."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the skin and may take a swab."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment and clear wound care steps."
+        },
+        {
+          "label": "Days",
+          "title": "Healing",
+          "text": "Most infections improve within days of starting treatment."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We make sure the infection has cleared and the skin is healing."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Prompt, safe care",
+      "text": [
+        "Spreading redness, fever, red streaks or severe pain need urgent care.",
+        "Finish the full course of any antibiotic, even if the skin looks better."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is impetigo contagious?",
+        "a": "Yes. Children can usually return to school after 24 hours of treatment."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      },
+      {
+        "q": "When is a skin infection an emergency?",
+        "a": "Seek urgent care for fever, rapidly spreading redness or red streaks."
+      },
+      {
+        "q": "How can I prevent infections?",
+        "a": "Keep cuts clean and covered, wash hands, and treat eczema and other skin conditions."
+      }
+    ]
+  },
+  {
+    "slug": "cysts",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Cysts",
+    "localTopic": "Cyst removal",
+    "title": "Cyst Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cyst Treatment & Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified cyst treatment and removal in Torrance, CA, including epidermoid cysts, with careful technique for minimal scarring.",
+    "lede": "Careful removal of skin cysts, with attention to a neat, natural result.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cysts/hero.webp",
+      "heroAlt": "Smiling woman with smooth skin touching her jawline",
+      "one": "/images/services/cysts/one.webp",
+      "oneAlt": "Doctor examining a woman's shoulder",
+      "two": "/images/services/cysts/two.webp",
+      "twoAlt": "Close-up of a hand touching smooth skin on the shoulder"
+    },
+    "overview": {
+      "eyebrow": "Understanding Cysts",
+      "title": "What are",
+      "accent": "cysts?",
+      "text": [
+        "Cysts are closed sacs filled with fluid or semi-solid material under the skin. They often feel like smooth, round bumps.",
+        "They are usually harmless but can grow, become inflamed or infected, or simply bother you.",
+        "Dr. Sandhu removes cysts with care, prioritizing both a healthy outcome and a natural-looking result."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Benign"
+        },
+        {
+          "label": "Feels like",
+          "value": "Smooth, round bump"
+        },
+        {
+          "label": "Removal",
+          "value": "In office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is cyst removal",
+      "accent": "right for you?",
+      "text": "See a dermatologist when a cyst grows, becomes painful or inflamed, keeps coming back, or bothers you.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Epidermoid cysts",
+        "Cysts on the face, neck and back",
+        "Inflamed cysts",
+        "Infected cysts",
+        "Cysts that keep returning",
+        "Cysts you want removed"
+      ],
+      "signs": [
+        "A round bump under the skin",
+        "A bump that is growing",
+        "Redness, swelling or pain",
+        "Drainage from a bump",
+        "A bump in a visible area",
+        "A lump you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on whether the cyst is calm or inflamed.",
+      "items": [
+        {
+          "title": "Surgical removal",
+          "text": "Removing the whole cyst and its wall to lower the chance it returns.",
+          "href": "/surgical-dermatology/cyst-and-lipoma-removal"
+        },
+        {
+          "title": "Incision and drainage",
+          "text": "Relief for a painful, swollen cyst.",
+          "href": "/surgical-dermatology/incision-and-drainage"
+        },
+        {
+          "title": "Calming inflammation",
+          "text": "Treatment to settle an inflamed cyst before removal."
+        },
+        {
+          "title": "Checking any lump",
+          "text": "Making sure a lump is a harmless cyst."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the bump and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a plan, and removal is scheduled or done."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "The site heals over one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and remove stitches if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Do not squeeze a cyst at home, which can cause infection and scarring.",
+        "Removal uses numbing medicine and leaves a small, carefully placed scar."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are cysts dangerous?",
+        "a": "Most are harmless. Any lump you are unsure about should be checked."
+      },
+      {
+        "q": "Will a cyst come back?",
+        "a": "Removing the whole cyst wall lowers the chance it returns."
+      },
+      {
+        "q": "Can a cyst be removed with a small scar?",
+        "a": "Dr. Sandhu uses careful technique to keep scars as small as possible."
+      },
+      {
+        "q": "What if my cyst is painful?",
+        "a": "An inflamed cyst may need drainage or treatment first."
+      }
+    ]
+  },
+  {
+    "slug": "lipoma",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Lipoma",
+    "localTopic": "Lipoma treatment",
+    "title": "Lipoma Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Lipoma Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified lipoma removal in Torrance, CA. Careful removal of soft, fatty lumps under the skin.",
+    "lede": "Careful removal of soft, fatty lumps under the skin.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/lipoma/hero.webp",
+      "heroAlt": "Woman with smooth skin raising her arms",
+      "one": "/images/services/lipoma/one.webp",
+      "oneAlt": "Gloved hands gently examining a patient's arm",
+      "two": "/images/services/lipoma/two.webp",
+      "twoAlt": "Woman resting her hand on her smooth shoulder"
+    },
+    "overview": {
+      "eyebrow": "Understanding Lipoma",
+      "title": "What is a",
+      "accent": "lipoma?",
+      "text": [
+        "A lipoma is a soft, fatty lump under the skin. It usually moves slightly when pressed and grows slowly.",
+        "Lipomas are almost always harmless. They are often removed when they grow, cause discomfort or bother you.",
+        "Dr. Sandhu removes lipomas with precision, aiming for a natural-looking result."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Benign"
+        },
+        {
+          "label": "Feels like",
+          "value": "Soft, movable lump"
+        },
+        {
+          "label": "Removal",
+          "value": "In office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Lipomas on the back and shoulders",
+        "Lipomas on the arms and neck",
+        "Growing lipomas",
+        "Painful lipomas",
+        "Lipomas you want removed",
+        "Lumps you are unsure about"
+      ],
+      "signs": [
+        "A soft lump that moves",
+        "A lump that is growing",
+        "Pain or pressure",
+        "A lump in a visible area",
+        "A lump that feels hard (needs a check)",
+        "A lump you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Surgical removal",
+          "text": "Removing the lipoma through a small incision.",
+          "href": "/surgical-dermatology/cyst-and-lipoma-removal"
+        },
+        {
+          "title": "Checking any lump",
+          "text": "Making sure a lump is a harmless lipoma."
+        },
+        {
+          "title": "Careful closure",
+          "text": "Stitches placed for the neatest possible scar."
+        },
+        {
+          "title": "Aftercare",
+          "text": "Simple wound care to help the skin heal well."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "angiomas",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Angiomas",
+    "localTopic": "Angiomas treatment",
+    "title": "Angioma Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Angioma (Cherry Angioma) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified angioma care in Torrance, CA. Treatment of small red or purple vascular spots for health or cosmetic reasons.",
+    "lede": "Clear, even skin, with gentle treatment for small red spots.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/angiomas/hero.webp",
+      "heroAlt": "Woman with smooth skin caring for her body",
+      "one": "/images/services/angiomas/one.webp",
+      "oneAlt": "Light-based skin treatment with protective eyewear",
+      "two": "/images/services/angiomas/two.webp",
+      "twoAlt": "Smooth, healthy legs resting on soft bedding"
+    },
+    "overview": {
+      "eyebrow": "Understanding Angiomas",
+      "title": "What are",
+      "accent": "angiomas?",
+      "text": [
+        "Angiomas are small red or purple vascular growths made up of blood vessels. Cherry angiomas are the most common type and often appear with age.",
+        "They are harmless, but they can bleed if scratched or simply bother you.",
+        "Dr. Sandhu confirms the diagnosis and removes angiomas when you would like them gone."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Harmless"
+        },
+        {
+          "label": "Looks like",
+          "value": "Small red spots"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick, in office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Cherry angiomas",
+        "Many small red spots",
+        "Angiomas that bleed",
+        "Angiomas on the face and body",
+        "Spots you want removed",
+        "Red spots you are unsure about"
+      ],
+      "signs": [
+        "Small bright red bumps",
+        "Spots that bleed when scratched",
+        "New red spots with age",
+        "Spots in visible areas",
+        "A spot that changes (needs a check)",
+        "A spot you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Diagnosis",
+          "text": "A close look to confirm the spot is an angioma."
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine electric current that seals and removes the spot."
+        },
+        {
+          "title": "Laser & light",
+          "text": "Light-based treatments for vascular spots, where suitable.",
+          "href": "/cosmetic-dermatology/facial-and-leg-veins"
+        },
+        {
+          "title": "Cosmetic removal",
+          "text": "Removal of harmless spots you do not want."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "seborrheic-keratoses",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Seborrheic Keratoses",
+    "localTopic": "Seborrheic Keratoses treatment",
+    "title": "Seborrheic Keratosis",
+    "accent": "Removal in Torrance, CA",
+    "metaTitle": "Seborrheic Keratosis Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for seborrheic keratoses in Torrance, CA. Diagnosis and removal of waxy, wart-like growths that appear with age.",
+    "lede": "Smoother skin, with safe removal of waxy growths that appear with age.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/seborrheic-keratoses/hero.webp",
+      "heroAlt": "Smiling mature woman with radiant skin",
+      "one": "/images/services/seborrheic-keratoses/one.webp",
+      "oneAlt": "Dermatologist examining a mature woman's facial skin",
+      "two": "/images/services/seborrheic-keratoses/two.webp",
+      "twoAlt": "Smiling woman with silver hair and glowing skin"
+    },
+    "overview": {
+      "eyebrow": "Understanding Seborrheic Keratoses",
+      "title": "What are",
+      "accent": "seborrheic keratoses?",
+      "text": [
+        "Seborrheic keratoses are waxy, wart-like growths that appear with age. They can be tan, brown or black and look stuck on to the skin.",
+        "They are harmless and not contagious, but they can itch, catch on clothing or look like other growths.",
+        "Dr. Sandhu confirms the diagnosis and removes them when they bother you."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Harmless"
+        },
+        {
+          "label": "Looks like",
+          "value": "Waxy, stuck-on"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick, in office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Growths on the face and body",
+        "Many seborrheic keratoses",
+        "Itchy or irritated growths",
+        "Growths that catch on clothing",
+        "Growths you want removed",
+        "Dark growths that need a check"
+      ],
+      "signs": [
+        "Waxy, stuck-on growths",
+        "Growths that itch or bleed",
+        "New growths with age",
+        "Growths in visible areas",
+        "A growth that looks different (needs a check)",
+        "A dark spot you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Diagnosis",
+          "text": "A dermatoscope exam to tell them apart from other growths."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing the growth so it falls off."
+        },
+        {
+          "title": "Curettage",
+          "text": "Gentle scraping of the growth after numbing."
+        },
+        {
+          "title": "Cosmetic removal",
+          "text": "Removal of harmless growths you do not want."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "keloids",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Keloids",
+    "localTopic": "Keloids treatment",
+    "title": "Keloid Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Keloid Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified keloid treatment in Torrance, CA. Care for thick, raised scars that grow beyond the original wound.",
+    "lede": "Flatter, softer, more comfortable scars, with expert keloid care.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/keloids/hero.webp",
+      "heroAlt": "Woman holding a jar of soothing cream",
+      "one": "/images/services/keloids/one.webp",
+      "oneAlt": "Close-up of a raised keloid scar on the shoulder",
+      "two": "/images/services/keloids/two.webp",
+      "twoAlt": "Hands applying cream to a healing scar on the abdomen"
+    },
+    "overview": {
+      "eyebrow": "Understanding Keloids",
+      "title": "What are",
+      "accent": "keloids?",
+      "text": [
+        "Keloids are thick, raised scars that grow beyond the original wound site. They can follow cuts, piercings, acne, surgery or even minor scratches.",
+        "They can itch, hurt or feel tight, and they tend to come back. Keloids are more common in skin of color.",
+        "Dr. Sandhu creates a plan to flatten and soften keloids and lower the chance they return."
+      ],
+      "facts": [
+        {
+          "label": "Looks like",
+          "value": "Raised, firm scar"
+        },
+        {
+          "label": "Can",
+          "value": "Grow beyond the wound"
+        },
+        {
+          "label": "Approach",
+          "value": "Combined care"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Keloids after piercings",
+        "Keloids after surgery",
+        "Keloids from acne",
+        "Itchy or painful keloids",
+        "Keloids that returned",
+        "Raised (hypertrophic) scars"
+      ],
+      "signs": [
+        "A scar that keeps growing",
+        "Itching or tenderness",
+        "Firm, shiny raised skin",
+        "A scar that limits movement",
+        "A keloid that came back",
+        "Concern about a new piercing or surgery"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Scar-softening treatments",
+          "text": "In-office treatments that flatten and soften the keloid."
+        },
+        {
+          "title": "Silicone & pressure",
+          "text": "Silicone sheets or gels and pressure to help flatten scars."
+        },
+        {
+          "title": "Removal with follow-up care",
+          "text": "Surgical removal combined with treatment to lower the chance of return."
+        },
+        {
+          "title": "Prevention advice",
+          "text": "Guidance before piercings or surgery if you are keloid-prone."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "scars",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Scars",
+    "localTopic": "Scars treatment",
+    "title": "Scar Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Scar Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified scar treatment in Torrance, CA. Soften, flatten and fade scars from injury, surgery, acne and skin conditions.",
+    "lede": "Softer, flatter, less visible scars, with treatments chosen for your skin.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/scars/hero.webp",
+      "heroAlt": "Woman with smooth skin holding a jar of cream",
+      "one": "/images/services/scars/one.webp",
+      "oneAlt": "Hand applying cream to a scar on the arm",
+      "two": "/images/services/scars/two.webp",
+      "twoAlt": "Woman with smooth skin touching her chin"
+    },
+    "overview": {
+      "eyebrow": "Understanding Scars",
+      "title": "What are",
+      "accent": "scars?",
+      "text": [
+        "Scars are fibrous tissue that replaces normal skin after injury or surgery. They can be flat, raised, sunken or discolored.",
+        "Scars from acne, surgery, injuries and skin conditions can affect confidence and comfort.",
+        "Treatments aimed at softening, flattening or fading scars can make a real difference. Dr. Sandhu matches treatment to your scar and skin type."
+      ],
+      "facts": [
+        {
+          "label": "Types",
+          "value": "Raised, sunken, discolored"
+        },
+        {
+          "label": "Goal",
+          "value": "Soften & fade"
+        },
+        {
+          "label": "Options",
+          "value": "Medical & cosmetic"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Acne scars",
+        "Surgical scars",
+        "Scars from injuries",
+        "Raised (hypertrophic) scars",
+        "Discolored scars",
+        "Keloids"
+      ],
+      "signs": [
+        "A scar that is raised or thick",
+        "A sunken or pitted scar",
+        "A scar that is red or dark",
+        "A scar that itches or feels tight",
+        "A scar affecting your confidence",
+        "A scar that keeps growing"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Laser & light",
+          "text": "Fractional and other lasers that improve texture and color, including UltraClear, which is safe for all skin types.",
+          "href": "/cosmetic-dermatology/scar-treatment"
+        },
+        {
+          "title": "Medical-grade microneedling",
+          "text": "Stimulates collagen to smooth texture and scars.",
+          "href": "/cosmetic-dermatology/medical-grade-microneedling"
+        },
+        {
+          "title": "Customized chemical peels",
+          "text": "Peels that improve tone and texture.",
+          "href": "/cosmetic-dermatology/chemical-peels"
+        },
+        {
+          "title": "Scar-softening treatments",
+          "text": "Silicone, creams and in-office treatments to flatten raised scars."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },

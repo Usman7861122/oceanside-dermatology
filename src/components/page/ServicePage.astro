@@ -4,7 +4,7 @@
 import PageLayout from "../../layouts/PageLayout.astro";
 import AppointmentButton from "../AppointmentButton.astro";
 import LocalSection from "./LocalSection.astro";
-import { serviceContext, type ServiceContent } from "../../data/serviceContent";
+import { serviceContext, serviceByHref, type ServiceContent } from "../../data/serviceContent";
 import { localFor } from "../../data/local";
 import { site } from "../../data/site";
 
@@ -195,9 +195,13 @@ const faqLd = {
       <ul class="m-0 mt-12 grid list-none gap-px overflow-hidden rounded-[var(--radius-photo)] border border-white/12 bg-white/12 p-0 sm:grid-cols-2 lg:grid-cols-4">
         {ctx.siblings.map((it) => (
           <li>
-            <a href={it.href} class="related group flex h-full items-center justify-between gap-4 bg-[rgb(10_22_27/0.55)] px-6 py-6 font-display text-xl text-white transition-colors duration-500 hover:bg-white/[0.07] hover:text-gold">
-              {it.label}<span class="text-gold transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span>
-            </a>
+            {serviceByHref(it.href) ? (
+              <a href={it.href} class="related group flex h-full items-center justify-between gap-4 bg-[rgb(10_22_27/0.55)] px-6 py-6 font-display text-xl text-white transition-colors duration-500 hover:bg-white/[0.07] hover:text-gold">
+                {it.label}<span class="text-gold transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span>
+              </a>
+            ) : (
+              <span class="flex h-full items-center bg-[rgb(10_22_27/0.55)] px-6 py-6 font-display text-xl text-white/55">{it.label}</span>
+            )}
           </li>
         ))}
         <li class={ctx.siblings.length % 4 === 3 ? "" : "sm:col-span-2 lg:col-span-4"}>
