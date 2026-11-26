@@ -1,0 +1,217 @@
+---
+// Service page body (e.g. /medical-dermatology/acne). Structure from the doctor-site-inner-pages skill:
+// Overview, Is it right for you (dark), Local, Treatment options, What to expect, Safety + FAQ, Related.
+import PageLayout from "../../layouts/PageLayout.astro";
+import AppointmentButton from "../AppointmentButton.astro";
+import LocalSection from "./LocalSection.astro";
+import { serviceContext, type ServiceContent } from "../../data/serviceContent";
+import { localFor } from "../../data/local";
+import { site } from "../../data/site";
+
+interface Props { s: ServiceContent }
+const { s } = Astro.props;
+const ctx = serviceContext(s);
+const local = localFor(s.localTopic ?? s.name, "service");
+const faqLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: s.faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+};
+---
+<PageLayout
+  title={s.title}
+  accent={s.accent}
+  metaTitle={s.metaTitle}
+  eyebrow={s.name}
+  lede={s.lede}
+  description={s.description}
+  image={s.photos.hero}
+  imageAlt={s.photos.heroAlt}
+  position={s.heroPosition ?? "right center"}
+  local={local.banner}
+  crumbs={ctx.crumbs}
+  nearby={local.nearby}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+
+  <!-- Overview -->
+  <section id="overview" class="bg-white py-24 sm:py-32">
+    <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <div class="lg:col-span-6">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>{s.overview.eyebrow}</p>
+        <h2 class="mt-6 text-4xl sm:text-5xl" data-reveal style="--reveal-delay:100ms">{s.overview.title} <em class="text-gold">{s.overview.accent}</em></h2>
+        <div class="mt-8 space-y-5 text-[1.05rem] leading-relaxed text-body">
+          {s.overview.text.map((t, i) => <p data-reveal style={`--reveal-delay:${80 * i}ms`}>{t}</p>)}
+        </div>
+        <dl class="m-0 mt-10 grid grid-cols-3 divide-x divide-line border-y border-line" data-reveal>
+          {s.overview.facts.map((f) => (
+            <div class="fact group relative overflow-hidden px-3 py-5 sm:px-5">
+              <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+              <span class="pointer-events-none absolute inset-0 bg-gradient-to-b from-gold/[0.09] to-transparent opacity-0 transition-opacity duration-700 group-hover:opacity-100" aria-hidden="true"></span>
+              <dt class="relative text-[0.65rem] font-medium tracking-[0.18em] uppercase text-muted transition-colors duration-500 group-hover:text-gold">{f.label}</dt>
+              <dd class="relative m-0 mt-2 font-display text-[1.05rem] leading-snug text-ink transition-all duration-500 [transition-timing-function:var(--ease-tide)] group-hover:-translate-y-0.5 group-hover:text-gold sm:text-xl">{f.value}</dd>
+            </div>
+          ))}
+        </dl>
+        <div class="mt-10 flex flex-wrap gap-4" data-reveal>
+          <AppointmentButton />
+          <a href={site.phoneHref} class="btn-line">Call {site.phone}</a>
+        </div>
+      </div>
+      <figure class="group relative lg:col-span-6" data-reveal>
+        <div class="absolute -bottom-4 -left-4 h-full w-full rounded-[var(--radius-photo)] border border-gold/60 transition-transform duration-700 [transition-timing-function:var(--ease-tide)] group-hover:translate-x-1 group-hover:-translate-y-1" aria-hidden="true"></div>
+        <div class="relative overflow-hidden rounded-[var(--radius-photo)]">
+          <img src={s.photos.one} alt={s.photos.oneAlt} width="1400" height="1400" loading="lazy"
+            class="photo-square w-full object-cover transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.04]" />
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Is it right for you -->
+  <section id="right-for-you" class="marble-deep relative isolate overflow-hidden py-24 text-white sm:py-32">
+    <div aria-hidden="true" class="pointer-events-none absolute -left-40 top-1/4 -z-10 h-[30rem] w-[30rem] rounded-full bg-gold/10 blur-3xl"></div>
+    <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <figure class="group relative overflow-hidden rounded-[var(--radius-photo)] shadow-[0_50px_90px_-40px_rgb(0_0_0/0.7)] lg:col-span-5" data-reveal>
+        <img src={s.photos.two} alt={s.photos.twoAlt} width="1400" height="1400" loading="lazy"
+          class="photo-square w-full object-cover transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.04]" />
+      </figure>
+      <div class="lg:col-span-7">
+        <p class="eyebrow !text-gold-soft" data-reveal><span class="rule-gold"></span>Who It Helps</p>
+        <h2 class="mt-6 text-4xl !text-white [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">{s.candidates.title} <em class="text-gold">{s.candidates.accent}</em></h2>
+        <p class="mt-6 max-w-xl text-white/75" data-reveal style="--reveal-delay:160ms">{s.candidates.text}</p>
+        <div class="mt-12 grid gap-10 sm:grid-cols-2">
+          {[{ h: s.candidates.conditionsTitle ?? "What we help with", list: s.candidates.conditions }, { h: s.candidates.signsTitle ?? "Signs it is time to book", list: s.candidates.signs }].map((col, ci) => (
+            <div data-reveal style={`--reveal-delay:${120 * ci}ms`}>
+              <h3 class="border-b border-white/15 pb-4 !font-sans text-[0.72rem] font-medium tracking-[0.22em] uppercase !text-gold-soft">{col.h}</h3>
+              <ul class="m-0 list-none p-0">
+                {col.list.map((c) => (
+                  <li class="group flex items-start gap-4 border-b border-white/10 py-3.5 text-white/85 transition-colors duration-500 hover:text-white">
+                    <span class="mt-[0.7em] h-px w-4 shrink-0 bg-gold transition-all duration-500 group-hover:w-7" aria-hidden="true"></span>{c}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Treatment options -->
+  <section id="options" class="marble-light py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="grid gap-6 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-6">
+          <p class="eyebrow" data-reveal><span class="rule-gold"></span>How We Treat It</p>
+          <h2 class="mt-6 text-4xl sm:text-5xl" data-reveal style="--reveal-delay:100ms">{s.options.title} <em class="text-gold">{s.options.accent}</em></h2>
+        </div>
+        <p class="text-body lg:col-span-6" data-reveal style="--reveal-delay:180ms">{s.options.text}</p>
+      </div>
+      <div class="mt-14 grid gap-px overflow-hidden rounded-[var(--radius-photo)] border border-ink/10 bg-ink/10 sm:grid-cols-2 lg:grid-cols-4">
+        {s.options.items.map((o, i) => (
+          <article class="option group relative flex flex-col bg-white/85 px-7 py-9 backdrop-blur-sm" data-reveal style={`--reveal-delay:${90 * i}ms`}>
+            <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+            <span class="block h-px w-8 bg-gold/70 transition-all duration-500 group-hover:w-12" aria-hidden="true"></span>
+            <h3 class="mt-6 text-[1.45rem] leading-tight transition-colors duration-500 group-hover:text-gold">{o.title}</h3>
+            <p class="mt-3 flex-1 text-[0.95rem] text-body">{o.text}</p>
+            {o.href && <a href={o.href} class="mt-6 inline-flex items-center gap-2 text-[0.7rem] font-medium tracking-[0.2em] uppercase text-ink transition-colors hover:text-gold">Learn more <span aria-hidden="true">→</span></a>}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- What to expect -->
+  <section id="expect" class="bg-white py-24 sm:py-32">
+    <div class="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <div class="lg:col-span-5">
+        <div class="lg:sticky lg:top-32">
+          <p class="eyebrow" data-reveal><span class="rule-gold"></span>Your Care, Step by Step</p>
+          <h2 class="mt-6 text-4xl sm:text-5xl" data-reveal style="--reveal-delay:100ms">{s.steps.title} <em class="text-gold">{s.steps.accent}</em></h2>
+          <p class="mt-6 max-w-md text-body" data-reveal style="--reveal-delay:160ms">{s.steps.text}</p>
+          <div class="mt-10" data-reveal><AppointmentButton /></div>
+        </div>
+      </div>
+      <ol class="relative m-0 list-none p-0 lg:col-span-7">
+        <span class="absolute bottom-6 left-[7px] top-2 w-px bg-line" aria-hidden="true"></span>
+        {s.steps.items.map((st, i) => (
+          <li class="step group relative isolate pb-14 pl-12 last:pb-0 sm:pl-16" data-reveal style={`--reveal-delay:${100 * i}ms`}>
+            <span class="absolute left-0 top-1.5 z-10 block h-[15px] w-[15px] rounded-full border border-gold bg-white transition-colors duration-500 group-hover:bg-gold" aria-hidden="true"></span>
+            <!-- Large soft step number blended behind the text -->
+            <span class="step-num pointer-events-none absolute -top-8 right-0 -z-10 select-none font-display text-[6.5rem] leading-none text-gold/[0.13] transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:-translate-y-1 group-hover:text-gold/25 sm:-top-12 sm:text-[10rem]" aria-hidden="true">{String(i + 1).padStart(2, "0")}</span>
+            <span class="block text-[0.7rem] font-medium tracking-[0.22em] uppercase text-gold">{st.label}</span>
+            <h3 class="mt-2 text-[1.75rem] leading-tight">{st.title}</h3>
+            <p class="mt-3 max-w-xl text-body">{st.text}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <LocalSection local={local} />
+
+  <!-- Safety and FAQ -->
+  <section id="faq" class="border-t border-line bg-marble py-24 sm:py-32">
+    <div class="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <div class="lg:col-span-5">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>Safety</p>
+        <h2 class="mt-6 text-4xl sm:text-5xl" data-reveal style="--reveal-delay:100ms">{s.safety.title}</h2>
+        <div class="mt-6 space-y-4 border-l border-gold pl-6 text-body" data-reveal style="--reveal-delay:160ms">
+          {s.safety.text.map((t) => <p>{t}</p>)}
+        </div>
+      </div>
+      <div class="lg:col-span-7">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>Questions</p>
+        <h2 class="mt-6 text-4xl sm:text-5xl" data-reveal style="--reveal-delay:100ms">Frequently <em class="text-gold">asked</em></h2>
+        <div class="mt-10 border-t border-ink/15">
+          {s.faqs.map((f, i) => (
+            <details class="faq group border-b border-ink/15" open={i === 0} data-reveal>
+              <summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-6 font-display text-[1.3rem] leading-snug text-ink transition-colors hover:text-gold">
+                {f.q}
+                <span class="relative h-4 w-4 shrink-0" aria-hidden="true">
+                  <span class="absolute left-0 top-1/2 h-px w-4 bg-gold"></span>
+                  <span class="absolute left-1/2 top-0 h-4 w-px bg-gold transition-transform duration-500 group-open:scale-y-0"></span>
+                </span>
+              </summary>
+              <p class="m-0 max-w-2xl pb-7 text-body">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related, same group -->
+  <section id="related" class="marble-deep py-24 text-white sm:py-28">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="eyebrow !text-gold-soft" data-reveal><span class="rule-gold"></span>{ctx.category.title}</p>
+          <h2 class="mt-6 text-4xl !text-white sm:text-5xl" data-reveal style="--reveal-delay:100ms">More in <em class="text-gold">{ctx.group.title}</em></h2>
+        </div>
+        <div data-reveal><AppointmentButton glass /></div>
+      </div>
+      <ul class="m-0 mt-12 grid list-none gap-px overflow-hidden rounded-[var(--radius-photo)] border border-white/12 bg-white/12 p-0 sm:grid-cols-2 lg:grid-cols-4">
+        {ctx.siblings.map((it) => (
+          <li>
+            <a href={it.href} class="related group flex h-full items-center justify-between gap-4 bg-[rgb(10_22_27/0.55)] px-6 py-6 font-display text-xl text-white transition-colors duration-500 hover:bg-white/[0.07] hover:text-gold">
+              {it.label}<span class="text-gold transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span>
+            </a>
+          </li>
+        ))}
+        <li class={ctx.siblings.length % 4 === 3 ? "" : "sm:col-span-2 lg:col-span-4"}>
+          <a href={ctx.category.href} class="related group flex h-full items-center justify-between gap-4 bg-gold/15 px-6 py-6 text-[0.72rem] font-medium tracking-[0.2em] uppercase text-gold-soft transition-colors duration-500 hover:bg-gold/25 hover:text-white">
+            All {ctx.category.title}<span class="transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .option { transition: background-color 0.6s var(--ease-tide); }
+  .option:hover { background-color: #fff; }
+  .faq summary::-webkit-details-marker { display: none; }
+</style>

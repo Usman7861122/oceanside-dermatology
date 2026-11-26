@@ -1,0 +1,111 @@
+---
+// The second (and last) marble surface on the page.
+// The form is not connected yet: it shows a clear note instead of sending.
+import AppointmentButton from "../AppointmentButton.astro";
+import { site } from "../../data/site";
+const field =
+  "peer w-full rounded-[3px] border border-line bg-white/80 px-4 pb-2.5 pt-6 text-[0.98rem] text-ink outline-none transition-colors placeholder-transparent focus:border-gold focus:bg-white";
+const label =
+  "pointer-events-none absolute left-4 top-2 text-[0.66rem] font-medium tracking-[0.2em] uppercase text-muted transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-[0.9rem] peer-placeholder-shown:tracking-normal peer-placeholder-shown:normal-case peer-focus:top-2 peer-focus:text-[0.66rem] peer-focus:tracking-[0.2em] peer-focus:uppercase";
+---
+<section id="contact" class="marble-light relative py-24 sm:py-32">
+  <div class="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+    <div class="lg:col-span-5">
+      <p class="eyebrow" data-reveal><span class="rule-gold"></span>Get in Touch</p>
+      <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl lg:text-6xl" data-reveal style="--reveal-delay:100ms">
+        We look forward to <em class="text-seaglass-deep">meeting you</em>
+      </h2>
+      <p class="mt-6 max-w-md text-body" data-reveal style="--reveal-delay:200ms">
+        Send us a note and our team will reach out to schedule your visit. For anything urgent, please call.
+      </p>
+
+      <dl class="mt-12 space-y-7" data-reveal style="--reveal-delay:300ms">
+        <div class="flex gap-5">
+          <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Visit</dt>
+          <dd>
+            <a href={site.mapsUrl} target="_blank" rel="noopener" class="font-display text-[1.45rem] leading-snug text-ink hover:text-seaglass-deep">
+              {site.address.street}<br />{site.address.city}, {site.address.region} {site.address.zip}
+            </a>
+          </dd>
+        </div>
+        <div class="flex gap-5">
+          <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Call</dt>
+          <dd><a href={site.phoneHref} class="font-display text-[1.45rem] text-ink hover:text-seaglass-deep">{site.phone}</a><span class="block text-sm text-muted">Fax {site.fax}</span></dd>
+        </div>
+        <div class="flex gap-5">
+          <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Email</dt>
+          <dd><a href={`mailto:${site.email}`} class="font-display text-[1.45rem] text-ink hover:text-seaglass-deep">{site.email}</a></dd>
+        </div>
+        <div class="flex gap-5">
+          <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Hours</dt>
+          <dd class="space-y-1">
+            {site.hours.map((h) => (
+              <p class="flex gap-4 text-ink"><span class="w-40">{h.days}</span><span class="text-body">{h.time}</span></p>
+            ))}
+          </dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="lg:col-span-7" data-reveal style="--reveal-delay:200ms">
+      <form
+        id="appointment-form"
+        class="rounded-[var(--radius-photo)] border border-white bg-white/70 p-7 shadow-[0_40px_80px_-50px_rgb(15_34_41/0.45)] backdrop-blur-md sm:p-10"
+        novalidate
+      >
+        <h3 class="text-3xl">Request an appointment</h3>
+        <p class="mt-2 text-sm text-muted">Please do not include private medical details in this form.</p>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-2">
+          <div class="relative sm:col-span-2">
+            <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Full name" class={field} />
+            <label for="f-name" class={label}>Full name</label>
+          </div>
+          <div class="relative">
+            <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="Email" class={field} />
+            <label for="f-email" class={label}>Email</label>
+          </div>
+          <div class="relative">
+            <input id="f-phone" name="phone" type="tel" autocomplete="tel" required placeholder="Phone" class={field} />
+            <label for="f-phone" class={label}>Phone</label>
+          </div>
+          <div class="relative">
+            <input id="f-dob" name="dob" type="text" inputmode="numeric" placeholder="Date of birth (MM/DD/YYYY)" class={field} />
+            <label for="f-dob" class={label}>Date of birth (MM/DD/YYYY)</label>
+          </div>
+          <div class="relative">
+            <select id="f-service" name="service" class={`${field} appearance-none`}>
+              <option>Medical dermatology</option>
+              <option>Surgical / skin cancer</option>
+              <option>Cosmetic injectables</option>
+              <option>Laser &amp; light</option>
+              <option>Pediatric dermatology</option>
+              <option>Teledermatology</option>
+              <option>Not sure yet</option>
+            </select>
+            <label for="f-service" class="pointer-events-none absolute left-4 top-2 text-[0.66rem] font-medium tracking-[0.2em] uppercase text-muted">Interested in</label>
+          </div>
+          <div class="relative sm:col-span-2">
+            <textarea id="f-msg" name="message" rows="4" placeholder="How can we help?" class={`${field} resize-none`}></textarea>
+            <label for="f-msg" class={label}>How can we help?</label>
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <AppointmentButton type="submit" label="Send Request" />
+          <p id="form-note" class="text-sm text-muted" role="status"></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  // TODO: connect to the real form service. Until then, show a clear message instead of sending.
+  const form = document.getElementById("appointment-form") as HTMLFormElement | null;
+  const note = document.getElementById("form-note");
+  form?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (note) note.textContent = "Online requests are coming soon. Please call 310-606-2106.";
+  });
+</script>

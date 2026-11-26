@@ -1,0 +1,60 @@
+---
+// Dark title band for inner pages: photo behind a deep veil, eyebrow, the page's one H1, a lede,
+// and a slim local line with booking buttons.
+import AppointmentButton from "../AppointmentButton.astro";
+import { site } from "../../data/site";
+
+interface Props {
+  title: string;
+  // Second part of the title, shown in logo gold (like the home page headings).
+  accent?: string;
+  eyebrow?: string;
+  lede?: string;
+  image: string;
+  imageAlt?: string;
+  position?: string;
+  local?: string;
+  // Path above this page (Home is added automatically). Items without href render as plain text.
+  crumbs?: { label: string; href?: string }[];
+  // Nearby-areas line under the buttons (used on pages under Services).
+  nearby?: string;
+}
+const { title, accent, eyebrow, lede, image, imageAlt, position = "center", local, crumbs = [], nearby } = Astro.props;
+---
+<section class="relative isolate flex min-h-[78svh] items-end overflow-hidden bg-ink pb-20 pt-40 text-white">
+  <img src={image} alt={imageAlt || `${title} ${accent ?? ""}, Oceanside Dermatology & Aesthetics`} class="absolute inset-0 -z-20 h-full w-full object-cover" style={`object-position:${position}`} />
+  <div class="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgb(15_34_41/0.88)_0%,rgb(15_34_41/0.6)_55%,rgb(15_34_41/0.35)_100%)]"></div>
+  <div class="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-gradient-to-t from-ink/70 to-transparent"></div>
+
+  <div class="mx-auto w-full max-w-7xl px-5 sm:px-8">
+    <nav aria-label="Breadcrumb" class="text-[0.75rem] tracking-[0.18em] uppercase text-white/60" data-reveal>
+      <ol class="m-0 flex list-none flex-wrap items-center gap-y-2 p-0">
+        {[{ label: "Home", href: "/" }, ...crumbs].map((c) => (
+          <li class="flex items-center">
+            {c.href ? <a href={c.href} class="transition-colors hover:text-white">{c.label}</a> : <span>{c.label}</span>}
+            <span class="mx-2 text-gold" aria-hidden="true">/</span>
+          </li>
+        ))}
+        <li aria-current="page" class="text-white/85">{eyebrow ?? title}</li>
+      </ol>
+    </nav>
+    <h1 class="mt-6 max-w-5xl text-[2.5rem] leading-[1.1] !text-white [text-wrap:balance] sm:text-5xl lg:text-[4rem]" data-reveal style="--reveal-delay:100ms">
+      {title}{accent && <>{" "}<br class="hidden md:block" /><em class="text-gold">{accent.replace(/-/g, "\u2011")}</em></>}
+    </h1>
+    {lede && <p class="mt-6 max-w-2xl text-lg text-white/80" data-reveal style="--reveal-delay:200ms">{lede}</p>}
+
+    <div class="mt-10 flex flex-col gap-6 border-t border-white/15 pt-8 sm:flex-row sm:items-center sm:justify-between" data-reveal style="--reveal-delay:300ms">
+      {local && <p class="m-0 flex items-center gap-3 text-[0.8rem] tracking-[0.2em] uppercase text-white/75"><span class="rule-gold"></span>{local}</p>}
+      <div class="flex flex-wrap gap-4">
+        <AppointmentButton glass />
+        <a href={site.phoneHref} class="btn-line text-white">Call {site.phone}</a>
+      </div>
+    </div>
+    {nearby && (
+      <p class="m-0 mt-8 flex items-start gap-4 border-t border-white/10 pt-7 text-[1.02rem] font-light leading-relaxed text-white/70" data-reveal style="--reveal-delay:380ms">
+        <svg class="mt-[0.2em] h-5 w-5 shrink-0 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" /></svg>
+        <span class="max-w-4xl">{nearby}</span>
+      </p>
+    )}
+  </div>
+</section>

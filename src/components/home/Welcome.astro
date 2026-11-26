@@ -1,0 +1,82 @@
+---
+// Welcome: a full-bleed 50/50 split. Left, Dr. Sandhu's portrait fills the full height.
+// Right, a text panel on our light marble with her name, title, bio and credential badges.
+import { site } from "../../data/site";
+
+// Text badges for where she trained and her memberships.
+// Swap any of these for official logos once we have permission and files.
+const badges = [
+  { mark: "UCLA", note: "B.S., College Honors" },
+  { mark: "Harbor-UCLA", note: "Chief Resident" },
+  { mark: "UCSF", note: "WDS Mentorship Award" },
+  { mark: "AAD", note: "Fellow, FAAD" },
+  { mark: "ASDS", note: "Member" },
+];
+---
+<section id="welcome" class="grid lg:min-h-[100svh] lg:grid-cols-2">
+  <!-- Portrait -->
+  <div class="group relative min-h-[70svh] overflow-hidden bg-white lg:min-h-0">
+    <img
+      src="/images/dr-sophia-sandhu-portrait.webp"
+      alt="Dr. Sophia Sandhu, board-certified dermatologist, smiling in her white coat"
+      width="1024"
+      height="1280"
+      loading="lazy"
+      class="absolute inset-0 h-full w-full object-cover object-[50%_18%] transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.03]"
+    />
+  </div>
+
+  <!-- Text panel on light marble -->
+  <div class="marble-panel relative flex items-center px-6 py-20 sm:px-12 lg:px-20 lg:py-24 xl:px-28">
+    <div class="max-w-[620px]">
+      <h2 class="text-[2.2rem] leading-[1.15] sm:text-5xl lg:text-[2.9rem] xl:text-[3.2rem]" data-reveal>
+        Your Dermatologist:<br /><span class="whitespace-nowrap">Rooted in the South Bay</span>
+      </h2>
+
+      <p class="mt-8 font-display text-[1.7rem] leading-tight text-ink sm:text-[2rem]" data-reveal style="--reveal-delay:100ms">
+        {site.doctor}
+      </p>
+      <p class="mt-4 text-[0.95rem] font-normal tracking-[0.06em] uppercase text-ink" data-reveal style="--reveal-delay:150ms">
+        Board-Certified Dermatologist
+      </p>
+
+      <div class="mt-8 space-y-6 text-[1.05rem] leading-[1.75] text-body" data-reveal style="--reveal-delay:200ms">
+        <p>
+          Born and raised in Southern California, Dr. Sandhu is a board-certified dermatologist with
+          expertise in medical, cosmetic, surgical and pediatric dermatology. She completed her residency at
+          Harbor-UCLA Medical Center, where she served as Chief Resident, and advanced her training at UCSF.
+        </p>
+        <p>
+          Known for her warm and thoughtful approach, she gives every patient evidence-based care shaped
+          around their skin, their age and their goals. She speaks English, Spanish and Punjabi.
+        </p>
+      </div>
+
+      <ul class="mt-12 flex flex-wrap gap-x-8 gap-y-8 sm:grid sm:grid-cols-5 sm:gap-x-3" data-reveal style="--reveal-delay:300ms">
+        {badges.map((b) => (
+          <li class="group/badge flex flex-col items-center text-center">
+            <span class="whitespace-nowrap font-display text-[1.2rem] leading-none text-ink transition-colors duration-500 group-hover/badge:text-gold">{b.mark}</span>
+            <span class="mt-2 h-px w-8 bg-ink/25 transition-all duration-500 group-hover/badge:w-12 group-hover/badge:bg-gold"></span>
+            <span class="mt-2 max-w-[7.5rem] text-[0.62rem] font-normal tracking-[0.12em] uppercase leading-snug text-muted">{b.note}</span>
+          </li>
+        ))}
+      </ul>
+
+      <div class="mt-12" data-reveal style="--reveal-delay:400ms">
+        <a href="/about" class="btn-line text-ink">Meet Dr. Sandhu <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Our own light marble, kept soft so the text stays easy to read */
+  .marble-panel {
+    background-color: #f1efeb;
+    background-image:
+      linear-gradient(180deg, rgb(244 242 238 / 0.72), rgb(244 242 238 / 0.82)),
+      url("/images/textures/marble-light.webp");
+    background-size: cover;
+    background-position: center;
+  }
+</style>

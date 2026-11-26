@@ -1,0 +1,24 @@
+---
+// The one appointment button used across the site.
+// It always links to site.appointmentHref, so the booking target changes in one place.
+import { site } from "../data/site";
+
+interface Props {
+  label?: string;
+  glass?: boolean;
+  light?: boolean;
+  class?: string;
+  type?: "link" | "submit";
+}
+const { label = "Book an Appointment", glass = false, light = false, class: extra = "", type = "link" } = Astro.props;
+const cls = `btn-appt ${glass ? "btn-appt--glass" : ""} ${light ? "btn-appt--light" : ""} ${extra}`;
+---
+{type === "submit" ? (
+  <button type="submit" class={cls}>
+    <span>{label}</span>
+  </button>
+) : (
+  <a href={site.appointmentHref} class={cls}>
+    <span>{label}</span>
+  </a>
+)}

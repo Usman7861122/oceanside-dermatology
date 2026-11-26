@@ -1,0 +1,113 @@
+---
+// Gallery: six photo panels in a row. Hovering (or focusing) one widens it and fades in its
+// caption; the first panel is open when nothing is hovered. On phones it becomes a swipe row.
+import { gallery } from "../../data/site";
+---
+<section id="gallery" class="py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="mx-auto max-w-2xl text-center">
+      <p class="eyebrow justify-center" data-reveal><span class="rule-gold"></span>Gallery<span class="rule-gold"></span></p>
+      <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl lg:text-6xl" data-reveal style="--reveal-delay:100ms">
+        The Oceanside <span class="text-gold">experience</span>
+      </h2>
+      <p class="mt-5 text-body" data-reveal style="--reveal-delay:200ms">
+        A calm, unhurried setting where medical care and aesthetic care feel equally at home.
+      </p>
+    </div>
+
+    <ul class="gal mt-14 list-none p-0" data-reveal style="--reveal-delay:250ms">
+      {gallery.map((g, i) => (
+        <li class="gal-panel" tabindex="0" aria-label={g.title}>
+          <img src={g.src} alt={g.alt} width="1000" height="1000" loading="lazy" class="gal-img" />
+          <div class="gal-shade"></div>
+          <div class="gal-caption">
+            <span class="gal-num">{String(i + 1).padStart(2, "0")}</span>
+            <h3 class="gal-title">{g.title}</h3>
+            <p class="gal-text">{g.caption}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .gal {
+    display: flex;
+    gap: 0.6rem;
+    height: 520px;
+  }
+  .gal-panel {
+    position: relative;
+    flex: 1 1 0%;
+    min-width: 0;
+    overflow: hidden;
+    border-radius: var(--radius-photo);
+    cursor: pointer;
+    outline: none;
+    transition: flex-grow 0.7s var(--ease-tide);
+  }
+  /* First panel is open by default; any hovered or focused panel takes over */
+  .gal:not(:hover):not(:focus-within) .gal-panel:first-child,
+  .gal-panel:hover,
+  .gal-panel:focus-visible {
+    flex-grow: 4.5;
+  }
+  .gal-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.08);
+    transition: transform 1.2s var(--ease-tide), filter 0.7s var(--ease-tide);
+    filter: saturate(0.85);
+  }
+  .gal-shade {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgb(15 34 41 / 0.78), rgb(15 34 41 / 0.15) 55%, rgb(15 34 41 / 0.25));
+    transition: background 0.7s var(--ease-tide);
+  }
+  .gal-caption {
+    position: absolute;
+    inset: auto 0 0 0;
+    padding: 1.75rem;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.5s ease, transform 0.7s var(--ease-tide);
+    white-space: nowrap;
+  }
+  .gal-num { display: block; font-size: 0.72rem; letter-spacing: 3px; color: var(--color-gold); }
+  .gal-title { margin-top: 0.4rem; font-family: var(--font-display); font-size: 1.9rem; line-height: 1.1; color: #fff; }
+  .gal-text { margin-top: 0.5rem; font-size: 0.95rem; color: rgb(255 255 255 / 0.8); }
+  .gal-panel:focus-visible { box-shadow: inset 0 0 0 2px var(--color-gold); }
+
+  .gal:not(:hover):not(:focus-within) .gal-panel:first-child .gal-img,
+  .gal-panel:hover .gal-img,
+  .gal-panel:focus-visible .gal-img { transform: scale(1); filter: saturate(1); }
+  .gal:not(:hover):not(:focus-within) .gal-panel:first-child .gal-caption,
+  .gal-panel:hover .gal-caption,
+  .gal-panel:focus-visible .gal-caption { opacity: 1; transform: none; transition-delay: 0.2s; }
+
+  /* Phones and small tablets: a swipe row with captions always visible */
+  @media (max-width: 767px) {
+    .gal {
+      height: auto;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 0.75rem;
+      margin-inline: -1.25rem;
+      padding-inline: 1.25rem;
+      scrollbar-width: none;
+    }
+    .gal::-webkit-scrollbar { display: none; }
+    .gal-panel { flex: 0 0 80%; aspect-ratio: 4 / 5; scroll-snap-align: center; }
+    .gal-panel .gal-img { transform: none; filter: none; }
+    .gal-panel .gal-caption { opacity: 1; transform: none; white-space: normal; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .gal-panel, .gal-img, .gal-caption, .gal-shade { transition: none; }
+  }
+</style>

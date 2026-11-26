@@ -1,0 +1,126 @@
+---
+// Group index page (e.g. /medical-dermatology/acne-and-inflammation): overview with stat tiles,
+// a dark grid of photo cells (one per condition), local section, and the other groups.
+import PageLayout from "../../layouts/PageLayout.astro";
+import AppointmentButton from "../AppointmentButton.astro";
+import LocalSection from "./LocalSection.astro";
+import { groupContent } from "../../data/serviceIndex";
+import { serviceMenu, groupSlug, groupHref } from "../../data/serviceMenu";
+import { serviceByHref } from "../../data/serviceContent";
+import { localFor } from "../../data/local";
+
+interface Props { groupKey: string }
+const { groupKey } = Astro.props;
+const g = groupContent[groupKey];
+const [catSlug, gSlug] = groupKey.split("/");
+const cat = serviceMenu.find((c) => c.slug === catSlug)!;
+const grp = cat.groups.find((x) => groupSlug(x.title) === gSlug)!;
+const items = grp.items.map((it) => ({ ...it, s: serviceByHref(it.href) }));
+const others = cat.groups.filter((x) => x !== grp);
+const local = localFor(`${grp.title} care`, "group");
+---
+<PageLayout
+  title={g.title}
+  accent={g.accent}
+  metaTitle={`${g.title} Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics`}
+  eyebrow={grp.title}
+  lede={g.lede}
+  description={g.description}
+  image={g.image}
+  imageAlt={g.imageAlt}
+  position="center 40%"
+  local={local.banner}
+  crumbs={[{ label: "Services", href: "/services" }, { label: cat.title, href: cat.href }]}
+  nearby={local.nearby}
+>
+  <!-- Overview -->
+  <section class="bg-white py-24 sm:py-32">
+    <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <div class="lg:col-span-7">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>{cat.title}</p>
+        <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">{g.headTitle ?? "Calm skin,"} <em class="text-gold">{g.headAccent ?? "from the root"}</em></h2>
+        <div class="mt-8 space-y-5 text-[1.05rem] leading-relaxed text-body">
+          {g.intro.map((t, i) => <p data-reveal style={`--reveal-delay:${80 * i}ms`}>{t}</p>)}
+        </div>
+        <p class="mt-8 flex items-center gap-4 font-display text-xl text-ink" data-reveal><span class="h-px w-10 shrink-0 bg-gold"></span>{g.approach}</p>
+        <div class="mt-10" data-reveal><AppointmentButton /></div>
+      </div>
+      <div class="grid gap-4 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-1">
+        {g.stats.map((st, i) => (
+          <div class="stat-tile group relative overflow-hidden rounded-[var(--radius-photo)] border border-line bg-marble/60 px-8 py-9" data-reveal style={`--reveal-delay:${120 * i}ms`}>
+            <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+            <span class="block font-display text-[3.2rem] leading-none text-ink transition-colors duration-500 group-hover:text-gold">{st.value}</span>
+            <span class="mt-4 block text-[0.72rem] font-medium tracking-[0.2em] uppercase text-muted">{st.label}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Conditions grid -->
+  <section id="conditions" class="marble-deep py-24 text-white sm:py-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="grid gap-6 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-7">
+          <p class="eyebrow !text-gold-soft" data-reveal><span class="rule-gold"></span>Conditions We Treat</p>
+          <h2 class="mt-6 text-4xl !text-white [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">Find your <em class="text-gold">condition</em></h2>
+        </div>
+        <p class="text-white/70 lg:col-span-5" data-reveal style="--reveal-delay:160ms">Choose a condition to learn what causes it, how we treat it and what to expect at your visit.</p>
+      </div>
+      <ul class="m-0 mt-14 grid list-none gap-5 p-0 sm:grid-cols-2 lg:grid-cols-6">
+        {items.map((it, i) => {
+          // Fill the last row: one leftover spans the row, two leftovers share it.
+          const rest = items.length === 4 ? 0 : items.length % 3;
+          const inLast = i >= items.length - rest;
+          const lone = rest === 1 && inLast;
+          const span = lone ? "lg:col-span-6" : (rest === 2 && inLast) || items.length === 4 ? "lg:col-span-3" : "lg:col-span-2";
+          return (
+            <li class={span} data-reveal style={`--reveal-delay:${(i % 3) * 110}ms`}>
+              {it.s ? (
+                <a href={it.href} class="cell group relative block h-full overflow-hidden rounded-[var(--radius-photo)] border border-white/10">
+                  <div class={`relative overflow-hidden ${lone ? "aspect-[21/9]" : span === "lg:col-span-3" ? "aspect-[4/3] lg:aspect-[16/9]" : "aspect-[4/3]"}`}>
+                    <img src={it.s.photos.hero} alt={it.s.photos.heroAlt} width="1200" height="900" loading="lazy" class="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.06]" style={`object-position:${it.s.heroPosition ?? "center"}`} />
+                    <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/35 to-transparent"></div>
+                  </div>
+                  <div class="absolute inset-x-0 bottom-0 p-7">
+                    <span class="block h-px w-8 bg-gold transition-all duration-700 group-hover:w-16" aria-hidden="true"></span>
+                    <h3 class="mt-4 text-[1.7rem] leading-tight !text-white transition-colors duration-500 group-hover:!text-gold">{it.label}</h3>
+                    <p class="mt-2 line-clamp-2 text-[0.92rem] text-white/70">{it.s.lede}</p>
+                    <span class="mt-4 inline-flex items-center gap-2 text-[0.68rem] font-medium tracking-[0.2em] uppercase text-gold-soft">Learn more <span class="transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span></span>
+                  </div>
+                </a>
+              ) : (
+                <div class="flex h-full items-end rounded-[var(--radius-photo)] border border-white/10 bg-white/[0.04] p-7"><h3 class="text-[1.7rem] !text-white">{it.label}</h3></div>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </div>
+  </section>
+
+  <LocalSection local={local} />
+
+  <!-- Other groups -->
+  <section class="border-t border-line bg-marble py-20 sm:py-24">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="eyebrow" data-reveal><span class="rule-gold"></span>{cat.title}</p>
+          <h2 class="mt-6 text-4xl sm:text-5xl" data-reveal style="--reveal-delay:100ms">Explore <em class="text-gold">more care</em></h2>
+        </div>
+        <a href={cat.href} class="btn-line" data-reveal>All {cat.title} <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <ul class="m-0 mt-12 grid list-none gap-px overflow-hidden rounded-[var(--radius-photo)] border border-ink/10 bg-ink/10 p-0 sm:grid-cols-2 lg:grid-cols-5">
+        {others.map((o) => (
+          <li>
+            <a href={groupContent[`${catSlug}/${groupSlug(o.title)}`] ? groupHref(cat, o) : `${cat.href}#${groupSlug(o.title)}`} class="group flex h-full flex-col justify-between gap-6 bg-white px-6 py-7 transition-colors duration-500 hover:bg-marble">
+              <span class="font-display text-xl leading-snug text-ink transition-colors duration-500 group-hover:text-gold">{o.title}</span>
+              <span class="text-[0.7rem] font-medium tracking-[0.2em] uppercase text-muted">{o.items.length} conditions <span class="ml-1 text-gold" aria-hidden="true">→</span></span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</PageLayout>

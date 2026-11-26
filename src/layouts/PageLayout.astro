@@ -1,0 +1,25 @@
+---
+// Inner page shell: base layout plus the dark PageHero. Pages pass data, not markup.
+import BaseLayout from "./BaseLayout.astro";
+import PageHero from "../components/page/PageHero.astro";
+
+interface Props {
+  title: string;
+  accent?: string;
+  metaTitle?: string;
+  eyebrow?: string;
+  lede?: string;
+  description?: string;
+  image: string;
+  imageAlt?: string;
+  position?: string;
+  local?: string;
+  crumbs?: { label: string; href?: string }[];
+  nearby?: string;
+}
+const p = Astro.props;
+---
+<BaseLayout title={p.metaTitle ?? `${p.title}${p.accent ? " " + p.accent : ""} | Oceanside Dermatology & Aesthetics`} description={p.description} image={p.image}>
+  <PageHero title={p.title} accent={p.accent} eyebrow={p.eyebrow} lede={p.lede} image={p.image} imageAlt={p.imageAlt} position={p.position} local={p.local} crumbs={p.crumbs} nearby={p.nearby} />
+  <slot />
+</BaseLayout>

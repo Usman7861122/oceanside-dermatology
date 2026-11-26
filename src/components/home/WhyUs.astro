@@ -1,0 +1,8 @@
+---
+// Why Us: the exploding isometric stack (see src/islands/WhyCore.tsx).
+import WhyCore from "../../islands/WhyCore";
+import { site } from "../../data/site";
+---
+<section id="why" class="relative border-y border-line bg-marble">
+  <WhyCore client:visible appointmentHref={site.appointmentHref} />
+</section>

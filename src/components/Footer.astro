@@ -1,0 +1,71 @@
+---
+import AppointmentButton from "./AppointmentButton.astro";
+import { site, nav } from "../data/site";
+import { services } from "../data/services";
+const year = new Date().getFullYear();
+---
+<footer class="bg-ink text-white/70">
+  <!-- CTA band -->
+  <div class="border-b border-white/10">
+    <div class="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-5 py-16 sm:px-8 lg:flex-row lg:items-center">
+      <p class="max-w-2xl font-display text-4xl font-light leading-tight text-white sm:text-5xl">
+        Healthy, confident skin <em class="text-gold-soft">starts here.</em>
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <AppointmentButton glass />
+        <a href={site.phoneHref} class="btn-line text-white">Call {site.phone}</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto grid max-w-7xl gap-12 px-5 py-16 sm:px-8 md:grid-cols-2 lg:grid-cols-12">
+    <div class="lg:col-span-4">
+      <span class="inline-flex flex-col items-center">
+        <img src="/images/logo-wordmark-white.webp" alt="Oceanside Dermatology & Aesthetics" width="1197" height="434" loading="lazy" class="h-[64px] w-auto" />
+        <span class="mt-2 whitespace-nowrap text-[11.5px] font-medium tracking-[0.14em] text-white/85 uppercase">Sophia Sandhu, M.D. FAAD</span>
+      </span>
+      <p class="mt-6 max-w-sm text-[0.95rem]">
+        Board-certified dermatologist Dr. Sophia Sandhu offers medical, surgical, cosmetic and pediatric
+        dermatology for every age and every skin type in Torrance and the South Bay.
+      </p>
+    </div>
+
+    <nav aria-label="Footer" class="lg:col-span-2">
+      <h2 class="text-[0.7rem] font-sans font-medium tracking-[0.24em] uppercase !text-gold-soft">Navigate</h2>
+      <ul class="mt-5 space-y-2.5 text-[0.95rem]">
+        {nav.map((n) => <li><a href={n.href} class="hover:text-white">{n.label}</a></li>)}
+      </ul>
+    </nav>
+
+    <div class="lg:col-span-3">
+      <h2 class="text-[0.7rem] font-sans font-medium tracking-[0.24em] uppercase !text-gold-soft">Services</h2>
+      <ul class="mt-5 space-y-2.5 text-[0.95rem]">
+        {services.map((s) => <li><a href={s.href} class="hover:text-white">{s.title}</a></li>)}
+      </ul>
+    </div>
+
+    <div class="lg:col-span-3">
+      <h2 class="text-[0.7rem] font-sans font-medium tracking-[0.24em] uppercase !text-gold-soft">Visit</h2>
+      <address class="mt-5 space-y-2.5 text-[0.95rem] not-italic">
+        <a href={site.mapsUrl} target="_blank" rel="noopener" class="block hover:text-white">
+          {site.address.street}<br />{site.address.city}, {site.address.region} {site.address.zip}
+        </a>
+        <a href={site.phoneHref} class="block hover:text-white">Phone {site.phone}</a>
+        <span class="block">Fax {site.fax}</span>
+        <a href={`mailto:${site.email}`} class="block hover:text-white">{site.email}</a>
+        {site.hours.map((h) => <span class="block">{h.days}: {h.time}</span>)}
+      </address>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-6 pb-24 text-[0.8rem] text-white/50 sm:flex-row sm:justify-between sm:px-8 lg:pb-6">
+      <p>© {year} {site.name}. All rights reserved.</p>
+      <p class="flex gap-6">
+        <a href="/privacy" class="hover:text-white">Privacy</a>
+        <a href="/accessibility" class="hover:text-white">Accessibility</a>
+        <a href="/terms" class="hover:text-white">Terms</a>
+      </p>
+    </div>
+  </div>
+</footer>

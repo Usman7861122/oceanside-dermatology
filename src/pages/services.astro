@@ -1,0 +1,69 @@
+---
+// Services index: intro, the five categories as photo cards, local section, reviews.
+import PageLayout from "../layouts/PageLayout.astro";
+import AppointmentButton from "../components/AppointmentButton.astro";
+import LocalSection from "../components/page/LocalSection.astro";
+import TestimonialsSection from "../components/home/TestimonialsSection.astro";
+import { servicesIndex as s } from "../data/serviceIndex";
+import { serviceMenu } from "../data/serviceMenu";
+import { localFor } from "../data/local";
+import { site } from "../data/site";
+
+const local = localFor("Dermatology care", "group");
+const count = (c: (typeof serviceMenu)[number]) => c.groups.reduce((n, g) => n + g.items.length, 0);
+---
+<PageLayout
+  title={s.title}
+  accent={s.accent}
+  metaTitle="Dermatology Services in Torrance, CA | Oceanside Dermatology & Aesthetics"
+  eyebrow="Services"
+  lede={s.lede}
+  description={s.description}
+  image={s.image}
+  imageAlt={s.imageAlt}
+  position="center 55%"
+  local={local.banner}
+  nearby={local.nearby}
+>
+  <!-- Intro -->
+  <section class="bg-white py-24 sm:py-28">
+    <div class="mx-auto grid max-w-7xl gap-10 px-5 sm:px-8 lg:grid-cols-12 lg:items-end lg:gap-20">
+      <div class="lg:col-span-6">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>Our Services</p>
+        <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl lg:text-[3.4rem]" data-reveal style="--reveal-delay:100ms">Complete care, <em class="text-gold">under one roof</em></h2>
+      </div>
+      <div class="space-y-5 text-[1.05rem] leading-relaxed text-body lg:col-span-6">
+        {s.intro.map((t, i) => <p data-reveal style={`--reveal-delay:${80 * i}ms`}>{t}</p>)}
+      </div>
+    </div>
+
+    <!-- Category cards -->
+    <ul class="mx-auto mt-16 grid max-w-7xl list-none gap-6 px-5 sm:grid-cols-2 sm:px-8 lg:grid-cols-6">
+      {serviceMenu.map((c, i) => (
+        <li class={i < 2 ? "lg:col-span-3" : "lg:col-span-2"} data-reveal style={`--reveal-delay:${(i % 3) * 110}ms`}>
+          <a href={c.href} class="cat group relative block overflow-hidden rounded-[var(--radius-photo)] bg-ink">
+            <div class={`relative ${i < 2 ? "aspect-[16/11]" : "aspect-square"}`}>
+              <img src={c.image} alt={c.imageAlt} width="1000" height="1000" loading="lazy" class="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.06]" />
+              <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/5 transition-opacity duration-700"></div>
+              <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_100%,rgb(236_143_46/0.22),transparent_70%)] opacity-0 transition-opacity duration-700 group-hover:opacity-100"></div>
+            </div>
+            <div class="absolute inset-x-0 bottom-0 p-7 text-white">
+              <span class="text-[0.68rem] font-medium tracking-[0.22em] uppercase text-gold-soft">{count(c)} treatments</span>
+              <h3 class="mt-3 text-[1.9rem] leading-tight !text-white transition-colors duration-500 group-hover:!text-gold">{c.title}</h3>
+              <p class="mt-2 max-w-sm text-[0.93rem] text-white/75">{c.blurb}</p>
+              <span class="mt-5 inline-flex items-center gap-2 text-[0.68rem] font-medium tracking-[0.2em] uppercase text-white">Explore <span class="text-gold transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <div class="mx-auto mt-14 flex max-w-7xl flex-col items-start gap-6 border-t border-line px-5 pt-10 sm:flex-row sm:items-center sm:justify-between sm:px-8" data-reveal>
+      <p class="m-0 max-w-xl text-body">Not sure where your concern fits? Call us or book a visit and Dr. Sandhu will guide you.</p>
+      <div class="flex flex-wrap gap-4"><AppointmentButton /><a href={site.phoneHref} class="btn-line">Call {site.phone}</a></div>
+    </div>
+  </section>
+
+  <LocalSection local={local} />
+  <TestimonialsSection />
+</PageLayout>

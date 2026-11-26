@@ -1,0 +1,24 @@
+---
+// "<Topic> in <City>" with nearby-area chips, used on every inner page.
+interface Props { local: ReturnType<typeof import("../../data/local").localFor> }
+const { local } = Astro.props;
+---
+<section class="border-t border-line bg-white py-24 sm:py-28">
+  <div class="mx-auto grid max-w-7xl gap-12 px-5 sm:px-8 lg:grid-cols-12 lg:items-center">
+    <div class="lg:col-span-6">
+      <p class="eyebrow" data-reveal><span class="rule-gold"></span>{local.eyebrow}</p>
+      <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">{local.sectionTitle}</h2>
+      <div class="mt-6 space-y-4 text-body" data-reveal style="--reveal-delay:200ms">
+        {local.text.map((t) => <p>{t}</p>)}
+      </div>
+    </div>
+    <div class="lg:col-span-6" data-reveal style="--reveal-delay:250ms">
+      <p class="m-0 mb-4 text-[0.7rem] font-medium tracking-[0.2em] uppercase text-muted">Patients visit us from</p>
+      <ul class="m-0 flex list-none flex-wrap gap-2.5 p-0">
+        {local.areas.map((a) => (
+          <li class="rounded-[3px] border border-ink/12 bg-white/70 px-4 py-2 text-[0.9rem] text-ink transition-colors hover:border-gold hover:text-gold">{a}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,303 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   Oceanside design tokens
+   Deep sea ink, cool white marble, sea glass, and the logo's gold.
+------------------------------------------------------------------- */
+@theme {
+  --color-ink: #0f2229;
+  --color-ink-2: #183842;
+  --color-body: #34474d;
+  --color-muted: #6b7d82;
+  --color-marble: #f5f6f4;
+  --color-mist: #e8eeec;
+  --color-line: #d9e1de;
+  --color-seaglass: #a9c5bb;
+  --color-seaglass-deep: #5d857a;
+  --color-gold: #EC8F2E;
+  --color-gold-soft: #EC8F2E;
+
+  /* Type pairing modeled on the reference site: a refined display serif + a light geometric sans.
+     Free stand-ins: Libre Caslon Display (for IvyPresto Display) and Jost (for Canada Type Gibson). */
+  --font-display: "Libre Caslon Display", "Times New Roman", serif;
+  --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-photo: 6px;
+  --ease-tide: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 96px;
+  }
+  body {
+    @apply bg-marble font-sans text-body antialiased;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  h1, h2, h3 {
+    @apply font-display text-ink;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0;
+  }
+  /* The display face has no italic, so accents are set by color, not slant */
+  h1 em, h2 em, h3 em, .font-display em, blockquote em {
+    font-style: normal;
+  }
+  ::selection {
+    background: var(--color-gold-soft);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+  }
+}
+
+/* Small uppercase label above headings */
+@utility eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--color-seaglass-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+/* Thin gold rule used before eyebrows */
+@utility rule-gold {
+  display: inline-block;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--color-gold);
+}
+
+/* Square photo with slightly rounded corners: the house photo style */
+@utility photo-square {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: var(--radius-photo);
+}
+
+/* ------------------------------------------------------------------
+   Buttons
+------------------------------------------------------------------- */
+
+@property --appt-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@layer components {
+/* Quiet secondary button: hairline border, wide tracking */
+.btn-line {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.95rem 1.6rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: currentColor;
+  border: 1px solid color-mix(in oklab, currentColor 35%, transparent);
+  border-radius: 2px;
+  isolation: isolate;
+  overflow: hidden;
+  --sweep: var(--color-ink);
+  --sweep-text: #fff;
+  transition: color 0.5s var(--ease-tide), border-color 0.5s var(--ease-tide);
+}
+/* On hover a fill sweeps in from the left */
+.btn-line::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--sweep);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.6s var(--ease-tide);
+}
+.btn-line.text-white {
+  --sweep: #fff;
+  --sweep-text: var(--color-ink);
+}
+.btn-line .arrow {
+  transition: transform 0.4s var(--ease-tide);
+}
+.btn-line:hover {
+  color: var(--sweep-text) !important; /* beats the text-* utility on the link */
+  border-color: var(--sweep);
+}
+.btn-line:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.btn-line:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* Appointment button: a gold light travels around the border,
+   and a soft glare sweeps across the face now and then. */
+
+.btn-appt.btn-appt--header {
+  font-size: 0.8rem;
+  padding: 1.1rem 2rem;
+}
+.btn-appt {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1rem 1.75rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--color-ink);
+  border-radius: 2px;
+  transition: background-color 0.4s var(--ease-tide), transform 0.4s var(--ease-tide);
+}
+.btn-appt::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  padding: 1px;
+  border-radius: inherit;
+  background: conic-gradient(
+    from var(--appt-angle),
+    rgb(236 143 46 / 0.28) 0deg,
+    rgb(236 143 46 / 0.28) 220deg,
+    #F6C58A 290deg,
+    #EC8F2E 320deg,
+    rgb(236 143 46 / 0.28) 360deg
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  animation: appt-trace 4.5s linear infinite;
+}
+.btn-appt::after {
+  content: "";
+  position: absolute;
+  top: -10%;
+  bottom: -10%;
+  left: -70%;
+  width: 45%;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(100deg, transparent 0%, rgb(255 255 255 / 0.38) 50%, transparent 100%);
+  transform: skewX(-18deg);
+  animation: appt-glare 6s var(--ease-tide) infinite;
+}
+.btn-appt:hover {
+  background: var(--color-ink-2);
+}
+.btn-appt:hover::after {
+  animation-duration: 1.4s;
+}
+.btn-appt .arrow {
+  transition: transform 0.4s var(--ease-tide);
+}
+.btn-appt:hover .arrow {
+  transform: translateX(4px);
+}
+/* Light pill for the hero and header over video: white face, dark text */
+.btn-appt--light {
+  background: #fff;
+  color: #252525;
+}
+.btn-appt--light:hover {
+  background: var(--color-marble);
+}
+.btn-appt--light::after {
+  background: linear-gradient(100deg, transparent 0%, rgb(236 143 46 / 0.35) 50%, transparent 100%);
+}
+/* Glass version for dark photos and video */
+.btn-appt--glass {
+  background: rgb(15 34 41 / 0.35);
+  backdrop-filter: blur(10px);
+}
+.btn-appt--glass:hover {
+  background: rgb(15 34 41 / 0.6);
+}
+
+}
+
+@keyframes appt-trace {
+  to {
+    --appt-angle: 360deg;
+  }
+}
+@keyframes appt-glare {
+  0%, 72% { left: -70%; }
+  86%, 100% { left: 135%; }
+}
+
+/* ------------------------------------------------------------------
+   Scroll reveal (driven by a tiny script in BaseLayout)
+------------------------------------------------------------------- */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 1s var(--ease-tide), transform 1s var(--ease-tide);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+[data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* ------------------------------------------------------------------
+   Marble surfaces. Used on purpose in two places only.
+------------------------------------------------------------------- */
+.marble-deep {
+  background-color: var(--color-ink);
+  background-image:
+    linear-gradient(180deg, rgb(15 34 41 / 0.72), rgb(15 34 41 / 0.86)),
+    url("/images/textures/marble-deep.webp");
+  background-size: cover;
+  background-position: center;
+}
+.marble-light {
+  background-color: var(--color-marble);
+  background-image:
+    linear-gradient(180deg, rgb(245 246 244 / 0.55), rgb(245 246 244 / 0.8)),
+    url("/images/textures/marble-light.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Fixed-window parallax. iOS and touch devices get a normal image. */
+.parallax-window {
+  background-size: cover;
+  background-position: center;
+}
+@media (hover: hover) and (pointer: fine) {
+  .parallax-window {
+    background-attachment: fixed;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .btn-appt::before,
+  .btn-appt::after { animation: none; }
+  .btn-appt::after { display: none; }
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+  .parallax-window { background-attachment: scroll; }
+}

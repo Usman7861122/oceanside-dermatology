@@ -1,0 +1,9 @@
+---
+// Signature Treatments: scroll-driven rotating slider (see src/islands/SignatureSlider.tsx).
+import SignatureSlider from "../../islands/SignatureSlider";
+import { signatureSlides } from "../../data/signature";
+import { site } from "../../data/site";
+---
+<div id="signature">
+  <SignatureSlider client:visible slides={signatureSlides} appointmentHref={site.appointmentHref} />
+</div>

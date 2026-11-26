@@ -1,0 +1,52 @@
+---
+// Centered hero over the clinic video, laid out like the reference:
+// small eyebrow, large two-line display title (last words rotate), a small uppercase H1 for SEO,
+// and one pill button.
+import RotatingWords from "../../islands/RotatingWords";
+import AppointmentButton from "../AppointmentButton.astro";
+import { heroWords } from "../../data/site";
+---
+<section id="hero" class="relative isolate flex h-[100svh] min-h-[560px] items-center justify-center overflow-hidden bg-ink text-white">
+  <video
+    class="absolute inset-0 -z-20 h-full w-full object-cover"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+    poster="/video/hero-poster.jpg"
+    aria-hidden="true"
+  >
+    <source src="/video/hero.mp4" type="video/mp4" />
+  </video>
+  <!-- Even, soft wash so the centered text reads anywhere on the frame -->
+  <div class="absolute inset-0 -z-10 bg-[rgb(15_34_41/0.42)]"></div>
+  <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_center,rgb(15_34_41/0.35)_0%,transparent_65%)]"></div>
+
+  <div class="mx-auto w-full max-w-4xl px-5 text-center">
+    <p class="text-[0.8rem] font-light tracking-[3px] uppercase text-white [text-wrap:balance] sm:text-[0.875rem]" data-reveal>
+      Medical · Surgical · Cosmetic · Pediatric
+    </p>
+
+    <p
+      class="mt-6 font-display text-[2.4rem] leading-[1.18] text-white sm:text-[3rem] lg:text-[3.6rem]"
+      data-reveal
+      style="--reveal-delay:120ms"
+    >
+      <span class="block">Expert Dermatology for</span>
+      <RotatingWords client:load words={heroWords} />
+    </p>
+
+    <h1
+      class="mx-auto mt-6 max-w-2xl font-sans text-[0.85rem] font-light leading-[1.6] tracking-[3px] uppercase !text-white sm:text-base"
+      data-reveal
+      style="--reveal-delay:220ms"
+    >
+      Board-Certified Dermatology in Torrance &amp; the South Bay
+    </h1>
+
+    <div class="mt-9 flex justify-center" data-reveal style="--reveal-delay:320ms">
+      <AppointmentButton glass />
+    </div>
+  </div>
+</section>

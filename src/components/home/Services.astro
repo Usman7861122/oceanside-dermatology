@@ -1,0 +1,132 @@
+---
+// Six service cards. At rest: square photo, a short gold line, the category and title at the bottom.
+// On hover (or keyboard focus, or a tap on phones) a deep ink tint fills the card, the title rises
+// to the middle, and a description, key treatments and a Learn More button ease in.
+import { services } from "../../data/services";
+import AppointmentButton from "../AppointmentButton.astro";
+---
+<section id="services" class="services-marble relative py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-5 sm:px-8">
+    <div class="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
+      <div class="max-w-2xl">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>Our Services</p>
+        <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl lg:text-6xl" data-reveal style="--reveal-delay:100ms">
+          Solutions for <em class="text-seaglass-deep">every skin concern</em>
+        </h2>
+      </div>
+      <p class="max-w-md text-body" data-reveal style="--reveal-delay:200ms">
+        From a first skin check to advanced laser care, every treatment is planned and performed by
+        Dr. Sandhu. Hover over or tap a card to learn more.
+      </p>
+    </div>
+
+    <ul class="mt-16 grid gap-6 md:grid-cols-2 lg:gap-8 xl:grid-cols-3">
+      {services.map((s, i) => (
+        <li data-reveal style={`--reveal-delay:${(i % 3) * 120}ms`}>
+          <article class="svc-card group relative aspect-square overflow-hidden rounded-[var(--radius-photo)] bg-ink" data-svc tabindex="0" aria-label={s.title}>
+            <img src={s.image} alt={s.alt} width="1000" height="1000" loading="lazy" class="svc-img absolute inset-0 h-full w-full object-cover" />
+            <!-- Resting shade: only at the bottom, so the photo stays bright -->
+            <div class="svc-shade absolute inset-0 bg-gradient-to-t from-ink/85 via-ink/15 to-transparent"></div>
+            <!-- Hover tint: deep ink with a soft gold glow rising from below -->
+            <div class="svc-tint absolute inset-0"></div>
+
+            <div class="absolute inset-0 flex flex-col items-center justify-end px-7 pb-8 text-center text-white sm:px-9">
+              <div class="svc-body flex w-full flex-col items-center">
+                <span class="svc-rule block h-px bg-gold-soft"></span>
+                <p class="mt-4 text-[0.66rem] font-normal tracking-[0.3em] uppercase text-gold-soft">{s.kind}</p>
+                <h3 class="mt-2 text-[1.85rem] leading-tight !text-white">{s.title}</h3>
+
+                <!-- Revealed on hover: grows from 0 height so the title rises smoothly -->
+                <div class="svc-more grid w-full">
+                  <div class="overflow-hidden">
+                    <div class="svc-more-inner flex flex-col items-center pt-4">
+                      <p class="max-w-[19rem] text-[0.95rem] leading-relaxed text-white/85">{s.summary}</p>
+                      <p class="mt-4 text-[0.72rem] tracking-[0.16em] uppercase text-gold-soft/90 md:max-lg:hidden">
+                        {s.treatments.slice(0, 2).join("  ·  ")}
+                      </p>
+                      <a href={s.href} class="btn-line mt-6 text-white">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+      ))}
+    </ul>
+
+    <div class="mt-16 flex flex-col items-center gap-6 rounded-[var(--radius-photo)] border border-line bg-white px-8 py-10 text-center lg:flex-row lg:justify-between lg:text-left" data-reveal>
+      <div>
+        <h3 class="text-3xl">Looking for something else?</h3>
+        <p class="mt-2 text-body">Chemical peels, tattoo removal, scar care, PRP and more. See every treatment we offer.</p>
+      </div>
+      <div class="flex shrink-0 flex-wrap justify-center gap-4">
+        <a href="/services" class="btn-line text-ink">All Services <span class="arrow" aria-hidden="true">→</span></a>
+        <AppointmentButton />
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Same soft white-and-gold marble as the Welcome text panel */
+  .services-marble {
+    background-color: #f1efeb;
+    background-image:
+      linear-gradient(180deg, rgb(244 242 238 / 0.42), rgb(244 242 238 / 0.6)),
+      url("/images/textures/marble-light.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  .svc-img { transition: transform 1.4s var(--ease-tide), filter 1.2s var(--ease-tide); }
+  .svc-shade { transition: opacity 0.8s var(--ease-tide); }
+  .svc-tint {
+    opacity: 0;
+    background:
+      radial-gradient(ellipse 90% 60% at 50% 100%, rgb(236 143 46 / 0.28), transparent 70%),
+      rgb(15 34 41 / 0.86);
+    transition: opacity 0.8s var(--ease-tide);
+  }
+  .svc-rule { width: 2.5rem; transition: width 0.9s var(--ease-tide); }
+  .svc-more { grid-template-rows: 0fr; transition: grid-template-rows 0.8s var(--ease-tide); }
+  .svc-more-inner {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.5s ease, transform 0.8s var(--ease-tide);
+  }
+  .svc-body { transition: transform 0.8s var(--ease-tide); }
+
+  /* Open state: mouse hover, keyboard focus, or tapped on touch screens */
+  .svc-card:is(:focus-within, .is-open) .svc-img,
+  .svc-card:hover .svc-img { transform: scale(1.06); filter: blur(1.5px) saturate(0.85); }
+  .svc-card:is(:hover, :focus-within, .is-open) .svc-shade { opacity: 0; }
+  .svc-card:is(:hover, :focus-within, .is-open) .svc-tint { opacity: 1; }
+  .svc-card:is(:hover, :focus-within, .is-open) .svc-rule { width: 4rem; }
+  .svc-card:is(:hover, :focus-within, .is-open) .svc-more { grid-template-rows: 1fr; }
+  .svc-card:is(:hover, :focus-within, .is-open) .svc-more-inner {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.15s;
+  }
+  /* Lift the whole block so it sits in the middle of the card when open */
+  .svc-card:is(:hover, :focus-within, .is-open) .svc-body { transform: none; }
+  .svc-card:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .svc-img, .svc-shade, .svc-tint, .svc-rule, .svc-more, .svc-more-inner, .svc-body { transition: none !important; }
+  }
+</style>
+
+<script>
+  // Touch screens have no hover, so a tap opens a card (and closes the others). Links still work.
+  const cards = document.querySelectorAll<HTMLElement>("[data-svc]");
+  cards.forEach((card) => {
+    card.addEventListener("click", (e) => {
+      if ((e.target as HTMLElement).closest("a")) return;
+      if (window.matchMedia("(hover: hover)").matches) return;
+      const open = !card.classList.contains("is-open");
+      cards.forEach((c) => c.classList.remove("is-open"));
+      card.classList.toggle("is-open", open);
+    });
+  });
+</script>

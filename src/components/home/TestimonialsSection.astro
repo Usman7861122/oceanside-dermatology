@@ -1,0 +1,89 @@
+---
+// Testimonials on deep ink marble: a gold-framed portrait on the left, real Google reviews in a
+// glass card on the right.
+import Testimonials from "../../islands/Testimonials";
+import { testimonials, reviewsSummary } from "../../data/site";
+---
+<section id="testimonials" class="testi-marble relative isolate overflow-hidden py-24 text-white sm:py-32">
+  <!-- Soft gold glow behind the portrait -->
+  <div aria-hidden="true" class="pointer-events-none absolute -left-40 top-1/3 -z-10 h-[34rem] w-[34rem] rounded-full bg-gold/10 blur-3xl"></div>
+
+  <div class="mx-auto grid max-w-7xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+    <!-- Portrait with offset gold frame -->
+    <figure class="testi-portrait group relative mx-auto w-full max-w-md lg:col-span-5 lg:max-w-none" data-reveal>
+      <div class="testi-frame absolute inset-0 rounded-[var(--radius-photo)] border border-gold/60" aria-hidden="true"></div>
+      <div class="relative overflow-hidden rounded-[var(--radius-photo)] shadow-[0_50px_90px_-40px_rgb(0_0_0/0.7)]">
+        <img
+          src="/images/testimonials-portrait.webp"
+          alt="Woman with smooth, radiant skin resting her cheek on her hand"
+          width="1100"
+          height="1100"
+          loading="lazy"
+          class="photo-square w-full transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.05]"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-ink/40 via-transparent to-transparent"></div>
+      </div>
+
+      <!-- Rating badge -->
+      <a
+        href={reviewsSummary.url}
+        target="_blank"
+        rel="noopener"
+        class="absolute -bottom-8 left-6 flex items-center gap-4 rounded-[var(--radius-photo)] border border-white/15 bg-ink/70 px-6 py-4 text-white shadow-[0_20px_40px_-20px_rgb(0_0_0/0.6)] backdrop-blur-md transition-all duration-500 hover:-translate-y-1 hover:border-gold/60 sm:-left-8"
+      >
+        <span class="font-display text-[2.6rem] leading-none text-gold-soft">{reviewsSummary.rating}</span>
+        <span>
+          <span class="flex gap-0.5 text-gold" aria-hidden="true">
+            {Array.from({ length: 5 }).map(() => (
+              <svg width="12" height="12" viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L1.4 7.8l6-.8z" /></svg>
+            ))}
+          </span>
+          <span class="mt-1 block text-[0.75rem] tracking-[0.08em] text-white/65">{reviewsSummary.count} {reviewsSummary.source} reviews</span>
+        </span>
+      </a>
+    </figure>
+
+    <!-- Reviews -->
+    <div class="lg:col-span-7">
+      <p class="eyebrow !text-gold-soft" data-reveal><span class="rule-gold"></span>Patient Stories</p>
+      <h2 class="mt-6 text-4xl !text-white [text-wrap:balance] sm:text-5xl lg:text-[3.4rem]" data-reveal style="--reveal-delay:100ms">
+        Trusted by the <span class="text-gold-soft">South Bay</span>
+      </h2>
+      <div class="mt-12" data-reveal style="--reveal-delay:200ms">
+        <Testimonials client:visible items={testimonials} />
+      </div>
+      <a
+        href={reviewsSummary.url}
+        target="_blank"
+        rel="noopener"
+        class="mt-8 inline-flex items-center gap-2 border-b border-gold/50 pb-1 text-[0.85rem] text-white/85 transition-colors hover:border-gold hover:text-gold-soft"
+      >
+        Read all {reviewsSummary.count} reviews on Google <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Deep ink marble with gold veins, lighter wash than the old Mission so the veins show */
+  .testi-marble {
+    background-color: var(--color-ink);
+    background-image:
+      radial-gradient(ellipse 70% 60% at 70% 50%, rgb(15 34 41 / 0.35), transparent 70%),
+      linear-gradient(180deg, rgb(15 34 41 / 0.62), rgb(15 34 41 / 0.8)),
+      url("/images/textures/marble-deep.webp");
+    background-size: cover;
+    background-position: center;
+  }
+  .testi-frame {
+    transform: translate(-18px, 18px);
+    transition: transform 1.1s var(--ease-tide), border-color 1.1s var(--ease-tide);
+  }
+  @media (max-width: 640px) {
+    .testi-frame { transform: translate(-8px, 10px); }
+  }
+  .testi-portrait:hover .testi-frame {
+    transform: translate(-10px, 10px);
+    border-color: var(--color-gold);
+  }
+</style>

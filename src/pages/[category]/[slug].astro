@@ -1,0 +1,19 @@
+---
+// Second-level pages under a category: service pages (e.g. /medical-dermatology/acne)
+// and group index pages (e.g. /medical-dermatology/acne-and-inflammation).
+import ServicePage from "../../components/page/ServicePage.astro";
+import GroupPage from "../../components/page/GroupPage.astro";
+import { serviceContent } from "../../data/serviceContent";
+import { groupContent } from "../../data/serviceIndex";
+
+export function getStaticPaths() {
+  const services = serviceContent.map((s) => ({ params: { category: s.category, slug: s.slug }, props: { kind: "service" as const, s } }));
+  const groups = Object.keys(groupContent).map((key) => {
+    const [category, slug] = key.split("/");
+    return { params: { category, slug }, props: { kind: "group" as const, key } };
+  });
+  return [...services, ...groups];
+}
+const p = Astro.props as any;
+---
+{p.kind === "service" ? <ServicePage s={p.s} /> : <GroupPage groupKey={p.key} />}

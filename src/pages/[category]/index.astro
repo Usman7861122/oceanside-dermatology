@@ -1,0 +1,108 @@
+---
+// Category page (e.g. /medical-dermatology): intro, every group with its conditions, local section.
+import PageLayout from "../../layouts/PageLayout.astro";
+import AppointmentButton from "../../components/AppointmentButton.astro";
+import LocalSection from "../../components/page/LocalSection.astro";
+import { categoryContent, groupContent } from "../../data/serviceIndex";
+import { serviceMenu, groupSlug, groupHref } from "../../data/serviceMenu";
+import { serviceByHref } from "../../data/serviceContent";
+import { localFor } from "../../data/local";
+import { site } from "../../data/site";
+
+export function getStaticPaths() {
+  return Object.keys(categoryContent).map((category) => ({ params: { category } }));
+}
+const { category } = Astro.params as { category: string };
+const c = categoryContent[category];
+const cat = serviceMenu.find((x) => x.slug === category)!;
+const local = localFor(cat.title, "group");
+const groups = cat.groups.map((g) => ({
+  ...g,
+  id: groupSlug(g.title),
+  page: groupContent[`${category}/${groupSlug(g.title)}`] ? groupHref(cat, g) : undefined,
+  items: g.items.map((it) => ({ ...it, built: !!serviceByHref(it.href) })),
+}));
+---
+<PageLayout
+  title={c.title}
+  accent={c.accent}
+  metaTitle={`${c.title} in Torrance, CA | Oceanside Dermatology & Aesthetics`}
+  eyebrow={cat.title}
+  lede={c.lede}
+  description={c.description}
+  image={c.image}
+  imageAlt={c.imageAlt}
+  position="center 35%"
+  local={local.banner}
+  crumbs={[{ label: "Services", href: "/services" }]}
+  nearby={local.nearby}
+>
+  <!-- Intro -->
+  <section class="bg-white py-24 sm:py-32">
+    <div class="mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <figure class="group relative lg:col-span-5" data-reveal>
+        <div class="absolute -bottom-4 -right-4 h-full w-full rounded-[var(--radius-photo)] border border-gold/60 transition-transform duration-700 [transition-timing-function:var(--ease-tide)] group-hover:-translate-x-1 group-hover:-translate-y-1" aria-hidden="true"></div>
+        <div class="relative overflow-hidden rounded-[var(--radius-photo)]">
+          <img src={cat.image} alt={cat.imageAlt} width="1000" height="1000" loading="lazy" class="photo-square w-full object-cover transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.04]" />
+        </div>
+      </figure>
+      <div class="lg:col-span-7">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>About {cat.title}</p>
+        <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">{c.introTitle} <em class="text-gold">{c.introAccent}</em></h2>
+        <div class="mt-8 space-y-5 text-[1.05rem] leading-relaxed text-body">
+          {c.intro.map((t, i) => <p data-reveal style={`--reveal-delay:${80 * i}ms`}>{t}</p>)}
+        </div>
+        <div class="mt-10 flex flex-wrap gap-4" data-reveal>
+          <AppointmentButton />
+          <a href={site.phoneHref} class="btn-line">Call {site.phone}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Groups -->
+  <section id="conditions" class="marble-light py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="grid gap-6 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-7">
+          <p class="eyebrow" data-reveal><span class="rule-gold"></span>Conditions &amp; Treatments</p>
+          <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">What we <em class="text-gold">treat</em></h2>
+        </div>
+        <p class="text-body lg:col-span-5" data-reveal style="--reveal-delay:160ms">Browse by concern. Each area opens to the conditions we diagnose and treat every day.</p>
+      </div>
+      <div class="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {groups.map((g, i) => (
+          <article id={g.id} class="grp group relative flex scroll-mt-28 flex-col overflow-hidden rounded-[var(--radius-photo)] border border-ink/10 bg-white/85 p-8 backdrop-blur-sm" data-reveal style={`--reveal-delay:${(i % 3) * 110}ms`}>
+            <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+            <div class="flex items-baseline justify-between gap-4">
+              <h3 class="text-[1.6rem] leading-tight transition-colors duration-500 group-hover:text-gold">{g.title}</h3>
+              <span class="shrink-0 font-display text-2xl text-gold/50">{String(g.items.length).padStart(2, "0")}</span>
+            </div>
+            <ul class="m-0 mt-6 flex-1 list-none divide-y divide-line border-t border-line p-0">
+              {g.items.map((it) => (
+                <li>
+                  {it.built ? (
+                    <a href={it.href} class="flex items-center justify-between gap-3 py-2.5 text-[0.95rem] text-ink transition-colors hover:text-gold">{it.label}<span class="text-gold" aria-hidden="true">→</span></a>
+                  ) : (
+                    <span class="block py-2.5 text-[0.95rem] text-body">{it.label}</span>
+                  )}
+                </li>
+              ))}
+            </ul>
+            {g.page && (
+              <a href={g.page} class="btn-line mt-8 justify-center text-ink">Explore {g.title} <span class="arrow" aria-hidden="true">→</span></a>
+            )}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <LocalSection local={local} />
+</PageLayout>
+
+<style>
+  .grp { transition: transform 0.7s var(--ease-tide), box-shadow 0.7s var(--ease-tide), background-color 0.7s var(--ease-tide); }
+  .grp:hover { transform: translateY(-4px); background-color: #fff; box-shadow: 0 30px 60px -35px rgb(15 34 41 / 0.35); }
+  @media (prefers-reduced-motion: reduce) { .grp:hover { transform: none; } }
+</style>
