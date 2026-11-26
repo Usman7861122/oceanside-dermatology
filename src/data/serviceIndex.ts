@@ -99,4 +99,24 @@ export const groupContent: Record<string, {
       { value: "PRP", label: "Offered for hair loss" },
     ],
   },
+  "medical-dermatology/rashes-and-irritation": {
+    title: "Rashes & Irritation",
+    accent: "Care in Torrance, CA",
+    headTitle: "Calm, comfortable",
+    headAccent: "skin again",
+    lede: "Relief for rashes, hives, itching, dry skin and more, for adults and children.",
+    description:
+      "Treatment for rashes, hives, allergic reactions, itching, dry skin, excessive sweating, folliculitis and insect bites in Torrance, CA.",
+    image: "/images/services/index/rashes-hero.webp",
+    imageAlt: "Calm woman with clear, even skin against a white background",
+    intro: [
+      "Red, itchy or irritated skin can have many causes, from allergies and dry air to infections and sweat.",
+      "Dr. Sandhu finds what is behind your symptoms, brings quick relief and helps keep them from coming back. New rashes can also be checked by video visit.",
+    ],
+    approach: "Thoughtful, personalized care with a focus on long-term skin health.",
+    stats: [
+      { value: "8", label: "Conditions treated" },
+      { value: "Video visits", label: "For new rashes" },
+    ],
+  },
 };

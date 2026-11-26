@@ -1436,6 +1436,1142 @@ export const serviceContent: ServiceContent[] = [
       { q: "Do store-bought treatments work?", a: "They may help very mild cases, but most nail fungus needs prescription treatment." },
     ],
   },
+  {
+    "slug": "rashes",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Rashes",
+    "localTopic": "Rash treatment",
+    "title": "Rash Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Rash Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified rash diagnosis and treatment in Torrance, CA for adults and children. Find the cause of red, itchy or irritated skin, in office or by video visit.",
+    "lede": "Find out what is causing your rash and get calm, comfortable skin again.",
+    "heroPosition": "70% 35%",
+    "photos": {
+      "hero": "/images/services/rashes/hero.webp",
+      "heroAlt": "Woman looking down at an itchy patch on her upper arm",
+      "one": "/images/services/rashes/one.webp",
+      "oneAlt": "Close-up of hands scratching a red rash on the arm",
+      "two": "/images/services/rashes/two.webp",
+      "twoAlt": "Dermatologist examining a rash on a patient's forearm"
+    },
+    "overview": {
+      "eyebrow": "Understanding Rashes",
+      "title": "What is a",
+      "accent": "rash?",
+      "text": [
+        "A rash is a general term for inflamed or irritated skin. It can be red, bumpy, scaly, blistered or itchy, and it can appear anywhere on the body.",
+        "Rashes have many possible causes, including allergies, irritants, infections, heat, medicines and skin conditions such as eczema or psoriasis.",
+        "Because many rashes look alike, the right diagnosis is the key to the right treatment. Dr. Sandhu finds the cause and calms your skin."
+      ],
+      "facts": [
+        {
+          "label": "Who we treat",
+          "value": "Adults & children"
+        },
+        {
+          "label": "Visit options",
+          "value": "In office or video"
+        },
+        {
+          "label": "First step",
+          "value": "Find the cause"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is rash care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when a rash spreads, lasts more than a few days, keeps coming back, or does not improve with simple care.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "New or unexplained rashes",
+        "Itchy, red or scaly patches",
+        "Rashes that keep coming back",
+        "Rashes in children",
+        "Heat rash",
+        "Rashes after a new product or medicine"
+      ],
+      "signs": [
+        "A rash that spreads",
+        "Itching that disturbs sleep",
+        "Blisters or open skin",
+        "A rash lasting more than a week",
+        "Over-the-counter creams have not helped",
+        "A rash with fever or feeling unwell (seek urgent care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on the cause. Once we know what is behind your rash, we calm it and help prevent it from coming back.",
+      "items": [
+        {
+          "title": "Accurate diagnosis",
+          "text": "A careful exam and history, and tests when needed, to find what is causing the rash."
+        },
+        {
+          "title": "Calming the skin",
+          "text": "Prescription creams and ointments that reduce redness, itch and inflammation."
+        },
+        {
+          "title": "Treating the cause",
+          "text": "Care for an infection, allergy or skin condition behind the rash."
+        },
+        {
+          "title": "Prevention plan",
+          "text": "Gentle skin care and advice on triggers to avoid."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the rash and asks when it started, what touched your skin and any new products or medicines."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear diagnosis or next step and treatment to calm the skin."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Most rashes improve within days to weeks once the cause is treated."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We check your skin and adjust care, in the office or by secure video visit."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Rash treatments are chosen for the area of skin and your age. Stronger creams are used carefully on the face and skin folds.",
+        "A rash with fever, blistering over large areas or trouble breathing needs urgent medical care right away."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can I have a rash checked by video?",
+        "a": "Yes. Our teledermatology visits cover new rashes and follow-up care, from the comfort of your home."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      },
+      {
+        "q": "What causes most rashes?",
+        "a": "Allergies, irritants, infections, heat and skin conditions like eczema are common causes. An exam helps tell them apart."
+      },
+      {
+        "q": "When is a rash an emergency?",
+        "a": "Seek urgent care for a rash with fever, rapid spreading, blistering, swelling of the face or trouble breathing."
+      }
+    ]
+  },
+  {
+    "slug": "hives",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Hives",
+    "localTopic": "Hives treatment",
+    "title": "Hives Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Hives (Urticaria) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for hives in Torrance, CA. Relief for raised, itchy welts and help finding triggers, for short-term and long-lasting hives.",
+    "lede": "Relief from raised, itchy welts, and help finding what sets them off.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/hives/hero.webp",
+      "heroAlt": "Woman in a soft robe holding a jar of cooling soothing gel",
+      "one": "/images/services/hives/one.webp",
+      "oneAlt": "Woman with redness on her neck applying a soothing serum",
+      "two": "/images/services/hives/two.webp",
+      "twoAlt": "Close-up of a hand touching an irritated red patch on the neck"
+    },
+    "overview": {
+      "eyebrow": "Understanding Hives",
+      "title": "What are",
+      "accent": "hives?",
+      "text": [
+        "Hives are raised, itchy welts on the skin, often caused by allergic reactions. They can appear suddenly, change shape and move around the body within hours.",
+        "Common triggers include foods, medicines, infections, insect stings, heat, pressure and stress. Sometimes no trigger is found.",
+        "Hives that come and go for more than six weeks are called chronic hives. Dr. Sandhu helps you find relief and control flares."
+      ],
+      "facts": [
+        {
+          "label": "Main sign",
+          "value": "Itchy, raised welts"
+        },
+        {
+          "label": "Common cause",
+          "value": "Allergic reactions"
+        },
+        {
+          "label": "Focus",
+          "value": "Relief & triggers"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is hives care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when hives keep returning, last for weeks, or disturb your sleep and daily life.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Sudden (acute) hives",
+        "Chronic hives lasting over six weeks",
+        "Hives from food or medicine",
+        "Hives triggered by heat, cold or pressure",
+        "Swelling of the lips or eyelids",
+        "Hives in children"
+      ],
+      "signs": [
+        "Itchy welts that come and go",
+        "Welts that move around the body",
+        "Hives that return for weeks",
+        "Itch that disturbs sleep",
+        "Antihistamines are not enough",
+        "Lip or face swelling (seek urgent care if breathing is affected)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Hives care focuses on calming the itch, preventing new welts and finding triggers when possible.",
+      "items": [
+        {
+          "title": "Finding triggers",
+          "text": "A careful history to look for foods, medicines, infections or physical triggers."
+        },
+        {
+          "title": "Antihistamines",
+          "text": "Daily antihistamines, used the right way, are the first step for most people."
+        },
+        {
+          "title": "Advanced treatments",
+          "text": "For chronic hives that do not respond, other prescription treatments may be considered."
+        },
+        {
+          "title": "Comfort care",
+          "text": "Cool compresses, loose clothing and gentle skin care to ease the itch."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu reviews when the hives appear, how long they last and anything that seems to trigger them."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a treatment plan and a simple diary to track flares and triggers."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Most people feel relief quickly once the right daily treatment starts."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We review your diary and adjust treatment until hives are under control."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Swelling of the lips, tongue or throat, or trouble breathing, is an emergency. Call 911 right away.",
+        "Dr. Sandhu explains each medicine, how to take it and possible side effects, and adjusts treatment safely."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are hives contagious?",
+        "a": "No. Hives cannot be passed from person to person."
+      },
+      {
+        "q": "Will hives go away?",
+        "a": "Most short-term hives settle within days to weeks. Chronic hives can last longer but are usually well controlled with treatment."
+      },
+      {
+        "q": "What should I do if my lips or throat swell?",
+        "a": "Seek emergency care right away, especially if you have trouble breathing or swallowing."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      }
+    ]
+  },
+  {
+    "slug": "allergic-reactions",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Allergic Reactions",
+    "localTopic": "Allergic skin reaction care",
+    "title": "Allergic Skin Reactions",
+    "accent": "Care in Torrance, CA",
+    "metaTitle": "Allergic Skin Reaction Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for allergic skin reactions in Torrance, CA. Calm redness, swelling and itching and find the allergen behind it.",
+    "lede": "Calm redness, swelling and itching, and find out what your skin is reacting to.",
+    "heroPosition": "70% 35%",
+    "photos": {
+      "hero": "/images/services/allergic-reactions/hero.webp",
+      "heroAlt": "Woman with clear skin holding a gentle moisturizer with a dab of cream on her cheek",
+      "one": "/images/services/allergic-reactions/one.webp",
+      "oneAlt": "Close-up of red, irritated skin on a woman's cheek",
+      "two": "/images/services/allergic-reactions/two.webp",
+      "twoAlt": "Woman with a red allergic flush across her neck and chest"
+    },
+    "overview": {
+      "eyebrow": "Understanding Allergic Reactions",
+      "title": "What are allergic",
+      "accent": "skin reactions?",
+      "text": [
+        "Allergic skin reactions are skin responses such as redness, swelling or itching due to allergens. They can appear within minutes or develop over a day or two.",
+        "Common allergens include fragrances, preservatives, metals, plants, foods, medicines and insect stings.",
+        "Dr. Sandhu calms the reaction, helps identify the allergen and shows you how to avoid it in the future."
+      ],
+      "facts": [
+        {
+          "label": "Main signs",
+          "value": "Redness, swelling, itch"
+        },
+        {
+          "label": "Common causes",
+          "value": "Products, foods, medicines"
+        },
+        {
+          "label": "Focus",
+          "value": "Find the allergen"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is allergy care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when your skin reacts again and again, or you are not sure what is causing it.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Reactions to skin care and cosmetics",
+        "Fragrance and preservative allergies",
+        "Metal allergies such as nickel",
+        "Reactions to medicines",
+        "Allergic rashes from plants",
+        "Swelling and redness after a new product"
+      ],
+      "signs": [
+        "Redness or swelling after a product",
+        "Itchy rash that keeps returning",
+        "Reactions where jewelry or a watch touches",
+        "Rash after starting a new medicine",
+        "Products that suddenly sting",
+        "You do not know what you are allergic to"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "The most important step is finding and avoiding the allergen. While we do that, we calm the skin.",
+      "items": [
+        {
+          "title": "Calming the reaction",
+          "text": "Prescription creams and other treatments that reduce redness, swelling and itch."
+        },
+        {
+          "title": "Finding the allergen",
+          "text": "A careful review of products and exposures. Allergy patch testing may be recommended."
+        },
+        {
+          "title": "Safer product swaps",
+          "text": "Guidance on gentle, fragrance-free products that suit sensitive skin."
+        },
+        {
+          "title": "Prevention plan",
+          "text": "A clear list of what to avoid to keep reactions from returning."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines your skin and reviews every product, food and medicine that may be involved."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment to calm the reaction and a plan to find the cause."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Skin usually settles within days to weeks once the allergen is avoided."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We confirm the trigger and help you build a routine your skin tolerates."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Swelling of the face, lips or throat, or trouble breathing, is a medical emergency. Call 911 right away.",
+        "Dr. Sandhu chooses treatments suited to your skin and explains how to use them safely."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How do I find out what I am allergic to?",
+        "a": "Your history often points to the cause. Allergy patch testing may be recommended to look for specific allergens."
+      },
+      {
+        "q": "Can I become allergic to a product I have used for years?",
+        "a": "Yes. Allergies can develop at any time, even to products you have used before."
+      },
+      {
+        "q": "When is a reaction an emergency?",
+        "a": "Seek emergency care for swelling of the lips, tongue or throat, or any trouble breathing."
+      },
+      {
+        "q": "Can I have a rash checked by video?",
+        "a": "Yes. Our teledermatology visits cover new rashes and follow-up care, from the comfort of your home."
+      }
+    ]
+  },
+  {
+    "slug": "itching",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Itching",
+    "localTopic": "Itching (pruritus) treatment",
+    "title": "Itching Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Itching (Pruritus) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for itchy skin (pruritus) in Torrance, CA. Find the cause of persistent itching and get lasting relief.",
+    "lede": "Lasting relief from itchy skin, by finding and treating the cause.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/itching/hero.webp",
+      "heroAlt": "Relaxed woman resting her arms on the edge of a soothing bath",
+      "one": "/images/services/itching/one.webp",
+      "oneAlt": "Woman reaching back to scratch an itchy spot between her shoulders",
+      "two": "/images/services/itching/two.webp",
+      "twoAlt": "Close-up of a red, irritated patch on the skin"
+    },
+    "overview": {
+      "eyebrow": "Understanding Itching",
+      "title": "What is",
+      "accent": "itching?",
+      "text": [
+        "Itching, or pruritus, is an uncomfortable skin sensation causing the urge to scratch. It can affect a small area or the whole body.",
+        "It can come from dry skin, eczema, hives, allergies, insect bites, infections and some medicines, and sometimes from conditions inside the body.",
+        "Scratching can damage the skin and make itching worse. Dr. Sandhu finds the cause and breaks the itch-scratch cycle."
+      ],
+      "facts": [
+        {
+          "label": "Medical name",
+          "value": "Pruritus"
+        },
+        {
+          "label": "Common cause",
+          "value": "Dry skin"
+        },
+        {
+          "label": "Goal",
+          "value": "Lasting relief"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is itch care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when itching lasts more than two weeks, disturbs your sleep, or has no clear cause.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Dry, itchy skin",
+        "Itching with a rash",
+        "Itching without a rash",
+        "Itchy scalp",
+        "Itching that worsens at night",
+        "Itching in older adults"
+      ],
+      "signs": [
+        "Itch lasting more than two weeks",
+        "Itch that wakes you at night",
+        "Scratch marks or broken skin",
+        "Itching all over the body",
+        "Moisturizers have not helped",
+        "Itching with weight loss or fatigue"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "We treat both the itch and its cause, so relief lasts.",
+      "items": [
+        {
+          "title": "Finding the cause",
+          "text": "A careful exam, and lab tests when needed, to look for skin or internal causes."
+        },
+        {
+          "title": "Skin barrier care",
+          "text": "The right moisturizers and bathing habits to soothe and protect the skin."
+        },
+        {
+          "title": "Prescription relief",
+          "text": "Creams and other medicines that calm itch and inflammation."
+        },
+        {
+          "title": "Breaking the cycle",
+          "text": "Tips to stop scratching and protect the skin while it heals."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines your skin and asks about your health, medicines and when the itch is worst."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with relief steps to start right away, and tests if they are needed."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Itch often eases within days to weeks as the skin heals and the cause is treated."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We review progress and adjust treatment until you are comfortable."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Some itch treatments are not right for everyone, especially in pregnancy or older age.",
+        "Itching all over without a rash can sometimes signal a health problem, so we look at the whole picture."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Why do I itch at night?",
+        "a": "Itch often feels worse at night because of warmth, dryness and fewer distractions. Treatment can help you sleep."
+      },
+      {
+        "q": "Can itching happen without a rash?",
+        "a": "Yes. Dry skin, nerves and some internal conditions can cause itching without a visible rash."
+      },
+      {
+        "q": "Is scratching harmful?",
+        "a": "Scratching can damage the skin, cause infection and make itching worse."
+      },
+      {
+        "q": "Can I have a rash checked by video?",
+        "a": "Yes. Our teledermatology visits cover new rashes and follow-up care, from the comfort of your home."
+      }
+    ]
+  },
+  {
+    "slug": "dry-skin",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Dry Skin",
+    "localTopic": "Dry skin treatment",
+    "title": "Dry Skin Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Dry Skin (Xerosis) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for dry, rough, flaky and itchy skin (xerosis) in Torrance, CA, with a routine that restores comfort and softness.",
+    "lede": "Soft, comfortable skin again, with a simple routine that restores moisture.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/dry-skin/hero.webp",
+      "heroAlt": "Woman in a white robe smoothing moisturizer onto her legs in bed",
+      "one": "/images/services/dry-skin/one.webp",
+      "oneAlt": "Close-up of dry, flaky skin",
+      "two": "/images/services/dry-skin/two.webp",
+      "twoAlt": "Woman applying a rich body cream to her legs"
+    },
+    "overview": {
+      "eyebrow": "Understanding Dry Skin",
+      "title": "What is",
+      "accent": "dry skin?",
+      "text": [
+        "Dry skin, or xerosis, is rough, flaky or itchy skin due to lack of moisture. It often affects the legs, arms and hands.",
+        "Hot showers, harsh soaps, dry air, aging and some skin conditions and medicines can all dry the skin out.",
+        "Severe dry skin can crack and become itchy or inflamed. Dr. Sandhu builds a routine that repairs your skin barrier."
+      ],
+      "facts": [
+        {
+          "label": "Medical name",
+          "value": "Xerosis"
+        },
+        {
+          "label": "Common areas",
+          "value": "Legs, arms, hands"
+        },
+        {
+          "label": "Approach",
+          "value": "Repair the barrier"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is dry skin care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when dry skin cracks, itches, or does not improve with regular moisturizers.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Rough, flaky skin",
+        "Cracked hands and heels",
+        "Dry skin in winter",
+        "Dry skin with aging",
+        "Itchy dry patches",
+        "Dry skin from skin conditions"
+      ],
+      "signs": [
+        "Skin that cracks or bleeds",
+        "Itch that will not stop",
+        "Red, inflamed dry patches",
+        "Moisturizers do not help",
+        "Dryness that keeps returning",
+        "Dry skin affecting sleep"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Most dry skin improves quickly with the right routine. When it does not, we look for an underlying cause.",
+      "items": [
+        {
+          "title": "Barrier repair routine",
+          "text": "The right moisturizers, applied at the right times, to lock in moisture."
+        },
+        {
+          "title": "Gentle cleansing",
+          "text": "Lukewarm water and mild, fragrance-free cleansers that protect the skin."
+        },
+        {
+          "title": "Prescription care",
+          "text": "Stronger creams for cracked, inflamed or very dry skin."
+        },
+        {
+          "title": "Finding the cause",
+          "text": "A check for eczema, thyroid or other conditions when dryness persists."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines your skin and reviews your bathing habits and products."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a simple daily routine and product list."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Most people feel softer, calmer skin within one to two weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We adjust your routine for the seasons and check for any underlying cause."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, gentle care",
+      "text": [
+        "Cracked skin can let in infection. Tell us if dry areas become painful, warm or weep.",
+        "Dr. Sandhu recommends products that suit your skin and explains how to use them."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What is the best moisturizer?",
+        "a": "Thick creams and ointments without fragrance usually work best. Apply them right after bathing."
+      },
+      {
+        "q": "Why is my skin drier in winter?",
+        "a": "Cold air and indoor heating pull moisture from the skin. A richer routine helps."
+      },
+      {
+        "q": "Can dry skin be a sign of something else?",
+        "a": "Sometimes. Eczema, thyroid conditions and some medicines can cause dry skin."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      }
+    ]
+  },
+  {
+    "slug": "excessive-sweating",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Excessive Sweating",
+    "localTopic": "Excessive sweating treatment",
+    "title": "Excessive Sweating",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Excessive Sweating (Hyperhidrosis) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for excessive sweating (hyperhidrosis) in Torrance, CA. Treatment for heavy underarm, hand, foot and facial sweating.",
+    "lede": "Feel fresh and confident again, with care for heavy sweating that gets in the way.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/excessive-sweating/hero.webp",
+      "heroAlt": "Confident young woman in a white T-shirt with her arms crossed",
+      "one": "/images/services/excessive-sweating/one.webp",
+      "oneAlt": "Woman checking sweat marks on her T-shirt",
+      "two": "/images/services/excessive-sweating/two.webp",
+      "twoAlt": "Smiling woman applying antiperspirant to her underarm"
+    },
+    "overview": {
+      "eyebrow": "Understanding Excessive Sweating",
+      "title": "What is",
+      "accent": "excessive sweating?",
+      "text": [
+        "Excessive sweating, or hyperhidrosis, is abnormally high sweating not related to heat or exercise. It often affects the underarms, hands, feet or face.",
+        "It can soak clothing, make it hard to hold things and affect work, school and confidence. It often starts in the teen years.",
+        "It is a real medical condition, and it is treatable. Dr. Sandhu helps you find the right option for you."
+      ],
+      "facts": [
+        {
+          "label": "Medical name",
+          "value": "Hyperhidrosis"
+        },
+        {
+          "label": "Common areas",
+          "value": "Underarms, hands, feet"
+        },
+        {
+          "label": "Approach",
+          "value": "Step-by-step care"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is sweating care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when sweating soaks through clothes, disrupts daily life, or store-bought antiperspirants do not help.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Heavy underarm sweating",
+        "Sweaty palms",
+        "Sweaty feet",
+        "Facial and scalp sweating",
+        "Sweating that starts in the teen years",
+        "Sweating affecting confidence"
+      ],
+      "signs": [
+        "Sweat stains on clothes every day",
+        "Changing clothes during the day",
+        "Slippery hands",
+        "Avoiding handshakes or social events",
+        "Antiperspirants do not work",
+        "Night sweats or sudden new sweating (needs a check-up)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment usually starts simple and steps up as needed.",
+      "items": [
+        {
+          "title": "Prescription antiperspirants",
+          "text": "Stronger antiperspirants, used the right way, are often the first step."
+        },
+        {
+          "title": "Topical medicines",
+          "text": "Prescription wipes and creams that reduce sweating."
+        },
+        {
+          "title": "Oral medicines",
+          "text": "For widespread sweating, medicines taken by mouth may help."
+        },
+        {
+          "title": "Other options",
+          "text": "If needed, Dr. Sandhu discusses other treatments that may suit you."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu asks where and when you sweat and checks for any medical cause."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a step-by-step plan, starting with the simplest effective option."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Many people notice less sweating within a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We review results and step up treatment if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "New night sweats or sudden heavy sweating can have other medical causes and should be checked.",
+        "Dr. Sandhu explains each treatment, possible side effects and how to use it safely."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is excessive sweating a medical condition?",
+        "a": "Yes. Hyperhidrosis is a recognized medical condition, and treatment can make a real difference."
+      },
+      {
+        "q": "Do regular antiperspirants work?",
+        "a": "They help some people. Prescription-strength products are often more effective."
+      },
+      {
+        "q": "Can teenagers be treated?",
+        "a": "Yes. Hyperhidrosis often starts in the teen years, and Dr. Sandhu treats patients of all ages."
+      },
+      {
+        "q": "Should I worry about night sweats?",
+        "a": "New night sweats should be checked, as they can have other causes."
+      }
+    ]
+  },
+  {
+    "slug": "folliculitis",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Folliculitis",
+    "localTopic": "Folliculitis treatment",
+    "title": "Folliculitis Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Folliculitis Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified folliculitis care in Torrance, CA. Treatment for red, itchy bumps around hair follicles, including bumps after shaving.",
+    "lede": "Clear, smooth skin, with care for red bumps around hair follicles.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/folliculitis/hero.webp",
+      "heroAlt": "Woman with smooth legs sitting gracefully against a light background",
+      "one": "/images/services/folliculitis/one.webp",
+      "oneAlt": "Close-up of a woman shaving her leg",
+      "two": "/images/services/folliculitis/two.webp",
+      "twoAlt": "Smooth, healthy legs against a warm background"
+    },
+    "overview": {
+      "eyebrow": "Understanding Folliculitis",
+      "title": "What is",
+      "accent": "folliculitis?",
+      "text": [
+        "Folliculitis is inflammation of hair follicles causing red bumps. The bumps can look like small pimples and may itch or feel tender.",
+        "It can be caused by bacteria or yeast, shaving, tight clothing, sweat, and hot tubs. It often appears on the legs, buttocks, chest, back and beard area.",
+        "Dr. Sandhu identifies the cause and clears the bumps, then helps you prevent them from coming back."
+      ],
+      "facts": [
+        {
+          "label": "Looks like",
+          "value": "Small red bumps"
+        },
+        {
+          "label": "Common areas",
+          "value": "Legs, chest, back"
+        },
+        {
+          "label": "Focus",
+          "value": "Clear & prevent"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is folliculitis care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when bumps keep coming back, spread, become painful, or do not clear with gentle care.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Bumps after shaving",
+        "Hot tub folliculitis",
+        "Bacterial folliculitis",
+        "Yeast folliculitis",
+        "Razor bumps in the beard area",
+        "Bumps on the buttocks or thighs"
+      ],
+      "signs": [
+        "Red bumps around hairs",
+        "Itchy or tender spots",
+        "Bumps after shaving",
+        "Bumps that keep returning",
+        "Spots that look like acne but are not",
+        "Painful, swollen bumps"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on the cause. We clear the current bumps and help prevent new ones.",
+      "items": [
+        {
+          "title": "Finding the cause",
+          "text": "A close exam, and a swab when needed, to tell bacteria, yeast or irritation apart."
+        },
+        {
+          "title": "Prescription washes and creams",
+          "text": "Topical treatments that clear infection and calm inflammation."
+        },
+        {
+          "title": "Oral medicines",
+          "text": "For widespread or stubborn folliculitis, medicine by mouth may be added."
+        },
+        {
+          "title": "Shaving & skin habits",
+          "text": "Simple changes to shaving, clothing and skin care that prevent new bumps."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the bumps and asks about shaving, workouts, hot tubs and products."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment and simple habits to start right away."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Most folliculitis clears within a few weeks of treatment."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We check your skin and help prevent the bumps from returning."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Painful, spreading or swollen bumps, or bumps with fever, need prompt medical attention.",
+        "Dr. Sandhu chooses the right treatment for the cause and explains how to use it."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is folliculitis the same as acne?",
+        "a": "No. It can look similar, but it starts in the hair follicles and needs different care."
+      },
+      {
+        "q": "Can shaving cause folliculitis?",
+        "a": "Yes. Shaving can irritate follicles. Changing technique often helps."
+      },
+      {
+        "q": "Is it contagious?",
+        "a": "Usually not, though some infections can spread. We will tell you if yours can."
+      },
+      {
+        "q": "Can I have a rash checked by video?",
+        "a": "Yes. Our teledermatology visits cover new rashes and follow-up care, from the comfort of your home."
+      }
+    ]
+  },
+  {
+    "slug": "insect-bites",
+    "category": "medical-dermatology",
+    "group": "Rashes & Irritation",
+    "name": "Insect Bites",
+    "localTopic": "Insect bite care",
+    "title": "Insect Bite",
+    "accent": "Care in Torrance, CA",
+    "metaTitle": "Insect Bite & Sting Reaction Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for insect bites and stings in Torrance, CA. Relief for red, itchy or swollen skin in adults and children.",
+    "lede": "Relief for red, itchy or swollen bites, so the whole family can enjoy the outdoors.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/insect-bites/hero.webp",
+      "heroAlt": "Mother and daughter laughing together on a blanket in the grass",
+      "one": "/images/services/insect-bites/one.webp",
+      "oneAlt": "Close-up of a swollen insect bite on the skin",
+      "two": "/images/services/insect-bites/two.webp",
+      "twoAlt": "Happy mother carrying her toddler through a sunny flower garden"
+    },
+    "overview": {
+      "eyebrow": "Understanding Insect Bites",
+      "title": "What are insect",
+      "accent": "bite reactions?",
+      "text": [
+        "Insect bites cause red, itchy or swollen skin. Most come from mosquitoes, fleas, bed bugs, ants, spiders and bees.",
+        "Some people, especially children, react strongly, with large swollen areas or itchy bumps that last for days. Scratching can lead to infection.",
+        "Dr. Sandhu calms the reaction, checks for infection and helps you prevent future bites."
+      ],
+      "facts": [
+        {
+          "label": "Main signs",
+          "value": "Red, itchy, swollen"
+        },
+        {
+          "label": "Who we treat",
+          "value": "Children & adults"
+        },
+        {
+          "label": "Focus",
+          "value": "Relief & prevention"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is bite care",
+      "accent": "right for you?",
+      "text": "See a dermatologist when bites are very itchy, swollen or spreading, keep appearing, or look infected.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Mosquito bite reactions",
+        "Flea and bed bug bites",
+        "Bites in children",
+        "Large local swelling",
+        "Itchy bumps that last for days",
+        "Infected bites"
+      ],
+      "signs": [
+        "Bites that swell a lot",
+        "Itch that will not settle",
+        "Bites that blister",
+        "Warmth, pus or red streaks (signs of infection)",
+        "New bites appearing at home",
+        "Bites that leave dark marks"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Most bite reactions settle quickly with the right care.",
+      "items": [
+        {
+          "title": "Calming the itch",
+          "text": "Prescription creams and antihistamines that reduce itching and swelling."
+        },
+        {
+          "title": "Treating infection",
+          "text": "Care for bites that have become infected from scratching."
+        },
+        {
+          "title": "Finding the source",
+          "text": "Help working out what is biting, such as fleas or bed bugs."
+        },
+        {
+          "title": "Prevention",
+          "text": "Tips on repellents, clothing and home care to avoid future bites."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the bites and asks where and when they appeared."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment to calm the bites and tips to prevent new ones."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Relief",
+          "text": "Most bite reactions settle within days to a week or two."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay comfortable",
+          "text": "We make sure the skin heals well and new bites have stopped."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Swelling of the face or throat, trouble breathing or feeling faint after a sting is an emergency. Call 911 right away.",
+        "For children, Dr. Sandhu chooses gentle treatments and explains clearly how to use them."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      },
+      {
+        "q": "How can I stop scratching?",
+        "a": "Cool compresses, anti-itch treatment and short nails help. We can prescribe stronger relief if needed."
+      },
+      {
+        "q": "When is a bite infected?",
+        "a": "Growing redness, warmth, pus, red streaks or fever can mean infection and should be checked."
+      },
+      {
+        "q": "When is a sting an emergency?",
+        "a": "Call 911 for swelling of the face or throat, trouble breathing or feeling faint."
+      }
+    ]
+  },
 ];
 
 export const getService = (category: string, slug: string) =>
