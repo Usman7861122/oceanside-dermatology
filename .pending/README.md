@@ -12,3 +12,19 @@ Photos still to download (all checked as in Unlimited):
 - keloids: 2417280427, 2781999911, 2304628279
 - scars: 4221722807, 2664158463, 2711612695
 - Growths & Skin Cancer group hero: 2284987259
+
+## Photo-rule swaps (no revealing photos, no dark skin), picked 2026-11-26
+Replace these live photos (all candidates in Unlimited search; check the banner before download):
+- public/images/gallery/radiance.webp -> 720691987
+- public/images/services/medical.webp (home card, mega menu, category intro) -> 2483124275
+- public/images/services/index/medical-hero.webp -> 2845313533
+- shingles/one -> 2544549089
+- skin-cancer-screenings/hero -> 2344287683
+- skin-cancer-screenings/one -> 2838912187
+- warts/two -> 2569202279
+- allergic-reactions/hero -> 1007325502
+- dry-skin/two -> 2140413135
+- excessive-sweating/two -> 2398656643
+- moles/hero -> 2314617281
+- moles/two -> 2667047963
+Also change pending picks: angiomas hero 4222746533 -> 2334183147; keloids two 2304628279 -> 2278972549.
