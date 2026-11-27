@@ -1735,7 +1735,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "70% 35%",
     "photos": {
       "hero": "/images/services/allergic-reactions/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in her exam room",
+      "heroAlt": "Waiting room with curved wooden chairs",
       "one": "/images/services/allergic-reactions/one.webp",
       "oneAlt": "Close-up of red, irritated skin on a woman's cheek",
       "two": "/images/services/allergic-reactions/two.webp",
@@ -3155,7 +3155,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/skin-cancer-screenings/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu talking in her exam room",
+      "heroAlt": "Front desk team member at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/skin-cancer-screenings/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/skin-cancer-screenings/two.webp",
@@ -3439,7 +3439,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/moles/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining treatment options",
+      "heroAlt": "Reception at Oceanside Dermatology & Aesthetics in Torrance",
       "one": "/images/services/moles/one.webp",
       "oneAlt": "Dermatologist checking a mole on a woman's shoulder with a dermatoscope",
       "two": "/images/services/moles/two.webp",
@@ -3723,7 +3723,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/basal-cell-carcinoma/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Waiting room at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/surgical/basal-cell-carcinoma/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/surgical/basal-cell-carcinoma/two.webp",
@@ -3867,7 +3867,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/squamous-cell-carcinoma/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Reception area with the Oceanside sign",
       "one": "/images/services/surgical/squamous-cell-carcinoma/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining what to expect",
       "two": "/images/services/surgical/squamous-cell-carcinoma/two.webp",
@@ -4012,7 +4012,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/melanoma/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in the exam room",
+      "heroAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/surgical/melanoma/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/surgical/melanoma/two.webp",
@@ -4300,7 +4300,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/excisions/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
+      "heroAlt": "Reception desk at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/surgical/excisions/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/surgical/excisions/two.webp",
@@ -4584,7 +4584,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/cryosurgery/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in her exam room",
+      "heroAlt": "Waiting room seating with natural light",
       "one": "/images/services/surgical/cryosurgery/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/surgical/cryosurgery/two.webp",
@@ -4870,7 +4870,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/benign-growth-removal/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu talking in her exam room",
+      "heroAlt": "Light-filled reception area",
       "one": "/images/services/surgical/benign-growth-removal/one.webp",
       "oneAlt": "Dr. Sophia Sandhu, wearing gloves, in her exam room",
       "two": "/images/services/surgical/benign-growth-removal/two.webp",
@@ -5015,7 +5015,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/cyst-and-lipoma-removal/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining treatment options",
+      "heroAlt": "Front desk at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/surgical/cyst-and-lipoma-removal/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking with a team member",
       "two": "/images/services/surgical/cyst-and-lipoma-removal/two.webp",
@@ -5158,7 +5158,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/earlobe-repair/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her exam room",
+      "heroAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "one": "/images/services/surgical/earlobe-repair/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining what to expect",
       "two": "/images/services/surgical/earlobe-repair/two.webp",
@@ -5729,7 +5729,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/angiomas/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Reception desk at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/angiomas/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/angiomas/two.webp",
@@ -6014,7 +6014,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/keloids/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
+      "heroAlt": "Front desk team member at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/keloids/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/keloids/two.webp",
@@ -6156,7 +6156,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/scars/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in the exam room",
+      "heroAlt": "Front desk under the Oceanside sign",
       "one": "/images/services/scars/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining what to expect",
       "two": "/images/services/scars/two.webp",
@@ -6301,7 +6301,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/botox-and-dysport/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Front desk team member at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/botox-and-dysport/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/cosmetic/botox-and-dysport/two.webp",
@@ -6445,7 +6445,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/hyaluronic-acid-fillers/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu talking in her exam room",
+      "heroAlt": "Front desk under the Oceanside sign",
       "one": "/images/services/cosmetic/hyaluronic-acid-fillers/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling during a treatment",
       "two": "/images/services/cosmetic/hyaluronic-acid-fillers/two.webp",
@@ -6589,7 +6589,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/sculptra/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu talking in her exam room",
+      "heroAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/sculptra/one.webp",
       "oneAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/cosmetic/sculptra/two.webp",
@@ -7022,7 +7022,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/resurfx/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her exam room",
+      "heroAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "one": "/images/services/cosmetic/resurfx/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/cosmetic/resurfx/two.webp",
@@ -7311,7 +7311,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/multi-spot-nd-yag/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
+      "heroAlt": "Waiting room seating with natural light",
       "one": "/images/services/cosmetic/multi-spot-nd-yag/one.webp",
       "oneAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/cosmetic/multi-spot-nd-yag/two.webp",
@@ -7457,7 +7457,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/fractional-laser-resurfacing/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in the exam room",
+      "heroAlt": "Reception at Oceanside Dermatology & Aesthetics in Torrance",
       "one": "/images/services/cosmetic/fractional-laser-resurfacing/one.webp",
       "oneAlt": "Dr. Sophia Sandhu preparing for a treatment",
       "two": "/images/services/cosmetic/fractional-laser-resurfacing/two.webp",
@@ -7602,7 +7602,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/medical-grade-microneedling/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining treatment options",
+      "heroAlt": "Waiting room at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/medical-grade-microneedling/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/cosmetic/medical-grade-microneedling/two.webp",
@@ -7889,7 +7889,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/acne-scar-treatment/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in her exam room",
+      "heroAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/acne-scar-treatment/one.webp",
       "oneAlt": "Dr. Sophia Sandhu preparing for a treatment",
       "two": "/images/services/cosmetic/acne-scar-treatment/two.webp",
@@ -8036,7 +8036,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/scar-treatment/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in the exam room",
+      "heroAlt": "Reception desk at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/scar-treatment/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in the exam room",
       "two": "/images/services/cosmetic/scar-treatment/two.webp",
@@ -8183,7 +8183,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/sun-spots-and-sun-damage/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
+      "heroAlt": "Waiting room with curved wooden chairs",
       "one": "/images/services/cosmetic/sun-spots-and-sun-damage/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/cosmetic/sun-spots-and-sun-damage/two.webp",
@@ -8620,7 +8620,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/tattoo-removal/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Reception at Oceanside Dermatology & Aesthetics in Torrance",
       "one": "/images/services/cosmetic/tattoo-removal/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in the exam room",
       "two": "/images/services/cosmetic/tattoo-removal/two.webp",
@@ -8909,7 +8909,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/skin-tags/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in her exam room",
+      "heroAlt": "Front desk team member at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/skin-tags/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/cosmetic/skin-tags/two.webp",
@@ -9054,7 +9054,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/moles/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in her exam room",
+      "heroAlt": "Light-filled reception area",
       "one": "/images/services/cosmetic/moles/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in the exam room",
       "two": "/images/services/cosmetic/moles/two.webp",
@@ -9199,7 +9199,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/seborrheic-keratoses/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu explaining treatment options",
+      "heroAlt": "Reception area with the Oceanside sign",
       "one": "/images/services/cosmetic/seborrheic-keratoses/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling during a treatment",
       "two": "/images/services/cosmetic/seborrheic-keratoses/two.webp",
@@ -9344,7 +9344,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/dermatosis-papulosa-nigra/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her exam room",
+      "heroAlt": "Waiting room with curved wooden chairs",
       "one": "/images/services/cosmetic/dermatosis-papulosa-nigra/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in the exam room",
       "two": "/images/services/cosmetic/dermatosis-papulosa-nigra/two.webp",
@@ -9489,7 +9489,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/angiomas/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
+      "heroAlt": "Reception area with the Oceanside sign",
       "one": "/images/services/cosmetic/angiomas/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling during a treatment",
       "two": "/images/services/cosmetic/angiomas/two.webp",
@@ -9634,7 +9634,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/prp-for-hair-loss/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Front desk at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/cosmetic/prp-for-hair-loss/one.webp",
       "oneAlt": "Dr. Sophia Sandhu preparing for a treatment",
       "two": "/images/services/cosmetic/prp-for-hair-loss/two.webp",
@@ -9778,7 +9778,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/atopic-dermatitis-and-eczema/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
+      "heroAlt": "Waiting room with curved wooden chairs",
       "one": "/images/services/pediatric/atopic-dermatitis-and-eczema/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/pediatric/atopic-dermatitis-and-eczema/two.webp",
@@ -10643,7 +10643,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/molluscum/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
+      "heroAlt": "Reception at Oceanside Dermatology & Aesthetics in Torrance",
       "one": "/images/services/pediatric/molluscum/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/pediatric/molluscum/two.webp",

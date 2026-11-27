@@ -8,7 +8,7 @@ export const servicesIndex = {
   description:
     "Explore dermatology services at Oceanside Dermatology & Aesthetics in Torrance, CA: medical, surgical, cosmetic and pediatric dermatology, plus teledermatology.",
   image: "/images/practice/services-hero-wide.webp",
-  imageAlt: "Dr. Sophia Sandhu explaining a treatment in her exam room",
+  imageAlt: "Front desk under the Oceanside sign",
   intro: [
     "We offer expert, evidence-based care for the full spectrum of skin, hair and nail conditions in patients of all ages and all skin types.",
     "Whether you are seeking medical, surgical or cosmetic dermatology, we provide comprehensive services in one convenient, welcoming setting.",
@@ -26,7 +26,7 @@ export const categoryContent: Record<string, {
     description:
       "Board-certified medical dermatology in Torrance, CA: acne, eczema, psoriasis, rosacea, hair loss, rashes, skin infections, growths and skin cancer screenings.",
     image: "/images/services/index/medical-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu in her Torrance exam room",
+    imageAlt: "Waiting room seating with natural light",
     introTitle: "Comprehensive care for",
     introAccent: "all skin types",
     intro: [
@@ -71,7 +71,7 @@ export const categoryContent: Record<string, {
     description:
       "Pediatric dermatology in Torrance, CA for babies, children and teens: eczema, acne, psoriasis, rashes, warts, molluscum, impetigo, fungal infections and alopecia areata.",
     image: "/images/services/index/pediatric-hero.webp",
-    imageAlt: "Bright waiting room at Oceanside Dermatology & Aesthetics",
+    imageAlt: "Dr. Sophia Sandhu and a team member reviewing a tablet",
     introTitle: "Expert skin care",
     introAccent: "at every age",
     intro: [
@@ -128,7 +128,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for melasma, hyperpigmentation, vitiligo and other pigmentary disorders in Torrance, CA, with care for all skin types, including skin of color.",
     image: "/images/services/index/pigment-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu smiling in her exam room",
+    imageAlt: "Front desk at Oceanside Dermatology & Aesthetics",
     intro: [
       "Pigment gives skin its color. When there is too much, too little, or it is uneven, you may see dark spots, patches or white areas.",
       "Dr. Sandhu's experience at Harbor-UCLA and UCSF covered all skin types, including skin of color. She finds the cause first, then chooses care that is safe for your skin.",
@@ -188,7 +188,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for warts, herpes, shingles, fungal infections and bacterial skin infections in Torrance, CA, for adults and children.",
     image: "/images/services/index/infections-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu explaining a treatment",
+    imageAlt: "Dr. Sophia Sandhu and a team member reviewing a tablet",
     intro: [
       "Skin infections are caused by microbes: viruses, fungi and bacteria. They can cause rashes, blisters, bumps and sores.",
       "Dr. Sandhu confirms the cause so treatment works the first time, and helps you keep the infection from spreading or coming back.",
@@ -228,7 +228,7 @@ export const groupContent: Record<string, {
     description:
       "Board-certified dermatologic procedures in Torrance, CA: excisions, electrodesiccation and curettage, cryosurgery, and incision and drainage.",
     image: "/images/services/index/surgical-procedures-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu in her exam room",
+    imageAlt: "Reception desk at Oceanside Dermatology & Aesthetics",
     intro: [
       "Most skin procedures are quick, done right in our office under local numbing, with little downtime.",
       "Dr. Sandhu chooses the procedure that best fits your diagnosis and the area, always with an eye on a natural-looking result.",
@@ -268,7 +268,7 @@ export const groupContent: Record<string, {
     description:
       "Skin cancer screenings and treatment of actinic keratoses, moles, skin tags, cysts, lipomas, angiomas, seborrheic keratoses, keloids and scars in Torrance, CA.",
     image: "/images/services/index/growths-hero.webp",
-    imageAlt: "Bright waiting room at Oceanside Dermatology & Aesthetics",
+    imageAlt: "Front desk at Oceanside Dermatology & Aesthetics",
     intro: [
       "Most skin growths are harmless, but some need a closer look. Found early, most skin cancers are highly treatable.",
       "Dr. Sandhu checks every spot carefully and removes growths with precision, prioritizing both health and a natural-looking result.",
@@ -288,7 +288,7 @@ export const groupContent: Record<string, {
     description:
       "Botox, Dysport, Restylane and RHA fillers and Sculptra in Torrance, CA by a board-certified dermatologist.",
     image: "/images/services/index/cosmetic-injectables-hero.webp",
-    imageAlt: "Oceanside Dermatology & Aesthetics sign in the reception area",
+    imageAlt: "Reception area with the Oceanside sign",
     intro: [
       "Injectables are non-surgical treatments placed into the skin or muscles to improve appearance.",
       "Dr. Sandhu uses a less-is-more approach for results that look like you, only refreshed.",
@@ -308,7 +308,7 @@ export const groupContent: Record<string, {
     description:
       "Laser and light treatments in Torrance, CA: M22 Stellar IPL, UltraClear, ResurFX, Q-Switched Nd:YAG and Multi-Spot Nd:YAG.",
     image: "/images/services/index/cosmetic-lasers-hero.webp",
-    imageAlt: "Reception desk at Oceanside Dermatology & Aesthetics",
+    imageAlt: "Light-filled reception area",
     intro: [
       "Lasers and light devices are advanced tools that use targeted light energy to treat various skin concerns.",
       "From redness and sun damage to scars and wrinkles, we choose the right device for your skin, including options safe for skin of color.",
@@ -328,7 +328,7 @@ export const groupContent: Record<string, {
     description:
       "Skin rejuvenation in Torrance, CA: fractional laser resurfacing, medical-grade microneedling, chemical peels, acne scar and scar treatment.",
     image: "/images/services/index/cosmetic-rejuvenation-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu smiling in her exam room",
+    imageAlt: "Bright waiting room at Oceanside Dermatology & Aesthetics",
     intro: [
       "Rejuvenation treatments improve texture, tone, fine lines and scars by renewing the skin.",
       "Dr. Sandhu combines treatments into a plan that fits your skin and your schedule.",
@@ -348,7 +348,7 @@ export const groupContent: Record<string, {
     description:
       "Laser and light treatment of sun spots, rosacea, redness, facial and leg veins, and tattoo removal in Torrance, CA.",
     image: "/images/services/index/cosmetic-spots-hero.webp",
-    imageAlt: "Waiting room at Oceanside Dermatology & Aesthetics",
+    imageAlt: "Waiting room seating with natural light",
     intro: [
       "Brown spots, redness and visible vessels can make skin look tired or uneven.",
       "Laser and light treatments target pigment and blood vessels for a clearer, more even complexion.",
@@ -368,7 +368,7 @@ export const groupContent: Record<string, {
     description:
       "Cosmetic removal of sebaceous hyperplasia, skin tags, moles, seborrheic keratoses, dermatosis papulosa nigra and angiomas in Torrance, CA.",
     image: "/images/services/index/cosmetic-growths-hero.webp",
-    imageAlt: "Reception area with the Oceanside sign",
+    imageAlt: "Front desk under the Oceanside sign",
     intro: [
       "Safe removal of non-cancerous skin lesions for cosmetic or comfort reasons.",
       "Dr. Sandhu checks every growth first, then removes it with the gentlest effective method.",
