@@ -1735,7 +1735,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "70% 35%",
     "photos": {
       "hero": "/images/services/allergic-reactions/hero.webp",
-      "heroAlt": "Woman with clear skin holding a gentle moisturizer with a dab of cream on her cheek",
+      "heroAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp",
       "one": "/images/services/allergic-reactions/one.webp",
       "oneAlt": "Close-up of red, irritated skin on a woman's cheek",
       "two": "/images/services/allergic-reactions/two.webp",
@@ -2023,7 +2023,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/dry-skin/one.webp",
       "oneAlt": "Close-up of dry, flaky skin",
       "two": "/images/services/dry-skin/two.webp",
-      "twoAlt": "Woman applying a rich body cream to her legs"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient in her Torrance exam room"
     },
     "overview": {
       "eyebrow": "Understanding Dry Skin",
@@ -2165,7 +2165,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/excessive-sweating/one.webp",
       "oneAlt": "Woman checking sweat marks on her T-shirt",
       "two": "/images/services/excessive-sweating/two.webp",
-      "twoAlt": "Smiling woman applying antiperspirant to her underarm"
+      "twoAlt": "Dr. Sophia Sandhu checking a patient's scalp"
     },
     "overview": {
       "eyebrow": "Understanding Excessive Sweating",
@@ -2591,7 +2591,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/warts/one.webp",
       "oneAlt": "Dermatologist examining a patient's hand with a dermatoscope",
       "two": "/images/services/warts/two.webp",
-      "twoAlt": "Smiling woman resting her hands with smooth skin together"
+      "twoAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu"
     },
     "overview": {
       "eyebrow": "Understanding Warts",
@@ -2873,7 +2873,7 @@ export const serviceContent: ServiceContent[] = [
       "hero": "/images/services/shingles/hero.webp",
       "heroAlt": "Dermatologist gently examining a mature woman's face",
       "one": "/images/services/shingles/one.webp",
-      "oneAlt": "Woman holding her painful upper back",
+      "oneAlt": "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope",
       "two": "/images/services/shingles/two.webp",
       "twoAlt": "Doctor listening to a senior woman during a home consultation"
     },
@@ -3155,9 +3155,9 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/skin-cancer-screenings/hero.webp",
-      "heroAlt": "Woman in a sun hat and white shirt holding sunscreen by the sea",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient's skin near his ear",
       "one": "/images/services/skin-cancer-screenings/one.webp",
-      "oneAlt": "Dermatologist checking a mole on a patient's back with a dermatoscope",
+      "oneAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "two": "/images/services/skin-cancer-screenings/two.webp",
       "twoAlt": "Dermatologist examining a spot on a patient's arm"
     },
@@ -3439,11 +3439,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/moles/hero.webp",
-      "heroAlt": "Dermatologist examining moles on a woman's back with a magnifying glass",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient's scalp and hairline",
       "one": "/images/services/moles/one.webp",
       "oneAlt": "Dermatologist checking a mole on a woman's shoulder with a dermatoscope",
       "two": "/images/services/moles/two.webp",
-      "twoAlt": "Dermatologist using a digital dermatoscope to check a mole"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient's face up close"
     },
     "overview": {
       "eyebrow": "Understanding Moles",
@@ -3723,11 +3723,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/basal-cell-carcinoma/hero.webp",
-      "heroAlt": "Basal Cell Carcinoma care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu talking with a patient during a visit",
       "one": "/images/services/surgical/basal-cell-carcinoma/one.webp",
-      "oneAlt": "Dermatologist explaining basal cell carcinoma to a patient",
+      "oneAlt": "Dr. Sophia Sandhu examining a patient's skin near his ear",
       "two": "/images/services/surgical/basal-cell-carcinoma/two.webp",
-      "twoAlt": "Healthy, smooth skin after basal cell carcinoma"
+      "twoAlt": "Dr. Sophia Sandhu checking a patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Basal Cell Carcinoma",
@@ -3867,11 +3867,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/squamous-cell-carcinoma/hero.webp",
-      "heroAlt": "Squamous Cell Carcinoma care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu smiling while talking with a patient",
       "one": "/images/services/surgical/squamous-cell-carcinoma/one.webp",
-      "oneAlt": "Dermatologist explaining squamous cell carcinoma to a patient",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient",
       "two": "/images/services/surgical/squamous-cell-carcinoma/two.webp",
-      "twoAlt": "Healthy, smooth skin after squamous cell carcinoma"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient in a bright exam room"
     },
     "overview": {
       "eyebrow": "Understanding Squamous Cell Carcinoma",
@@ -4012,11 +4012,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/melanoma/hero.webp",
-      "heroAlt": "Melanoma care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "one": "/images/services/surgical/melanoma/one.webp",
-      "oneAlt": "Dermatologist explaining melanoma to a patient",
+      "oneAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "two": "/images/services/surgical/melanoma/two.webp",
-      "twoAlt": "Healthy, smooth skin after melanoma"
+      "twoAlt": "Dr. Sophia Sandhu talking a patient through a treatment"
     },
     "overview": {
       "eyebrow": "Understanding Melanoma",
@@ -4156,11 +4156,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/precancerous-lesions/hero.webp",
-      "heroAlt": "Precancerous Lesions care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu smiling with a patient in the exam room",
       "one": "/images/services/surgical/precancerous-lesions/one.webp",
-      "oneAlt": "Dermatologist explaining precancerous lesions to a patient",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/surgical/precancerous-lesions/two.webp",
-      "twoAlt": "Healthy, smooth skin after precancerous lesions"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient in her Torrance exam room"
     },
     "overview": {
       "eyebrow": "Understanding Precancerous Lesions",
@@ -4300,11 +4300,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/excisions/hero.webp",
-      "heroAlt": "Excisions care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient's skin near his ear",
       "one": "/images/services/surgical/excisions/one.webp",
-      "oneAlt": "Dermatologist explaining excisions to a patient",
+      "oneAlt": "Dr. Sophia Sandhu checking a patient's skin",
       "two": "/images/services/surgical/excisions/two.webp",
-      "twoAlt": "Healthy, smooth skin after excisions"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope"
     },
     "overview": {
       "eyebrow": "Understanding Excisions",
@@ -4442,11 +4442,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/electrodesiccation-and-curettage/hero.webp",
-      "heroAlt": "Electrodesiccation and Curettage care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu talking with a patient in a bright exam room",
       "one": "/images/services/surgical/electrodesiccation-and-curettage/one.webp",
-      "oneAlt": "Dermatologist explaining electrodesiccation and curettage to a patient",
+      "oneAlt": "Dr. Sophia Sandhu walking a patient through his options",
       "two": "/images/services/surgical/electrodesiccation-and-curettage/two.webp",
-      "twoAlt": "Healthy, smooth skin after electrodesiccation and curettage"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient during a visit"
     },
     "overview": {
       "eyebrow": "Understanding Electrodesiccation and Curettage",
@@ -4584,11 +4584,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/cryosurgery/hero.webp",
-      "heroAlt": "Cryosurgery care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient's scalp and hairline",
       "one": "/images/services/surgical/cryosurgery/one.webp",
-      "oneAlt": "Dermatologist explaining cryosurgery to a patient",
+      "oneAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "two": "/images/services/surgical/cryosurgery/two.webp",
-      "twoAlt": "Healthy, smooth skin after cryosurgery"
+      "twoAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu"
     },
     "overview": {
       "eyebrow": "Understanding Cryosurgery",
@@ -4727,11 +4727,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/incision-and-drainage/hero.webp",
-      "heroAlt": "Incision and Drainage care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu checking a patient's scalp",
       "one": "/images/services/surgical/incision-and-drainage/one.webp",
-      "oneAlt": "Dermatologist explaining incision and drainage to a patient",
+      "oneAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp",
       "two": "/images/services/surgical/incision-and-drainage/two.webp",
-      "twoAlt": "Healthy, smooth skin after incision and drainage"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient's scalp and hairline"
     },
     "overview": {
       "eyebrow": "Understanding Incision and Drainage",
@@ -4870,11 +4870,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/benign-growth-removal/hero.webp",
-      "heroAlt": "Benign Growth Removal care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope",
       "one": "/images/services/surgical/benign-growth-removal/one.webp",
-      "oneAlt": "Dermatologist explaining benign growth removal to a patient",
+      "oneAlt": "Dr. Sophia Sandhu checking a patient's scalp",
       "two": "/images/services/surgical/benign-growth-removal/two.webp",
-      "twoAlt": "Healthy, smooth skin after benign growth removal"
+      "twoAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp"
     },
     "overview": {
       "eyebrow": "Understanding Benign Growth Removal",
@@ -5015,11 +5015,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/cyst-and-lipoma-removal/hero.webp",
-      "heroAlt": "Cyst and Lipoma Removal care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu talking a patient through a treatment",
       "one": "/images/services/surgical/cyst-and-lipoma-removal/one.webp",
-      "oneAlt": "Dermatologist explaining cyst and lipoma removal to a patient",
+      "oneAlt": "Dr. Sophia Sandhu smiling with a patient in the exam room",
       "two": "/images/services/surgical/cyst-and-lipoma-removal/two.webp",
-      "twoAlt": "Healthy, smooth skin after cyst and lipoma removal"
+      "twoAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room"
     },
     "overview": {
       "eyebrow": "Understanding Cyst and Lipoma Removal",
@@ -5158,11 +5158,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/earlobe-repair/hero.webp",
-      "heroAlt": "Earlobe Repair care at Oceanside Dermatology & Aesthetics",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient in her Torrance exam room",
       "one": "/images/services/surgical/earlobe-repair/one.webp",
-      "oneAlt": "Dermatologist explaining earlobe repair to a patient",
+      "oneAlt": "Dr. Sophia Sandhu smiling while talking with a patient",
       "two": "/images/services/surgical/earlobe-repair/two.webp",
-      "twoAlt": "Healthy, smooth skin after earlobe repair"
+      "twoAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient"
     },
     "overview": {
       "eyebrow": "Understanding Earlobe Repair",
@@ -5304,7 +5304,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/bacterial-infections/one.webp",
       "oneAlt": "Woman applying a healing ointment to her arm",
       "two": "/images/services/bacterial-infections/two.webp",
-      "twoAlt": "Dermatologist checking a child's skin with a dermatoscope"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient in a bright exam room"
     },
     "overview": {
       "eyebrow": "Understanding Bacterial Infections",
@@ -5446,7 +5446,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cysts/one.webp",
       "oneAlt": "Doctor examining a woman's shoulder",
       "two": "/images/services/cysts/two.webp",
-      "twoAlt": "Close-up of a hand touching smooth skin on the shoulder"
+      "twoAlt": "Dr. Sophia Sandhu walking a patient through his options"
     },
     "overview": {
       "eyebrow": "Understanding Cysts",
@@ -5586,11 +5586,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/lipoma/hero.webp",
-      "heroAlt": "Woman with smooth skin raising her arms",
+      "heroAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "one": "/images/services/lipoma/one.webp",
-      "oneAlt": "Gloved hands gently examining a patient's arm",
+      "oneAlt": "Dr. Sophia Sandhu talking a patient through a treatment",
       "two": "/images/services/lipoma/two.webp",
-      "twoAlt": "Woman resting her hand on her smooth shoulder"
+      "twoAlt": "Dr. Sophia Sandhu smiling with a patient in the exam room"
     },
     "overview": {
       "eyebrow": "Understanding Lipoma",
@@ -5729,11 +5729,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/angiomas/hero.webp",
-      "heroAlt": "Woman with smooth skin caring for her body",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient in her Torrance exam room",
       "one": "/images/services/angiomas/one.webp",
-      "oneAlt": "Light-based skin treatment with protective eyewear",
+      "oneAlt": "Dr. Sophia Sandhu smiling while talking with a patient",
       "two": "/images/services/angiomas/two.webp",
-      "twoAlt": "Smooth, healthy legs resting on soft bedding"
+      "twoAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient"
     },
     "overview": {
       "eyebrow": "Understanding Angiomas",
@@ -5872,11 +5872,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/seborrheic-keratoses/hero.webp",
-      "heroAlt": "Smiling mature woman with radiant skin",
+      "heroAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient",
       "one": "/images/services/seborrheic-keratoses/one.webp",
-      "oneAlt": "Dermatologist examining a mature woman's facial skin",
+      "oneAlt": "Dr. Sophia Sandhu talking with a patient in a bright exam room",
       "two": "/images/services/seborrheic-keratoses/two.webp",
-      "twoAlt": "Smiling woman with silver hair and glowing skin"
+      "twoAlt": "Dr. Sophia Sandhu walking a patient through his options"
     },
     "overview": {
       "eyebrow": "Understanding Seborrheic Keratoses",
@@ -6014,11 +6014,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/keloids/hero.webp",
-      "heroAlt": "Woman holding a jar of soothing cream",
+      "heroAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp",
       "one": "/images/services/keloids/one.webp",
-      "oneAlt": "Close-up of a raised keloid scar on the shoulder",
+      "oneAlt": "Dr. Sophia Sandhu examining a patient's scalp and hairline",
       "two": "/images/services/keloids/two.webp",
-      "twoAlt": "Hands applying cream to a healing scar on the abdomen"
+      "twoAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Keloids",
@@ -6156,11 +6156,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/scars/hero.webp",
-      "heroAlt": "Woman with smooth skin holding a jar of cream",
+      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "one": "/images/services/scars/one.webp",
-      "oneAlt": "Hand applying cream to a scar on the arm",
+      "oneAlt": "Dr. Sophia Sandhu examining a patient in her Torrance exam room",
       "two": "/images/services/scars/two.webp",
-      "twoAlt": "Woman with smooth skin touching her chin"
+      "twoAlt": "Dr. Sophia Sandhu smiling while talking with a patient"
     },
     "overview": {
       "eyebrow": "Understanding Scars",
@@ -6301,11 +6301,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/botox-and-dysport/hero.webp",
-      "heroAlt": "Botox & Dysport at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "one": "/images/services/cosmetic/botox-and-dysport/one.webp",
-      "oneAlt": "Botox & Dysport consultation with Dr. Sandhu",
+      "oneAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "two": "/images/services/cosmetic/botox-and-dysport/two.webp",
-      "twoAlt": "Healthy, radiant skin after botox & dysport"
+      "twoAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room"
     },
     "overview": {
       "eyebrow": "Understanding Botox & Dysport",
@@ -6445,11 +6445,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/hyaluronic-acid-fillers/hero.webp",
-      "heroAlt": "Hyaluronic Acid Fillers at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "one": "/images/services/cosmetic/hyaluronic-acid-fillers/one.webp",
-      "oneAlt": "Hyaluronic Acid Fillers consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/cosmetic/hyaluronic-acid-fillers/two.webp",
-      "twoAlt": "Healthy, radiant skin after hyaluronic acid fillers"
+      "twoAlt": "Dr. Sophia Sandhu explaining what to expect from treatment"
     },
     "overview": {
       "eyebrow": "Understanding Hyaluronic Acid Fillers",
@@ -6589,11 +6589,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/sculptra/hero.webp",
-      "heroAlt": "Sculptra at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu explaining what to expect from treatment",
       "one": "/images/services/cosmetic/sculptra/one.webp",
-      "oneAlt": "Sculptra consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient",
       "two": "/images/services/cosmetic/sculptra/two.webp",
-      "twoAlt": "Healthy, radiant skin after sculptra"
+      "twoAlt": "Dr. Sophia Sandhu walking a patient through his options"
     },
     "overview": {
       "eyebrow": "Understanding Sculptra",
@@ -6733,11 +6733,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/m22-stellar-ipl/hero.webp",
-      "heroAlt": "M22 Stellar IPL at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient",
       "one": "/images/services/cosmetic/m22-stellar-ipl/one.webp",
-      "oneAlt": "M22 Stellar IPL consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu walking a patient through his options",
       "two": "/images/services/cosmetic/m22-stellar-ipl/two.webp",
-      "twoAlt": "Healthy, radiant skin after m22 stellar ipl"
+      "twoAlt": "Dr. Sophia Sandhu gently cleansing a patient's skin before treatment"
     },
     "overview": {
       "eyebrow": "Understanding M22 Stellar IPL",
@@ -6878,11 +6878,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/ultraclear-laser/hero.webp",
-      "heroAlt": "UltraClear Laser at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu caring for a patient's facial skin",
       "one": "/images/services/cosmetic/ultraclear-laser/one.webp",
-      "oneAlt": "UltraClear Laser consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu preparing a patient's skin for treatment",
       "two": "/images/services/cosmetic/ultraclear-laser/two.webp",
-      "twoAlt": "Healthy, radiant skin after ultraclear laser"
+      "twoAlt": "Dr. Sophia Sandhu treating a relaxed patient's face"
     },
     "overview": {
       "eyebrow": "Understanding UltraClear Laser",
@@ -7022,11 +7022,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/resurfx/hero.webp",
-      "heroAlt": "ResurFX at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu preparing a patient's skin for treatment",
       "one": "/images/services/cosmetic/resurfx/one.webp",
-      "oneAlt": "ResurFX consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu treating a relaxed patient's face",
       "two": "/images/services/cosmetic/resurfx/two.webp",
-      "twoAlt": "Healthy, radiant skin after resurfx"
+      "twoAlt": "Dr. Sophia Sandhu treating a patient reclined in the treatment chair"
     },
     "overview": {
       "eyebrow": "Understanding ResurFX",
@@ -7166,11 +7166,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/q-switched-nd-yag/hero.webp",
-      "heroAlt": "Q-Switched Nd:YAG at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu walking a patient through his options",
       "one": "/images/services/cosmetic/q-switched-nd-yag/one.webp",
-      "oneAlt": "Q-Switched Nd:YAG consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu gently cleansing a patient's skin before treatment",
       "two": "/images/services/cosmetic/q-switched-nd-yag/two.webp",
-      "twoAlt": "Healthy, radiant skin after q-switched nd:yag"
+      "twoAlt": "Dr. Sophia Sandhu caring for a patient's facial skin"
     },
     "overview": {
       "eyebrow": "Understanding Q-Switched Nd:YAG",
@@ -7311,11 +7311,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/multi-spot-nd-yag/hero.webp",
-      "heroAlt": "Multi-Spot Nd:YAG at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu examining a patient's face up close",
       "one": "/images/services/cosmetic/multi-spot-nd-yag/one.webp",
-      "oneAlt": "Multi-Spot Nd:YAG consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "two": "/images/services/cosmetic/multi-spot-nd-yag/two.webp",
-      "twoAlt": "Healthy, radiant skin after multi-spot nd:yag"
+      "twoAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu"
     },
     "overview": {
       "eyebrow": "Understanding Multi-Spot Nd:YAG",
@@ -7457,11 +7457,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/fractional-laser-resurfacing/hero.webp",
-      "heroAlt": "Fractional Laser Resurfacing at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu talking with a patient during treatment",
       "one": "/images/services/cosmetic/fractional-laser-resurfacing/one.webp",
-      "oneAlt": "Fractional Laser Resurfacing consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu examining a patient's face up close",
       "two": "/images/services/cosmetic/fractional-laser-resurfacing/two.webp",
-      "twoAlt": "Healthy, radiant skin after fractional laser resurfacing"
+      "twoAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Fractional Laser Resurfacing",
@@ -7602,11 +7602,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/medical-grade-microneedling/hero.webp",
-      "heroAlt": "Medical-Grade Microneedling at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu caring for a patient's facial skin",
       "one": "/images/services/cosmetic/medical-grade-microneedling/one.webp",
-      "oneAlt": "Medical-Grade Microneedling consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu preparing a patient's skin for treatment",
       "two": "/images/services/cosmetic/medical-grade-microneedling/two.webp",
-      "twoAlt": "Healthy, radiant skin after medical-grade microneedling"
+      "twoAlt": "Dr. Sophia Sandhu treating a relaxed patient's face"
     },
     "overview": {
       "eyebrow": "Understanding Medical-Grade Microneedling",
@@ -7746,11 +7746,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/chemical-peels/hero.webp",
-      "heroAlt": "Customized Chemical Peels at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu explaining what to expect from treatment",
       "one": "/images/services/cosmetic/chemical-peels/one.webp",
-      "oneAlt": "Customized Chemical Peels consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient",
       "two": "/images/services/cosmetic/chemical-peels/two.webp",
-      "twoAlt": "Healthy, radiant skin after customized chemical peels"
+      "twoAlt": "Dr. Sophia Sandhu walking a patient through his options"
     },
     "overview": {
       "eyebrow": "Understanding Customized Chemical Peels",
@@ -7889,11 +7889,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/acne-scar-treatment/hero.webp",
-      "heroAlt": "Acne Scar Treatment at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu preparing a patient's skin for treatment",
       "one": "/images/services/cosmetic/acne-scar-treatment/one.webp",
-      "oneAlt": "Acne Scar Treatment consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu treating a relaxed patient's face",
       "two": "/images/services/cosmetic/acne-scar-treatment/two.webp",
-      "twoAlt": "Healthy, radiant skin after acne scar treatment"
+      "twoAlt": "Dr. Sophia Sandhu treating a patient reclined in the treatment chair"
     },
     "overview": {
       "eyebrow": "Understanding Acne Scar Treatment",
@@ -8036,11 +8036,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/scar-treatment/hero.webp",
-      "heroAlt": "Scar Treatment at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "one": "/images/services/cosmetic/scar-treatment/one.webp",
-      "oneAlt": "Scar Treatment consultation with Dr. Sandhu",
+      "oneAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "two": "/images/services/cosmetic/scar-treatment/two.webp",
-      "twoAlt": "Healthy, radiant skin after scar treatment"
+      "twoAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room"
     },
     "overview": {
       "eyebrow": "Understanding Scar Treatment",
@@ -8183,11 +8183,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/sun-spots-and-sun-damage/hero.webp",
-      "heroAlt": "Sun Spots & Sun Damage at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "one": "/images/services/cosmetic/sun-spots-and-sun-damage/one.webp",
-      "oneAlt": "Sun Spots & Sun Damage consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/cosmetic/sun-spots-and-sun-damage/two.webp",
-      "twoAlt": "Healthy, radiant skin after sun spots & sun damage"
+      "twoAlt": "Dr. Sophia Sandhu explaining what to expect from treatment"
     },
     "overview": {
       "eyebrow": "Understanding Sun Spots & Sun Damage",
@@ -8329,11 +8329,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/rosacea-and-redness/hero.webp",
-      "heroAlt": "Rosacea & Redness at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu caring for a smiling patient's skin",
       "one": "/images/services/cosmetic/rosacea-and-redness/one.webp",
-      "oneAlt": "Rosacea & Redness consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu talking with a patient during treatment",
       "two": "/images/services/cosmetic/rosacea-and-redness/two.webp",
-      "twoAlt": "Healthy, radiant skin after rosacea & redness"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient's face up close"
     },
     "overview": {
       "eyebrow": "Understanding Rosacea & Redness",
@@ -8475,11 +8475,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/facial-and-leg-veins/hero.webp",
-      "heroAlt": "Facial & Leg Veins at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu treating a relaxed patient's face",
       "one": "/images/services/cosmetic/facial-and-leg-veins/one.webp",
-      "oneAlt": "Facial & Leg Veins consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu treating a patient reclined in the treatment chair",
       "two": "/images/services/cosmetic/facial-and-leg-veins/two.webp",
-      "twoAlt": "Healthy, radiant skin after facial & leg veins"
+      "twoAlt": "Dr. Sophia Sandhu caring for a smiling patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Facial & Leg Veins",
@@ -8620,11 +8620,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/tattoo-removal/hero.webp",
-      "heroAlt": "Tattoo Removal at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient",
       "one": "/images/services/cosmetic/tattoo-removal/one.webp",
-      "oneAlt": "Tattoo Removal consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu walking a patient through his options",
       "two": "/images/services/cosmetic/tattoo-removal/two.webp",
-      "twoAlt": "Healthy, radiant skin after tattoo removal"
+      "twoAlt": "Dr. Sophia Sandhu gently cleansing a patient's skin before treatment"
     },
     "overview": {
       "eyebrow": "Understanding Tattoo Removal",
@@ -8764,11 +8764,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/sebaceous-hyperplasia/hero.webp",
-      "heroAlt": "Sebaceous Hyperplasia at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu gently cleansing a patient's skin before treatment",
       "one": "/images/services/cosmetic/sebaceous-hyperplasia/one.webp",
-      "oneAlt": "Sebaceous Hyperplasia consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu caring for a patient's facial skin",
       "two": "/images/services/cosmetic/sebaceous-hyperplasia/two.webp",
-      "twoAlt": "Healthy, radiant skin after sebaceous hyperplasia"
+      "twoAlt": "Dr. Sophia Sandhu preparing a patient's skin for treatment"
     },
     "overview": {
       "eyebrow": "Understanding Sebaceous Hyperplasia",
@@ -8909,11 +8909,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/skin-tags/hero.webp",
-      "heroAlt": "Skin Tags at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu talking with a patient during treatment",
       "one": "/images/services/cosmetic/skin-tags/one.webp",
-      "oneAlt": "Skin Tags consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu examining a patient's face up close",
       "two": "/images/services/cosmetic/skin-tags/two.webp",
-      "twoAlt": "Healthy, radiant skin after skin tags"
+      "twoAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Skin Tags",
@@ -9054,11 +9054,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/moles/hero.webp",
-      "heroAlt": "Moles at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu treating a patient reclined in the treatment chair",
       "one": "/images/services/cosmetic/moles/one.webp",
-      "oneAlt": "Moles consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu caring for a smiling patient's skin",
       "two": "/images/services/cosmetic/moles/two.webp",
-      "twoAlt": "Healthy, radiant skin after moles"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient during treatment"
     },
     "overview": {
       "eyebrow": "Understanding Moles",
@@ -9199,11 +9199,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/seborrheic-keratoses/hero.webp",
-      "heroAlt": "Seborrheic Keratoses at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu treating a relaxed patient's face",
       "one": "/images/services/cosmetic/seborrheic-keratoses/one.webp",
-      "oneAlt": "Seborrheic Keratoses consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu treating a patient reclined in the treatment chair",
       "two": "/images/services/cosmetic/seborrheic-keratoses/two.webp",
-      "twoAlt": "Healthy, radiant skin after seborrheic keratoses"
+      "twoAlt": "Dr. Sophia Sandhu caring for a smiling patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Seborrheic Keratoses",
@@ -9344,11 +9344,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/dermatosis-papulosa-nigra/hero.webp",
-      "heroAlt": "Dermatosis Papulosa Nigra at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu gently cleansing a patient's skin before treatment",
       "one": "/images/services/cosmetic/dermatosis-papulosa-nigra/one.webp",
-      "oneAlt": "Dermatosis Papulosa Nigra consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu caring for a patient's facial skin",
       "two": "/images/services/cosmetic/dermatosis-papulosa-nigra/two.webp",
-      "twoAlt": "Healthy, radiant skin after dermatosis papulosa nigra"
+      "twoAlt": "Dr. Sophia Sandhu preparing a patient's skin for treatment"
     },
     "overview": {
       "eyebrow": "Understanding Dermatosis Papulosa Nigra",
@@ -9489,11 +9489,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/angiomas/hero.webp",
-      "heroAlt": "Angiomas at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu caring for a smiling patient's skin",
       "one": "/images/services/cosmetic/angiomas/one.webp",
-      "oneAlt": "Angiomas consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu talking with a patient during treatment",
       "two": "/images/services/cosmetic/angiomas/two.webp",
-      "twoAlt": "Healthy, radiant skin after angiomas"
+      "twoAlt": "Dr. Sophia Sandhu examining a patient's face up close"
     },
     "overview": {
       "eyebrow": "Understanding Angiomas",
@@ -9634,11 +9634,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/prp-for-hair-loss/hero.webp",
-      "heroAlt": "PRP for Hair Loss at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "one": "/images/services/cosmetic/prp-for-hair-loss/one.webp",
-      "oneAlt": "PRP for Hair Loss consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining what to expect from treatment",
       "two": "/images/services/cosmetic/prp-for-hair-loss/two.webp",
-      "twoAlt": "Healthy, radiant skin after prp for hair loss"
+      "twoAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient"
     },
     "overview": {
       "eyebrow": "Understanding PRP for Hair Loss",
@@ -9778,11 +9778,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/atopic-dermatitis-and-eczema/hero.webp",
-      "heroAlt": "Eczema at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu talking a patient through a treatment",
       "one": "/images/services/pediatric/atopic-dermatitis-and-eczema/one.webp",
-      "oneAlt": "Eczema consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/pediatric/atopic-dermatitis-and-eczema/two.webp",
-      "twoAlt": "Healthy, radiant skin after eczema"
+      "twoAlt": "Reception desk at Oceanside Dermatology & Aesthetics with the Sophia Sandhu M.D. name"
     },
     "overview": {
       "eyebrow": "Understanding Eczema",
@@ -9922,11 +9922,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/acne/hero.webp",
-      "heroAlt": "Acne at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Waiting room with curved wooden chairs at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/pediatric/acne/one.webp",
-      "oneAlt": "Acne consultation with Dr. Sandhu",
+      "oneAlt": "Smiling front desk team member at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/pediatric/acne/two.webp",
-      "twoAlt": "Healthy, radiant skin after acne"
+      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
     },
     "overview": {
       "eyebrow": "Understanding Acne",
@@ -10066,11 +10066,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/psoriasis/hero.webp",
-      "heroAlt": "Psoriasis at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu smiling while talking with a patient",
       "one": "/images/services/pediatric/psoriasis/one.webp",
-      "oneAlt": "Psoriasis consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu talking with a patient in a bright exam room",
       "two": "/images/services/pediatric/psoriasis/two.webp",
-      "twoAlt": "Healthy, radiant skin after psoriasis"
+      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
     },
     "overview": {
       "eyebrow": "Understanding Psoriasis",
@@ -10210,11 +10210,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/rashes/hero.webp",
-      "heroAlt": "Rashes at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Waiting room with curved wooden chairs at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/pediatric/rashes/one.webp",
-      "oneAlt": "Rashes consultation with Dr. Sandhu",
+      "oneAlt": "Smiling front desk team member at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/pediatric/rashes/two.webp",
-      "twoAlt": "Healthy, radiant skin after rashes"
+      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
     },
     "overview": {
       "eyebrow": "Understanding Rashes",
@@ -10354,11 +10354,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/insect-bites/hero.webp",
-      "heroAlt": "Insect Bites at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "one": "/images/services/pediatric/insect-bites/one.webp",
-      "oneAlt": "Insect Bites consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu and a team member in the hallway",
       "two": "/images/services/pediatric/insect-bites/two.webp",
-      "twoAlt": "Healthy, radiant skin after insect bites"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient during a visit"
     },
     "overview": {
       "eyebrow": "Understanding Insect Bites",
@@ -10498,11 +10498,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/warts/hero.webp",
-      "heroAlt": "Warts at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "one": "/images/services/pediatric/warts/one.webp",
-      "oneAlt": "Warts consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu and a team member in the hallway",
       "two": "/images/services/pediatric/warts/two.webp",
-      "twoAlt": "Healthy, radiant skin after warts"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient during a visit"
     },
     "overview": {
       "eyebrow": "Understanding Warts",
@@ -10643,11 +10643,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/molluscum/hero.webp",
-      "heroAlt": "Molluscum at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu talking a patient through a treatment",
       "one": "/images/services/pediatric/molluscum/one.webp",
-      "oneAlt": "Molluscum consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/pediatric/molluscum/two.webp",
-      "twoAlt": "Healthy, radiant skin after molluscum"
+      "twoAlt": "Reception desk at Oceanside Dermatology & Aesthetics with the Sophia Sandhu M.D. name"
     },
     "overview": {
       "eyebrow": "Understanding Molluscum",
@@ -10787,11 +10787,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/impetigo-and-bacterial-infections/hero.webp",
-      "heroAlt": "Impetigo at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Waiting room with curved wooden chairs at Oceanside Dermatology & Aesthetics",
       "one": "/images/services/pediatric/impetigo-and-bacterial-infections/one.webp",
-      "oneAlt": "Impetigo consultation with Dr. Sandhu",
+      "oneAlt": "Smiling front desk team member at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/pediatric/impetigo-and-bacterial-infections/two.webp",
-      "twoAlt": "Healthy, radiant skin after impetigo"
+      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
     },
     "overview": {
       "eyebrow": "Understanding Impetigo",
@@ -10931,11 +10931,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/fungal-infections/hero.webp",
-      "heroAlt": "Fungal Infections at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu smiling while talking with a patient",
       "one": "/images/services/pediatric/fungal-infections/one.webp",
-      "oneAlt": "Fungal Infections consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu talking with a patient in a bright exam room",
       "two": "/images/services/pediatric/fungal-infections/two.webp",
-      "twoAlt": "Healthy, radiant skin after fungal infections"
+      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
     },
     "overview": {
       "eyebrow": "Understanding Fungal Infections",
@@ -11075,11 +11075,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/alopecia-areata/hero.webp",
-      "heroAlt": "Alopecia Areata at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "one": "/images/services/pediatric/alopecia-areata/one.webp",
-      "oneAlt": "Alopecia Areata consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu and a team member in the hallway",
       "two": "/images/services/pediatric/alopecia-areata/two.webp",
-      "twoAlt": "Healthy, radiant skin after alopecia areata"
+      "twoAlt": "Dr. Sophia Sandhu talking with a patient during a visit"
     },
     "overview": {
       "eyebrow": "Understanding Alopecia Areata",
@@ -11219,11 +11219,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/tele/new-rashes/hero.webp",
-      "heroAlt": "New Rashes at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Front desk under the Oceanside Dermatology & Aesthetics sign",
       "one": "/images/services/tele/new-rashes/one.webp",
-      "oneAlt": "New Rashes consultation with Dr. Sandhu",
+      "oneAlt": "Front desk team member at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/tele/new-rashes/two.webp",
-      "twoAlt": "Healthy, radiant skin after new rashes"
+      "twoAlt": "Dr. Sophia Sandhu smiling while talking with a patient"
     },
     "overview": {
       "eyebrow": "Understanding New Rashes",
@@ -11363,11 +11363,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/tele/acne/hero.webp",
-      "heroAlt": "Acne at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Team member on the phone helping a patient book a visit",
       "one": "/images/services/tele/acne/one.webp",
-      "oneAlt": "Acne consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu and a team member reviewing a patient's visit",
       "two": "/images/services/tele/acne/two.webp",
-      "twoAlt": "Healthy, radiant skin after acne"
+      "twoAlt": "Dr. Sophia Sandhu talking with a team member in the hallway"
     },
     "overview": {
       "eyebrow": "Understanding Acne",
@@ -11507,11 +11507,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/tele/eczema/hero.webp",
-      "heroAlt": "Eczema at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu and a team member planning the day",
       "one": "/images/services/tele/eczema/one.webp",
-      "oneAlt": "Eczema consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "two": "/images/services/tele/eczema/two.webp",
-      "twoAlt": "Healthy, radiant skin after eczema"
+      "twoAlt": "Dr. Sophia Sandhu and a team member talking in the hallway"
     },
     "overview": {
       "eyebrow": "Understanding Eczema",
@@ -11651,11 +11651,11 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/tele/follow-up-care/hero.webp",
-      "heroAlt": "Follow-Up Care at Oceanside Dermatology & Aesthetics in Torrance",
+      "heroAlt": "Dr. Sophia Sandhu and a team member at Oceanside Dermatology",
       "one": "/images/services/tele/follow-up-care/one.webp",
-      "oneAlt": "Follow-Up Care consultation with Dr. Sandhu",
+      "oneAlt": "Dr. Sophia Sandhu and a team member reviewing notes",
       "two": "/images/services/tele/follow-up-care/two.webp",
-      "twoAlt": "Healthy, radiant skin after follow-up care"
+      "twoAlt": "Smiling front desk team member at Oceanside Dermatology & Aesthetics"
     },
     "overview": {
       "eyebrow": "Understanding Follow-Up Care",
