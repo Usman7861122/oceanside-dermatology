@@ -3709,6 +3709,1583 @@ export const serviceContent: ServiceContent[] = [
       }
     ]
   },
+  {
+    "slug": "basal-cell-carcinoma",
+    "category": "surgical-dermatology",
+    "group": "Skin Cancer Treatment",
+    "name": "Basal Cell Carcinoma",
+    "localTopic": "Basal cell carcinoma treatment",
+    "title": "Basal Cell Carcinoma",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Basal Cell Carcinoma Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified basal cell carcinoma treatment in Torrance, CA, with careful surgical techniques and natural-looking results.",
+    "lede": "Expert treatment of the most common skin cancer, with care for how your skin heals.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/basal-cell-carcinoma/hero.webp",
+      "heroAlt": "Basal Cell Carcinoma care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/basal-cell-carcinoma/one.webp",
+      "oneAlt": "Dermatologist explaining basal cell carcinoma to a patient",
+      "two": "/images/services/surgical/basal-cell-carcinoma/two.webp",
+      "twoAlt": "Healthy, smooth skin after basal cell carcinoma"
+    },
+    "overview": {
+      "eyebrow": "Understanding Basal Cell Carcinoma",
+      "title": "What is",
+      "accent": "basal cell carcinoma?",
+      "text": [
+        "Basal cell carcinoma is a common, slow-growing cancer from the lower layer of the epidermis. It is the most common type of skin cancer.",
+        "It often appears as a pearly or shiny bump, a pink patch or a sore that does not heal, usually on sun-exposed skin.",
+        "It rarely spreads, but it can grow into nearby tissue if left untreated. Found early, it is highly curable."
+      ],
+      "facts": [
+        {
+          "label": "Most common",
+          "value": "Skin cancer"
+        },
+        {
+          "label": "Grows",
+          "value": "Slowly"
+        },
+        {
+          "label": "Cure rate",
+          "value": "High when early"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist promptly for any new, changing or non-healing spot. Early treatment is simpler and more successful.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Pearly or shiny bumps",
+        "Pink, scaly patches",
+        "Sores that do not heal",
+        "Basal cell on the face, ears or scalp",
+        "Basal cell on the body",
+        "Recurring basal cell carcinoma"
+      ],
+      "signs": [
+        "A shiny, pearly bump",
+        "A sore that bleeds and does not heal",
+        "A pink patch that grows",
+        "A scar-like area",
+        "A spot that crusts again and again",
+        "Any new or changing spot"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on the type, size and location of the cancer. Dr. Sandhu explains every option and recommends the best fit.",
+      "items": [
+        {
+          "title": "Excision",
+          "text": "Removing the cancer with a margin of healthy skin, then closing with fine stitches.",
+          "href": "/surgical-dermatology/excisions"
+        },
+        {
+          "title": "Electrodesiccation and curettage",
+          "text": "Scraping and gently cauterizing small, low-risk cancers.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Topical or other treatments",
+          "text": "For some superficial cancers, prescription creams or other options may be used."
+        },
+        {
+          "title": "Follow-up skin checks",
+          "text": "Regular exams to catch any new spots early."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the spot and reviews any biopsy results."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear treatment plan, often scheduled within days."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most treatment sites heal within a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "Regular skin checks help catch any new spots early."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is basal cell carcinoma dangerous?",
+        "a": "It rarely spreads, but it can damage nearby skin if untreated. Early treatment is simple and very effective."
+      },
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "Will there be a scar?",
+        "a": "Usually a small, fine scar. Dr. Sandhu closes carefully for the most natural result."
+      },
+      {
+        "q": "Can it come back?",
+        "a": "Sometimes. Regular skin checks help catch new or returning spots early."
+      }
+    ]
+  },
+  {
+    "slug": "squamous-cell-carcinoma",
+    "category": "surgical-dermatology",
+    "group": "Skin Cancer Treatment",
+    "name": "Squamous Cell Carcinoma",
+    "localTopic": "Squamous cell carcinoma treatment",
+    "title": "Squamous Cell Carcinoma",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Squamous Cell Carcinoma Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified squamous cell carcinoma treatment in Torrance, CA, with prompt, careful surgery and close follow-up.",
+    "lede": "Prompt, precise treatment for squamous cell carcinoma, with close follow-up.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/squamous-cell-carcinoma/hero.webp",
+      "heroAlt": "Squamous Cell Carcinoma care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/squamous-cell-carcinoma/one.webp",
+      "oneAlt": "Dermatologist explaining squamous cell carcinoma to a patient",
+      "two": "/images/services/surgical/squamous-cell-carcinoma/two.webp",
+      "twoAlt": "Healthy, smooth skin after squamous cell carcinoma"
+    },
+    "overview": {
+      "eyebrow": "Understanding Squamous Cell Carcinoma",
+      "title": "What is",
+      "accent": "squamous cell carcinoma?",
+      "text": [
+        "Squamous cell carcinoma is a cancer from the upper layers of the skin. It can spread if untreated.",
+        "It often looks like a firm red bump, a scaly patch or a sore that heals and comes back, on sun-exposed areas such as the face, ears, lips and hands.",
+        "Many start from actinic keratoses, rough sun spots. Treating it early gives excellent results."
+      ],
+      "facts": [
+        {
+          "label": "Starts in",
+          "value": "Upper skin layers"
+        },
+        {
+          "label": "Can",
+          "value": "Spread if untreated"
+        },
+        {
+          "label": "Key",
+          "value": "Treat promptly"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist promptly for any new, changing or non-healing spot. Early treatment is simpler and more successful.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Firm red bumps",
+        "Scaly, crusted patches",
+        "Sores that heal and return",
+        "Squamous cell on the lips or ears",
+        "Squamous cell on the hands",
+        "Cancers that start from sun spots"
+      ],
+      "signs": [
+        "A firm, red bump",
+        "A rough, scaly patch that grows",
+        "A sore that will not heal",
+        "A spot that bleeds easily",
+        "A growing spot on the lip or ear",
+        "Any new or changing spot"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on the type, size and location of the cancer. Dr. Sandhu explains every option and recommends the best fit.",
+      "items": [
+        {
+          "title": "Excision",
+          "text": "Removing the cancer with a margin of healthy skin.",
+          "href": "/surgical-dermatology/excisions"
+        },
+        {
+          "title": "Electrodesiccation and curettage",
+          "text": "For small, low-risk cancers.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Treating precancers",
+          "text": "Treating rough sun spots before they become cancer.",
+          "href": "/surgical-dermatology/precancerous-lesions"
+        },
+        {
+          "title": "Close follow-up",
+          "text": "Regular checks of the skin and treated area."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the spot and reviews any biopsy results."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear treatment plan, often scheduled within days."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most treatment sites heal within a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "Regular skin checks help catch any new spots early."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can squamous cell carcinoma spread?",
+        "a": "It can if left untreated, which is why prompt treatment matters."
+      },
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "What causes it?",
+        "a": "Mostly years of sun exposure. Sun protection lowers your risk."
+      },
+      {
+        "q": "How often will I need skin checks?",
+        "a": "Dr. Sandhu will recommend a schedule based on your risk."
+      }
+    ]
+  },
+  {
+    "slug": "melanoma",
+    "category": "surgical-dermatology",
+    "group": "Skin Cancer Treatment",
+    "name": "Melanoma",
+    "localTopic": "Melanoma treatment",
+    "title": "Melanoma",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Melanoma Diagnosis & Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified melanoma diagnosis and treatment in Torrance, CA. Careful evaluation of changing moles and prompt surgical care.",
+    "lede": "Careful, prompt care for the most serious type of skin cancer.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/melanoma/hero.webp",
+      "heroAlt": "Melanoma care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/melanoma/one.webp",
+      "oneAlt": "Dermatologist explaining melanoma to a patient",
+      "two": "/images/services/surgical/melanoma/two.webp",
+      "twoAlt": "Healthy, smooth skin after melanoma"
+    },
+    "overview": {
+      "eyebrow": "Understanding Melanoma",
+      "title": "What is",
+      "accent": "melanoma?",
+      "text": [
+        "Melanoma is the most serious type of skin cancer, arising from pigment-producing cells. It can appear as a new dark spot or a change in an existing mole.",
+        "It can spread to other parts of the body, so early detection and treatment are critical.",
+        "Dr. Sandhu evaluates suspicious moles closely, performs biopsies and removes melanoma with appropriate margins, coordinating further care when needed."
+      ],
+      "facts": [
+        {
+          "label": "Most serious",
+          "value": "Skin cancer"
+        },
+        {
+          "label": "Warning signs",
+          "value": "ABCDEs"
+        },
+        {
+          "label": "Key",
+          "value": "Early detection"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist promptly for any new, changing or non-healing spot. Early treatment is simpler and more successful.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "New or changing moles",
+        "Dark, irregular spots",
+        "Early-stage melanoma",
+        "Melanoma in situ",
+        "Follow-up after melanoma",
+        "Family history of melanoma"
+      ],
+      "signs": [
+        "Asymmetry: two halves do not match",
+        "Border: uneven or ragged edges",
+        "Color: several shades",
+        "Diameter: larger than a pencil eraser",
+        "Evolving: any change in size, shape or color",
+        "A spot that looks different from the rest"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on the type, size and location of the cancer. Dr. Sandhu explains every option and recommends the best fit.",
+      "items": [
+        {
+          "title": "Biopsy",
+          "text": "Removing all or part of a suspicious spot for lab testing."
+        },
+        {
+          "title": "Wide excision",
+          "text": "Removing the melanoma with a margin of healthy skin.",
+          "href": "/surgical-dermatology/excisions"
+        },
+        {
+          "title": "Coordinated care",
+          "text": "Referral to specialists for further testing or treatment when needed."
+        },
+        {
+          "title": "Lifelong skin checks",
+          "text": "Regular full-body exams after melanoma.",
+          "href": "/medical-dermatology/skin-cancer-screenings"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the spot and reviews any biopsy results."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear treatment plan, often scheduled within days."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most treatment sites heal within a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "Regular skin checks help catch any new spots early."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How is melanoma found?",
+        "a": "Through skin checks and a biopsy of any suspicious spot."
+      },
+      {
+        "q": "Is melanoma curable?",
+        "a": "Melanoma found early is usually highly treatable. That is why skin checks matter."
+      },
+      {
+        "q": "What happens after treatment?",
+        "a": "Regular full-body skin checks to catch any new spots early."
+      },
+      {
+        "q": "Who is at higher risk?",
+        "a": "People with many moles, fair skin, a history of sunburns, or a family history of melanoma."
+      }
+    ]
+  },
+  {
+    "slug": "precancerous-lesions",
+    "category": "surgical-dermatology",
+    "group": "Skin Cancer Treatment",
+    "name": "Precancerous Lesions",
+    "localTopic": "Precancerous lesion treatment",
+    "title": "Precancerous Lesions",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Precancerous Lesion Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified treatment of precancerous skin lesions such as actinic keratoses in Torrance, CA, to lower skin cancer risk.",
+    "lede": "Treat sun-damaged precancers early, to lower your risk of skin cancer.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/precancerous-lesions/hero.webp",
+      "heroAlt": "Precancerous Lesions care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/precancerous-lesions/one.webp",
+      "oneAlt": "Dermatologist explaining precancerous lesions to a patient",
+      "two": "/images/services/surgical/precancerous-lesions/two.webp",
+      "twoAlt": "Healthy, smooth skin after precancerous lesions"
+    },
+    "overview": {
+      "eyebrow": "Understanding Precancerous Lesions",
+      "title": "What is",
+      "accent": "precancerous lesions?",
+      "text": [
+        "Precancerous lesions are skin changes that can turn into skin cancer over time. The most common are actinic keratoses, rough, scaly patches caused by sun damage.",
+        "They often appear on the face, scalp, ears, lips, hands and arms.",
+        "Treating them early is one of the best ways to prevent squamous cell carcinoma."
+      ],
+      "facts": [
+        {
+          "label": "Most common",
+          "value": "Actinic keratoses"
+        },
+        {
+          "label": "Cause",
+          "value": "Sun damage"
+        },
+        {
+          "label": "Why treat",
+          "value": "Prevent cancer"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist promptly for any new, changing or non-healing spot. Early treatment is simpler and more successful.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Actinic keratoses",
+        "Actinic cheilitis on the lips",
+        "Many sun-damaged spots",
+        "Scaly patches on the scalp",
+        "Precancers on the hands",
+        "Recurring precancers"
+      ],
+      "signs": [
+        "Rough, sandpaper-like spots",
+        "Scaly patches that return",
+        "Dry, scaly lips",
+        "Spots that are tender",
+        "A spot that grows or bleeds",
+        "Many spots on sun-exposed skin"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on the type, size and location of the cancer. Dr. Sandhu explains every option and recommends the best fit.",
+      "items": [
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing individual precancers in the office.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Field treatments",
+          "text": "Prescription creams for many spots across an area."
+        },
+        {
+          "title": "Chemical peels",
+          "text": "Removing damaged top layers of skin.",
+          "href": "/cosmetic-dermatology/chemical-peels"
+        },
+        {
+          "title": "Sun protection",
+          "text": "Daily habits to prevent new spots."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the spot and reviews any biopsy results."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear treatment plan, often scheduled within days."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most treatment sites heal within a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "Regular skin checks help catch any new spots early."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are precancers cancer?",
+        "a": "Not yet, but some can become squamous cell carcinoma, which is why we treat them."
+      },
+      {
+        "q": "Does freezing hurt?",
+        "a": "It stings briefly and may blister for a few days."
+      },
+      {
+        "q": "Will new spots appear?",
+        "a": "They can with more sun. Sunscreen and regular checks help."
+      },
+      {
+        "q": "Where can I learn more?",
+        "a": "See our actinic keratoses page for details."
+      }
+    ]
+  },
+  {
+    "slug": "excisions",
+    "category": "surgical-dermatology",
+    "group": "Procedures",
+    "name": "Excisions",
+    "localTopic": "Skin excision",
+    "title": "Surgical Excisions",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Surgical Skin Excision in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified surgical excisions in Torrance, CA for skin cancers, moles, cysts and growths, with careful closure for natural-looking results.",
+    "lede": "Precise removal of skin cancers and growths, closed with care for a natural look.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/excisions/hero.webp",
+      "heroAlt": "Excisions care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/excisions/one.webp",
+      "oneAlt": "Dermatologist explaining excisions to a patient",
+      "two": "/images/services/surgical/excisions/two.webp",
+      "twoAlt": "Healthy, smooth skin after excisions"
+    },
+    "overview": {
+      "eyebrow": "Understanding Excisions",
+      "title": "What is",
+      "accent": "excisions?",
+      "text": [
+        "An excision is a minor surgical procedure that removes a growth along with a small margin of surrounding skin. The area is then closed with fine stitches.",
+        "It is used for skin cancers, suspicious moles, cysts and other growths. The removed tissue can be sent to a lab for testing.",
+        "Dr. Sandhu plans each excision to follow natural skin lines, for the neatest possible scar."
+      ],
+      "facts": [
+        {
+          "label": "Used for",
+          "value": "Cancers, moles, cysts"
+        },
+        {
+          "label": "Done with",
+          "value": "Local numbing"
+        },
+        {
+          "label": "Closure",
+          "value": "Fine stitches"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Skin cancer removal",
+        "Suspicious or atypical moles",
+        "Cysts and lipomas",
+        "Benign growths",
+        "Growths in visible areas",
+        "Growths that keep returning"
+      ],
+      "signs": [
+        "A biopsy shows skin cancer",
+        "A mole is changing",
+        "A cyst keeps coming back",
+        "A growth is irritated or bleeding",
+        "A growth bothers you",
+        "A spot needs full removal for testing"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Careful planning",
+          "text": "Incisions placed along natural skin lines."
+        },
+        {
+          "title": "Complete removal",
+          "text": "The growth is removed with an appropriate margin."
+        },
+        {
+          "title": "Layered closure",
+          "text": "Fine stitches for a smooth, flat scar."
+        },
+        {
+          "title": "Lab testing",
+          "text": "Tissue is sent to a lab when needed."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "Most excisions take under an hour."
+      },
+      {
+        "q": "Will I have stitches?",
+        "a": "Yes. Stitches are usually removed in one to two weeks."
+      },
+      {
+        "q": "How do I care for the wound?",
+        "a": "We give simple written instructions for cleaning and protecting the area."
+      }
+    ]
+  },
+  {
+    "slug": "electrodesiccation-and-curettage",
+    "category": "surgical-dermatology",
+    "group": "Procedures",
+    "name": "Electrodesiccation and Curettage",
+    "localTopic": "Electrodesiccation and curettage",
+    "title": "Electrodesiccation & Curettage",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Electrodesiccation and Curettage (ED&C) in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified electrodesiccation and curettage (ED&C) in Torrance, CA for small, low-risk skin cancers and benign growths.",
+    "lede": "A quick, effective treatment for small, low-risk skin cancers and growths.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/electrodesiccation-and-curettage/hero.webp",
+      "heroAlt": "Electrodesiccation and Curettage care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/electrodesiccation-and-curettage/one.webp",
+      "oneAlt": "Dermatologist explaining electrodesiccation and curettage to a patient",
+      "two": "/images/services/surgical/electrodesiccation-and-curettage/two.webp",
+      "twoAlt": "Healthy, smooth skin after electrodesiccation and curettage"
+    },
+    "overview": {
+      "eyebrow": "Understanding Electrodesiccation and Curettage",
+      "title": "What is",
+      "accent": "electrodesiccation and curettage?",
+      "text": [
+        "Electrodesiccation and curettage (ED&C) removes a growth by gently scraping it away (curettage), then treating the base with a fine electric current (electrodesiccation).",
+        "It is often used for small, low-risk basal cell and squamous cell carcinomas, and some benign growths.",
+        "No stitches are needed. The area heals over a few weeks, usually leaving a small, flat scar."
+      ],
+      "facts": [
+        {
+          "label": "Used for",
+          "value": "Small, low-risk cancers"
+        },
+        {
+          "label": "Stitches",
+          "value": "None"
+        },
+        {
+          "label": "Takes",
+          "value": "Minutes"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Small basal cell carcinomas",
+        "Small squamous cell carcinomas",
+        "Seborrheic keratoses",
+        "Skin tags and small growths",
+        "Angiomas",
+        "Superficial lesions"
+      ],
+      "signs": [
+        "A small, low-risk skin cancer",
+        "A benign growth you want removed",
+        "A growth on the trunk or limbs",
+        "A spot not suited to excision",
+        "A quick in-office option",
+        "A small lesion that bleeds"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Curettage",
+          "text": "The growth is gently scraped away after numbing."
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current treats the base and stops bleeding."
+        },
+        {
+          "title": "Repeat cycles",
+          "text": "Often repeated two or three times for skin cancers."
+        },
+        {
+          "title": "Wound care",
+          "text": "A simple dressing while the area heals."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "Do I need stitches?",
+        "a": "No. The area heals on its own."
+      },
+      {
+        "q": "How long does healing take?",
+        "a": "Usually two to four weeks."
+      },
+      {
+        "q": "Is it right for every skin cancer?",
+        "a": "No. It is best for small, low-risk cancers. Dr. Sandhu will recommend the right option."
+      }
+    ]
+  },
+  {
+    "slug": "cryosurgery",
+    "category": "surgical-dermatology",
+    "group": "Procedures",
+    "name": "Cryosurgery",
+    "localTopic": "Cryosurgery",
+    "title": "Cryosurgery",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cryosurgery (Freezing Treatment) in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified cryosurgery in Torrance, CA. Quick freezing treatment for precancers, warts and benign growths.",
+    "lede": "A quick freezing treatment for precancers, warts and benign growths.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/cryosurgery/hero.webp",
+      "heroAlt": "Cryosurgery care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/cryosurgery/one.webp",
+      "oneAlt": "Dermatologist explaining cryosurgery to a patient",
+      "two": "/images/services/surgical/cryosurgery/two.webp",
+      "twoAlt": "Healthy, smooth skin after cryosurgery"
+    },
+    "overview": {
+      "eyebrow": "Understanding Cryosurgery",
+      "title": "What is",
+      "accent": "cryosurgery?",
+      "text": [
+        "Cryosurgery uses extreme cold, usually liquid nitrogen, to freeze and destroy abnormal skin cells.",
+        "It is commonly used for actinic keratoses (precancers), warts, seborrheic keratoses and other benign growths.",
+        "It is quick, needs no cutting and is done right in the office."
+      ],
+      "facts": [
+        {
+          "label": "Uses",
+          "value": "Liquid nitrogen"
+        },
+        {
+          "label": "Used for",
+          "value": "Precancers, warts"
+        },
+        {
+          "label": "Takes",
+          "value": "Seconds per spot"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Actinic keratoses",
+        "Warts",
+        "Seborrheic keratoses",
+        "Skin tags",
+        "Small benign growths",
+        "Some superficial lesions"
+      ],
+      "signs": [
+        "Rough, scaly sun spots",
+        "Stubborn warts",
+        "Raised, waxy growths",
+        "Small growths you want removed",
+        "A quick in-office option",
+        "Spots not needing stitches"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Freezing treatment",
+          "text": "Liquid nitrogen applied for a few seconds."
+        },
+        {
+          "title": "Healing",
+          "text": "The spot may blister, crust and fall off over one to three weeks."
+        },
+        {
+          "title": "Repeat if needed",
+          "text": "Some spots need more than one treatment.",
+          "href": "/medical-dermatology/warts"
+        },
+        {
+          "title": "Aftercare",
+          "text": "Simple care to keep the area clean."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does it hurt?",
+        "a": "It stings briefly, like a cold burn."
+      },
+      {
+        "q": "Will it blister?",
+        "a": "Often, yes. This is normal and heals on its own."
+      },
+      {
+        "q": "Will it scar?",
+        "a": "Scarring is uncommon, but a lighter spot can remain, especially on darker skin."
+      },
+      {
+        "q": "How many treatments will I need?",
+        "a": "Many spots clear in one, while warts often need a few."
+      }
+    ]
+  },
+  {
+    "slug": "incision-and-drainage",
+    "category": "surgical-dermatology",
+    "group": "Procedures",
+    "name": "Incision and Drainage",
+    "localTopic": "Incision and drainage",
+    "title": "Incision & Drainage",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Incision and Drainage in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified incision and drainage in Torrance, CA for painful, swollen cysts, boils and abscesses.",
+    "lede": "Fast relief for painful, swollen cysts, boils and abscesses.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/incision-and-drainage/hero.webp",
+      "heroAlt": "Incision and Drainage care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/incision-and-drainage/one.webp",
+      "oneAlt": "Dermatologist explaining incision and drainage to a patient",
+      "two": "/images/services/surgical/incision-and-drainage/two.webp",
+      "twoAlt": "Healthy, smooth skin after incision and drainage"
+    },
+    "overview": {
+      "eyebrow": "Understanding Incision and Drainage",
+      "title": "What is",
+      "accent": "incision and drainage?",
+      "text": [
+        "Incision and drainage is a simple procedure that relieves a painful, swollen lump such as an inflamed cyst, boil or abscess.",
+        "After numbing, a small opening is made to drain the fluid, which quickly eases pressure and pain.",
+        "It is often the first step in treating an infected cyst or a flare of hidradenitis suppurativa."
+      ],
+      "facts": [
+        {
+          "label": "Used for",
+          "value": "Cysts, boils, abscesses"
+        },
+        {
+          "label": "Relief",
+          "value": "Fast"
+        },
+        {
+          "label": "Done with",
+          "value": "Local numbing"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Inflamed cysts",
+        "Boils",
+        "Skin abscesses",
+        "Hidradenitis suppurativa flares",
+        "Infected cysts",
+        "Painful swollen lumps"
+      ],
+      "signs": [
+        "A painful, swollen lump",
+        "Redness and warmth",
+        "A lump that feels full of fluid",
+        "Pain that keeps you up",
+        "A lump that is getting bigger",
+        "Fever with a skin lump (seek urgent care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Numbing",
+          "text": "The area is numbed for comfort."
+        },
+        {
+          "title": "Drainage",
+          "text": "A small opening releases the fluid and pressure."
+        },
+        {
+          "title": "Packing or dressing",
+          "text": "The area is dressed to help it heal."
+        },
+        {
+          "title": "Follow-up care",
+          "text": "Antibiotics or later cyst removal if needed.",
+          "href": "/surgical-dermatology/cyst-and-lipoma-removal"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does it hurt?",
+        "a": "The area is numbed first, and most people feel quick relief afterwards."
+      },
+      {
+        "q": "Will the cyst come back?",
+        "a": "Drainage relieves pain, but a cyst can return. Removing it later may be recommended."
+      },
+      {
+        "q": "How long does healing take?",
+        "a": "Usually one to two weeks."
+      },
+      {
+        "q": "When is it urgent?",
+        "a": "Seek urgent care for fever, spreading redness or red streaks."
+      }
+    ]
+  },
+  {
+    "slug": "benign-growth-removal",
+    "category": "surgical-dermatology",
+    "group": "Removals & Repair",
+    "name": "Benign Growth Removal",
+    "localTopic": "Benign growth removal",
+    "title": "Benign Growth Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Benign Skin Growth Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified removal of benign skin growths in Torrance, CA, including skin tags, moles, seborrheic keratoses and more.",
+    "lede": "Safe removal of harmless growths that bother you, with a natural-looking result.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/benign-growth-removal/hero.webp",
+      "heroAlt": "Benign Growth Removal care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/benign-growth-removal/one.webp",
+      "oneAlt": "Dermatologist explaining benign growth removal to a patient",
+      "two": "/images/services/surgical/benign-growth-removal/two.webp",
+      "twoAlt": "Healthy, smooth skin after benign growth removal"
+    },
+    "overview": {
+      "eyebrow": "Understanding Benign Growth Removal",
+      "title": "What is",
+      "accent": "benign growth removal?",
+      "text": [
+        "Benign growths are non-cancerous skin lesions, such as skin tags, moles, seborrheic keratoses, cherry angiomas and sebaceous hyperplasia.",
+        "They are harmless, but they can catch on clothing, become irritated or simply affect how you feel about your skin.",
+        "Dr. Sandhu confirms each growth is benign and removes it with the method that gives the best result."
+      ],
+      "facts": [
+        {
+          "label": "Growths",
+          "value": "Harmless"
+        },
+        {
+          "label": "Reasons",
+          "value": "Comfort or cosmetic"
+        },
+        {
+          "label": "Methods",
+          "value": "Several options"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Skin tags",
+        "Moles",
+        "Seborrheic keratoses",
+        "Cherry angiomas",
+        "Sebaceous hyperplasia",
+        "Dermatosis papulosa nigra"
+      ],
+      "signs": [
+        "Growths that catch or rub",
+        "Spots that itch or bleed",
+        "Growths you do not like the look of",
+        "Many small growths",
+        "A growth in a visible area",
+        "A growth you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Snip or shave removal",
+          "text": "Quick removal of raised growths."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing small growths.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current for small spots.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Excision",
+          "text": "Full removal with stitches when needed.",
+          "href": "/surgical-dermatology/excisions"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Removal for cosmetic reasons may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it scar?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "Can a growth come back?",
+        "a": "Removed growths rarely return, but new ones can form."
+      }
+    ]
+  },
+  {
+    "slug": "cyst-and-lipoma-removal",
+    "category": "surgical-dermatology",
+    "group": "Removals & Repair",
+    "name": "Cyst and Lipoma Removal",
+    "localTopic": "Cyst and lipoma removal",
+    "title": "Cyst & Lipoma Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cyst and Lipoma Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified cyst and lipoma removal in Torrance, CA, with careful technique for minimal scarring.",
+    "lede": "Careful removal of cysts and lipomas, with attention to a natural result.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/cyst-and-lipoma-removal/hero.webp",
+      "heroAlt": "Cyst and Lipoma Removal care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/cyst-and-lipoma-removal/one.webp",
+      "oneAlt": "Dermatologist explaining cyst and lipoma removal to a patient",
+      "two": "/images/services/surgical/cyst-and-lipoma-removal/two.webp",
+      "twoAlt": "Healthy, smooth skin after cyst and lipoma removal"
+    },
+    "overview": {
+      "eyebrow": "Understanding Cyst and Lipoma Removal",
+      "title": "What is",
+      "accent": "cyst and lipoma removal?",
+      "text": [
+        "Cysts are closed sacs filled with fluid or semi-solid material, and lipomas are soft, fatty lumps under the skin. Both are usually harmless.",
+        "They can grow, become inflamed or uncomfortable, or simply bother you.",
+        "Dr. Sandhu removes them through the smallest practical incision, aiming for a neat, natural-looking scar."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Benign"
+        },
+        {
+          "label": "Done with",
+          "value": "Local numbing"
+        },
+        {
+          "label": "Goal",
+          "value": "Small, neat scar"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Epidermoid cysts",
+        "Lipomas",
+        "Cysts that keep returning",
+        "Growing lumps",
+        "Painful or inflamed cysts",
+        "Lumps in visible areas"
+      ],
+      "signs": [
+        "A round bump under the skin",
+        "A soft, movable lump",
+        "A lump that is growing",
+        "Pain or pressure",
+        "A cyst that drains",
+        "A lump you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Full removal",
+          "text": "Removing the whole cyst wall or lipoma to lower the chance of return."
+        },
+        {
+          "title": "Small incisions",
+          "text": "The smallest practical opening for a neat scar."
+        },
+        {
+          "title": "Calming first",
+          "text": "Inflamed cysts may be drained or treated before removal.",
+          "href": "/surgical-dermatology/incision-and-drainage"
+        },
+        {
+          "title": "Careful closure",
+          "text": "Fine stitches and simple aftercare."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Removing the whole cyst wall or lipoma lowers the chance it returns."
+      },
+      {
+        "q": "How long is recovery?",
+        "a": "Most people return to normal activities right away, with some limits for a week or two."
+      },
+      {
+        "q": "Should I squeeze a cyst?",
+        "a": "No. Squeezing can cause infection and scarring."
+      }
+    ]
+  },
+  {
+    "slug": "earlobe-repair",
+    "category": "surgical-dermatology",
+    "group": "Removals & Repair",
+    "name": "Earlobe Repair",
+    "localTopic": "Earlobe repair",
+    "title": "Earlobe Repair",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Earlobe Repair in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified earlobe repair in Torrance, CA for torn, split or stretched earlobes, with natural-looking results.",
+    "lede": "Restore the natural shape of torn or stretched earlobes.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/surgical/earlobe-repair/hero.webp",
+      "heroAlt": "Earlobe Repair care at Oceanside Dermatology & Aesthetics",
+      "one": "/images/services/surgical/earlobe-repair/one.webp",
+      "oneAlt": "Dermatologist explaining earlobe repair to a patient",
+      "two": "/images/services/surgical/earlobe-repair/two.webp",
+      "twoAlt": "Healthy, smooth skin after earlobe repair"
+    },
+    "overview": {
+      "eyebrow": "Understanding Earlobe Repair",
+      "title": "What is",
+      "accent": "earlobe repair?",
+      "text": [
+        "Earlobes can stretch or tear from heavy earrings, injury or gauges over time.",
+        "Earlobe repair is a minor procedure that closes the tear or stretched hole and restores a natural shape.",
+        "It is done in the office under local numbing, and most people return to normal activities the same day."
+      ],
+      "facts": [
+        {
+          "label": "Repairs",
+          "value": "Torn or stretched lobes"
+        },
+        {
+          "label": "Done with",
+          "value": "Local numbing"
+        },
+        {
+          "label": "Downtime",
+          "value": "Minimal"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is this procedure",
+      "accent": "right for you?",
+      "text": "Dr. Sandhu recommends the procedure that best fits your diagnosis, the area and your goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Split earlobes",
+        "Stretched piercing holes",
+        "Torn earlobes from injury",
+        "Gauged earlobes",
+        "Uneven earlobes",
+        "Earlobes that will not hold earrings"
+      ],
+      "signs": [
+        "A tear through the earlobe",
+        "A long, stretched piercing hole",
+        "Earrings that droop",
+        "An injury to the earlobe",
+        "Lobes that look uneven",
+        "Wanting to wear earrings again"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Every procedure is planned around a healthy result and a natural look.",
+      "items": [
+        {
+          "title": "Repair",
+          "text": "The edges are trimmed and closed with fine stitches."
+        },
+        {
+          "title": "Natural shape",
+          "text": "Closed to restore a smooth, natural lobe."
+        },
+        {
+          "title": "Re-piercing guidance",
+          "text": "Advice on when it is safe to pierce again."
+        },
+        {
+          "title": "Aftercare",
+          "text": "Simple care while the area heals."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains the procedure."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "Many procedures can be done the same day or scheduled soon after."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Most areas heal within one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and review any lab results."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Procedures are done under local numbing in our office. Dr. Sandhu explains each step and what to expect while healing.",
+        "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will I be awake?",
+        "a": "Yes. Most procedures use local numbing medicine, so you stay awake and comfortable."
+      },
+      {
+        "q": "When can I wear earrings again?",
+        "a": "Usually after the area has fully healed, often several weeks. We will guide you."
+      },
+      {
+        "q": "Will there be a scar?",
+        "a": "A fine scar is expected and usually fades well."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "The procedure is usually quick, often under an hour."
+      }
+    ]
+  },
 ];
 
 export const getService = (category: string, slug: string) =>

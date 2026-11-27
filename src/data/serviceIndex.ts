@@ -34,6 +34,21 @@ export const categoryContent: Record<string, {
       "We diagnose and treat a wide variety of skin, hair and nail disorders, such as acne, eczema, psoriasis, hair loss, rashes and nail changes. Whether your concern is common or complex, we provide thoughtful, personalized care with a focus on long-term skin health.",
     ],
   },
+  "surgical-dermatology": {
+    title: "Surgical Dermatology",
+    accent: "in Torrance, CA",
+    lede: "Precise removal of skin cancers and growths, with natural-looking results.",
+    description:
+      "Board-certified surgical dermatology in Torrance, CA: skin cancer treatment, excisions, electrodesiccation and curettage, cryosurgery, cyst and lipoma removal and earlobe repair.",
+    image: "/images/services/index/surgical-hero.webp",
+    imageAlt: "Surgical dermatology at Oceanside Dermatology & Aesthetics",
+    introTitle: "Expert surgical dermatology",
+    introAccent: "you can trust",
+    intro: [
+      "We offer comprehensive surgical dermatology services, including the removal of benign growths, moles, cysts, precancerous lesions and skin cancers.",
+      "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results.",
+    ],
+  },
 };
 
 export const groupContent: Record<string, {
@@ -137,6 +152,66 @@ export const groupContent: Record<string, {
     stats: [
       { value: "5", label: "Conditions treated" },
       { value: "All ages", label: "From newborns to adults" },
+    ],
+  },
+  "surgical-dermatology/skin-cancer-treatment": {
+    title: "Skin Cancer Treatment",
+    accent: "in Torrance, CA",
+    headTitle: "Expert care,",
+    headAccent: "natural results",
+    lede: "Treatment of basal cell carcinoma, squamous cell carcinoma, melanoma and precancerous lesions.",
+    description:
+      "Board-certified skin cancer treatment in Torrance, CA for basal cell carcinoma, squamous cell carcinoma, melanoma and precancerous lesions.",
+    image: "/images/services/index/surgical-skin-cancer-hero.webp",
+    imageAlt: "Skin cancer treatment at Oceanside Dermatology & Aesthetics",
+    intro: [
+      "Skin cancer is the abnormal growth of skin cells, often caused by sun exposure. Found early, most skin cancers are highly treatable.",
+      "Dr. Sandhu treats skin cancers and precancers with precision, prioritizing both a complete cure and a natural-looking result.",
+    ],
+    approach: "Prevention, education and early detection are at the heart of our practice.",
+    stats: [
+      { value: "4", label: "Conditions treated" },
+      { value: "In office", label: "Under local numbing" },
+    ],
+  },
+  "surgical-dermatology/procedures": {
+    title: "Dermatologic Procedures",
+    accent: "in Torrance, CA",
+    headTitle: "Precise procedures,",
+    headAccent: "gentle care",
+    lede: "Excisions, electrodesiccation and curettage, cryosurgery, and incision and drainage.",
+    description:
+      "Board-certified dermatologic procedures in Torrance, CA: excisions, electrodesiccation and curettage, cryosurgery, and incision and drainage.",
+    image: "/images/services/index/surgical-procedures-hero.webp",
+    imageAlt: "Dermatologic procedures at Oceanside Dermatology & Aesthetics",
+    intro: [
+      "Most skin procedures are quick, done right in our office under local numbing, with little downtime.",
+      "Dr. Sandhu chooses the procedure that best fits your diagnosis and the area, always with an eye on a natural-looking result.",
+    ],
+    approach: "Precision and care, prioritizing both medical outcomes and natural cosmetic results.",
+    stats: [
+      { value: "4", label: "Procedures offered" },
+      { value: "Same day", label: "Often possible" },
+    ],
+  },
+  "surgical-dermatology/removals-and-repair": {
+    title: "Removals & Repair",
+    accent: "in Torrance, CA",
+    headTitle: "Smooth skin,",
+    headAccent: "natural results",
+    lede: "Removal of benign growths, cysts and lipomas, and earlobe repair.",
+    description:
+      "Board-certified removal of benign growths, cysts and lipomas, and earlobe repair in Torrance, CA.",
+    image: "/images/services/index/surgical-removals-hero.webp",
+    imageAlt: "Growth removal and repair at Oceanside Dermatology & Aesthetics",
+    intro: [
+      "Harmless growths, cysts and lumps can still be uncomfortable or affect how you feel about your skin.",
+      "Dr. Sandhu removes them safely in the office and repairs torn earlobes, with careful technique for a neat result.",
+    ],
+    approach: "Precision and care, prioritizing both medical outcomes and natural cosmetic results.",
+    stats: [
+      { value: "3", label: "Services offered" },
+      { value: "In office", label: "Under local numbing" },
     ],
   },
 };

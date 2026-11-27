@@ -28,3 +28,7 @@ Replace these live photos (all candidates in Unlimited search; check the banner 
 - moles/hero -> 2314617281
 - moles/two -> 2667047963
 Also change pending picks: angiomas hero 4222746533 -> 2334183147; keloids two 2304628279 -> 2278972549.
+
+## Surgical Dermatology (built 2026-11-27 with placeholder photos)
+Placeholders live at public/images/services/surgical/<slug>/{hero,one,two}.webp and
+public/images/services/index/surgical-*.webp. Overwrite these files with real photos (same names) when ready.
