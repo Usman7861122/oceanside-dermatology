@@ -53,7 +53,7 @@ const year = new Date().getFullYear();
         <a href={site.phoneHref} class="block hover:text-white">Phone {site.phone}</a>
         <span class="block">Fax {site.fax}</span>
         <a href={`mailto:${site.email}`} class="block hover:text-white">{site.email}</a>
-        {site.hours.map((h) => <span class="block">{h.days}: {h.time}</span>)}
+        {site.hours.map((h) => <span class="hours-row flex flex-wrap items-center gap-x-2" data-days={h.dayNums.join(",")}>{h.days}: {h.time}<span class="today-tag today-tag--dark hidden" data-today-tag>Today</span></span>)}
       </address>
     </div>
   </div>

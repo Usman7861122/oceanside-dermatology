@@ -19,9 +19,10 @@ export const site = {
     zip: "90505",
   },
   mapsUrl: "https://maps.google.com/?q=22330+Hawthorne+Blvd+Ste+F+Torrance+CA+90505",
+  // dayNums: 0 = Sunday ... 6 = Saturday. Used to tag "Today" (Torrance time).
   hours: [
-    { days: "Monday – Friday", time: "8:30 am – 5:00 pm" },
-    { days: "Saturday – Sunday", time: "Closed" },
+    { days: "Monday – Friday", time: "8:30 am – 5:00 pm", dayNums: [1, 2, 3, 4, 5] },
+    { days: "Saturday – Sunday", time: "Closed", dayNums: [6, 0] },
   ],
   languages: ["English", "Spanish", "Punjabi"],
   // Every appointment button points here. Change it once when the booking form is connected.

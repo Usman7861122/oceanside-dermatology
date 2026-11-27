@@ -74,6 +74,15 @@ const schema = {
         { rootMargin: "0px 0px -10% 0px", threshold: 0.12 }
       );
       els.forEach((el) => io.observe(el));
+
+      // Tag today's office hours (Torrance time, so it is right for visitors anywhere).
+      const wd = new Intl.DateTimeFormat("en-US", { weekday: "short", timeZone: "America/Los_Angeles" }).format(new Date());
+      const today = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(wd);
+      document.querySelectorAll<HTMLElement>(".hours-row[data-days]").forEach((row) => {
+        if (!row.dataset.days?.split(",").map(Number).includes(today)) return;
+        row.classList.add("is-today");
+        row.querySelector("[data-today-tag]")?.classList.remove("hidden");
+      });
     </script>
   </body>
 </html>

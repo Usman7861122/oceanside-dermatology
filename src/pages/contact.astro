@@ -68,9 +68,9 @@ const languageNames: Record<string, string> = { English: "English", Spanish: "Es
           <h3 class="text-2xl">Office hours</h3>
           <dl class="mt-5 divide-y divide-ink/10">
             {site.hours.map((h) => (
-              <div class="flex items-baseline justify-between gap-4 py-3">
-                <dt class="text-ink">{h.days}</dt>
-                <dd class={h.time === "Closed" ? "text-muted" : "text-body"}>{h.time}</dd>
+              <div class="hours-row flex items-start justify-between gap-4 py-3" data-days={h.dayNums.join(",")}>
+                <dt class="flex flex-wrap items-center gap-x-3 gap-y-1.5 text-ink">{h.days}<span class="today-tag hidden" data-today-tag>Today</span></dt>
+                <dd class={`whitespace-nowrap ${h.time === "Closed" ? "text-muted" : "text-body"}`}>{h.time}</dd>
               </div>
             ))}
           </dl>
