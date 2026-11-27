@@ -125,10 +125,10 @@ export const testimonials = [
 ];
 
 export const gallery = [
-  { src: "/images/gallery/treatment-room.webp", alt: "A calm, bright treatment room with a skincare bed", title: "Private Treatment Rooms", caption: "Calm, unhurried spaces designed for comfort." },
-  { src: "/images/gallery/radiance.webp", alt: "Woman with glowing skin tilting her head toward warm light", title: "Natural Radiance", caption: "Results that look like you, only refreshed." },
-  { src: "/images/gallery/skincare-ritual.webp", alt: "Minimal skincare jar, tube and serum on a stone tray", title: "Medical-Grade Skincare", caption: "Products chosen for your skin, not for a trend." },
-  { src: "/images/gallery/dewy-skin.webp", alt: "Woman with dewy, glowing skin resting her chin on her hand", title: "Subtle Refinement", caption: "Conservative, natural-looking results, never overdone." },
-  { src: "/images/gallery/facial.webp", alt: "Patient relaxing while a mask is applied with a soft brush", title: "Thoughtful Care", caption: "Every visit planned around your skin and your goals." },
-  { src: "/images/gallery/glow.webp", alt: "Close portrait of a woman with smooth, even skin", title: "Healthy, Even Skin", caption: "Long-term skin health for every age and skin type." },
+  { src: "/images/practice/waiting-room.webp", alt: "Bright waiting room with curved wooden chairs and a pendant light", title: "A Calm Welcome", caption: "A bright, quiet space to settle in before your visit." },
+  { src: "/images/practice/exam-welcome.webp", alt: "Dr. Sophia Sandhu smiling while talking with a patient", title: "Time With Dr. Sandhu", caption: "Unhurried visits, with every question answered." },
+  { src: "/images/practice/reception.webp", alt: "Reception desk with an olive tree and the Sophia Sandhu M.D. name", title: "Our Torrance Office", caption: "Light-filled and easy to find on Hawthorne Blvd." },
+  { src: "/images/practice/skin-exam-face.webp", alt: "Dr. Sandhu examining a patient's face with a dermatoscope", title: "Careful Skin Exams", caption: "A close, thorough look at every concern." },
+  { src: "/images/practice/team-hallway.webp", alt: "Dr. Sandhu laughing with a team member in the hallway", title: "A Friendly Team", caption: "People who know you by name." },
+  { src: "/images/practice/scalp-check.webp", alt: "Dr. Sandhu checking a smiling patient's scalp", title: "Skin, Hair and Nails", caption: "Care for every part of your skin health." },
 ];

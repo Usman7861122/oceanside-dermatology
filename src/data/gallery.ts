@@ -1,38 +1,39 @@
-// Gallery page photos. Uses photos already on the site (no placeholders, none on the swap list).
-// Photos of people are licensed stock models, not patients.
+// Gallery page photos: professional photos of the practice (Nov 2026 shoot), plus two South Bay views.
 export const galleryTopics = [
-  { key: "practice", label: "Our Practice" },
-  { key: "care", label: "Care & Consultations" },
-  { key: "skin", label: "Healthy Skin" },
+  { key: "practice", label: "Our Office" },
+  { key: "care", label: "Care with Dr. Sandhu" },
+  { key: "team", label: "Our Team" },
   { key: "southbay", label: "The South Bay" },
 ] as const;
 export type GalleryTopic = (typeof galleryTopics)[number]["key"];
 
 export interface GalleryPhoto { src: string; alt: string; title: string; topic: GalleryTopic; big?: boolean }
 
+const p = (name: string) => `/images/practice/${name}.webp`;
+
 export const galleryPhotos: GalleryPhoto[] = [
-  { src: "/images/about/hero-lounge.webp", alt: "Bright, calm patient lounge with soft seating and plants", title: "A calm place to wait", topic: "practice", big: true },
-  { src: "/images/about/dr-sandhu-portrait.webp", alt: "Dr. Sophia Sandhu in her white coat, smiling", title: "Dr. Sophia Sandhu, MD, FAAD", topic: "care" },
-  { src: "/images/gallery/dewy-skin.webp", alt: "Woman with dewy, glowing skin resting her chin on her hand", title: "Subtle, natural results", topic: "skin" },
-  { src: "/images/about/treatment-room.webp", alt: "Clean, modern treatment room with a white exam chair", title: "Private treatment rooms", topic: "practice" },
-  { src: "/images/about/consultation.webp", alt: "Patient talking with a dermatologist during a relaxed consultation", title: "Time to talk it through", topic: "care" },
-  { src: "/images/gallery/glow.webp", alt: "Close portrait of a woman with smooth, even skin", title: "Healthy, even skin", topic: "skin" },
-  { src: "/images/south-bay-pier.webp", alt: "South Bay pier stretching into the ocean at sunset", title: "Close to home", topic: "southbay", big: true },
-  { src: "/images/gallery/skincare-ritual.webp", alt: "Skincare jar, tube and serum on a marble tray", title: "Medical-grade skincare", topic: "practice" },
-  { src: "/images/services/acne/exam.webp", alt: "Dermatologist examining a patient's skin with a dermatoscope", title: "Careful skin exams", topic: "care" },
-  { src: "/images/services/rosacea/hero.webp", alt: "Woman with clear, calm skin touching her jaw", title: "Calm, clear skin", topic: "skin" },
-  { src: "/images/services/index/services-hero.webp", alt: "Bright clinic hallway with soft curtains", title: "A bright, modern clinic", topic: "practice" },
-  { src: "/images/services/teledermatology.webp", alt: "Patient on a video visit with a dermatologist", title: "Video visits from home", topic: "care" },
-  { src: "/images/testimonials-portrait.webp", alt: "Woman with smooth, radiant skin resting her cheek on her hand", title: "Confidence in your skin", topic: "skin", big: true },
-  { src: "/images/services/hair-loss/two.webp", alt: "Dermatologist reviewing a scalp image with a patient", title: "Hair and scalp care", topic: "care" },
-  { src: "/images/gallery/treatment-room.webp", alt: "Calm treatment room with a skincare bed", title: "Comfort first", topic: "practice" },
-  { src: "/images/services/cysts/hero.webp", alt: "Smiling woman with fresh, healthy skin", title: "Feeling like yourself", topic: "skin" },
-  { src: "/images/services/hidradenitis-suppurativa/two.webp", alt: "Doctor and patient talking in a bright office", title: "Care that listens", topic: "care" },
-  { src: "/images/services/index/rashes-hero.webp", alt: "Woman with soft, healthy skin in natural light", title: "Comfortable skin", topic: "skin" },
+  { src: p("reception-sign"), alt: "Oceanside Dermatology & Aesthetics sign on the white reception wall", title: "Welcome to Oceanside", topic: "practice" },
+  { src: p("exam-welcome"), alt: "Dr. Sophia Sandhu smiling while talking with a patient in an exam room", title: "A warm welcome", topic: "care" },
+  { src: p("waiting-room"), alt: "Bright waiting room with curved wooden chairs, a round table and a pendant light", title: "Our waiting room", topic: "practice" },
+  { src: p("front-desk-team"), alt: "Front desk team member smiling at the reception desk", title: "Friendly front desk", topic: "team" },
+  { src: p("skin-exam"), alt: "Dr. Sandhu examining a patient's skin near his ear", title: "Careful skin exams", topic: "care" },
+  { src: p("reception"), alt: "Reception desk with an olive tree and the Sophia Sandhu M.D. name", title: "Reception", topic: "practice" },
+  { src: p("team-hallway"), alt: "Dr. Sandhu laughing with a team member in the hallway", title: "A close-knit team", topic: "team" },
+  { src: p("exam-conversation"), alt: "Dr. Sandhu explaining a treatment plan to a patient", title: "Time to talk it through", topic: "care" },
+  { src: p("waiting-room-2"), alt: "Waiting room with natural light and gold-accented chairs", title: "Calm and bright", topic: "practice" },
+  { src: p("scalp-check"), alt: "Dr. Sandhu checking a smiling patient's scalp", title: "Hair and scalp care", topic: "care" },
+  { src: p("front-desk-call"), alt: "Team member answering the phone at the front desk", title: "Here to help you book", topic: "team" },
+  { src: p("skin-exam-face"), alt: "Dr. Sandhu examining a patient's face with a dermatoscope", title: "A closer look", topic: "care" },
+  { src: p("front-desk"), alt: "Front desk with the Oceanside sign and a team member at work", title: "Our front desk", topic: "practice" },
+  { src: p("treatment-explained"), alt: "Dr. Sandhu holding a treatment device and smiling in the exam room", title: "Clear explanations", topic: "care" },
+  { src: p("team-chat"), alt: "Dr. Sandhu and a team member reviewing a tablet together", title: "Planning your visit", topic: "team" },
+  { src: p("skin-check"), alt: "Dr. Sandhu, wearing gloves, checking a relaxed patient's skin", title: "Gentle, thorough care", topic: "care" },
+  { src: p("waiting-room-tall"), alt: "Waiting room seating under a crystal pendant light", title: "Comfort from the start", topic: "practice" },
+  { src: p("exam-plan"), alt: "Dr. Sandhu talking with a patient in a bright exam room", title: "Care that listens", topic: "care" },
+  { src: p("front-desk-sign"), alt: "Reception desk under the Oceanside Dermatology & Aesthetics sign", title: "Easy check-in", topic: "team" },
+  { src: p("skin-check-close"), alt: "Patient smiling during a skin check with Dr. Sandhu", title: "Relaxed visits", topic: "care" },
+  { src: p("reception-wide"), alt: "Reception area with tall windows and an olive tree", title: "Light-filled reception", topic: "practice" },
+  { src: p("team-hallway-tall"), alt: "Dr. Sandhu and a team member talking in the hallway", title: "Working together", topic: "team" },
+  { src: "/images/south-bay-pier.webp", alt: "South Bay pier stretching into the ocean at sunset", title: "Close to home", topic: "southbay" },
   { src: "/images/palos-verdes-coast.webp", alt: "Palos Verdes coastline at sunset", title: "Serving the South Bay", topic: "southbay" },
-  { src: "/images/services/shingles/hero.webp", alt: "Dermatologist gently checking a smiling patient's face", title: "Gentle, thorough checks", topic: "care" },
-  { src: "/images/services/actinic-keratoses/two.webp", alt: "Smiling woman in a sun hat applying sunscreen", title: "Sun care, every day", topic: "skin" },
-  { src: "/images/services/vitiligo/two.webp", alt: "Dermatologist showing a patient results on a tablet", title: "Clear explanations", topic: "care" },
-  { src: "/images/services/melasma/two.webp", alt: "Woman with an even, glowing complexion in warm light", title: "An even complexion", topic: "skin" },
-  { src: "/images/services/pigmentary-disorders/hero.webp", alt: "Woman with smooth, healthy skin touching her cheek", title: "Long-term skin health", topic: "skin" },
 ];

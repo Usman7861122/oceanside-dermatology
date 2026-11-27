@@ -8,8 +8,8 @@ export const aboutHero = {
   lede: "Where high-quality, evidence-based medicine meets compassionate, individualized care.",
   description:
     "Meet Dr. Sophia Sandhu, MD, FAAD, a board-certified dermatologist in Torrance, CA. Harbor-UCLA Chief Resident with advanced training at UCSF, caring for the South Bay.",
-  image: "/images/about/hero-lounge.webp",
-  imageAlt: "Bright, calm waiting lounge with white chairs and soft daylight",
+  image: "/images/practice/waiting-room-wide.webp",
+  imageAlt: "Waiting room at Oceanside Dermatology & Aesthetics with curved wooden chairs and a pendant light",
 };
 
 export const doctor = {
@@ -57,8 +57,8 @@ export const credentials = {
 
 export const approach = {
   title: "Our approach to your skin",
-  image: "/images/about/consultation.webp",
-  imageAlt: "Dermatologist and patient talking through a skin concern at a bright consultation desk",
+  image: "/images/practice/exam-conversation.webp",
+  imageAlt: "Dr. Sophia Sandhu talking through a treatment plan with a patient",
   intro:
     "Our mission is to deliver exceptional, personalized dermatologic care with warmth, integrity and clinical excellence.",
   points: [
