@@ -53,12 +53,10 @@ import { testimonials, reviewsSummary } from "../../data/site";
         <Testimonials client:visible items={testimonials} />
       </div>
       <a
-        href={reviewsSummary.url}
-        target="_blank"
-        rel="noopener"
+        href="/reviews"
         class="mt-8 inline-flex items-center gap-2 border-b border-gold/50 pb-1 text-[0.85rem] text-white/85 transition-colors hover:border-gold hover:text-gold-soft"
       >
-        Read all {reviewsSummary.count} reviews on Google <span aria-hidden="true">→</span>
+        Read all {reviewsSummary.count} patient reviews <span aria-hidden="true">→</span>
       </a>
     </div>
   </div>

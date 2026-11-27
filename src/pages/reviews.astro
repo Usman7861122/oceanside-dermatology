@@ -1,0 +1,145 @@
+---
+// Reviews: Google rating summary, featured story, filterable wall of real Google reviews.
+import PageLayout from "../layouts/PageLayout.astro";
+import AppointmentButton from "../components/AppointmentButton.astro";
+import { googleSummary as g, featured, reviews, topics } from "../data/reviews";
+import { localFor } from "../data/local";
+
+const local = localFor("About", "about");
+const initials = (n: string) => n.split(/\s+/).map((p) => p[0]).join("").slice(0, 2).toUpperCase();
+const Stars = "★★★★★";
+---
+<PageLayout
+  title="Patient Reviews"
+  accent="5.0 Stars on Google"
+  metaTitle="Patient Reviews | Oceanside Dermatology & Aesthetics, Torrance, CA"
+  eyebrow="Reviews"
+  lede="Every one of our Google reviews is five stars. Here is what patients say, in their own words."
+  description="Read real Google reviews for Dr. Sophia Sandhu and Oceanside Dermatology & Aesthetics in Torrance, CA. Rated 5.0 stars by patients across the South Bay."
+  image="/images/reviews-hero.webp"
+  imageAlt="Woman with smooth, radiant skin resting her cheek on her hand"
+  position="right center"
+  local={local.banner}
+  veil="light"
+>
+  <!-- Rating summary -->
+  <section class="bg-white py-20 sm:py-28">
+    <div class="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-12 lg:gap-16">
+      <div class="rating-card relative overflow-hidden rounded-[var(--radius-photo)] border border-line bg-marble/60 p-10 text-center lg:col-span-4" data-reveal>
+        <span class="absolute left-0 top-0 h-px w-16 bg-gold" aria-hidden="true"></span>
+        <p class="m-0 text-[0.72rem] font-medium tracking-[0.22em] uppercase text-muted">Google rating</p>
+        <p class="m-0 mt-4 font-display text-[5.5rem] leading-none text-ink">{g.rating}</p>
+        <p class="m-0 mt-3 text-[1.5rem] tracking-[0.2em] text-gold" aria-label="5 out of 5 stars">{Stars}</p>
+        <p class="m-0 mt-3 text-body">{g.count} reviews · all five stars</p>
+        <ul class="m-0 mt-8 list-none space-y-2 p-0 text-left" aria-label="Rating breakdown">
+          {[5, 4, 3, 2, 1].map((n) => (
+            <li class="flex items-center gap-3 text-[0.8rem] text-muted">
+              <span class="w-3">{n}</span>
+              <span class="h-1.5 flex-1 overflow-hidden rounded-full bg-ink/10"><span class="block h-full rounded-full bg-gold" style={`width:${n === 5 ? 100 : 0}%`}></span></span>
+              <span class="w-6 text-right">{n === 5 ? g.count : 0}</span>
+            </li>
+          ))}
+        </ul>
+        <a href={g.url} target="_blank" rel="noopener" class="btn-line mt-8 w-full justify-center">Read on Google <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <div class="lg:col-span-8">
+        <p class="eyebrow" data-reveal><span class="rule-gold"></span>What Patients Mention</p>
+        <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">Trusted by <em class="text-gold">the South Bay</em></h2>
+        <p class="mt-6 max-w-2xl text-[1.05rem] text-body" data-reveal style="--reveal-delay:160ms">Patients come back to the same things: a doctor who listens, clear explanations, a calm and modern office, and short waits.</p>
+        <ul class="m-0 mt-10 grid list-none gap-px overflow-hidden rounded-[var(--radius-photo)] border border-ink/10 bg-ink/10 p-0 sm:grid-cols-2 lg:grid-cols-4">
+          {g.mentions.map((m, i) => (
+            <li class="mention group relative bg-white px-6 py-7" data-reveal style={`--reveal-delay:${90 * i}ms`}>
+              <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+              <span class="block font-display text-[2.2rem] leading-none text-ink transition-colors duration-500 group-hover:text-gold">{m.count}</span>
+              <span class="mt-3 block text-[0.95rem] text-body">{m.label}</span>
+              <span class="mt-1 block text-[0.68rem] tracking-[0.18em] uppercase text-muted">Mentions</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured story -->
+  <section class="marble-deep relative isolate overflow-hidden py-24 text-white sm:py-32">
+    <div aria-hidden="true" class="pointer-events-none absolute -left-40 top-1/4 -z-10 h-[30rem] w-[30rem] rounded-full bg-gold/10 blur-3xl"></div>
+    <div class="mx-auto max-w-5xl px-5 text-center sm:px-8">
+      <div class="flex justify-center"><p class="eyebrow justify-center !text-gold-soft" data-reveal><span class="rule-gold"></span>A Patient Story<span class="rule-gold"></span></p></div>
+      <p class="m-0 mt-8 font-display text-[4rem] leading-none text-gold" aria-hidden="true" data-reveal>“</p>
+      <blockquote class="m-0" data-reveal style="--reveal-delay:120ms">
+        <p class="font-display text-[1.45rem] leading-[1.55] text-white/90 sm:text-[1.75rem]">{featured.text}</p>
+        <footer class="mt-10 flex items-center justify-center gap-4">
+          <span class="grid h-12 w-12 place-items-center rounded-full border border-gold/60 font-display text-lg text-gold">{initials(featured.name)}</span>
+          <span class="text-left"><span class="block text-white">{featured.name}</span><span class="block text-[0.72rem] tracking-[0.18em] uppercase text-gold-soft">{Stars} · Google review</span></span>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Review wall -->
+  <section id="all-reviews" class="marble-light py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="grid gap-6 lg:grid-cols-12 lg:items-end">
+        <div class="lg:col-span-7">
+          <p class="eyebrow" data-reveal><span class="rule-gold"></span>In Their Words</p>
+          <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">Every review, <em class="text-gold">five stars</em></h2>
+        </div>
+        <p class="text-body lg:col-span-5" data-reveal style="--reveal-delay:160ms">Real Google reviews, shown exactly as written. Choose a topic to find stories like yours.</p>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-2.5" role="group" aria-label="Filter reviews by topic" data-reveal>
+        {topics.map((t, i) => (
+          <button type="button" class={`review-filter rounded-[3px] border px-4 py-2 text-[0.85rem] transition-colors ${i === 0 ? "is-active" : ""}`} data-filter={t.id} aria-pressed={i === 0 ? "true" : "false"}>{t.label}</button>
+        ))}
+      </div>
+
+      <div class="review-wall mt-10 columns-1 gap-5 md:columns-2 lg:columns-3">
+        {reviews.map((r) => (
+          <article class="review group relative mb-5 break-inside-avoid overflow-hidden rounded-[var(--radius-photo)] border border-line bg-white p-7" data-topics={r.topics.join(" ")}>
+            <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+            <div class="flex items-center justify-between gap-4">
+              <div class="flex items-center gap-3">
+                <span class="grid h-11 w-11 place-items-center rounded-full bg-ink font-display text-[1rem] text-gold-soft">{initials(r.name)}</span>
+                <span><span class="block text-ink">{r.name}</span><span class="block text-[0.68rem] tracking-[0.18em] uppercase text-muted">Google review</span></span>
+              </div>
+              <span class="text-[0.95rem] tracking-[0.12em] text-gold" aria-label="5 out of 5 stars">{Stars}</span>
+            </div>
+            <p class="m-0 mt-5 whitespace-pre-line text-[0.98rem] leading-relaxed text-body">{r.text}</p>
+          </article>
+        ))}
+      </div>
+
+      <div class="mt-14 flex flex-col items-center gap-5 text-center" data-reveal>
+        <p class="m-0 max-w-xl text-body">Reviews are shown with first names and last initials only.</p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <AppointmentButton />
+          <a href={g.url} target="_blank" rel="noopener" class="btn-line">All reviews on Google <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</PageLayout>
+
+<script>
+  // Topic filter for the review wall.
+  const buttons = document.querySelectorAll<HTMLButtonElement>(".review-filter");
+  const cards = document.querySelectorAll<HTMLElement>(".review");
+  buttons.forEach((btn) =>
+    btn.addEventListener("click", () => {
+      const f = btn.dataset.filter!;
+      buttons.forEach((b) => { b.classList.toggle("is-active", b === btn); b.setAttribute("aria-pressed", String(b === btn)); });
+      cards.forEach((c) => { c.hidden = f !== "all" && !(c.dataset.topics || "").split(" ").includes(f); });
+    }),
+  );
+</script>
+
+<style>
+  .review-filter { border-color: rgb(15 34 41 / 0.15); background: rgb(255 255 255 / 0.7); color: var(--color-ink); }
+  .review-filter:hover { border-color: var(--color-gold); color: var(--color-gold); }
+  .review-filter.is-active { background: var(--color-ink); border-color: var(--color-ink); color: #fff; }
+  .review { transition: transform 0.6s var(--ease-tide), box-shadow 0.6s var(--ease-tide), border-color 0.6s var(--ease-tide); }
+  .review:hover { transform: translateY(-4px); border-color: rgb(236 143 46 / 0.45); box-shadow: 0 30px 60px -36px rgb(15 34 41 / 0.35); }
+  .rating-card { transition: border-color 0.6s var(--ease-tide), box-shadow 0.6s var(--ease-tide); }
+  .rating-card:hover { border-color: rgb(236 143 46 / 0.45); box-shadow: 0 30px 60px -36px rgb(15 34 41 / 0.3); }
+  @media (prefers-reduced-motion: reduce) { .review:hover { transform: none; } }
+</style>

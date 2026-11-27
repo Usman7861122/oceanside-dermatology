@@ -1,0 +1,56 @@
+// Real Google reviews for Oceanside Dermatology & Aesthetics (copied verbatim from Google Maps, Nov 2026).
+// Names are shortened to first name and last initial. Every review is 5 stars.
+export type Topic = "family" | "cosmetic" | "growths" | "conditions" | "experience";
+export const topics: { id: Topic | "all"; label: string }[] = [
+  { id: "all", label: "All reviews" },
+  { id: "family", label: "Children & family" },
+  { id: "cosmetic", label: "Cosmetic & laser" },
+  { id: "growths", label: "Skin cancer & growths" },
+  { id: "conditions", label: "Hair & skin conditions" },
+  { id: "experience", label: "Office & experience" },
+];
+
+export const googleSummary = {
+  rating: "5.0",
+  count: 28,
+  url: "https://www.google.com/maps/place/Oceanside+Dermatology+%26+Aesthetics:+Sophia+Sandhu,+MD/@33.8247275,-118.3502904,17z/data=!4m8!3m7!1s0x80dd4b171bc7e821:0xfbbfc58738e5b2fb!8m2!3d33.8247275!4d-118.3502904!9m1!1b1",
+  // "What people mention" topics shown by Google.
+  mentions: [
+    { label: "Fine physician", count: 4 },
+    { label: "Short wait times", count: 3 },
+    { label: "Friendly atmosphere", count: 3 },
+    { label: "Proper treatments", count: 2 },
+  ],
+};
+
+export const featured = {
+  name: "Tony C.",
+  text: "Incredibly experience! My son is non verbal autistic. So Dr. Appointments and providers can be challenging. I was able to make an appointment on their website but also called to verify. The front desk was very friendly and professional, she confirmed quickly. The appointment could not have gone any better. I arrived early to fill out paperwork. We were greeted in a nice clean and welcoming waiting area. I filled out paperwork on an IPad (always nice). We didn't wait long and were taken to a nice clean exam room. Dr. Sandhu was incredibly nice with my son, she explained everything clearly and in depth. They sent my son's prescription to my pharmacy, and also gave him some stickers! Best of all he was NOT upset or crying. We have a follow up next month and I have no worries.",
+};
+
+export const reviews: { name: string; text: string; topics: Topic[] }[] = [
+  { name: featured.name, topics: ["family", "experience"], text: featured.text },
+  { name: "Jane R.", topics: ["cosmetic"], text: "I went to Oceanside Dermatology & Aesthetics and couldn’t be more impressed. The front office staff were super friendly and knowledgeable. Dr. Sandhu is amazing, so lovely and responsive to any questions or concerns.  I had Ultra Clear laser treatment and the results are phenomenal. I had a pretty advanced setting to deal with sunspots and wrinkles, lines around my lips and dreaded marionette lines. This treatment builds collagen and elastin and Dr Sandhu actually found more areas she thought needed help. Will post a photo in a few months! Thank you Dr Sandhu, will definitely be going back." },
+  { name: "Rodolfo L.", topics: ["conditions", "growths"], text: "Dr. Sophia Sandi is very knowledgeable, professional, and someone I truly trust. She helped me with my underarm cyst and melasma, and I’m very happy with the care I received. I highly recommend her to anyone looking for a knowledgeable and trustworthy dermatologist!" },
+  { name: "Veronica S.", topics: ["family", "conditions"], text: "Personally, I had a great experience with Dr. Sophia Sandhu. She helped me with hair loss that I had been battling for years. Nothing seemed to help until she prescribed a compounded minoxidil treatment. After just two months, I started seeing regrowth all over my scalp!\nShe has also been wonderful with my 8-year-old son. He had two warts on the bottom of his foot, and Dr. Sandhu’s calm, reassuring demeanor immediately put him at ease. She explained everything she was going to do before freezing the warts, and he didn’t even flinch. He also had a small cyst on his chin, which she treated with a cortisone injection. He said he didn’t feel a thing! In fact, two days later he asked when we could go back because he thought the visit was fun.\nWe returned six weeks later, and the cyst on his chin was completely gone. She treated the warts again, and once again he did great. It’s so nice to have one dermatologist the whole family can see. I even plan to send my husband for his annual skin checks with her. I highly recommend Dr. Sandhu!" },
+  { name: "Kathy B.", topics: ["experience"], text: "Very competent front office and assistant! Dr Sundha is a fine physician and took care of several concerns quickly and competently. A big plus is that she just opened her office in September and she doesn’t have a lot of patients yet so the wait for an appointment is minimal." },
+  { name: "Vivian M.", topics: ["experience"], text: "Highly recommend this place! I called first thing Monday morning and was able to get a same day appointment. The service was fast and efficient, and they were able to resolve my issues. Very happy with my experience!" },
+  { name: "Ruth R.", topics: ["cosmetic"], text: "Dr Sandhu has skilled  hands snd a beautiful heart.  With her expertise she erased years of wear and tear from my face. Dr Sandhu is the absolute best." },
+  { name: "David C.", topics: ["growths"], text: "I am so glad I have found Dr Sandhu through a friend’s recommendation.  The diligent care shown resulted in discovery of a basal cell carcinoma growth in its early stages and its removal.  Dr Sandhu is patient, thorough and truly cares about skin health.  Very grateful to have found her and I will never go back to my old dermatologist" },
+  { name: "Kris W.", topics: ["experience"], text: "I don’t usually write reviews, but I felt compelled to for Dr. Sandhu and her team. From the moment you walk in, you feel welcomed and cared for. Dr. Sandhu takes the time to really listen, explain, and map out a plan that feels personalized and thoughtful. She doesn’t rush you through an appointment — she makes sure every question is answered and that you leave with clarity and confidence.\n\nWhat stood out most to me was how thorough she is while still being approachable and warm. She remembered details about me even though it had been years since my last visit, and that says a lot about her attentiveness. On top of that, her office is modern, clean, and well-run, and her staff is friendly and professional.\n\nIf you’re looking for a dermatologist who combines expertise, compassion, and attention to detail, Dr. Sandhu is exactly who you want to see. I’ve already recommended her to family, and I’ll continue to do so." },
+  { name: "Scott S.", topics: ["experience"], text: "Very good small practice.  Sophia and her team are easy to schedule and the office is very convenient.  Most importantly Sophia listens to you and takes the time to explain thoroughly her diagnosis with proper treatments.  One of the best IMHO, highly recommend!" },
+  { name: "Kevin E.", topics: ["experience"], text: "I had a great experience visiting the other day. It was my first time and the receptionist was very nice and made the process easy. Dr Sandu was professional and showed her empathy making me feel comfortable and cared. A great option if your looking for a dermatologist" },
+  { name: "Mirna R.", topics: ["growths", "experience"], text: "This was my first visit to a dermatologist ever and went in to have skin tags removed, and can confidently say it was such a great experience. From the moment I walked in, the staff was welcoming and made me feel comfortable. Sophia was very professional, kind, and easygoing, which immediately put me at ease. She explained the process clearly, answered all of my questions, and made sure I felt comfortable the entire time. The procedure itself was quick and much easier than I expected. I left feeling well taken care of and confident about the results. I would definitely recommend this dermatologist to anyone considering skin tag removal or any other skin concerns." },
+  { name: "Johnathan T.", topics: ["conditions", "experience"], text: "The facility is top notch and designed with aesthetic in mind. Reception and doctor are both very professional, inviting, and have your care in mind. I didn't wait long for my appointment and had a great experience with Dr. Sandu. She listened to my concerns, gave reasons (diet, lifestyle) on occurrence, and talked me through her recommended treatment. The entire time, I felt like I was talking to a longtime friend. I definitely recommend this facility for all your dermatological needs!" },
+  { name: "Anubha S.", topics: ["experience"], text: "I recently visited Dr. Sandhu’s office. It was a great experience - everyone there is so professional and personable. Dr. Sandhu has exceptional bedside manner. She listens patiently and takes the time to respond to your questions in detail. Came back well assured. Strongly recommend this office and Dr. Sandhu!" },
+  { name: "Greg Z.", topics: ["growths"], text: "Dr. Sandhu is fantastic at her craft! She addressed multiple skin cancer issues in past and none of the sites returned. Great bedside manner while also being very efficient. Highly recommend 🥇" },
+  { name: "Lori G.", topics: ["conditions", "experience"], text: "This was my first visit … I was in LA for a wedding and developed an infection . The office staff was extremely accommodating — and even allowed me to come earlier than my original appointment. When I arrived they had downloaded all of my information from Zocdoc and I was seen very shortly after my arrival. The office was clean and easy to find, and Dr. Sandhu was lovely— professional, thorough, pleasant, and efficient. She treated the infection, gave me antibiotics so that I didn’t have to go to a pharmacy and I was in and out in less than 30 minutes! Would highly recommend this practice!" },
+  { name: "Daniel E.", topics: ["experience"], text: "Great visit. The office is very clean and the front desk team were great and very helpful! It was my first time visiting this location and although there were some technical difficulties the front desk associates made the process seamless. Dr. Was very thorough, detail and timely. If needed to would go back and will be recommending" },
+  { name: "Matt A.", topics: ["experience"], text: "Excellent booking process through Zoc Doc, office very modern and great service, from front desk to the Dr they are all very good. Definitely love that it’s a more modern office and a Dr that knows the latest in skin. Definitely will go again." },
+  { name: "Karleen W.", topics: ["cosmetic"], text: "I just received my new fillers from Dr Sandu yesterday and was very happy to see the results.  Thank you Dr Sandu and thank you for my personal plan." },
+  { name: "Lilli S.", topics: ["experience"], text: "Excellent care, superbly clean office, exceptionally friendly staff. 10 out of 10 dermatologist office experience." },
+  { name: "Lea M.", topics: ["experience"], text: "Had a wonderful experience at Oceanside Dermatology. Everyone was so friendly and helpful." },
+  { name: "Dan T.", topics: ["experience"], text: "Doctor made me feel comfortable and it was a professional experience." },
+  { name: "R. A.", topics: ["experience"], text: "Excellent professional service." },
+  { name: "Patty G.", topics: ["experience"], text: "great experience!" },
+];

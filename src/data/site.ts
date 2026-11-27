@@ -32,7 +32,7 @@ export const nav = [
   { label: "About", href: "/about" },
   { label: "Services", href: "/#services" },
   { label: "Dr. Sandhu", href: "/dr-sophia-sandhu" },
-  { label: "Reviews", href: "/#testimonials" },
+  { label: "Reviews", href: "/reviews" },
   { label: "Gallery", href: "/#gallery" },
   { label: "Contact", href: "/#contact" },
 ];
@@ -85,7 +85,7 @@ export const journey = [
 // Do not edit review text. Add or swap reviews only with genuine ones.
 export const reviewsSummary = {
   rating: "5.0",
-  count: 27,
+  count: 28,
   source: "Google",
   url: "https://www.google.com/maps/place/Oceanside+Dermatology+%26+Aesthetics:+Sophia+Sandhu,+MD/@33.8247275,-118.3502904,17z/data=!4m8!3m7!1s0x80dd4b171bc7e821:0xfbbfc58738e5b2fb!8m2!3d33.8247275!4d-118.3502904!9m1!1b1",
 };
