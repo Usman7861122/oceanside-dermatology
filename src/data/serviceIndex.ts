@@ -26,7 +26,7 @@ export const categoryContent: Record<string, {
     description:
       "Board-certified medical dermatology in Torrance, CA: acne, eczema, psoriasis, rosacea, hair loss, rashes, skin infections, growths and skin cancer screenings.",
     image: "/images/services/index/medical-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope",
+    imageAlt: "Dr. Sophia Sandhu in her Torrance exam room",
     introTitle: "Comprehensive care for",
     introAccent: "all skin types",
     intro: [
@@ -41,7 +41,7 @@ export const categoryContent: Record<string, {
     description:
       "Board-certified surgical dermatology in Torrance, CA: skin cancer treatment, excisions, electrodesiccation and curettage, cryosurgery, cyst and lipoma removal and earlobe repair.",
     image: "/images/services/index/surgical-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu explaining a treatment in her exam room",
+    imageAlt: "Reception desk at Oceanside Dermatology & Aesthetics",
     introTitle: "Expert surgical dermatology",
     introAccent: "you can trust",
     intro: [
@@ -56,7 +56,7 @@ export const categoryContent: Record<string, {
     description:
       "Cosmetic dermatology in Torrance, CA: Botox and Dysport, fillers, Sculptra, lasers, IPL, microneedling, peels, scar treatment and growth removal by a board-certified dermatologist.",
     image: "/images/services/index/cosmetic-hero.webp",
-    imageAlt: "Reception desk with the Sophia Sandhu M.D. name",
+    imageAlt: "Light-filled reception at Oceanside Dermatology & Aesthetics",
     introTitle: "Natural beauty,",
     introAccent: "thoughtfully enhanced",
     intro: [
@@ -71,7 +71,7 @@ export const categoryContent: Record<string, {
     description:
       "Pediatric dermatology in Torrance, CA for babies, children and teens: eczema, acne, psoriasis, rashes, warts, molluscum, impetigo, fungal infections and alopecia areata.",
     image: "/images/services/index/pediatric-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu smiling in her Torrance exam room",
+    imageAlt: "Bright waiting room at Oceanside Dermatology & Aesthetics",
     introTitle: "Expert skin care",
     introAccent: "at every age",
     intro: [
@@ -86,7 +86,7 @@ export const categoryContent: Record<string, {
     description:
       "Teledermatology video visits with a board-certified dermatologist serving Torrance, CA and the South Bay, for new rashes, acne, eczema and follow-up care.",
     image: "/images/services/index/tele-hero.webp",
-    imageAlt: "Front desk at Oceanside Dermatology & Aesthetics",
+    imageAlt: "Front desk team member at Oceanside Dermatology & Aesthetics",
     introTitle: "Skip the",
     introAccent: "waiting room",
     intro: [
@@ -108,7 +108,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for acne, rosacea, eczema, psoriasis, contact, perioral and seborrheic dermatitis, and hidradenitis suppurativa in Torrance, CA.",
     image: "/images/services/index/acne-inflammation-hero.webp",
-    imageAlt: "Close-up of calm, smooth facial skin",
+    imageAlt: "Reception area with the Oceanside sign",
     intro: [
       "Many common skin problems share one root: inflammation. It can show up as breakouts, redness, itchy rashes or scaly patches, and it often comes and goes in flares.",
       "Dr. Sandhu diagnoses the exact cause, then builds a plan that calms your skin now and helps keep it calm over time.",
@@ -128,7 +128,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for melasma, hyperpigmentation, vitiligo and other pigmentary disorders in Torrance, CA, with care for all skin types, including skin of color.",
     image: "/images/services/index/pigment-hero.webp",
-    imageAlt: "Woman with radiant, even skin gently touching her face",
+    imageAlt: "Dr. Sophia Sandhu smiling in her exam room",
     intro: [
       "Pigment gives skin its color. When there is too much, too little, or it is uneven, you may see dark spots, patches or white areas.",
       "Dr. Sandhu's experience at Harbor-UCLA and UCSF covered all skin types, including skin of color. She finds the cause first, then chooses care that is safe for your skin.",
@@ -148,7 +148,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for hair loss (alopecia), nail disorders and nail fungus in Torrance, CA, including PRP for hair loss.",
     image: "/images/services/index/hair-nails-hero.webp",
-    imageAlt: "Woman gracefully showing her hands with smooth skin and natural nails",
+    imageAlt: "Reception area at Oceanside Dermatology & Aesthetics",
     intro: [
       "Hair and nails grow from the skin, so many hair and nail problems are best treated by a dermatologist.",
       "Dr. Sandhu finds the cause of thinning hair, bald patches or changing nails, then builds a plan to help them grow back healthy.",
@@ -168,7 +168,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for rashes, hives, allergic reactions, itching, dry skin, excessive sweating, folliculitis and insect bites in Torrance, CA.",
     image: "/images/services/index/rashes-hero.webp",
-    imageAlt: "Calm woman with clear, even skin against a white background",
+    imageAlt: "Waiting room with curved wooden chairs",
     intro: [
       "Red, itchy or irritated skin can have many causes, from allergies and dry air to infections and sweat.",
       "Dr. Sandhu finds what is behind your symptoms, brings quick relief and helps keep them from coming back. New rashes can also be checked by video visit.",
@@ -188,7 +188,7 @@ export const groupContent: Record<string, {
     description:
       "Treatment for warts, herpes, shingles, fungal infections and bacterial skin infections in Torrance, CA, for adults and children.",
     image: "/images/services/index/infections-hero.webp",
-    imageAlt: "Woman with clear, healthy skin resting her hand on her cheek",
+    imageAlt: "Dr. Sophia Sandhu explaining a treatment",
     intro: [
       "Skin infections are caused by microbes: viruses, fungi and bacteria. They can cause rashes, blisters, bumps and sores.",
       "Dr. Sandhu confirms the cause so treatment works the first time, and helps you keep the infection from spreading or coming back.",
@@ -208,7 +208,7 @@ export const groupContent: Record<string, {
     description:
       "Board-certified skin cancer treatment in Torrance, CA for basal cell carcinoma, squamous cell carcinoma, melanoma and precancerous lesions.",
     image: "/images/services/index/surgical-skin-cancer-hero.webp",
-    imageAlt: "Bright waiting room at Oceanside Dermatology & Aesthetics",
+    imageAlt: "Front desk at Oceanside Dermatology & Aesthetics",
     intro: [
       "Skin cancer is the abnormal growth of skin cells, often caused by sun exposure. Found early, most skin cancers are highly treatable.",
       "Dr. Sandhu treats skin cancers and precancers with precision, prioritizing both a complete cure and a natural-looking result.",
@@ -228,7 +228,7 @@ export const groupContent: Record<string, {
     description:
       "Board-certified dermatologic procedures in Torrance, CA: excisions, electrodesiccation and curettage, cryosurgery, and incision and drainage.",
     image: "/images/services/index/surgical-procedures-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu explaining treatment options",
+    imageAlt: "Dr. Sophia Sandhu in her exam room",
     intro: [
       "Most skin procedures are quick, done right in our office under local numbing, with little downtime.",
       "Dr. Sandhu chooses the procedure that best fits your diagnosis and the area, always with an eye on a natural-looking result.",
@@ -248,7 +248,7 @@ export const groupContent: Record<string, {
     description:
       "Board-certified removal of benign growths, cysts and lipomas, and earlobe repair in Torrance, CA.",
     image: "/images/services/index/surgical-removals-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu smiling in her exam room",
+    imageAlt: "Reception area with the Oceanside sign",
     intro: [
       "Harmless growths, cysts and lumps can still be uncomfortable or affect how you feel about your skin.",
       "Dr. Sandhu removes them safely in the office and repairs torn earlobes, with careful technique for a neat result.",
@@ -268,7 +268,7 @@ export const groupContent: Record<string, {
     description:
       "Skin cancer screenings and treatment of actinic keratoses, moles, skin tags, cysts, lipomas, angiomas, seborrheic keratoses, keloids and scars in Torrance, CA.",
     image: "/images/services/index/growths-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu talking in her exam room",
+    imageAlt: "Bright waiting room at Oceanside Dermatology & Aesthetics",
     intro: [
       "Most skin growths are harmless, but some need a closer look. Found early, most skin cancers are highly treatable.",
       "Dr. Sandhu checks every spot carefully and removes growths with precision, prioritizing both health and a natural-looking result.",
@@ -288,7 +288,7 @@ export const groupContent: Record<string, {
     description:
       "Botox, Dysport, Restylane and RHA fillers and Sculptra in Torrance, CA by a board-certified dermatologist.",
     image: "/images/services/index/cosmetic-injectables-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu smiling in the exam room",
+    imageAlt: "Oceanside Dermatology & Aesthetics sign in the reception area",
     intro: [
       "Injectables are non-surgical treatments placed into the skin or muscles to improve appearance.",
       "Dr. Sandhu uses a less-is-more approach for results that look like you, only refreshed.",
@@ -308,7 +308,7 @@ export const groupContent: Record<string, {
     description:
       "Laser and light treatments in Torrance, CA: M22 Stellar IPL, UltraClear, ResurFX, Q-Switched Nd:YAG and Multi-Spot Nd:YAG.",
     image: "/images/services/index/cosmetic-lasers-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu talking in her exam room",
+    imageAlt: "Reception desk at Oceanside Dermatology & Aesthetics",
     intro: [
       "Lasers and light devices are advanced tools that use targeted light energy to treat various skin concerns.",
       "From redness and sun damage to scars and wrinkles, we choose the right device for your skin, including options safe for skin of color.",
@@ -328,7 +328,7 @@ export const groupContent: Record<string, {
     description:
       "Skin rejuvenation in Torrance, CA: fractional laser resurfacing, medical-grade microneedling, chemical peels, acne scar and scar treatment.",
     image: "/images/services/index/cosmetic-rejuvenation-hero.webp",
-    imageAlt: "Waiting room with curved wooden chairs",
+    imageAlt: "Dr. Sophia Sandhu smiling in her exam room",
     intro: [
       "Rejuvenation treatments improve texture, tone, fine lines and scars by renewing the skin.",
       "Dr. Sandhu combines treatments into a plan that fits your skin and your schedule.",
@@ -348,7 +348,7 @@ export const groupContent: Record<string, {
     description:
       "Laser and light treatment of sun spots, rosacea, redness, facial and leg veins, and tattoo removal in Torrance, CA.",
     image: "/images/services/index/cosmetic-spots-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu explaining treatment options",
+    imageAlt: "Waiting room at Oceanside Dermatology & Aesthetics",
     intro: [
       "Brown spots, redness and visible vessels can make skin look tired or uneven.",
       "Laser and light treatments target pigment and blood vessels for a clearer, more even complexion.",
@@ -368,7 +368,7 @@ export const groupContent: Record<string, {
     description:
       "Cosmetic removal of sebaceous hyperplasia, skin tags, moles, seborrheic keratoses, dermatosis papulosa nigra and angiomas in Torrance, CA.",
     image: "/images/services/index/cosmetic-growths-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu smiling in her exam room",
+    imageAlt: "Reception area with the Oceanside sign",
     intro: [
       "Safe removal of non-cancerous skin lesions for cosmetic or comfort reasons.",
       "Dr. Sandhu checks every growth first, then removes it with the gentlest effective method.",
@@ -408,7 +408,7 @@ export const groupContent: Record<string, {
     description:
       "Pediatric care for warts, molluscum, impetigo and fungal infections in Torrance, CA.",
     image: "/images/services/index/pediatric-infections-hero.webp",
-    imageAlt: "Waiting room with curved wooden chairs",
+    imageAlt: "Dr. Sophia Sandhu and a team member reviewing a tablet",
     intro: [
       "Skin infections and growths are very common in children and often spread easily.",
       "Dr. Sandhu chooses child-friendly treatments and helps stop the spread at home and school.",
