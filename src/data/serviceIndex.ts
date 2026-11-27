@@ -49,6 +49,51 @@ export const categoryContent: Record<string, {
       "Dr. Sandhu performs all surgical procedures with precision and care, prioritizing both medical outcomes and natural cosmetic results.",
     ],
   },
+  "cosmetic-dermatology": {
+    title: "Cosmetic Dermatology",
+    accent: "in Torrance, CA",
+    lede: "Less is more. Natural beauty, thoughtfully enhanced.",
+    description:
+      "Cosmetic dermatology in Torrance, CA: Botox and Dysport, fillers, Sculptra, lasers, IPL, microneedling, peels, scar treatment and growth removal by a board-certified dermatologist.",
+    image: "/images/services/index/cosmetic-hero.webp",
+    imageAlt: "Woman with natural, radiant skin",
+    introTitle: "Natural beauty,",
+    introAccent: "thoughtfully enhanced",
+    intro: [
+      "Our cosmetic dermatology philosophy centers around the belief that less is more. We are dedicated to helping you age gracefully by enhancing your natural beauty, not altering it.",
+      "Dr. Sandhu creates individualized cosmetic treatment plans designed to bring out the best version of you.",
+    ],
+  },
+  "pediatric-dermatology": {
+    title: "Pediatric Dermatology",
+    accent: "in Torrance, CA",
+    lede: "Gentle, board-certified care from newborns to teens.",
+    description:
+      "Pediatric dermatology in Torrance, CA for babies, children and teens: eczema, acne, psoriasis, rashes, warts, molluscum, impetigo, fungal infections and alopecia areata.",
+    image: "/images/services/index/pediatric-hero.webp",
+    imageAlt: "Parent and child at a gentle dermatology visit",
+    introTitle: "Expert skin care",
+    introAccent: "at every age",
+    intro: [
+      "At Oceanside Dermatology, we proudly care for the entire family and invite you to bring your loved ones.",
+      "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults, offering board-certified expertise tailored to every stage of life.",
+    ],
+  },
+  "teledermatology": {
+    title: "Teledermatology",
+    accent: "Video Visits from Home",
+    lede: "Secure video visits with a board-certified dermatologist, from home.",
+    description:
+      "Teledermatology video visits with a board-certified dermatologist serving Torrance, CA and the South Bay, for new rashes, acne, eczema and follow-up care.",
+    image: "/images/services/index/tele-hero.webp",
+    imageAlt: "Patient talking with her dermatologist on a video call at home",
+    introTitle: "Skip the",
+    introAccent: "waiting room",
+    intro: [
+      "Get expert skin care from the comfort of your home. Our teledermatology services let you consult with a board-certified dermatologist through secure, virtual appointments.",
+      "Whether you need help with a new rash, acne, eczema or follow-up care, we provide fast, effective solutions tailored to your needs.",
+    ],
+  },
 };
 
 export const groupContent: Record<string, {
@@ -212,6 +257,166 @@ export const groupContent: Record<string, {
     stats: [
       { value: "3", label: "Services offered" },
       { value: "In office", label: "Under local numbing" },
+    ],
+  },
+  "medical-dermatology/growths-and-skin-cancer": {
+    title: "Growths & Skin Cancer",
+    accent: "Care in Torrance, CA",
+    headTitle: "Peace of mind,",
+    headAccent: "early detection",
+    lede: "Skin cancer screenings and expert care for moles, growths, cysts and scars.",
+    description:
+      "Skin cancer screenings and treatment of actinic keratoses, moles, skin tags, cysts, lipomas, angiomas, seborrheic keratoses, keloids and scars in Torrance, CA.",
+    image: "/images/services/index/growths-hero.webp",
+    imageAlt: "Woman protecting her skin from the sun",
+    intro: [
+      "Most skin growths are harmless, but some need a closer look. Found early, most skin cancers are highly treatable.",
+      "Dr. Sandhu checks every spot carefully and removes growths with precision, prioritizing both health and a natural-looking result.",
+    ],
+    approach: "Prevention, education and early detection are at the heart of our practice.",
+    stats: [
+      { value: "10", label: "Conditions treated" },
+      { value: "Head to toe", label: "Skin cancer screenings" },
+    ],
+  },
+  "cosmetic-dermatology/injectables": {
+    title: "Injectables",
+    accent: "in Torrance, CA",
+    headTitle: "Refreshed,",
+    headAccent: "never changed",
+    lede: "Botox and Dysport, hyaluronic acid fillers and Sculptra, with a natural touch.",
+    description:
+      "Botox, Dysport, Restylane and RHA fillers and Sculptra in Torrance, CA by a board-certified dermatologist.",
+    image: "/images/services/index/cosmetic-injectables-hero.webp",
+    imageAlt: "Woman with a soft, natural, refreshed look",
+    intro: [
+      "Injectables are non-surgical treatments placed into the skin or muscles to improve appearance.",
+      "Dr. Sandhu uses a less-is-more approach for results that look like you, only refreshed.",
+    ],
+    approach: "Our cosmetic philosophy: less is more.",
+    stats: [
+      { value: "3", label: "Treatments offered" },
+      { value: "Natural", label: "Less-is-more results" },
+    ],
+  },
+  "cosmetic-dermatology/lasers-and-light": {
+    title: "Lasers & Light",
+    accent: "in Torrance, CA",
+    headTitle: "Clearer skin,",
+    headAccent: "in a new light",
+    lede: "M22 Stellar IPL, UltraClear, ResurFX and Nd:YAG lasers for tone, texture, redness and pigment.",
+    description:
+      "Laser and light treatments in Torrance, CA: M22 Stellar IPL, UltraClear, ResurFX, Q-Switched Nd:YAG and Multi-Spot Nd:YAG.",
+    image: "/images/services/index/cosmetic-lasers-hero.webp",
+    imageAlt: "Woman with clear, even skin tone",
+    intro: [
+      "Lasers and light devices are advanced tools that use targeted light energy to treat various skin concerns.",
+      "From redness and sun damage to scars and wrinkles, we choose the right device for your skin, including options safe for skin of color.",
+    ],
+    approach: "Our cosmetic philosophy: less is more.",
+    stats: [
+      { value: "5", label: "Devices" },
+      { value: "All skin types", label: "Including skin of color" },
+    ],
+  },
+  "cosmetic-dermatology/skin-rejuvenation": {
+    title: "Skin Rejuvenation",
+    accent: "in Torrance, CA",
+    headTitle: "Smoother,",
+    headAccent: "brighter skin",
+    lede: "Fractional laser, microneedling, chemical peels and scar treatment.",
+    description:
+      "Skin rejuvenation in Torrance, CA: fractional laser resurfacing, medical-grade microneedling, chemical peels, acne scar and scar treatment.",
+    image: "/images/services/index/cosmetic-rejuvenation-hero.webp",
+    imageAlt: "Woman with smooth, glowing skin",
+    intro: [
+      "Rejuvenation treatments improve texture, tone, fine lines and scars by renewing the skin.",
+      "Dr. Sandhu combines treatments into a plan that fits your skin and your schedule.",
+    ],
+    approach: "Our cosmetic philosophy: less is more.",
+    stats: [
+      { value: "5", label: "Treatments offered" },
+      { value: "Custom", label: "Plans for your skin" },
+    ],
+  },
+  "cosmetic-dermatology/spots-veins-and-redness": {
+    title: "Spots, Veins & Redness",
+    accent: "in Torrance, CA",
+    headTitle: "Even,",
+    headAccent: "calm skin tone",
+    lede: "Treatment for sun spots, redness, rosacea, visible veins and tattoos.",
+    description:
+      "Laser and light treatment of sun spots, rosacea, redness, facial and leg veins, and tattoo removal in Torrance, CA.",
+    image: "/images/services/index/cosmetic-spots-hero.webp",
+    imageAlt: "Woman with an even, calm complexion",
+    intro: [
+      "Brown spots, redness and visible vessels can make skin look tired or uneven.",
+      "Laser and light treatments target pigment and blood vessels for a clearer, more even complexion.",
+    ],
+    approach: "Our cosmetic philosophy: less is more.",
+    stats: [
+      { value: "4", label: "Treatments offered" },
+      { value: "Little", label: "Downtime" },
+    ],
+  },
+  "cosmetic-dermatology/growth-removal": {
+    title: "Growth Removal",
+    accent: "in Torrance, CA",
+    headTitle: "Smooth skin,",
+    headAccent: "simply",
+    lede: "Cosmetic removal of skin tags, moles, seborrheic keratoses, angiomas and more.",
+    description:
+      "Cosmetic removal of sebaceous hyperplasia, skin tags, moles, seborrheic keratoses, dermatosis papulosa nigra and angiomas in Torrance, CA.",
+    image: "/images/services/index/cosmetic-growths-hero.webp",
+    imageAlt: "Woman with smooth, clear skin",
+    intro: [
+      "Safe removal of non-cancerous skin lesions for cosmetic or comfort reasons.",
+      "Dr. Sandhu checks every growth first, then removes it with the gentlest effective method.",
+    ],
+    approach: "Our cosmetic philosophy: less is more.",
+    stats: [
+      { value: "6", label: "Growth types" },
+      { value: "Quick", label: "In-office removal" },
+    ],
+  },
+  "pediatric-dermatology/common-conditions": {
+    title: "Common Conditions",
+    accent: "in Children",
+    headTitle: "Happy,",
+    headAccent: "comfortable skin",
+    lede: "Eczema, acne, psoriasis, rashes and insect bites in babies, children and teens.",
+    description:
+      "Pediatric care for eczema, acne, psoriasis, rashes and insect bites in Torrance, CA.",
+    image: "/images/services/index/pediatric-common-hero.webp",
+    imageAlt: "Happy child with healthy skin",
+    intro: [
+      "Many skin conditions start in childhood, from baby eczema to teen acne.",
+      "Dr. Sandhu offers gentle, family-friendly care, with simple plans that fit your routine.",
+    ],
+    approach: "Board-certified expertise tailored to every stage of life.",
+    stats: [
+      { value: "5", label: "Conditions treated" },
+      { value: "Newborns", label: "To teens" },
+    ],
+  },
+  "pediatric-dermatology/infections-and-growths": {
+    title: "Infections & Growths",
+    accent: "in Children",
+    headTitle: "Gentle care,",
+    headAccent: "fast relief",
+    lede: "Warts, molluscum, impetigo and fungal infections in children.",
+    description:
+      "Pediatric care for warts, molluscum, impetigo and fungal infections in Torrance, CA.",
+    image: "/images/services/index/pediatric-infections-hero.webp",
+    imageAlt: "Child with clear, healthy skin",
+    intro: [
+      "Skin infections and growths are very common in children and often spread easily.",
+      "Dr. Sandhu chooses child-friendly treatments and helps stop the spread at home and school.",
+    ],
+    approach: "Board-certified expertise tailored to every stage of life.",
+    stats: [
+      { value: "4", label: "Conditions treated" },
+      { value: "Child-friendly", label: "Treatments" },
     ],
   },
 };

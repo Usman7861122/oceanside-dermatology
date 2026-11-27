@@ -5286,6 +5286,6500 @@ export const serviceContent: ServiceContent[] = [
       }
     ]
   },
+  {
+    "slug": "bacterial-infections",
+    "category": "medical-dermatology",
+    "group": "Skin Infections",
+    "name": "Bacterial Infections",
+    "localTopic": "Bacterial skin infection treatment",
+    "title": "Bacterial Skin Infection",
+    "accent": "Treatment in Torrance, CA",
+    "metaTitle": "Bacterial Skin Infection Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified treatment for bacterial skin infections in Torrance, CA, including impetigo, cellulitis and folliculitis, for adults and children.",
+    "lede": "Prompt treatment for impetigo, cellulitis and other bacterial skin infections.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/bacterial-infections/hero.webp",
+      "heroAlt": "Mother and daughter caring for their skin together at home",
+      "one": "/images/services/bacterial-infections/one.webp",
+      "oneAlt": "Woman applying a healing ointment to her arm",
+      "two": "/images/services/bacterial-infections/two.webp",
+      "twoAlt": "Dermatologist checking a child's skin with a dermatoscope"
+    },
+    "overview": {
+      "eyebrow": "Understanding Bacterial Infections",
+      "title": "What are bacterial",
+      "accent": "skin infections?",
+      "text": [
+        "Bacterial skin infections include impetigo, cellulitis and folliculitis. They are caused by bacteria entering the skin, often through a cut, scrape, bite or rash.",
+        "Signs include redness, warmth, swelling, pain, crusting or pus. Impetigo is common in children and spreads easily.",
+        "Prompt treatment stops the infection from spreading. Dr. Sandhu treats the infection and helps the skin heal."
+      ],
+      "facts": [
+        {
+          "label": "Examples",
+          "value": "Impetigo, cellulitis"
+        },
+        {
+          "label": "Who we treat",
+          "value": "Children & adults"
+        },
+        {
+          "label": "Key",
+          "value": "Treat promptly"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is infection care",
+      "accent": "right for you?",
+      "text": "See a doctor promptly when skin becomes red, warm, swollen or painful, or a sore crusts or oozes.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Impetigo",
+        "Cellulitis",
+        "Folliculitis",
+        "Infected cuts or bites",
+        "Boils",
+        "Infected eczema"
+      ],
+      "signs": [
+        "Honey-colored crusts",
+        "Red, warm, swollen skin",
+        "Pus or oozing",
+        "A sore that is spreading",
+        "Fever with a skin infection (seek urgent care)",
+        "Red streaks from a wound (seek urgent care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on how deep and widespread the infection is.",
+      "items": [
+        {
+          "title": "Antibiotic ointments",
+          "text": "For small, surface infections such as mild impetigo."
+        },
+        {
+          "title": "Oral antibiotics",
+          "text": "For deeper or more widespread infections."
+        },
+        {
+          "title": "Wound and skin care",
+          "text": "Gentle cleansing and care to help the skin heal."
+        },
+        {
+          "title": "Prevention",
+          "text": "Hand washing, covering sores and treating the skin conditions that let bacteria in."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the skin and may take a swab."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with treatment and clear wound care steps."
+        },
+        {
+          "label": "Days",
+          "title": "Healing",
+          "text": "Most infections improve within days of starting treatment."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We make sure the infection has cleared and the skin is healing."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Prompt, safe care",
+      "text": [
+        "Spreading redness, fever, red streaks or severe pain need urgent care.",
+        "Finish the full course of any antibiotic, even if the skin looks better."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is impetigo contagious?",
+        "a": "Yes. Children can usually return to school after 24 hours of treatment."
+      },
+      {
+        "q": "Do you treat children?",
+        "a": "Yes. Dr. Sandhu treats patients of all ages, from newborns to adults."
+      },
+      {
+        "q": "When is a skin infection an emergency?",
+        "a": "Seek urgent care for fever, rapidly spreading redness or red streaks."
+      },
+      {
+        "q": "How can I prevent infections?",
+        "a": "Keep cuts clean and covered, wash hands, and treat eczema and other skin conditions."
+      }
+    ]
+  },
+  {
+    "slug": "cysts",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Cysts",
+    "localTopic": "Cyst removal",
+    "title": "Cyst Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cyst Treatment & Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified cyst treatment and removal in Torrance, CA, including epidermoid cysts, with careful technique for minimal scarring.",
+    "lede": "Careful removal of skin cysts, with attention to a neat, natural result.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cysts/hero.webp",
+      "heroAlt": "Smiling woman with smooth skin touching her jawline",
+      "one": "/images/services/cysts/one.webp",
+      "oneAlt": "Doctor examining a woman's shoulder",
+      "two": "/images/services/cysts/two.webp",
+      "twoAlt": "Close-up of a hand touching smooth skin on the shoulder"
+    },
+    "overview": {
+      "eyebrow": "Understanding Cysts",
+      "title": "What are",
+      "accent": "cysts?",
+      "text": [
+        "Cysts are closed sacs filled with fluid or semi-solid material under the skin. They often feel like smooth, round bumps.",
+        "They are usually harmless but can grow, become inflamed or infected, or simply bother you.",
+        "Dr. Sandhu removes cysts with care, prioritizing both a healthy outcome and a natural-looking result."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Benign"
+        },
+        {
+          "label": "Feels like",
+          "value": "Smooth, round bump"
+        },
+        {
+          "label": "Removal",
+          "value": "In office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is cyst removal",
+      "accent": "right for you?",
+      "text": "See a dermatologist when a cyst grows, becomes painful or inflamed, keeps coming back, or bothers you.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Epidermoid cysts",
+        "Cysts on the face, neck and back",
+        "Inflamed cysts",
+        "Infected cysts",
+        "Cysts that keep returning",
+        "Cysts you want removed"
+      ],
+      "signs": [
+        "A round bump under the skin",
+        "A bump that is growing",
+        "Redness, swelling or pain",
+        "Drainage from a bump",
+        "A bump in a visible area",
+        "A lump you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Treatment depends on whether the cyst is calm or inflamed.",
+      "items": [
+        {
+          "title": "Surgical removal",
+          "text": "Removing the whole cyst and its wall to lower the chance it returns.",
+          "href": "/surgical-dermatology/cyst-and-lipoma-removal"
+        },
+        {
+          "title": "Incision and drainage",
+          "text": "Relief for a painful, swollen cyst.",
+          "href": "/surgical-dermatology/incision-and-drainage"
+        },
+        {
+          "title": "Calming inflammation",
+          "text": "Treatment to settle an inflamed cyst before removal."
+        },
+        {
+          "title": "Checking any lump",
+          "text": "Making sure a lump is a harmless cyst."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the bump and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a plan, and removal is scheduled or done."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "The site heals over one to three weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We check healing and remove stitches if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Do not squeeze a cyst at home, which can cause infection and scarring.",
+        "Removal uses numbing medicine and leaves a small, carefully placed scar."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are cysts dangerous?",
+        "a": "Most are harmless. Any lump you are unsure about should be checked."
+      },
+      {
+        "q": "Will a cyst come back?",
+        "a": "Removing the whole cyst wall lowers the chance it returns."
+      },
+      {
+        "q": "Can a cyst be removed with a small scar?",
+        "a": "Dr. Sandhu uses careful technique to keep scars as small as possible."
+      },
+      {
+        "q": "What if my cyst is painful?",
+        "a": "An inflamed cyst may need drainage or treatment first."
+      }
+    ]
+  },
+  {
+    "slug": "lipoma",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Lipoma",
+    "localTopic": "Lipoma treatment",
+    "title": "Lipoma Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Lipoma Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified lipoma removal in Torrance, CA. Careful removal of soft, fatty lumps under the skin.",
+    "lede": "Careful removal of soft, fatty lumps under the skin.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/lipoma/hero.webp",
+      "heroAlt": "Woman with smooth skin raising her arms",
+      "one": "/images/services/lipoma/one.webp",
+      "oneAlt": "Gloved hands gently examining a patient's arm",
+      "two": "/images/services/lipoma/two.webp",
+      "twoAlt": "Woman resting her hand on her smooth shoulder"
+    },
+    "overview": {
+      "eyebrow": "Understanding Lipoma",
+      "title": "What is a",
+      "accent": "lipoma?",
+      "text": [
+        "A lipoma is a soft, fatty lump under the skin. It usually moves slightly when pressed and grows slowly.",
+        "Lipomas are almost always harmless. They are often removed when they grow, cause discomfort or bother you.",
+        "Dr. Sandhu removes lipomas with precision, aiming for a natural-looking result."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Benign"
+        },
+        {
+          "label": "Feels like",
+          "value": "Soft, movable lump"
+        },
+        {
+          "label": "Removal",
+          "value": "In office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Lipomas on the back and shoulders",
+        "Lipomas on the arms and neck",
+        "Growing lipomas",
+        "Painful lipomas",
+        "Lipomas you want removed",
+        "Lumps you are unsure about"
+      ],
+      "signs": [
+        "A soft lump that moves",
+        "A lump that is growing",
+        "Pain or pressure",
+        "A lump in a visible area",
+        "A lump that feels hard (needs a check)",
+        "A lump you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Surgical removal",
+          "text": "Removing the lipoma through a small incision.",
+          "href": "/surgical-dermatology/cyst-and-lipoma-removal"
+        },
+        {
+          "title": "Checking any lump",
+          "text": "Making sure a lump is a harmless lipoma."
+        },
+        {
+          "title": "Careful closure",
+          "text": "Stitches placed for the neatest possible scar."
+        },
+        {
+          "title": "Aftercare",
+          "text": "Simple wound care to help the skin heal well."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "angiomas",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Angiomas",
+    "localTopic": "Angiomas treatment",
+    "title": "Angioma Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Angioma (Cherry Angioma) Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified angioma care in Torrance, CA. Treatment of small red or purple vascular spots for health or cosmetic reasons.",
+    "lede": "Clear, even skin, with gentle treatment for small red spots.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/angiomas/hero.webp",
+      "heroAlt": "Woman with smooth skin caring for her body",
+      "one": "/images/services/angiomas/one.webp",
+      "oneAlt": "Light-based skin treatment with protective eyewear",
+      "two": "/images/services/angiomas/two.webp",
+      "twoAlt": "Smooth, healthy legs resting on soft bedding"
+    },
+    "overview": {
+      "eyebrow": "Understanding Angiomas",
+      "title": "What are",
+      "accent": "angiomas?",
+      "text": [
+        "Angiomas are small red or purple vascular growths made up of blood vessels. Cherry angiomas are the most common type and often appear with age.",
+        "They are harmless, but they can bleed if scratched or simply bother you.",
+        "Dr. Sandhu confirms the diagnosis and removes angiomas when you would like them gone."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Harmless"
+        },
+        {
+          "label": "Looks like",
+          "value": "Small red spots"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick, in office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Cherry angiomas",
+        "Many small red spots",
+        "Angiomas that bleed",
+        "Angiomas on the face and body",
+        "Spots you want removed",
+        "Red spots you are unsure about"
+      ],
+      "signs": [
+        "Small bright red bumps",
+        "Spots that bleed when scratched",
+        "New red spots with age",
+        "Spots in visible areas",
+        "A spot that changes (needs a check)",
+        "A spot you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Diagnosis",
+          "text": "A close look to confirm the spot is an angioma."
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine electric current that seals and removes the spot."
+        },
+        {
+          "title": "Laser & light",
+          "text": "Light-based treatments for vascular spots, where suitable.",
+          "href": "/cosmetic-dermatology/facial-and-leg-veins"
+        },
+        {
+          "title": "Cosmetic removal",
+          "text": "Removal of harmless spots you do not want."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "seborrheic-keratoses",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Seborrheic Keratoses",
+    "localTopic": "Seborrheic Keratoses treatment",
+    "title": "Seborrheic Keratosis",
+    "accent": "Removal in Torrance, CA",
+    "metaTitle": "Seborrheic Keratosis Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified care for seborrheic keratoses in Torrance, CA. Diagnosis and removal of waxy, wart-like growths that appear with age.",
+    "lede": "Smoother skin, with safe removal of waxy growths that appear with age.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/seborrheic-keratoses/hero.webp",
+      "heroAlt": "Smiling mature woman with radiant skin",
+      "one": "/images/services/seborrheic-keratoses/one.webp",
+      "oneAlt": "Dermatologist examining a mature woman's facial skin",
+      "two": "/images/services/seborrheic-keratoses/two.webp",
+      "twoAlt": "Smiling woman with silver hair and glowing skin"
+    },
+    "overview": {
+      "eyebrow": "Understanding Seborrheic Keratoses",
+      "title": "What are",
+      "accent": "seborrheic keratoses?",
+      "text": [
+        "Seborrheic keratoses are waxy, wart-like growths that appear with age. They can be tan, brown or black and look stuck on to the skin.",
+        "They are harmless and not contagious, but they can itch, catch on clothing or look like other growths.",
+        "Dr. Sandhu confirms the diagnosis and removes them when they bother you."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Harmless"
+        },
+        {
+          "label": "Looks like",
+          "value": "Waxy, stuck-on"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick, in office"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Growths on the face and body",
+        "Many seborrheic keratoses",
+        "Itchy or irritated growths",
+        "Growths that catch on clothing",
+        "Growths you want removed",
+        "Dark growths that need a check"
+      ],
+      "signs": [
+        "Waxy, stuck-on growths",
+        "Growths that itch or bleed",
+        "New growths with age",
+        "Growths in visible areas",
+        "A growth that looks different (needs a check)",
+        "A dark spot you are unsure about"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Diagnosis",
+          "text": "A dermatoscope exam to tell them apart from other growths."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing the growth so it falls off."
+        },
+        {
+          "title": "Curettage",
+          "text": "Gentle scraping of the growth after numbing."
+        },
+        {
+          "title": "Cosmetic removal",
+          "text": "Removal of harmless growths you do not want."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "keloids",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Keloids",
+    "localTopic": "Keloids treatment",
+    "title": "Keloid Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Keloid Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified keloid treatment in Torrance, CA. Care for thick, raised scars that grow beyond the original wound.",
+    "lede": "Flatter, softer, more comfortable scars, with expert keloid care.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/keloids/hero.webp",
+      "heroAlt": "Woman holding a jar of soothing cream",
+      "one": "/images/services/keloids/one.webp",
+      "oneAlt": "Close-up of a raised keloid scar on the shoulder",
+      "two": "/images/services/keloids/two.webp",
+      "twoAlt": "Hands applying cream to a healing scar on the abdomen"
+    },
+    "overview": {
+      "eyebrow": "Understanding Keloids",
+      "title": "What are",
+      "accent": "keloids?",
+      "text": [
+        "Keloids are thick, raised scars that grow beyond the original wound site. They can follow cuts, piercings, acne, surgery or even minor scratches.",
+        "They can itch, hurt or feel tight, and they tend to come back. Keloids are more common in skin of color.",
+        "Dr. Sandhu creates a plan to flatten and soften keloids and lower the chance they return."
+      ],
+      "facts": [
+        {
+          "label": "Looks like",
+          "value": "Raised, firm scar"
+        },
+        {
+          "label": "Can",
+          "value": "Grow beyond the wound"
+        },
+        {
+          "label": "Approach",
+          "value": "Combined care"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Keloids after piercings",
+        "Keloids after surgery",
+        "Keloids from acne",
+        "Itchy or painful keloids",
+        "Keloids that returned",
+        "Raised (hypertrophic) scars"
+      ],
+      "signs": [
+        "A scar that keeps growing",
+        "Itching or tenderness",
+        "Firm, shiny raised skin",
+        "A scar that limits movement",
+        "A keloid that came back",
+        "Concern about a new piercing or surgery"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Scar-softening treatments",
+          "text": "In-office treatments that flatten and soften the keloid."
+        },
+        {
+          "title": "Silicone & pressure",
+          "text": "Silicone sheets or gels and pressure to help flatten scars."
+        },
+        {
+          "title": "Removal with follow-up care",
+          "text": "Surgical removal combined with treatment to lower the chance of return."
+        },
+        {
+          "title": "Prevention advice",
+          "text": "Guidance before piercings or surgery if you are keloid-prone."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "scars",
+    "category": "medical-dermatology",
+    "group": "Growths & Skin Cancer",
+    "name": "Scars",
+    "localTopic": "Scars treatment",
+    "title": "Scar Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Scar Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Board-certified scar treatment in Torrance, CA. Soften, flatten and fade scars from injury, surgery, acne and skin conditions.",
+    "lede": "Softer, flatter, less visible scars, with treatments chosen for your skin.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/scars/hero.webp",
+      "heroAlt": "Woman with smooth skin holding a jar of cream",
+      "one": "/images/services/scars/one.webp",
+      "oneAlt": "Hand applying cream to a scar on the arm",
+      "two": "/images/services/scars/two.webp",
+      "twoAlt": "Woman with smooth skin touching her chin"
+    },
+    "overview": {
+      "eyebrow": "Understanding Scars",
+      "title": "What are",
+      "accent": "scars?",
+      "text": [
+        "Scars are fibrous tissue that replaces normal skin after injury or surgery. They can be flat, raised, sunken or discolored.",
+        "Scars from acne, surgery, injuries and skin conditions can affect confidence and comfort.",
+        "Treatments aimed at softening, flattening or fading scars can make a real difference. Dr. Sandhu matches treatment to your scar and skin type."
+      ],
+      "facts": [
+        {
+          "label": "Types",
+          "value": "Raised, sunken, discolored"
+        },
+        {
+          "label": "Goal",
+          "value": "Soften & fade"
+        },
+        {
+          "label": "Options",
+          "value": "Medical & cosmetic"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is treatment",
+      "accent": "right for you?",
+      "text": "See a dermatologist when this concern grows, changes, hurts or bothers you, or you are unsure what it is.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Acne scars",
+        "Surgical scars",
+        "Scars from injuries",
+        "Raised (hypertrophic) scars",
+        "Discolored scars",
+        "Keloids"
+      ],
+      "signs": [
+        "A scar that is raised or thick",
+        "A sunken or pitted scar",
+        "A scar that is red or dark",
+        "A scar that itches or feels tight",
+        "A scar affecting your confidence",
+        "A scar that keeps growing"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, the area and your goals.",
+      "items": [
+        {
+          "title": "Laser & light",
+          "text": "Fractional and other lasers that improve texture and color, including UltraClear, which is safe for all skin types.",
+          "href": "/cosmetic-dermatology/scar-treatment"
+        },
+        {
+          "title": "Medical-grade microneedling",
+          "text": "Stimulates collagen to smooth texture and scars.",
+          "href": "/cosmetic-dermatology/medical-grade-microneedling"
+        },
+        {
+          "title": "Customized chemical peels",
+          "text": "Peels that improve tone and texture.",
+          "href": "/cosmetic-dermatology/chemical-peels"
+        },
+        {
+          "title": "Scar-softening treatments",
+          "text": "Silicone, creams and in-office treatments to flatten raised scars."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu examines the area and explains your options."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, and treatment may start the same day."
+        },
+        {
+          "label": "Weeks",
+          "title": "Healing",
+          "text": "Treated areas usually heal or improve over a few weeks."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay well",
+          "text": "We review results and add treatments if needed."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, careful care",
+      "text": [
+        "Every treatment is chosen for your skin type and the area being treated, including skin of color.",
+        "Any growth or scar that changes, bleeds or looks unusual should be checked first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it harmful?",
+        "a": "Most of these growths and scars are harmless, but any change should be checked."
+      },
+      {
+        "q": "Does treatment hurt?",
+        "a": "Numbing is used when needed, and most treatments are quick."
+      },
+      {
+        "q": "Will it come back?",
+        "a": "Some can return or new ones can form over time. We will tell you what to expect."
+      },
+      {
+        "q": "Is cosmetic removal covered by insurance?",
+        "a": "Cosmetic treatment may not be covered. We will let you know before treatment."
+      }
+    ]
+  },
+  {
+    "slug": "botox-and-dysport",
+    "category": "cosmetic-dermatology",
+    "group": "Injectables",
+    "name": "Botox & Dysport",
+    "localTopic": "Botox & Dysport",
+    "title": "Botox & Dysport",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Botox & Dysport in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Botox and Dysport in Torrance, CA by a board-certified dermatologist. Natural-looking results for frown lines, forehead lines and crow's feet.",
+    "lede": "Soften frown lines and crow's feet for a fresh, natural look.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/botox-and-dysport/hero.webp",
+      "heroAlt": "Botox & Dysport at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/botox-and-dysport/one.webp",
+      "oneAlt": "Botox & Dysport consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/botox-and-dysport/two.webp",
+      "twoAlt": "Healthy, radiant skin after botox & dysport"
+    },
+    "overview": {
+      "eyebrow": "Understanding Botox & Dysport",
+      "title": "What are",
+      "accent": "Botox & Dysport?",
+      "text": [
+        "Botox and Dysport are neuromodulators, also called wrinkle relaxers. They temporarily relax facial muscles to smooth dynamic wrinkles, like frown lines or crow's feet.",
+        "Results appear within days and usually last a few months. Treatment takes minutes, with little to no downtime.",
+        "Our philosophy is that less is more. Dr. Sandhu aims for a refreshed, natural look, never a frozen one."
+      ],
+      "facts": [
+        {
+          "label": "Treats",
+          "value": "Dynamic wrinkles"
+        },
+        {
+          "label": "Results",
+          "value": "Within days"
+        },
+        {
+          "label": "Downtime",
+          "value": "Little to none"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Are Botox & Dysport",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Frown lines between the brows",
+        "Forehead lines",
+        "Crow's feet",
+        "Bunny lines on the nose",
+        "Preventive treatment",
+        "Subtle refresh before events"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want a natural, refreshed look",
+        "Lines show when you smile or frown",
+        "You prefer no downtime",
+        "You want subtle, gradual results",
+        "You want to look less tired",
+        "You are new to cosmetic treatment"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Natural dosing",
+          "text": "Carefully planned doses for a soft, natural result."
+        },
+        {
+          "title": "Targeted areas",
+          "text": "Frown lines, forehead lines and crow's feet."
+        },
+        {
+          "title": "Combined care",
+          "text": "Pairs well with skin care and laser treatments for overall glow.",
+          "href": "/cosmetic-dermatology/m22-stellar-ipl"
+        },
+        {
+          "title": "Maintenance plan",
+          "text": "Timing your visits so results stay consistent."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How long do results last?",
+        "a": "Usually around three to four months, depending on the person and area."
+      },
+      {
+        "q": "Will I look frozen?",
+        "a": "No. Dr. Sandhu uses a less-is-more approach for natural movement."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Most people return to normal activities right away."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "hyaluronic-acid-fillers",
+    "category": "cosmetic-dermatology",
+    "group": "Injectables",
+    "name": "Hyaluronic Acid Fillers",
+    "localTopic": "Hyaluronic Acid Fillers",
+    "title": "Hyaluronic Acid Fillers",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Hyaluronic Acid Fillers in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Hyaluronic acid fillers in Torrance, CA, including Restylane and RHA, by a board-certified dermatologist. Natural volume, smoother lines, refined contours.",
+    "lede": "Restore soft volume and smooth lines, with results that still look like you.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/hyaluronic-acid-fillers/hero.webp",
+      "heroAlt": "Hyaluronic Acid Fillers at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/hyaluronic-acid-fillers/one.webp",
+      "oneAlt": "Hyaluronic Acid Fillers consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/hyaluronic-acid-fillers/two.webp",
+      "twoAlt": "Healthy, radiant skin after hyaluronic acid fillers"
+    },
+    "overview": {
+      "eyebrow": "Understanding Hyaluronic Acid Fillers",
+      "title": "What are",
+      "accent": "hyaluronic acid fillers?",
+      "text": [
+        "Hyaluronic acid fillers add volume, smooth wrinkles and enhance facial contours using naturally occurring hyaluronic acid. We offer the Restylane family and RHA fillers.",
+        "They can restore lost volume in the cheeks, soften smile lines, and add subtle definition to the lips and jawline.",
+        "Results are visible right away and can last many months. Dr. Sandhu's goal is balance and harmony, enhancing your natural beauty, not altering it."
+      ],
+      "facts": [
+        {
+          "label": "Products",
+          "value": "Restylane, RHA"
+        },
+        {
+          "label": "Results",
+          "value": "Immediate"
+        },
+        {
+          "label": "Approach",
+          "value": "Natural balance"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Are fillers",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Smile lines",
+        "Lost cheek volume",
+        "Lip definition and hydration",
+        "Under-eye hollows",
+        "Jawline and chin contour",
+        "Marionette lines"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You see volume loss with age",
+        "Lines remain at rest",
+        "You want subtle lip enhancement",
+        "You want natural-looking results",
+        "You want little downtime",
+        "You want a refreshed, balanced face"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Restylane family",
+          "text": "A range of fillers for lips, cheeks, lines and contours."
+        },
+        {
+          "title": "RHA fillers",
+          "text": "Flexible fillers designed to move naturally with your expressions."
+        },
+        {
+          "title": "Balanced planning",
+          "text": "Treating the whole face in harmony, not one line at a time."
+        },
+        {
+          "title": "Combined care",
+          "text": "Pairs well with Botox, Sculptra and skin care.",
+          "href": "/cosmetic-dermatology/sculptra"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How long do fillers last?",
+        "a": "Many months, depending on the product and area."
+      },
+      {
+        "q": "Will it look natural?",
+        "a": "Yes. Dr. Sandhu enhances your features with a light touch."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Some swelling or bruising is possible for a few days."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "sculptra",
+    "category": "cosmetic-dermatology",
+    "group": "Injectables",
+    "name": "Sculptra",
+    "localTopic": "Sculptra",
+    "title": "Sculptra",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Sculptra in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Sculptra biostimulator treatment in Torrance, CA by a board-certified dermatologist. Gradual, natural collagen-building for volume and firmness.",
+    "lede": "Gradually restore firmness and volume by stimulating your own collagen.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/sculptra/hero.webp",
+      "heroAlt": "Sculptra at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/sculptra/one.webp",
+      "oneAlt": "Sculptra consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/sculptra/two.webp",
+      "twoAlt": "Healthy, radiant skin after sculptra"
+    },
+    "overview": {
+      "eyebrow": "Understanding Sculptra",
+      "title": "What is",
+      "accent": "sculptra?",
+      "text": [
+        "Sculptra is a biostimulator. It stimulates collagen production over time to gradually restore facial volume and firmness.",
+        "Results build slowly over a series of sessions and can last a long time, for a subtle, natural improvement.",
+        "It suits people who want a gradual refresh rather than an instant change."
+      ],
+      "facts": [
+        {
+          "label": "Works by",
+          "value": "Building collagen"
+        },
+        {
+          "label": "Results",
+          "value": "Gradual"
+        },
+        {
+          "label": "Sessions",
+          "value": "Usually a series"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is sculptra",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Facial volume loss",
+        "Thinning, lax skin",
+        "Hollow temples",
+        "Aging cheeks",
+        "Overall facial firmness",
+        "Natural, gradual refresh"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You prefer gradual change",
+        "You want long-lasting results",
+        "You see overall volume loss",
+        "You want firmer skin",
+        "You want natural-looking results",
+        "You are planning ahead for an event"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Collagen stimulation",
+          "text": "Helps your skin rebuild its own support over time."
+        },
+        {
+          "title": "Treatment series",
+          "text": "Usually a few sessions spaced several weeks apart."
+        },
+        {
+          "title": "Whole-face approach",
+          "text": "Planned for natural, balanced results."
+        },
+        {
+          "title": "Combined care",
+          "text": "Can be combined with fillers and lasers.",
+          "href": "/cosmetic-dermatology/hyaluronic-acid-fillers"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When will I see results?",
+        "a": "Gradually over several weeks to months as collagen builds."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Most people need a series. Dr. Sandhu will plan yours."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "Results can last a long time compared with many fillers."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "m22-stellar-ipl",
+    "category": "cosmetic-dermatology",
+    "group": "Lasers & Light",
+    "name": "M22 Stellar IPL",
+    "localTopic": "M22 Stellar IPL",
+    "title": "M22 Stellar IPL",
+    "accent": "in Torrance, CA",
+    "metaTitle": "M22 Stellar IPL in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "M22 Stellar IPL photofacials in Torrance, CA for redness, sun damage and pigmentation, by a board-certified dermatologist.",
+    "lede": "Brighter, clearer, more even skin, with gentle intense pulsed light.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/m22-stellar-ipl/hero.webp",
+      "heroAlt": "M22 Stellar IPL at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/m22-stellar-ipl/one.webp",
+      "oneAlt": "M22 Stellar IPL consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/m22-stellar-ipl/two.webp",
+      "twoAlt": "Healthy, radiant skin after m22 stellar ipl"
+    },
+    "overview": {
+      "eyebrow": "Understanding M22 Stellar IPL",
+      "title": "What is the",
+      "accent": "M22 Stellar IPL?",
+      "text": [
+        "The M22 Stellar IPL uses Intense Pulsed Light for redness, sun damage and pigmentation.",
+        "Gentle pulses of light target brown spots and visible vessels, leaving skin clearer and more even.",
+        "Most people have a series of treatments, with little downtime."
+      ],
+      "facts": [
+        {
+          "label": "Treats",
+          "value": "Redness, sun damage"
+        },
+        {
+          "label": "Downtime",
+          "value": "Minimal"
+        },
+        {
+          "label": "Sessions",
+          "value": "Usually a series"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is IPL",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Sun spots and brown spots",
+        "Facial redness",
+        "Rosacea",
+        "Broken capillaries",
+        "Uneven skin tone",
+        "Sun damage on the chest and hands"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want clearer, brighter skin",
+        "You have redness or flushing",
+        "You have sun spots",
+        "You want little downtime",
+        "You want an even tone",
+        "You want a refreshing glow"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Pigment treatment",
+          "text": "Fades brown spots and sun damage.",
+          "href": "/cosmetic-dermatology/sun-spots-and-sun-damage"
+        },
+        {
+          "title": "Redness treatment",
+          "text": "Reduces redness and visible vessels.",
+          "href": "/cosmetic-dermatology/rosacea-and-redness"
+        },
+        {
+          "title": "Series of sessions",
+          "text": "Usually a few treatments a few weeks apart."
+        },
+        {
+          "title": "Sun protection",
+          "text": "Daily sunscreen keeps results lasting."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does IPL hurt?",
+        "a": "Most people feel a quick snap, like a rubber band."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Usually three to five, spaced a few weeks apart."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Spots may darken briefly before flaking off."
+      },
+      {
+        "q": "Is it safe for all skin types?",
+        "a": "IPL is not right for every skin type. Dr. Sandhu will advise the safest option."
+      }
+    ]
+  },
+  {
+    "slug": "ultraclear-laser",
+    "category": "cosmetic-dermatology",
+    "group": "Lasers & Light",
+    "name": "UltraClear Laser",
+    "localTopic": "UltraClear Laser",
+    "title": "UltraClear Laser",
+    "accent": "in Torrance, CA",
+    "metaTitle": "UltraClear Laser in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "UltraClear laser in Torrance, CA. A cold-fiber fractional laser safe for all skin types, including skin of color.",
+    "lede": "One advanced laser for wrinkles, acne scars, pigmentation, redness and sun damage.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/ultraclear-laser/hero.webp",
+      "heroAlt": "UltraClear Laser at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/ultraclear-laser/one.webp",
+      "oneAlt": "UltraClear Laser consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/ultraclear-laser/two.webp",
+      "twoAlt": "Healthy, radiant skin after ultraclear laser"
+    },
+    "overview": {
+      "eyebrow": "Understanding UltraClear Laser",
+      "title": "What is the",
+      "accent": "UltraClear laser?",
+      "text": [
+        "UltraClear is a new cold-fiber laser and a fractionated ablative laser that is safe for all skin types, including skin of color.",
+        "It is a one-stop-shop laser that can target wrinkles, acne scars, pigmentation, redness and sun damage.",
+        "Treatment can be adjusted from a light refresh to deeper resurfacing, with downtime to match."
+      ],
+      "facts": [
+        {
+          "label": "Type",
+          "value": "Cold-fiber fractional"
+        },
+        {
+          "label": "Safe for",
+          "value": "All skin types"
+        },
+        {
+          "label": "Treats",
+          "value": "Wrinkles, scars, tone"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is UltraClear",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Fine lines and wrinkles",
+        "Acne scars",
+        "Pigmentation",
+        "Redness",
+        "Sun damage",
+        "Uneven texture"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want overall skin renewal",
+        "You have acne scars",
+        "You have uneven pigment",
+        "You have skin of color",
+        "You want adjustable downtime",
+        "You want visible, lasting improvement"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Customized depth",
+          "text": "Light to deeper treatments based on your goals."
+        },
+        {
+          "title": "Scar improvement",
+          "text": "Smooths acne scars and texture.",
+          "href": "/cosmetic-dermatology/acne-scar-treatment"
+        },
+        {
+          "title": "Tone & pigment",
+          "text": "Treats pigmentation and sun damage."
+        },
+        {
+          "title": "Combined care",
+          "text": "Can be combined with other treatments for best results."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is UltraClear safe for darker skin?",
+        "a": "Yes. It is designed to be safe for all skin types, including skin of color."
+      },
+      {
+        "q": "How much downtime?",
+        "a": "It depends on the depth, from a day or two to about a week."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Some people see results after one; others benefit from a series."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "resurfx",
+    "category": "cosmetic-dermatology",
+    "group": "Lasers & Light",
+    "name": "ResurFX",
+    "localTopic": "ResurFX",
+    "title": "ResurFX",
+    "accent": "in Torrance, CA",
+    "metaTitle": "ResurFX in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "ResurFX fractional non-ablative laser in Torrance, CA for texture, fine lines and scars.",
+    "lede": "Smoother texture and tone, with gentle fractional resurfacing.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/resurfx/hero.webp",
+      "heroAlt": "ResurFX at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/resurfx/one.webp",
+      "oneAlt": "ResurFX consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/resurfx/two.webp",
+      "twoAlt": "Healthy, radiant skin after resurfx"
+    },
+    "overview": {
+      "eyebrow": "Understanding ResurFX",
+      "title": "What is",
+      "accent": "ResurFX?",
+      "text": [
+        "ResurFX is a fractional non-ablative laser for skin resurfacing and collagen stimulation.",
+        "It improves texture, tone, fine lines and scars without removing the skin surface, so downtime is limited.",
+        "Most people benefit from a short series of treatments."
+      ],
+      "facts": [
+        {
+          "label": "Type",
+          "value": "Fractional non-ablative"
+        },
+        {
+          "label": "Treats",
+          "value": "Texture, lines, scars"
+        },
+        {
+          "label": "Downtime",
+          "value": "Limited"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is resurfx",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Fine lines",
+        "Uneven texture",
+        "Acne scars",
+        "Surgical scars",
+        "Stretch marks",
+        "Enlarged pores"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want smoother skin",
+        "You want limited downtime",
+        "You have mild scarring",
+        "You want gradual improvement",
+        "You want firmer-looking skin",
+        "You want to refresh your complexion"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Collagen stimulation",
+          "text": "Encourages new collagen for smoother skin."
+        },
+        {
+          "title": "Series of sessions",
+          "text": "Usually a few treatments spaced weeks apart."
+        },
+        {
+          "title": "Scar care",
+          "text": "Softens the look of scars.",
+          "href": "/cosmetic-dermatology/scar-treatment"
+        },
+        {
+          "title": "Combined care",
+          "text": "Pairs well with IPL and skin care."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does ResurFX hurt?",
+        "a": "Cooling and numbing keep treatment comfortable."
+      },
+      {
+        "q": "What is the downtime?",
+        "a": "Redness and mild swelling for a few days is common."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Usually three to five."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "q-switched-nd-yag",
+    "category": "cosmetic-dermatology",
+    "group": "Lasers & Light",
+    "name": "Q-Switched Nd:YAG",
+    "localTopic": "Q-Switched Nd:YAG",
+    "title": "Q-Switched Nd:YAG Laser",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Q-Switched Nd:YAG Laser in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Q-Switched Nd:YAG laser treatment in Torrance, CA for pigmentation and tattoo removal.",
+    "lede": "Target pigmentation and tattoos with ultra-fast pulses of laser light.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/q-switched-nd-yag/hero.webp",
+      "heroAlt": "Q-Switched Nd:YAG at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/q-switched-nd-yag/one.webp",
+      "oneAlt": "Q-Switched Nd:YAG consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/q-switched-nd-yag/two.webp",
+      "twoAlt": "Healthy, radiant skin after q-switched nd:yag"
+    },
+    "overview": {
+      "eyebrow": "Understanding Q-Switched Nd:YAG",
+      "title": "What is",
+      "accent": "the Q-Switched Nd:YAG?",
+      "text": [
+        "The Q-Switched Nd:YAG laser targets pigmentation and tattoos with ultra-fast pulses of laser light.",
+        "The light breaks pigment into tiny particles that the body then clears away over time.",
+        "It is used for brown spots, some pigmented birthmarks and tattoo removal."
+      ],
+      "facts": [
+        {
+          "label": "Targets",
+          "value": "Pigment & tattoos"
+        },
+        {
+          "label": "Pulses",
+          "value": "Ultra-fast"
+        },
+        {
+          "label": "Sessions",
+          "value": "Usually several"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is q-switched nd:yag",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Brown spots",
+        "Sun spots",
+        "Some pigmented birthmarks",
+        "Tattoo removal",
+        "Uneven pigment",
+        "Freckling"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have stubborn spots",
+        "You want a tattoo removed or faded",
+        "You want even tone",
+        "You can commit to a series",
+        "You want gradual change",
+        "You want a precise treatment"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Pigment treatment",
+          "text": "Breaks up excess pigment.",
+          "href": "/cosmetic-dermatology/sun-spots-and-sun-damage"
+        },
+        {
+          "title": "Tattoo removal",
+          "text": "Fades tattoo ink over several sessions.",
+          "href": "/cosmetic-dermatology/tattoo-removal"
+        },
+        {
+          "title": "Series of sessions",
+          "text": "Treatments spaced several weeks apart."
+        },
+        {
+          "title": "Sun protection",
+          "text": "Protects your results."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does it hurt?",
+        "a": "It feels like quick snaps. Cooling helps."
+      },
+      {
+        "q": "How many sessions for a tattoo?",
+        "a": "Several are usually needed, depending on the ink and colors."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Mild redness or darkening for a few days."
+      },
+      {
+        "q": "Is it safe for my skin?",
+        "a": "Dr. Sandhu adjusts settings for your skin type."
+      }
+    ]
+  },
+  {
+    "slug": "multi-spot-nd-yag",
+    "category": "cosmetic-dermatology",
+    "group": "Lasers & Light",
+    "name": "Multi-Spot Nd:YAG",
+    "localTopic": "Multi-Spot Nd:YAG",
+    "title": "Multi-Spot Nd:YAG Laser",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Multi-Spot Nd:YAG Laser in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Multi-Spot Nd:YAG laser in Torrance, CA for visible veins, facial vessels and redness.",
+    "lede": "Clear visible veins and redness with a targeted vascular laser.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/multi-spot-nd-yag/hero.webp",
+      "heroAlt": "Multi-Spot Nd:YAG at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/multi-spot-nd-yag/one.webp",
+      "oneAlt": "Multi-Spot Nd:YAG consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/multi-spot-nd-yag/two.webp",
+      "twoAlt": "Healthy, radiant skin after multi-spot nd:yag"
+    },
+    "overview": {
+      "eyebrow": "Understanding Multi-Spot Nd:YAG",
+      "title": "What is",
+      "accent": "the Multi-Spot Nd:YAG?",
+      "text": [
+        "The Multi-Spot Nd:YAG is a laser that treats vascular lesions like visible veins and redness.",
+        "Light energy targets the blood vessel, which then fades over the following weeks.",
+        "It is used for facial vessels, small leg veins and other vascular spots."
+      ],
+      "facts": [
+        {
+          "label": "Treats",
+          "value": "Veins & redness"
+        },
+        {
+          "label": "Targets",
+          "value": "Blood vessels"
+        },
+        {
+          "label": "Sessions",
+          "value": "One or more"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is multi-spot nd:yag",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Facial veins",
+        "Small leg veins",
+        "Broken capillaries",
+        "Cherry angiomas",
+        "Redness",
+        "Vascular spots"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have visible veins",
+        "You have facial redness",
+        "You have small red spots",
+        "You want clearer skin",
+        "You want a targeted treatment",
+        "You prefer minimal downtime"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Vein treatment",
+          "text": "Fades facial and small leg veins.",
+          "href": "/cosmetic-dermatology/facial-and-leg-veins"
+        },
+        {
+          "title": "Redness care",
+          "text": "Reduces visible redness.",
+          "href": "/cosmetic-dermatology/rosacea-and-redness"
+        },
+        {
+          "title": "Angioma removal",
+          "text": "Treats small red vascular spots.",
+          "href": "/cosmetic-dermatology/angiomas"
+        },
+        {
+          "title": "Series if needed",
+          "text": "Some areas need more than one session."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does it hurt?",
+        "a": "A quick snap with cooling for comfort."
+      },
+      {
+        "q": "When will I see results?",
+        "a": "Vessels fade over several weeks."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Mild redness or bruising for a few days."
+      },
+      {
+        "q": "Can veins return?",
+        "a": "New vessels can form over time. Touch-ups help."
+      }
+    ]
+  },
+  {
+    "slug": "fractional-laser-resurfacing",
+    "category": "cosmetic-dermatology",
+    "group": "Skin Rejuvenation",
+    "name": "Fractional Laser Resurfacing",
+    "localTopic": "Fractional Laser Resurfacing",
+    "title": "Fractional Laser Resurfacing",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Fractional Laser Resurfacing in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Fractional non-ablative laser skin resurfacing in Torrance, CA for texture, tone and fine lines.",
+    "lede": "Smoother texture, tone and fine lines, without damaging the skin surface.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/fractional-laser-resurfacing/hero.webp",
+      "heroAlt": "Fractional Laser Resurfacing at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/fractional-laser-resurfacing/one.webp",
+      "oneAlt": "Fractional Laser Resurfacing consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/fractional-laser-resurfacing/two.webp",
+      "twoAlt": "Healthy, radiant skin after fractional laser resurfacing"
+    },
+    "overview": {
+      "eyebrow": "Understanding Fractional Laser Resurfacing",
+      "title": "What is",
+      "accent": "fractional laser resurfacing?",
+      "text": [
+        "Fractional non-ablative laser skin resurfacing stimulates collagen without damaging the skin surface, improving texture, tone and fine lines.",
+        "It treats tiny columns of skin at a time, so healing is quick.",
+        "It is a good choice for gradual, natural-looking renewal."
+      ],
+      "facts": [
+        {
+          "label": "Improves",
+          "value": "Texture, tone, lines"
+        },
+        {
+          "label": "Surface",
+          "value": "Kept intact"
+        },
+        {
+          "label": "Healing",
+          "value": "Quick"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is fractional laser resurfacing",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Fine lines",
+        "Rough texture",
+        "Dullness",
+        "Mild scarring",
+        "Enlarged pores",
+        "Early signs of aging"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want smoother skin",
+        "You want limited downtime",
+        "You want gradual renewal",
+        "You want natural results",
+        "You want brighter skin",
+        "You want to prevent aging"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "ResurFX",
+          "text": "Our fractional non-ablative laser.",
+          "href": "/cosmetic-dermatology/resurfx"
+        },
+        {
+          "title": "UltraClear",
+          "text": "A deeper option for more change.",
+          "href": "/cosmetic-dermatology/ultraclear-laser"
+        },
+        {
+          "title": "Series of sessions",
+          "text": "Usually a few treatments."
+        },
+        {
+          "title": "Skin care",
+          "text": "A routine to support and protect results."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is there downtime?",
+        "a": "Usually a few days of redness and mild swelling."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Most people need a few."
+      },
+      {
+        "q": "When will I see results?",
+        "a": "Skin improves over weeks as collagen builds."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "medical-grade-microneedling",
+    "category": "cosmetic-dermatology",
+    "group": "Skin Rejuvenation",
+    "name": "Medical-Grade Microneedling",
+    "localTopic": "Medical-Grade Microneedling",
+    "title": "Medical-Grade Microneedling",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Medical-Grade Microneedling in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Medical-grade microneedling in Torrance, CA for texture, scars and firmness, by a board-certified dermatologist.",
+    "lede": "Smoother texture and firmer skin, by boosting your own collagen.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/medical-grade-microneedling/hero.webp",
+      "heroAlt": "Medical-Grade Microneedling at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/medical-grade-microneedling/one.webp",
+      "oneAlt": "Medical-Grade Microneedling consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/medical-grade-microneedling/two.webp",
+      "twoAlt": "Healthy, radiant skin after medical-grade microneedling"
+    },
+    "overview": {
+      "eyebrow": "Understanding Medical-Grade Microneedling",
+      "title": "What is",
+      "accent": "medical-grade microneedling?",
+      "text": [
+        "Medical-grade microneedling uses tiny needles to create micro-injuries that promote collagen and elastin production, improving texture, scars and firmness.",
+        "It is safe for many skin types and has short downtime.",
+        "Most people have a series of treatments for best results."
+      ],
+      "facts": [
+        {
+          "label": "Improves",
+          "value": "Texture, scars, firmness"
+        },
+        {
+          "label": "Works by",
+          "value": "Collagen & elastin"
+        },
+        {
+          "label": "Downtime",
+          "value": "Short"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is medical-grade microneedling",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Acne scars",
+        "Fine lines",
+        "Enlarged pores",
+        "Uneven texture",
+        "Mild laxity",
+        "Stretch marks"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want smoother texture",
+        "You have acne scars",
+        "You want firmer skin",
+        "You want short downtime",
+        "You want natural results",
+        "You want an option for many skin types"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Collagen induction",
+          "text": "Stimulates your skin's natural repair."
+        },
+        {
+          "title": "Series of sessions",
+          "text": "Usually a few sessions a few weeks apart."
+        },
+        {
+          "title": "Scar care",
+          "text": "Softens acne and other scars.",
+          "href": "/cosmetic-dermatology/acne-scar-treatment"
+        },
+        {
+          "title": "Skin care",
+          "text": "A routine to support healing."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Does microneedling hurt?",
+        "a": "Numbing cream keeps treatment comfortable."
+      },
+      {
+        "q": "What is the downtime?",
+        "a": "Redness for a day or two, like a mild sunburn."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Usually three or more."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "chemical-peels",
+    "category": "cosmetic-dermatology",
+    "group": "Skin Rejuvenation",
+    "name": "Customized Chemical Peels",
+    "localTopic": "Customized Chemical Peels",
+    "title": "Customized Chemical Peels",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Customized Chemical Peels in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Customized chemical peels in Torrance, CA for tone, texture, acne and pigmentation.",
+    "lede": "Brighter, smoother skin with a peel tailored to you.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/chemical-peels/hero.webp",
+      "heroAlt": "Customized Chemical Peels at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/chemical-peels/one.webp",
+      "oneAlt": "Customized Chemical Peels consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/chemical-peels/two.webp",
+      "twoAlt": "Healthy, radiant skin after customized chemical peels"
+    },
+    "overview": {
+      "eyebrow": "Understanding Customized Chemical Peels",
+      "title": "What are",
+      "accent": "chemical peels?",
+      "text": [
+        "Customized chemical peels apply chemical solutions to exfoliate the top skin layers, improving tone, texture, acne and pigmentation.",
+        "Peels range from gentle to deeper, and each is chosen for your skin type and goals.",
+        "Most peels have little downtime, with some light flaking for a few days."
+      ],
+      "facts": [
+        {
+          "label": "Improves",
+          "value": "Tone, texture, acne"
+        },
+        {
+          "label": "Strength",
+          "value": "Customized"
+        },
+        {
+          "label": "Downtime",
+          "value": "Little"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Are chemical peels",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Acne and breakouts",
+        "Dark spots and melasma",
+        "Dull skin",
+        "Uneven texture",
+        "Fine lines",
+        "Acne marks"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You want brighter skin",
+        "You have breakouts",
+        "You have uneven tone",
+        "You want little downtime",
+        "You want a regular refresh",
+        "You want to boost your skin care"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Gentle peels",
+          "text": "A light refresh with minimal flaking."
+        },
+        {
+          "title": "Targeted peels",
+          "text": "Stronger peels for acne, pigment or texture."
+        },
+        {
+          "title": "Series of peels",
+          "text": "Spaced a few weeks apart for best results."
+        },
+        {
+          "title": "Home care",
+          "text": "A routine to protect and maintain results."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will my skin peel?",
+        "a": "Light flaking for a few days is common."
+      },
+      {
+        "q": "How often can I have a peel?",
+        "a": "Usually every few weeks, depending on the peel."
+      },
+      {
+        "q": "Are peels safe for darker skin?",
+        "a": "Many are. Dr. Sandhu chooses peels suited to your skin type."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "acne-scar-treatment",
+    "category": "cosmetic-dermatology",
+    "group": "Skin Rejuvenation",
+    "name": "Acne Scar Treatment",
+    "localTopic": "Acne Scar Treatment",
+    "title": "Acne Scar Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Acne Scar Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Acne scar treatment in Torrance, CA with lasers, microneedling and peels, including options safe for skin of color.",
+    "lede": "Smoother, more even skin, with targeted care for acne scars.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/acne-scar-treatment/hero.webp",
+      "heroAlt": "Acne Scar Treatment at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/acne-scar-treatment/one.webp",
+      "oneAlt": "Acne Scar Treatment consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/acne-scar-treatment/two.webp",
+      "twoAlt": "Healthy, radiant skin after acne scar treatment"
+    },
+    "overview": {
+      "eyebrow": "Understanding Acne Scar Treatment",
+      "title": "What is",
+      "accent": "acne scar treatment?",
+      "text": [
+        "Acne scar treatment uses targeted therapies, like microneedling, lasers or peels, designed to smooth and reduce the appearance of acne scars.",
+        "Scars come in different types, and the best results usually come from combining treatments.",
+        "The UltraClear laser is safe for all skin types, including skin of color."
+      ],
+      "facts": [
+        {
+          "label": "Treatments",
+          "value": "Laser, needling, peels"
+        },
+        {
+          "label": "Approach",
+          "value": "Combined"
+        },
+        {
+          "label": "Skin types",
+          "value": "All"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is acne scar treatment",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Rolling scars",
+        "Boxcar scars",
+        "Ice-pick scars",
+        "Dark marks after acne",
+        "Uneven texture",
+        "Scars with active acne"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have pitted or uneven scars",
+        "Your acne is under control",
+        "You want smoother texture",
+        "You have skin of color",
+        "You want a plan that combines treatments",
+        "You want gradual, lasting change"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "UltraClear laser",
+          "text": "Resurfaces scars and evens tone.",
+          "href": "/cosmetic-dermatology/ultraclear-laser"
+        },
+        {
+          "title": "Microneedling",
+          "text": "Builds collagen to lift scars.",
+          "href": "/cosmetic-dermatology/medical-grade-microneedling"
+        },
+        {
+          "title": "Chemical peels",
+          "text": "Smooths texture and fades marks.",
+          "href": "/cosmetic-dermatology/chemical-peels"
+        },
+        {
+          "title": "Acne control",
+          "text": "Treating active acne first.",
+          "href": "/medical-dermatology/acne"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can acne scars be removed completely?",
+        "a": "They can be greatly improved, though not always fully erased."
+      },
+      {
+        "q": "How many treatments?",
+        "a": "Usually a series, often combining methods."
+      },
+      {
+        "q": "Should acne be treated first?",
+        "a": "Yes. Controlling active acne prevents new scars."
+      },
+      {
+        "q": "Is it safe for skin of color?",
+        "a": "Yes. We offer options such as UltraClear that are safe for all skin types."
+      }
+    ]
+  },
+  {
+    "slug": "scar-treatment",
+    "category": "cosmetic-dermatology",
+    "group": "Skin Rejuvenation",
+    "name": "Scar Treatment",
+    "localTopic": "Scar Treatment",
+    "title": "Cosmetic Scar Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cosmetic Scar Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Cosmetic scar treatment in Torrance, CA to soften, flatten and fade scars from injury, surgery or skin conditions.",
+    "lede": "Soften, flatten and fade scars from injury, surgery or skin conditions.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/scar-treatment/hero.webp",
+      "heroAlt": "Scar Treatment at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/scar-treatment/one.webp",
+      "oneAlt": "Scar Treatment consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/scar-treatment/two.webp",
+      "twoAlt": "Healthy, radiant skin after scar treatment"
+    },
+    "overview": {
+      "eyebrow": "Understanding Scar Treatment",
+      "title": "What is",
+      "accent": "scar treatment?",
+      "text": [
+        "Scar treatments aim at softening, flattening or fading scars from injury, surgery or skin conditions.",
+        "Lasers, microneedling, peels and other treatments are chosen for the scar type and your skin.",
+        "Results build gradually over a series of sessions."
+      ],
+      "facts": [
+        {
+          "label": "Goal",
+          "value": "Soften & fade"
+        },
+        {
+          "label": "Options",
+          "value": "Several"
+        },
+        {
+          "label": "Results",
+          "value": "Gradual"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is scar treatment",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Surgical scars",
+        "Injury scars",
+        "Raised scars",
+        "Red or dark scars",
+        "Stretch marks",
+        "Acne scars"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have a visible scar",
+        "A scar is raised or discolored",
+        "A scar feels tight",
+        "You want gradual improvement",
+        "You want natural results",
+        "You want a combined plan"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Laser treatment",
+          "text": "Improves texture and color.",
+          "href": "/cosmetic-dermatology/fractional-laser-resurfacing"
+        },
+        {
+          "title": "Microneedling",
+          "text": "Remodels scar tissue.",
+          "href": "/cosmetic-dermatology/medical-grade-microneedling"
+        },
+        {
+          "title": "Peels",
+          "text": "Smooth and brighten.",
+          "href": "/cosmetic-dermatology/chemical-peels"
+        },
+        {
+          "title": "Medical scar care",
+          "text": "For raised scars and keloids.",
+          "href": "/medical-dermatology/keloids"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When can a scar be treated?",
+        "a": "Many scars can be treated once healed. Dr. Sandhu will advise timing."
+      },
+      {
+        "q": "Can scars disappear?",
+        "a": "They can be softened and faded, though not always erased."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Usually a series."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "sun-spots-and-sun-damage",
+    "category": "cosmetic-dermatology",
+    "group": "Spots, Veins & Redness",
+    "name": "Sun Spots & Sun Damage",
+    "localTopic": "Sun Spots & Sun Damage",
+    "title": "Sun Spot & Sun Damage Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Sun Spot & Sun Damage Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Treatment of brown spots, sun spots and sun damage in Torrance, CA with lasers and light.",
+    "lede": "Fade brown spots and sun damage for a clearer, more even complexion.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/sun-spots-and-sun-damage/hero.webp",
+      "heroAlt": "Sun Spots & Sun Damage at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/sun-spots-and-sun-damage/one.webp",
+      "oneAlt": "Sun Spots & Sun Damage consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/sun-spots-and-sun-damage/two.webp",
+      "twoAlt": "Healthy, radiant skin after sun spots & sun damage"
+    },
+    "overview": {
+      "eyebrow": "Understanding Sun Spots & Sun Damage",
+      "title": "What are",
+      "accent": "sun spots?",
+      "text": [
+        "Lasers or light therapy target and reduce excess pigmentation caused by UV exposure or aging.",
+        "Brown spots, sun spots and freckling fade, leaving skin clearer and more even.",
+        "Daily sun protection keeps results lasting. Dr. Sandhu first checks every spot is harmless."
+      ],
+      "facts": [
+        {
+          "label": "Treats",
+          "value": "Brown spots"
+        },
+        {
+          "label": "Cause",
+          "value": "Sun & aging"
+        },
+        {
+          "label": "Tools",
+          "value": "Lasers & light"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is spot treatment",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Sun spots",
+        "Age spots",
+        "Freckling",
+        "Sun damage on the face",
+        "Spots on the chest and hands",
+        "Uneven tone"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have brown spots",
+        "You want even tone",
+        "You want clearer skin",
+        "You want little downtime",
+        "You want to look refreshed",
+        "You want gradual change"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "M22 Stellar IPL",
+          "text": "Gentle light for sun damage and pigment.",
+          "href": "/cosmetic-dermatology/m22-stellar-ipl"
+        },
+        {
+          "title": "Q-Switched Nd:YAG",
+          "text": "Precise laser for stubborn spots.",
+          "href": "/cosmetic-dermatology/q-switched-nd-yag"
+        },
+        {
+          "title": "UltraClear",
+          "text": "Resurfacing for pigment and texture.",
+          "href": "/cosmetic-dermatology/ultraclear-laser"
+        },
+        {
+          "title": "Sun protection",
+          "text": "Keeps new spots away."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will spots come back?",
+        "a": "New spots can form with sun. Sunscreen helps protect results."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Usually a few."
+      },
+      {
+        "q": "Is every spot safe to treat?",
+        "a": "Dr. Sandhu checks every spot first."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Spots darken and flake off over about a week."
+      }
+    ]
+  },
+  {
+    "slug": "rosacea-and-redness",
+    "category": "cosmetic-dermatology",
+    "group": "Spots, Veins & Redness",
+    "name": "Rosacea & Redness",
+    "localTopic": "Rosacea & Redness",
+    "title": "Rosacea & Redness Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Rosacea & Redness Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Laser and light treatment for rosacea, broken capillaries and redness in Torrance, CA.",
+    "lede": "Calmer, more even skin, with laser and light care for redness.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/rosacea-and-redness/hero.webp",
+      "heroAlt": "Rosacea & Redness at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/rosacea-and-redness/one.webp",
+      "oneAlt": "Rosacea & Redness consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/rosacea-and-redness/two.webp",
+      "twoAlt": "Healthy, radiant skin after rosacea & redness"
+    },
+    "overview": {
+      "eyebrow": "Understanding Rosacea & Redness",
+      "title": "What causes",
+      "accent": "facial redness?",
+      "text": [
+        "Laser or light-based treatments shrink or collapse visible blood vessels and reduce redness.",
+        "They help with rosacea, broken capillaries and flushing, often alongside medical care.",
+        "Most people have a series of sessions with little downtime."
+      ],
+      "facts": [
+        {
+          "label": "Treats",
+          "value": "Redness & vessels"
+        },
+        {
+          "label": "Tools",
+          "value": "IPL & lasers"
+        },
+        {
+          "label": "Downtime",
+          "value": "Little"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is redness treatment",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Rosacea redness",
+        "Broken capillaries",
+        "Flushing",
+        "Redness on the cheeks and nose",
+        "Small facial vessels",
+        "Redness after sun damage"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have persistent redness",
+        "You have visible vessels",
+        "You want calmer skin",
+        "You want little downtime",
+        "Medical care alone is not enough",
+        "You want even tone"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "M22 Stellar IPL",
+          "text": "Reduces redness and vessels.",
+          "href": "/cosmetic-dermatology/m22-stellar-ipl"
+        },
+        {
+          "title": "Multi-Spot Nd:YAG",
+          "text": "Targets individual vessels.",
+          "href": "/cosmetic-dermatology/multi-spot-nd-yag"
+        },
+        {
+          "title": "Medical rosacea care",
+          "text": "Prescription care for flares.",
+          "href": "/medical-dermatology/rosacea"
+        },
+        {
+          "title": "Gentle routine",
+          "text": "Sun protection and calm skin care."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will redness come back?",
+        "a": "Rosacea is chronic, so maintenance helps."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Usually a few."
+      },
+      {
+        "q": "Is it painful?",
+        "a": "A quick snap with cooling."
+      },
+      {
+        "q": "Can I combine with medicine?",
+        "a": "Yes, and it often works best that way."
+      }
+    ]
+  },
+  {
+    "slug": "facial-and-leg-veins",
+    "category": "cosmetic-dermatology",
+    "group": "Spots, Veins & Redness",
+    "name": "Facial & Leg Veins",
+    "localTopic": "Facial & Leg Veins",
+    "title": "Facial & Leg Vein Treatment",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Facial & Leg Vein Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Laser treatment of facial veins and small leg veins in Torrance, CA.",
+    "lede": "Clear visible facial veins and small leg veins with targeted laser care.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/facial-and-leg-veins/hero.webp",
+      "heroAlt": "Facial & Leg Veins at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/facial-and-leg-veins/one.webp",
+      "oneAlt": "Facial & Leg Veins consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/facial-and-leg-veins/two.webp",
+      "twoAlt": "Healthy, radiant skin after facial & leg veins"
+    },
+    "overview": {
+      "eyebrow": "Understanding Facial & Leg Veins",
+      "title": "What are",
+      "accent": "spider veins?",
+      "text": [
+        "Laser or light-based treatments shrink or collapse visible blood vessels such as facial veins and small leg veins.",
+        "The treated vessels fade over the following weeks.",
+        "Larger leg veins may need care from a vein specialist. Dr. Sandhu will advise you."
+      ],
+      "facts": [
+        {
+          "label": "Treats",
+          "value": "Small visible veins"
+        },
+        {
+          "label": "Tools",
+          "value": "Vascular laser"
+        },
+        {
+          "label": "Results",
+          "value": "Over weeks"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is vein treatment",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Facial spider veins",
+        "Broken capillaries",
+        "Small leg veins",
+        "Veins around the nose",
+        "Red or purple vessels",
+        "Vascular spots"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You have visible small veins",
+        "You want clearer legs",
+        "You want clearer facial skin",
+        "You want a targeted treatment",
+        "You prefer minimal downtime",
+        "You want gradual results"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Multi-Spot Nd:YAG",
+          "text": "Targets visible veins.",
+          "href": "/cosmetic-dermatology/multi-spot-nd-yag"
+        },
+        {
+          "title": "M22 Stellar IPL",
+          "text": "For redness and fine vessels.",
+          "href": "/cosmetic-dermatology/m22-stellar-ipl"
+        },
+        {
+          "title": "Series if needed",
+          "text": "Some veins need more than one session."
+        },
+        {
+          "title": "Referral if needed",
+          "text": "Larger veins may need a vein specialist."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can large leg veins be treated?",
+        "a": "Larger veins are best seen by a vein specialist."
+      },
+      {
+        "q": "When will veins fade?",
+        "a": "Over several weeks."
+      },
+      {
+        "q": "Is there downtime?",
+        "a": "Mild redness or bruising."
+      },
+      {
+        "q": "Can new veins appear?",
+        "a": "Yes, over time. Touch-ups help."
+      }
+    ]
+  },
+  {
+    "slug": "tattoo-removal",
+    "category": "cosmetic-dermatology",
+    "group": "Spots, Veins & Redness",
+    "name": "Tattoo Removal",
+    "localTopic": "Tattoo Removal",
+    "title": "Laser Tattoo Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Laser Tattoo Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Laser tattoo removal in Torrance, CA with the Q-Switched Nd:YAG laser.",
+    "lede": "Fade or remove unwanted tattoos with precise laser treatment.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/tattoo-removal/hero.webp",
+      "heroAlt": "Tattoo Removal at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/tattoo-removal/one.webp",
+      "oneAlt": "Tattoo Removal consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/tattoo-removal/two.webp",
+      "twoAlt": "Healthy, radiant skin after tattoo removal"
+    },
+    "overview": {
+      "eyebrow": "Understanding Tattoo Removal",
+      "title": "How does",
+      "accent": "tattoo removal work?",
+      "text": [
+        "The Q-Switched Nd:YAG laser targets tattoo ink with ultra-fast pulses of laser light.",
+        "The ink breaks into tiny particles that the body gradually clears away over several sessions.",
+        "Results depend on the ink colors, depth and age of the tattoo."
+      ],
+      "facts": [
+        {
+          "label": "Laser",
+          "value": "Q-Switched Nd:YAG"
+        },
+        {
+          "label": "Sessions",
+          "value": "Several"
+        },
+        {
+          "label": "Spacing",
+          "value": "Weeks apart"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is tattoo removal",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Full tattoo removal",
+        "Fading before a cover-up",
+        "Small tattoos",
+        "Older tattoos",
+        "Dark ink tattoos",
+        "Cosmetic tattoos"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "You regret a tattoo",
+        "You want to fade for a cover-up",
+        "You can commit to several sessions",
+        "You want a medical setting",
+        "You want careful, safe treatment",
+        "You want gradual results"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Q-Switched Nd:YAG",
+          "text": "Breaks up tattoo ink.",
+          "href": "/cosmetic-dermatology/q-switched-nd-yag"
+        },
+        {
+          "title": "Series of sessions",
+          "text": "Spaced weeks apart to let the body clear ink."
+        },
+        {
+          "title": "Aftercare",
+          "text": "Simple care for healing skin."
+        },
+        {
+          "title": "Realistic planning",
+          "text": "Clear expectations based on your tattoo."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "How many sessions will I need?",
+        "a": "Several, depending on the tattoo."
+      },
+      {
+        "q": "Does it hurt?",
+        "a": "It feels like quick snaps. Cooling helps."
+      },
+      {
+        "q": "Will all colors fade?",
+        "a": "Dark inks respond best. Some colors are harder to remove."
+      },
+      {
+        "q": "Is there a scar risk?",
+        "a": "It is low with proper care."
+      }
+    ]
+  },
+  {
+    "slug": "sebaceous-hyperplasia",
+    "category": "cosmetic-dermatology",
+    "group": "Growth Removal",
+    "name": "Sebaceous Hyperplasia",
+    "localTopic": "Sebaceous Hyperplasia",
+    "title": "Sebaceous Hyperplasia Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Sebaceous Hyperplasia Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Sebaceous hyperplasia treatment in Torrance, CA. Gentle removal of small, soft, yellowish bumps on the face.",
+    "lede": "Smoother skin, with gentle removal of small, yellowish bumps.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/sebaceous-hyperplasia/hero.webp",
+      "heroAlt": "Sebaceous Hyperplasia at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/sebaceous-hyperplasia/one.webp",
+      "oneAlt": "Sebaceous Hyperplasia consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/sebaceous-hyperplasia/two.webp",
+      "twoAlt": "Healthy, radiant skin after sebaceous hyperplasia"
+    },
+    "overview": {
+      "eyebrow": "Understanding Sebaceous Hyperplasia",
+      "title": "What is",
+      "accent": "sebaceous hyperplasia?",
+      "text": [
+        "Sebaceous hyperplasia is a harmless skin condition where enlarged oil glands form small, soft, yellowish bumps, usually on the face.",
+        "They are common with age and can look like small pimples that do not go away.",
+        "They can be removed for cosmetic reasons with quick in-office treatments."
+      ],
+      "facts": [
+        {
+          "label": "Harmful?",
+          "value": "No"
+        },
+        {
+          "label": "Common on",
+          "value": "Forehead, cheeks"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is sebaceous hyperplasia",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Yellowish bumps on the face",
+        "Bumps with a central dip",
+        "Many small bumps",
+        "Bumps on the forehead",
+        "Bumps on the cheeks",
+        "Bumps that look like pimples"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "Bumps that do not go away",
+        "You want smoother skin",
+        "You want a quick treatment",
+        "You want little downtime",
+        "You want a check that they are harmless",
+        "You want a natural result"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Diagnosis first",
+          "text": "Dr. Sandhu checks that each growth is harmless."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing small growths.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current for small spots.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Prescription care",
+          "text": "Some creams can help reduce new bumps."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Cosmetic removal may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it leave a mark?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "Are they acne?",
+        "a": "No. They are enlarged oil glands, not pimples."
+      },
+      {
+        "q": "Can new ones form?",
+        "a": "Yes, new growths can appear over time."
+      }
+    ]
+  },
+  {
+    "slug": "skin-tags",
+    "category": "cosmetic-dermatology",
+    "group": "Growth Removal",
+    "name": "Skin Tags",
+    "localTopic": "Skin Tags",
+    "title": "Cosmetic Skin Tag Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cosmetic Skin Tag Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Cosmetic skin tag removal in Torrance, CA for tags on the neck, armpits and eyelids.",
+    "lede": "Quick, gentle removal of skin tags that catch or bother you.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/skin-tags/hero.webp",
+      "heroAlt": "Skin Tags at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/skin-tags/one.webp",
+      "oneAlt": "Skin Tags consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/skin-tags/two.webp",
+      "twoAlt": "Healthy, radiant skin after skin tags"
+    },
+    "overview": {
+      "eyebrow": "Understanding Skin Tags",
+      "title": "What are",
+      "accent": "skin tags?",
+      "text": [
+        "Skin tags are small, soft growths often found on the neck, armpits or eyelids.",
+        "They are harmless but can catch on clothing or jewelry and become irritated.",
+        "Removal is quick and done in the office."
+      ],
+      "facts": [
+        {
+          "label": "Harmful?",
+          "value": "No"
+        },
+        {
+          "label": "Common on",
+          "value": "Neck, armpits, eyelids"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is skin tag removal",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Neck skin tags",
+        "Underarm skin tags",
+        "Eyelid skin tags",
+        "Many small tags",
+        "Irritated tags",
+        "Tags in skin folds"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "Tags catch on clothing",
+        "You do not like how they look",
+        "You want a quick treatment",
+        "You want little downtime",
+        "You have several tags",
+        "You want them checked"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Diagnosis first",
+          "text": "Dr. Sandhu checks that each growth is harmless."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing small growths.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current for small spots.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Snip removal",
+          "text": "Quick removal with sterile instruments."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Cosmetic removal may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it leave a mark?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "Should I remove them at home?",
+        "a": "No. Home removal can cause bleeding and infection."
+      },
+      {
+        "q": "Can new ones form?",
+        "a": "Yes, new growths can appear over time."
+      }
+    ]
+  },
+  {
+    "slug": "moles",
+    "category": "cosmetic-dermatology",
+    "group": "Growth Removal",
+    "name": "Moles",
+    "localTopic": "Moles",
+    "title": "Cosmetic Mole Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cosmetic Mole Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Cosmetic mole removal in Torrance, CA by a board-certified dermatologist.",
+    "lede": "Safe removal of moles you do not want, after a careful check.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/moles/hero.webp",
+      "heroAlt": "Moles at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/moles/one.webp",
+      "oneAlt": "Moles consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/moles/two.webp",
+      "twoAlt": "Healthy, radiant skin after moles"
+    },
+    "overview": {
+      "eyebrow": "Understanding Moles",
+      "title": "What are",
+      "accent": "moles?",
+      "text": [
+        "Moles are common pigmented growths on the skin. Most are harmless.",
+        "Some people choose to remove moles that catch on clothing or affect how they feel about their appearance.",
+        "Dr. Sandhu checks every mole first and can send it to a lab after removal."
+      ],
+      "facts": [
+        {
+          "label": "Usually",
+          "value": "Harmless"
+        },
+        {
+          "label": "First",
+          "value": "A careful check"
+        },
+        {
+          "label": "Removal",
+          "value": "Shave or excision"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is mole removal",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Raised moles on the face",
+        "Moles that catch on clothing",
+        "Moles in visible areas",
+        "Several moles",
+        "Moles you do not like",
+        "Moles that get irritated"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "A mole bothers you",
+        "A mole catches or rubs",
+        "You want smoother skin",
+        "You want a careful check first",
+        "You want a natural result",
+        "You want lab testing for peace of mind"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Mole check",
+          "text": "A dermatoscope exam first.",
+          "href": "/medical-dermatology/moles"
+        },
+        {
+          "title": "Shave removal",
+          "text": "For raised moles, level with the skin."
+        },
+        {
+          "title": "Excision",
+          "text": "Full removal with fine stitches.",
+          "href": "/surgical-dermatology/excisions"
+        },
+        {
+          "title": "Lab testing",
+          "text": "Removed moles can be sent to a lab."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Cosmetic removal may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it leave a mark?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "What if a mole is changing?",
+        "a": "A changing mole should be checked medically first."
+      },
+      {
+        "q": "Can new ones form?",
+        "a": "Yes, new growths can appear over time."
+      }
+    ]
+  },
+  {
+    "slug": "seborrheic-keratoses",
+    "category": "cosmetic-dermatology",
+    "group": "Growth Removal",
+    "name": "Seborrheic Keratoses",
+    "localTopic": "Seborrheic Keratoses",
+    "title": "Seborrheic Keratosis Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Seborrheic Keratosis Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Cosmetic removal of seborrheic keratoses in Torrance, CA.",
+    "lede": "Smoother skin, with quick removal of warty, age-related growths.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/seborrheic-keratoses/hero.webp",
+      "heroAlt": "Seborrheic Keratoses at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/seborrheic-keratoses/one.webp",
+      "oneAlt": "Seborrheic Keratoses consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/seborrheic-keratoses/two.webp",
+      "twoAlt": "Healthy, radiant skin after seborrheic keratoses"
+    },
+    "overview": {
+      "eyebrow": "Understanding Seborrheic Keratoses",
+      "title": "What are",
+      "accent": "seborrheic keratoses?",
+      "text": [
+        "Seborrheic keratoses are warty, often pigmented growths common with aging.",
+        "They are harmless but can itch, catch or simply be unwanted.",
+        "They are removed quickly in the office for comfort or cosmetic reasons."
+      ],
+      "facts": [
+        {
+          "label": "Harmful?",
+          "value": "No"
+        },
+        {
+          "label": "Common with",
+          "value": "Age"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is removal",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Growths on the face",
+        "Growths on the back and chest",
+        "Many growths",
+        "Itchy growths",
+        "Growths that catch",
+        "Dark growths"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "Growths bother you",
+        "You want smoother skin",
+        "You want a quick treatment",
+        "You want them checked first",
+        "You have several growths",
+        "You want a natural result"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Diagnosis first",
+          "text": "Dr. Sandhu checks that each growth is harmless."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing small growths.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current for small spots.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Curettage",
+          "text": "Gentle scraping after numbing."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Cosmetic removal may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it leave a mark?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "Are they contagious?",
+        "a": "No."
+      },
+      {
+        "q": "Can new ones form?",
+        "a": "Yes, new growths can appear over time."
+      }
+    ]
+  },
+  {
+    "slug": "dermatosis-papulosa-nigra",
+    "category": "cosmetic-dermatology",
+    "group": "Growth Removal",
+    "name": "Dermatosis Papulosa Nigra",
+    "localTopic": "Dermatosis Papulosa Nigra",
+    "title": "Dermatosis Papulosa Nigra Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Dermatosis Papulosa Nigra Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Dermatosis papulosa nigra removal in Torrance, CA with gentle, skin-type-aware treatment.",
+    "lede": "Gentle removal of small, dark bumps, with care for your skin type.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/dermatosis-papulosa-nigra/hero.webp",
+      "heroAlt": "Dermatosis Papulosa Nigra at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/dermatosis-papulosa-nigra/one.webp",
+      "oneAlt": "Dermatosis Papulosa Nigra consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/dermatosis-papulosa-nigra/two.webp",
+      "twoAlt": "Healthy, radiant skin after dermatosis papulosa nigra"
+    },
+    "overview": {
+      "eyebrow": "Understanding Dermatosis Papulosa Nigra",
+      "title": "What is",
+      "accent": "dermatosis papulosa nigra?",
+      "text": [
+        "Dermatosis papulosa nigra are small, dark bumps mostly seen on darker skin tones, often on the face and neck.",
+        "They are harmless but can increase in number with age.",
+        "Dr. Sandhu removes them gently, with settings chosen to protect your skin."
+      ],
+      "facts": [
+        {
+          "label": "Harmful?",
+          "value": "No"
+        },
+        {
+          "label": "Common on",
+          "value": "Face, neck"
+        },
+        {
+          "label": "Approach",
+          "value": "Gentle"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is removal",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Small dark bumps on the cheeks",
+        "Bumps on the neck",
+        "Many small bumps",
+        "Bumps that catch",
+        "Bumps that bother you",
+        "Bumps increasing with age"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "Bumps bother you",
+        "You want smoother skin",
+        "You want gentle treatment",
+        "You want care for your skin type",
+        "You want a quick treatment",
+        "You want a natural result"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Diagnosis first",
+          "text": "Dr. Sandhu checks that each growth is harmless."
+        },
+        {
+          "title": "Cryosurgery",
+          "text": "Freezing small growths.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current for small spots.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Snip removal",
+          "text": "For slightly raised bumps."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Cosmetic removal may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it leave a mark?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "Is treatment safe for my skin?",
+        "a": "Yes. Settings are chosen carefully to avoid light or dark marks."
+      },
+      {
+        "q": "Can new ones form?",
+        "a": "Yes, new growths can appear over time."
+      }
+    ]
+  },
+  {
+    "slug": "angiomas",
+    "category": "cosmetic-dermatology",
+    "group": "Growth Removal",
+    "name": "Angiomas",
+    "localTopic": "Angiomas",
+    "title": "Cosmetic Angioma Removal",
+    "accent": "in Torrance, CA",
+    "metaTitle": "Cosmetic Angioma Removal in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Cosmetic removal of cherry angiomas in Torrance, CA.",
+    "lede": "Clear small red spots with quick, gentle treatment.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/angiomas/hero.webp",
+      "heroAlt": "Angiomas at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/angiomas/one.webp",
+      "oneAlt": "Angiomas consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/angiomas/two.webp",
+      "twoAlt": "Healthy, radiant skin after angiomas"
+    },
+    "overview": {
+      "eyebrow": "Understanding Angiomas",
+      "title": "What are",
+      "accent": "angiomas?",
+      "text": [
+        "Angiomas are small red or purple vascular growths made up of blood vessels. Cherry angiomas are the most common.",
+        "They are harmless but can bleed if scratched, or simply be unwanted.",
+        "They can be removed quickly with laser or electrodesiccation."
+      ],
+      "facts": [
+        {
+          "label": "Harmful?",
+          "value": "No"
+        },
+        {
+          "label": "Looks like",
+          "value": "Small red spots"
+        },
+        {
+          "label": "Removal",
+          "value": "Quick"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is removal",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Cherry angiomas",
+        "Many red spots",
+        "Spots on the chest and back",
+        "Spots on the face",
+        "Spots that bleed",
+        "Spots that bother you"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "Red spots bother you",
+        "Spots bleed when scratched",
+        "You want clearer skin",
+        "You want a quick treatment",
+        "You have several spots",
+        "You want them checked"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Diagnosis first",
+          "text": "Dr. Sandhu checks each spot."
+        },
+        {
+          "title": "Multi-Spot Nd:YAG",
+          "text": "Laser for vascular spots.",
+          "href": "/cosmetic-dermatology/multi-spot-nd-yag"
+        },
+        {
+          "title": "Electrodesiccation",
+          "text": "A fine current seals the spot.",
+          "href": "/surgical-dermatology/electrodesiccation-and-curettage"
+        },
+        {
+          "title": "Several at once",
+          "text": "Many spots can be treated in one visit."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is removal covered by insurance?",
+        "a": "Cosmetic removal may not be covered. We will let you know beforehand."
+      },
+      {
+        "q": "Will it leave a mark?",
+        "a": "Most methods leave little or no mark."
+      },
+      {
+        "q": "Do they mean something is wrong?",
+        "a": "Usually not. They are very common with age."
+      },
+      {
+        "q": "Can new ones form?",
+        "a": "Yes, new growths can appear over time."
+      }
+    ]
+  },
+  {
+    "slug": "prp-for-hair-loss",
+    "category": "cosmetic-dermatology",
+    "group": "Hair",
+    "name": "PRP for Hair Loss",
+    "localTopic": "PRP for Hair Loss",
+    "title": "PRP for Hair Loss",
+    "accent": "in Torrance, CA",
+    "metaTitle": "PRP for Hair Loss in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Platelet-rich plasma (PRP) hair loss treatment in Torrance, CA by a board-certified dermatologist.",
+    "lede": "Thicker, fuller-looking hair, using your own growth factors.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/cosmetic/prp-for-hair-loss/hero.webp",
+      "heroAlt": "PRP for Hair Loss at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/cosmetic/prp-for-hair-loss/one.webp",
+      "oneAlt": "PRP for Hair Loss consultation with Dr. Sandhu",
+      "two": "/images/services/cosmetic/prp-for-hair-loss/two.webp",
+      "twoAlt": "Healthy, radiant skin after prp for hair loss"
+    },
+    "overview": {
+      "eyebrow": "Understanding PRP for Hair Loss",
+      "title": "What is",
+      "accent": "PRP for hair loss?",
+      "text": [
+        "Platelet-rich plasma (PRP) hair loss treatment uses your own blood's plasma, rich in growth factors, placed into the scalp to stimulate hair growth and improve thickness.",
+        "It is usually done as a series of sessions, followed by maintenance.",
+        "It works best as part of a plan after Dr. Sandhu finds the cause of your hair loss."
+      ],
+      "facts": [
+        {
+          "label": "Uses",
+          "value": "Your own plasma"
+        },
+        {
+          "label": "Goal",
+          "value": "Thicker hair"
+        },
+        {
+          "label": "Sessions",
+          "value": "A series"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is PRP",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Thinning hair",
+        "Female pattern hair loss",
+        "Male pattern hair loss",
+        "Widening part",
+        "Early hair loss",
+        "Hair loss alongside medical treatment"
+      ],
+      "signsTitle": "You may like this if",
+      "signs": [
+        "Your hair is thinning",
+        "You want a natural option",
+        "You want to boost other treatments",
+        "You can commit to a series",
+        "You want fuller-looking hair",
+        "You want a dermatologist-led plan"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Diagnosis first",
+          "text": "Finding the cause of hair loss.",
+          "href": "/medical-dermatology/hair-loss"
+        },
+        {
+          "title": "PRP series",
+          "text": "Usually a few monthly sessions."
+        },
+        {
+          "title": "Maintenance",
+          "text": "Periodic sessions to keep results."
+        },
+        {
+          "title": "Combined care",
+          "text": "Works well with medical hair loss treatment."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Consultation",
+          "text": "Dr. Sandhu looks at your skin, listens to your goals and explains what is realistic."
+        },
+        {
+          "label": "Same day",
+          "title": "Your personal plan",
+          "text": "You leave with a clear plan, including the number of sessions and costs."
+        },
+        {
+          "label": "Treatment",
+          "title": "Treatment day",
+          "text": "Treatments are done in our office with comfort measures as needed."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Results & upkeep",
+          "text": "We review your results and plan maintenance to keep them looking their best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Safe, natural-looking care",
+      "text": [
+        "Our philosophy is that less is more. We enhance your natural beauty, never change it.",
+        "Every treatment is chosen for your skin type, including skin of color. Some treatments are not done during pregnancy, and we review your health history first."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When will I see results?",
+        "a": "Usually after a few months."
+      },
+      {
+        "q": "How many sessions?",
+        "a": "Commonly three, then maintenance."
+      },
+      {
+        "q": "Does it hurt?",
+        "a": "Numbing keeps it comfortable."
+      },
+      {
+        "q": "Can I have this treatment while pregnant or breastfeeding?",
+        "a": "Many cosmetic treatments are postponed during pregnancy and breastfeeding. Dr. Sandhu will advise you."
+      }
+    ]
+  },
+  {
+    "slug": "atopic-dermatitis-and-eczema",
+    "category": "pediatric-dermatology",
+    "group": "Common Conditions",
+    "name": "Eczema",
+    "localTopic": "Pediatric eczema care",
+    "title": "Eczema Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Eczema Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric eczema (atopic dermatitis) care in Torrance, CA for babies, children and teens.",
+    "lede": "Gentle relief for itchy, dry, inflamed skin in babies, children and teens.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/atopic-dermatitis-and-eczema/hero.webp",
+      "heroAlt": "Eczema at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/atopic-dermatitis-and-eczema/one.webp",
+      "oneAlt": "Eczema consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/atopic-dermatitis-and-eczema/two.webp",
+      "twoAlt": "Healthy, radiant skin after eczema"
+    },
+    "overview": {
+      "eyebrow": "Understanding Eczema",
+      "title": "What is",
+      "accent": "eczema?",
+      "text": [
+        "Atopic dermatitis, or eczema, is chronic itchy, red, inflamed skin linked to allergies or asthma.",
+        "It is very common in babies and children and tends to come and go in flares.",
+        "Dr. Sandhu helps families calm flares, protect the skin barrier and help children sleep comfortably."
+      ],
+      "facts": [
+        {
+          "label": "Who",
+          "value": "Babies to teens"
+        },
+        {
+          "label": "Main sign",
+          "value": "Itchy, dry skin"
+        },
+        {
+          "label": "Linked to",
+          "value": "Allergies, asthma"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is eczema care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Baby eczema",
+        "Eczema in skin folds",
+        "Itchy flares",
+        "Dry, rough patches",
+        "Infected eczema",
+        "Eczema affecting sleep"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Your child scratches often",
+        "Red, rough patches",
+        "Flares keep coming back",
+        "Itch disturbs sleep",
+        "Moisturizers are not enough",
+        "Skin cracks or weeps"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Skin barrier care",
+          "text": "Gentle bathing and the right moisturizers."
+        },
+        {
+          "title": "Prescription treatments",
+          "text": "Safe creams and ointments for flares."
+        },
+        {
+          "title": "Itch relief",
+          "text": "Tips to help your child sleep."
+        },
+        {
+          "title": "Flare plan",
+          "text": "A written plan for when flares start.",
+          "href": "/medical-dermatology/eczema"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will my child outgrow eczema?",
+        "a": "Many children improve with age, but some keep sensitive skin."
+      },
+      {
+        "q": "Is eczema contagious?",
+        "a": "No."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      },
+      {
+        "q": "What helps at home?",
+        "a": "Short lukewarm baths and moisturizing right after."
+      }
+    ]
+  },
+  {
+    "slug": "acne",
+    "category": "pediatric-dermatology",
+    "group": "Common Conditions",
+    "name": "Acne",
+    "localTopic": "Pediatric acne care",
+    "title": "Teen Acne Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Teen Acne Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Teen and preteen acne treatment in Torrance, CA by a board-certified dermatologist.",
+    "lede": "Clearer skin and more confidence for preteens and teens.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/acne/hero.webp",
+      "heroAlt": "Acne at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/acne/one.webp",
+      "oneAlt": "Acne consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/acne/two.webp",
+      "twoAlt": "Healthy, radiant skin after acne"
+    },
+    "overview": {
+      "eyebrow": "Understanding Acne",
+      "title": "What is",
+      "accent": "acne?",
+      "text": [
+        "Acne is pimples, blackheads or cysts from clogged hair follicles and oil buildup.",
+        "It often starts in the preteen and teen years and can affect confidence.",
+        "Dr. Sandhu builds simple, teen-friendly plans that fit busy school routines."
+      ],
+      "facts": [
+        {
+          "label": "Who",
+          "value": "Preteens & teens"
+        },
+        {
+          "label": "Visit options",
+          "value": "In office or video"
+        },
+        {
+          "label": "Approach",
+          "value": "Simple routines"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is acne care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Blackheads and whiteheads",
+        "Red pimples",
+        "Cysts",
+        "Acne on the back and chest",
+        "Acne marks",
+        "Acne affecting confidence"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Breakouts that do not clear",
+        "Painful bumps",
+        "Dark marks after pimples",
+        "Store-bought products have not worked",
+        "Acne affects confidence",
+        "Scarring"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Simple routines",
+          "text": "Easy steps teens will follow."
+        },
+        {
+          "title": "Prescription creams",
+          "text": "To unclog pores and calm redness."
+        },
+        {
+          "title": "Oral medicines",
+          "text": "For more severe acne when needed."
+        },
+        {
+          "title": "Adult acne care",
+          "text": "Learn more about acne care.",
+          "href": "/medical-dermatology/acne"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "At what age can acne be treated?",
+        "a": "Acne can be treated as soon as it starts."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      },
+      {
+        "q": "Should teens pop pimples?",
+        "a": "No. Picking can cause marks and scars."
+      },
+      {
+        "q": "How long until it improves?",
+        "a": "Usually several weeks."
+      }
+    ]
+  },
+  {
+    "slug": "psoriasis",
+    "category": "pediatric-dermatology",
+    "group": "Common Conditions",
+    "name": "Psoriasis",
+    "localTopic": "Pediatric psoriasis care",
+    "title": "Psoriasis Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Psoriasis Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric psoriasis care in Torrance, CA by a board-certified dermatologist.",
+    "lede": "Gentle, effective care for scaly patches in children.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/psoriasis/hero.webp",
+      "heroAlt": "Psoriasis at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/psoriasis/one.webp",
+      "oneAlt": "Psoriasis consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/psoriasis/two.webp",
+      "twoAlt": "Healthy, radiant skin after psoriasis"
+    },
+    "overview": {
+      "eyebrow": "Understanding Psoriasis",
+      "title": "What is",
+      "accent": "psoriasis?",
+      "text": [
+        "Psoriasis is an autoimmune disorder causing thick, scaly, red skin patches.",
+        "In children it often appears on the scalp, elbows, knees or diaper area.",
+        "Dr. Sandhu chooses treatments that are safe and gentle for growing skin."
+      ],
+      "facts": [
+        {
+          "label": "Who",
+          "value": "Children & teens"
+        },
+        {
+          "label": "Main sign",
+          "value": "Scaly, red patches"
+        },
+        {
+          "label": "Contagious?",
+          "value": "No"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is psoriasis care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Scalp psoriasis",
+        "Plaque psoriasis",
+        "Diaper-area psoriasis",
+        "Nail changes",
+        "Guttate psoriasis after infection",
+        "Itchy patches"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Thick, scaly patches",
+        "Flaking on the scalp",
+        "Pitted nails",
+        "Patches after a sore throat",
+        "Itchy skin",
+        "Patches affecting confidence"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Gentle topicals",
+          "text": "Creams and scalp treatments safe for children."
+        },
+        {
+          "title": "Skin care",
+          "text": "Moisturizing and gentle bathing."
+        },
+        {
+          "title": "Advanced options",
+          "text": "For more widespread psoriasis when needed."
+        },
+        {
+          "title": "Adult psoriasis care",
+          "text": "Learn more about psoriasis.",
+          "href": "/medical-dermatology/psoriasis"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is psoriasis contagious?",
+        "a": "No."
+      },
+      {
+        "q": "Can it be cured?",
+        "a": "Not yet, but it can be well controlled."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      },
+      {
+        "q": "Can an infection trigger it?",
+        "a": "Yes. A strep throat can trigger a type of psoriasis in children."
+      }
+    ]
+  },
+  {
+    "slug": "rashes",
+    "category": "pediatric-dermatology",
+    "group": "Common Conditions",
+    "name": "Rashes",
+    "localTopic": "Pediatric rashes care",
+    "title": "Rash Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Rash Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric rash diagnosis and treatment in Torrance, CA.",
+    "lede": "Find out what is causing your child's rash and calm it quickly.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/rashes/hero.webp",
+      "heroAlt": "Rashes at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/rashes/one.webp",
+      "oneAlt": "Rashes consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/rashes/two.webp",
+      "twoAlt": "Healthy, radiant skin after rashes"
+    },
+    "overview": {
+      "eyebrow": "Understanding Rashes",
+      "title": "What causes",
+      "accent": "rashes?",
+      "text": [
+        "Rashes are irritated, red or inflamed skin with many possible causes, from heat and allergies to infections and eczema.",
+        "Most childhood rashes are harmless, but some need treatment.",
+        "Dr. Sandhu finds the cause and helps your child feel comfortable quickly."
+      ],
+      "facts": [
+        {
+          "label": "Who",
+          "value": "Babies to teens"
+        },
+        {
+          "label": "Visit options",
+          "value": "In office or video"
+        },
+        {
+          "label": "First step",
+          "value": "Find the cause"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is rashes care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Heat rash",
+        "Diaper rash",
+        "Allergic rashes",
+        "Viral rashes",
+        "Contact rashes",
+        "Rashes that keep returning"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "A rash that spreads",
+        "Itching or discomfort",
+        "Blisters or crusting",
+        "A rash lasting more than a few days",
+        "A rash after a new product",
+        "A rash with fever (seek urgent care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Accurate diagnosis",
+          "text": "A careful exam to find the cause."
+        },
+        {
+          "title": "Soothing treatment",
+          "text": "Gentle creams and comfort care."
+        },
+        {
+          "title": "Treating the cause",
+          "text": "Care for infection or allergy."
+        },
+        {
+          "title": "Prevention",
+          "text": "Tips to avoid triggers.",
+          "href": "/medical-dermatology/rashes"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When is a rash an emergency?",
+        "a": "Seek urgent care for a rash with fever, rapid spreading, or trouble breathing."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      },
+      {
+        "q": "Are most rashes serious?",
+        "a": "Most are harmless, but a check gives peace of mind."
+      },
+      {
+        "q": "Can I use adult creams?",
+        "a": "Ask first. Some are not right for children."
+      }
+    ]
+  },
+  {
+    "slug": "insect-bites",
+    "category": "pediatric-dermatology",
+    "group": "Common Conditions",
+    "name": "Insect Bites",
+    "localTopic": "Pediatric insect bites care",
+    "title": "Insect Bite Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Insect Bite Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric insect bite care in Torrance, CA.",
+    "lede": "Relief for itchy, swollen bites so kids can enjoy the outdoors.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/insect-bites/hero.webp",
+      "heroAlt": "Insect Bites at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/insect-bites/one.webp",
+      "oneAlt": "Insect Bites consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/insect-bites/two.webp",
+      "twoAlt": "Healthy, radiant skin after insect bites"
+    },
+    "overview": {
+      "eyebrow": "Understanding Insect Bites",
+      "title": "What are",
+      "accent": "bite reactions?",
+      "text": [
+        "Insect bites cause skin reactions with redness, swelling and itching from insect stings or bites.",
+        "Children often react more strongly, and scratching can lead to infection.",
+        "Dr. Sandhu calms the reaction and helps prevent new bites."
+      ],
+      "facts": [
+        {
+          "label": "Who",
+          "value": "Babies to teens"
+        },
+        {
+          "label": "Main signs",
+          "value": "Red, itchy, swollen"
+        },
+        {
+          "label": "Focus",
+          "value": "Relief & prevention"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is insect bites care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Mosquito bites",
+        "Flea bites",
+        "Bed bug bites",
+        "Large local reactions",
+        "Infected bites",
+        "Itchy bumps lasting days"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Bites that swell a lot",
+        "Itch that will not settle",
+        "Blisters",
+        "Signs of infection",
+        "New bites at home",
+        "Dark marks after bites"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Itch relief",
+          "text": "Gentle creams and antihistamines."
+        },
+        {
+          "title": "Infection care",
+          "text": "Treating infected bites."
+        },
+        {
+          "title": "Finding the source",
+          "text": "Help identifying what is biting."
+        },
+        {
+          "title": "Prevention",
+          "text": "Child-safe repellent and clothing tips.",
+          "href": "/medical-dermatology/insect-bites"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When is a sting an emergency?",
+        "a": "Call 911 for face or throat swelling or trouble breathing."
+      },
+      {
+        "q": "How can my child stop scratching?",
+        "a": "Cool compresses, anti-itch care and short nails."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      },
+      {
+        "q": "Which repellents are safe?",
+        "a": "We will recommend options suited to your child's age."
+      }
+    ]
+  },
+  {
+    "slug": "warts",
+    "category": "pediatric-dermatology",
+    "group": "Infections & Growths",
+    "name": "Warts",
+    "localTopic": "Pediatric warts care",
+    "title": "Wart Treatment",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Wart Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric wart treatment in Torrance, CA.",
+    "lede": "Gentle, child-friendly treatment for common and plantar warts.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/warts/hero.webp",
+      "heroAlt": "Warts at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/warts/one.webp",
+      "oneAlt": "Warts consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/warts/two.webp",
+      "twoAlt": "Healthy, radiant skin after warts"
+    },
+    "overview": {
+      "eyebrow": "Understanding Warts",
+      "title": "What are",
+      "accent": "warts?",
+      "text": [
+        "Warts are small, rough growths caused by the HPV virus. They are very common in children.",
+        "They often appear on the hands and feet and can spread.",
+        "Dr. Sandhu chooses gentle treatments that suit your child's age and comfort."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "HPV virus"
+        },
+        {
+          "label": "Common on",
+          "value": "Hands, feet"
+        },
+        {
+          "label": "Approach",
+          "value": "Child-friendly"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is wart treatment",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Common warts",
+        "Plantar warts",
+        "Flat warts",
+        "Warts around nails",
+        "Many warts",
+        "Warts that keep returning"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Rough bumps on the skin",
+        "Painful spots on the feet",
+        "Warts that spread",
+        "Warts near nails",
+        "Home treatments have not worked",
+        "Warts bothering your child"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Gentle topicals",
+          "text": "Treatments used at home."
+        },
+        {
+          "title": "Freezing",
+          "text": "Quick in-office freezing for older children.",
+          "href": "/surgical-dermatology/cryosurgery"
+        },
+        {
+          "title": "Other options",
+          "text": "Painless options for younger children."
+        },
+        {
+          "title": "Prevention",
+          "text": "Tips to stop spreading.",
+          "href": "/medical-dermatology/warts"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Are warts contagious?",
+        "a": "Yes. Avoid picking and sharing towels."
+      },
+      {
+        "q": "Do warts go away on their own?",
+        "a": "Many do over time, but treatment can help."
+      },
+      {
+        "q": "Is treatment painful?",
+        "a": "We choose gentle options for children."
+      },
+      {
+        "q": "How many visits?",
+        "a": "Often a few."
+      }
+    ]
+  },
+  {
+    "slug": "molluscum",
+    "category": "pediatric-dermatology",
+    "group": "Infections & Growths",
+    "name": "Molluscum",
+    "localTopic": "Pediatric molluscum care",
+    "title": "Molluscum Treatment",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Molluscum Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric molluscum contagiosum treatment in Torrance, CA.",
+    "lede": "Gentle care for small, dimpled bumps common in children.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/molluscum/hero.webp",
+      "heroAlt": "Molluscum at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/molluscum/one.webp",
+      "oneAlt": "Molluscum consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/molluscum/two.webp",
+      "twoAlt": "Healthy, radiant skin after molluscum"
+    },
+    "overview": {
+      "eyebrow": "Understanding Molluscum",
+      "title": "What is",
+      "accent": "molluscum?",
+      "text": [
+        "Molluscum is a viral infection causing small, firm bumps with a dimple in the center.",
+        "It is common in children and spreads by touch and shared towels.",
+        "It often clears on its own, but treatment can speed things up and stop spreading."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "A virus"
+        },
+        {
+          "label": "Looks like",
+          "value": "Dimpled bumps"
+        },
+        {
+          "label": "Common in",
+          "value": "Children"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is molluscum care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Molluscum on the trunk",
+        "Molluscum in skin folds",
+        "Many bumps",
+        "Itchy molluscum",
+        "Molluscum with eczema",
+        "Spreading bumps"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Small, shiny, dimpled bumps",
+        "Bumps that spread",
+        "Itchy or red bumps",
+        "Bumps with eczema",
+        "Bumps bothering your child",
+        "Siblings with bumps"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Watchful waiting",
+          "text": "Many cases clear on their own."
+        },
+        {
+          "title": "Gentle treatments",
+          "text": "In-office options suited to children."
+        },
+        {
+          "title": "Itch and eczema care",
+          "text": "Calming the skin around bumps.",
+          "href": "/pediatric-dermatology/atopic-dermatitis-and-eczema"
+        },
+        {
+          "title": "Prevention",
+          "text": "Tips to stop spreading."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is molluscum contagious?",
+        "a": "Yes, by touch and shared items."
+      },
+      {
+        "q": "Will it go away on its own?",
+        "a": "Often, though it can take months."
+      },
+      {
+        "q": "Can my child swim?",
+        "a": "Usually yes, with bumps covered and no shared towels."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      }
+    ]
+  },
+  {
+    "slug": "impetigo-and-bacterial-infections",
+    "category": "pediatric-dermatology",
+    "group": "Infections & Growths",
+    "name": "Impetigo",
+    "localTopic": "Pediatric impetigo care",
+    "title": "Impetigo Treatment",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Impetigo Treatment in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric impetigo and bacterial skin infection treatment in Torrance, CA.",
+    "lede": "Fast treatment for impetigo and other bacterial skin infections in children.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/impetigo-and-bacterial-infections/hero.webp",
+      "heroAlt": "Impetigo at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/impetigo-and-bacterial-infections/one.webp",
+      "oneAlt": "Impetigo consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/impetigo-and-bacterial-infections/two.webp",
+      "twoAlt": "Healthy, radiant skin after impetigo"
+    },
+    "overview": {
+      "eyebrow": "Understanding Impetigo",
+      "title": "What is",
+      "accent": "impetigo?",
+      "text": [
+        "Impetigo is a contagious infection causing red sores that burst and crust, often with a honey-colored crust.",
+        "It is common in children, especially around the nose and mouth.",
+        "Prompt treatment clears it quickly and stops it from spreading."
+      ],
+      "facts": [
+        {
+          "label": "Main sign",
+          "value": "Honey-colored crusts"
+        },
+        {
+          "label": "Contagious",
+          "value": "Yes"
+        },
+        {
+          "label": "Key",
+          "value": "Treat promptly"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is impetigo care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Impetigo",
+        "Infected scrapes",
+        "Infected eczema",
+        "Boils",
+        "Folliculitis",
+        "Infected bites"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Red sores that crust",
+        "Sores around the nose and mouth",
+        "Spreading sores",
+        "Sores after a scrape",
+        "Fever (seek urgent care)",
+        "Redness spreading quickly (seek urgent care)"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Antibiotic ointments",
+          "text": "For small areas."
+        },
+        {
+          "title": "Oral antibiotics",
+          "text": "For larger or spreading infection."
+        },
+        {
+          "title": "Gentle wound care",
+          "text": "Cleaning and covering sores."
+        },
+        {
+          "title": "Prevention",
+          "text": "Hand washing and not sharing towels.",
+          "href": "/medical-dermatology/bacterial-infections"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "When can my child return to school?",
+        "a": "Usually 24 hours after starting treatment."
+      },
+      {
+        "q": "Is impetigo contagious?",
+        "a": "Yes. Keep sores covered."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      },
+      {
+        "q": "When is it urgent?",
+        "a": "Fever or quickly spreading redness needs urgent care."
+      }
+    ]
+  },
+  {
+    "slug": "fungal-infections",
+    "category": "pediatric-dermatology",
+    "group": "Infections & Growths",
+    "name": "Fungal Infections",
+    "localTopic": "Pediatric fungal infections care",
+    "title": "Fungal Infection Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Fungal Infection Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric fungal infection care in Torrance, CA, including ringworm and scalp ringworm.",
+    "lede": "Clear itchy, scaly fungal infections such as ringworm and scalp infections.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/fungal-infections/hero.webp",
+      "heroAlt": "Fungal Infections at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/fungal-infections/one.webp",
+      "oneAlt": "Fungal Infections consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/fungal-infections/two.webp",
+      "twoAlt": "Healthy, radiant skin after fungal infections"
+    },
+    "overview": {
+      "eyebrow": "Understanding Fungal Infections",
+      "title": "What is",
+      "accent": "fungal infections?",
+      "text": [
+        "Fungal infections cause itchy, red, sometimes scaly skin. Ringworm and scalp ringworm are common in children.",
+        "They spread through contact with people, pets or shared items.",
+        "Dr. Sandhu confirms the cause and chooses child-safe treatment."
+      ],
+      "facts": [
+        {
+          "label": "Examples",
+          "value": "Ringworm"
+        },
+        {
+          "label": "Spread by",
+          "value": "Contact, pets"
+        },
+        {
+          "label": "First step",
+          "value": "Confirm the cause"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is fungal infections care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Ringworm on the body",
+        "Scalp ringworm",
+        "Athlete's foot",
+        "Diaper-area yeast",
+        "Infections from pets",
+        "Recurring infections"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Ring-shaped itchy patches",
+        "Scaly patches on the scalp",
+        "Hair loss in a patch",
+        "Peeling feet",
+        "Red rash in skin folds",
+        "Creams have not worked"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Antifungal creams",
+          "text": "For skin infections."
+        },
+        {
+          "title": "Oral medicine",
+          "text": "Needed for scalp ringworm."
+        },
+        {
+          "title": "Family and pet checks",
+          "text": "Treating the source to prevent return."
+        },
+        {
+          "title": "Prevention",
+          "text": "Simple hygiene habits.",
+          "href": "/medical-dermatology/fungal-infections"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is ringworm a worm?",
+        "a": "No. It is a fungus."
+      },
+      {
+        "q": "Is it contagious?",
+        "a": "Yes, including from pets."
+      },
+      {
+        "q": "Why does scalp ringworm need pills?",
+        "a": "Creams cannot reach the hair roots."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      }
+    ]
+  },
+  {
+    "slug": "alopecia-areata",
+    "category": "pediatric-dermatology",
+    "group": "Hair",
+    "name": "Alopecia Areata",
+    "localTopic": "Pediatric alopecia areata care",
+    "title": "Alopecia Areata Care",
+    "accent": "for Children in Torrance, CA",
+    "metaTitle": "Pediatric Alopecia Areata Care in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Pediatric alopecia areata care in Torrance, CA.",
+    "lede": "Caring, expert treatment for patchy hair loss in children.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/pediatric/alopecia-areata/hero.webp",
+      "heroAlt": "Alopecia Areata at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/pediatric/alopecia-areata/one.webp",
+      "oneAlt": "Alopecia Areata consultation with Dr. Sandhu",
+      "two": "/images/services/pediatric/alopecia-areata/two.webp",
+      "twoAlt": "Healthy, radiant skin after alopecia areata"
+    },
+    "overview": {
+      "eyebrow": "Understanding Alopecia Areata",
+      "title": "What is",
+      "accent": "alopecia areata?",
+      "text": [
+        "Alopecia areata is autoimmune hair loss causing patchy bald spots.",
+        "It can affect the scalp, eyebrows or eyelashes, and hair often regrows.",
+        "Dr. Sandhu supports children and families with gentle treatment and reassurance."
+      ],
+      "facts": [
+        {
+          "label": "Cause",
+          "value": "Autoimmune"
+        },
+        {
+          "label": "Looks like",
+          "value": "Round bald patches"
+        },
+        {
+          "label": "Hair often",
+          "value": "Regrows"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is alopecia areata care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Round bald patches",
+        "Eyebrow or eyelash loss",
+        "Multiple patches",
+        "Nail pitting",
+        "Recurring patches",
+        "Hair loss affecting confidence"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "Smooth, round bald spots",
+        "Patches appearing suddenly",
+        "Eyebrow or lash loss",
+        "Pitted nails",
+        "Hair loss upsetting your child",
+        "Patches that spread"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Gentle topicals",
+          "text": "Treatments suited to children."
+        },
+        {
+          "title": "In-office care",
+          "text": "Options for older children when suitable."
+        },
+        {
+          "title": "Support",
+          "text": "Reassurance and resources for families."
+        },
+        {
+          "title": "Adult hair loss care",
+          "text": "Learn more about hair loss.",
+          "href": "/medical-dermatology/hair-loss"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Visit",
+          "title": "Family-friendly visit",
+          "text": "Dr. Sandhu examines your child gently and talks with you and your child in simple words."
+        },
+        {
+          "label": "Same day",
+          "title": "A clear plan",
+          "text": "You leave with an easy plan that fits your family's routine."
+        },
+        {
+          "label": "Next weeks",
+          "title": "Feeling better",
+          "text": "Most children improve within days to weeks with the right care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Check-in",
+          "text": "We check progress in the office or by video visit and adjust care as your child grows."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Gentle care for children",
+      "text": [
+        "Treatments are chosen for your child's age and skin, and explained clearly to parents.",
+        "Dr. Sandhu is highly experienced in treating patients of all ages, from newborns to adults."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Will the hair grow back?",
+        "a": "Often yes, though it can take months and may recur."
+      },
+      {
+        "q": "Is it contagious?",
+        "a": "No."
+      },
+      {
+        "q": "Is it caused by stress?",
+        "a": "It is autoimmune, though stress may play a role in some people."
+      },
+      {
+        "q": "Can we have a video visit?",
+        "a": "Yes. Many follow-ups and new rashes can be seen by secure video visit."
+      }
+    ]
+  },
+  {
+    "slug": "new-rashes",
+    "category": "teledermatology",
+    "group": "Virtual Visits For",
+    "name": "New Rashes",
+    "localTopic": "Teledermatology for new rashes",
+    "title": "New Rash Visits",
+    "accent": "by Video Visit",
+    "metaTitle": "New Rash Visits by Video Visit | Teledermatology in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Teledermatology video visits for new rashes with a board-certified dermatologist serving Torrance, CA.",
+    "lede": "Get a new rash checked from home by a board-certified dermatologist.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/tele/new-rashes/hero.webp",
+      "heroAlt": "New Rashes at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/tele/new-rashes/one.webp",
+      "oneAlt": "New Rashes consultation with Dr. Sandhu",
+      "two": "/images/services/tele/new-rashes/two.webp",
+      "twoAlt": "Healthy, radiant skin after new rashes"
+    },
+    "overview": {
+      "eyebrow": "Understanding New Rashes",
+      "title": "Video visits for",
+      "accent": "new rashes",
+      "text": [
+        "Skip the waiting room. Our teledermatology visits let you consult with a board-certified dermatologist through secure, virtual appointments.",
+        "A new rash is one of the most common reasons for a video visit. Clear photos and a short video chat are often all we need.",
+        "If an in-person exam is better, we will let you know and book you in."
+      ],
+      "facts": [
+        {
+          "label": "Visit",
+          "value": "Secure video"
+        },
+        {
+          "label": "Good for",
+          "value": "New rashes"
+        },
+        {
+          "label": "From",
+          "value": "Home"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is a video visit for new rashes",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Itchy rashes",
+        "Allergic reactions",
+        "Hives",
+        "Contact dermatitis",
+        "Heat rash",
+        "Rashes in children"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "A new rash you want checked",
+        "You cannot easily come in",
+        "You want fast advice",
+        "Your child has a rash",
+        "A rash after a new product",
+        "You want peace of mind"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Video consultation",
+          "text": "See Dr. Sandhu from home."
+        },
+        {
+          "title": "Photos",
+          "text": "Clear photos help us see details."
+        },
+        {
+          "title": "Prescriptions",
+          "text": "Sent to your pharmacy when needed."
+        },
+        {
+          "title": "In-person if needed",
+          "text": "We book an office visit when best.",
+          "href": "/medical-dermatology/rashes"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Request a visit",
+          "text": "Book an online appointment that fits your day."
+        },
+        {
+          "label": "Step 2",
+          "title": "Meet by secure video",
+          "text": "See a board-certified dermatologist from home."
+        },
+        {
+          "label": "Step 3",
+          "title": "Get your care plan",
+          "text": "Leave with clear next steps, prescriptions if needed, and follow-up care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay on track",
+          "text": "Check in again by video, or come to the office if an in-person exam is best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Secure, private visits",
+      "text": [
+        "Video visits are private and secure. All you need is a phone, tablet or computer with a camera.",
+        "Some concerns, such as a full-body skin check or a growth that needs a biopsy, are best seen in person. We will tell you if that is the case."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What do I need?",
+        "a": "A phone, tablet or computer with a camera, and good lighting."
+      },
+      {
+        "q": "Can you prescribe medicine?",
+        "a": "Yes, when appropriate."
+      },
+      {
+        "q": "Is it private?",
+        "a": "Yes. Visits are secure and private."
+      },
+      {
+        "q": "When should I come in instead?",
+        "a": "For a rash with fever or anything urgent, seek in-person or urgent care."
+      }
+    ]
+  },
+  {
+    "slug": "acne",
+    "category": "teledermatology",
+    "group": "Virtual Visits For",
+    "name": "Acne",
+    "localTopic": "Teledermatology for acne",
+    "title": "Acne Visits",
+    "accent": "by Video Visit",
+    "metaTitle": "Acne Visits by Video Visit | Teledermatology in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Teledermatology acne visits with a board-certified dermatologist serving Torrance, CA.",
+    "lede": "Start or adjust your acne treatment from home.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/tele/acne/hero.webp",
+      "heroAlt": "Acne at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/tele/acne/one.webp",
+      "oneAlt": "Acne consultation with Dr. Sandhu",
+      "two": "/images/services/tele/acne/two.webp",
+      "twoAlt": "Healthy, radiant skin after acne"
+    },
+    "overview": {
+      "eyebrow": "Understanding Acne",
+      "title": "Video visits for",
+      "accent": "acne",
+      "text": [
+        "Acne care works well by video. We can review your skin, products and goals, and start or adjust treatment.",
+        "Follow-up visits are especially easy by video, so you stay on track without missing school or work.",
+        "If your skin needs an in-person look, we will book you in."
+      ],
+      "facts": [
+        {
+          "label": "Visit",
+          "value": "Secure video"
+        },
+        {
+          "label": "Good for",
+          "value": "New & follow-up acne"
+        },
+        {
+          "label": "From",
+          "value": "Home"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is a video visit for acne",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Teen acne",
+        "Adult acne",
+        "Hormonal acne",
+        "Acne follow-ups",
+        "Treatment adjustments",
+        "Acne marks"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "You want to start acne treatment",
+        "You need a follow-up",
+        "Your treatment needs adjusting",
+        "You are busy with school or work",
+        "You want convenient care",
+        "You want fewer trips"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Video consultation",
+          "text": "Review your skin and routine."
+        },
+        {
+          "title": "Personal plan",
+          "text": "Clear steps and products."
+        },
+        {
+          "title": "Prescriptions",
+          "text": "Sent to your pharmacy when needed."
+        },
+        {
+          "title": "Learn more",
+          "text": "Our full acne care.",
+          "href": "/medical-dermatology/acne"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Request a visit",
+          "text": "Book an online appointment that fits your day."
+        },
+        {
+          "label": "Step 2",
+          "title": "Meet by secure video",
+          "text": "See a board-certified dermatologist from home."
+        },
+        {
+          "label": "Step 3",
+          "title": "Get your care plan",
+          "text": "Leave with clear next steps, prescriptions if needed, and follow-up care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay on track",
+          "text": "Check in again by video, or come to the office if an in-person exam is best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Secure, private visits",
+      "text": [
+        "Video visits are private and secure. All you need is a phone, tablet or computer with a camera.",
+        "Some concerns, such as a full-body skin check or a growth that needs a biopsy, are best seen in person. We will tell you if that is the case."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can acne be treated by video?",
+        "a": "Yes. Many acne visits work well by video."
+      },
+      {
+        "q": "Do I need photos?",
+        "a": "Clear photos in good light help."
+      },
+      {
+        "q": "Can teens have video visits?",
+        "a": "Yes, with a parent present for minors."
+      },
+      {
+        "q": "What if I need an exam?",
+        "a": "We will book an office visit."
+      }
+    ]
+  },
+  {
+    "slug": "eczema",
+    "category": "teledermatology",
+    "group": "Virtual Visits For",
+    "name": "Eczema",
+    "localTopic": "Teledermatology for eczema",
+    "title": "Eczema Visits",
+    "accent": "by Video Visit",
+    "metaTitle": "Eczema Visits by Video Visit | Teledermatology in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Teledermatology eczema visits with a board-certified dermatologist serving Torrance, CA.",
+    "lede": "Calm eczema flares with expert care from home.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/tele/eczema/hero.webp",
+      "heroAlt": "Eczema at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/tele/eczema/one.webp",
+      "oneAlt": "Eczema consultation with Dr. Sandhu",
+      "two": "/images/services/tele/eczema/two.webp",
+      "twoAlt": "Healthy, radiant skin after eczema"
+    },
+    "overview": {
+      "eyebrow": "Understanding Eczema",
+      "title": "Video visits for",
+      "accent": "eczema",
+      "text": [
+        "Eczema flares can be managed well by video. We review your skin, your routine and what has helped before.",
+        "It is especially convenient for parents of young children and for regular follow-ups.",
+        "If the skin looks infected or needs a closer look, we will book you in."
+      ],
+      "facts": [
+        {
+          "label": "Visit",
+          "value": "Secure video"
+        },
+        {
+          "label": "Good for",
+          "value": "Flares & follow-ups"
+        },
+        {
+          "label": "From",
+          "value": "Home"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is a video visit for eczema",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Eczema flares",
+        "Baby and child eczema",
+        "Hand eczema",
+        "Treatment adjustments",
+        "Follow-up visits",
+        "Itch that disturbs sleep"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "A flare has started",
+        "Your plan needs adjusting",
+        "Your child has eczema",
+        "You want a follow-up",
+        "You want convenient care",
+        "You want fewer trips"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Video consultation",
+          "text": "Review the flare and routine."
+        },
+        {
+          "title": "Flare plan",
+          "text": "Clear steps to calm the skin."
+        },
+        {
+          "title": "Prescriptions",
+          "text": "Sent to your pharmacy when needed."
+        },
+        {
+          "title": "Learn more",
+          "text": "Our full eczema care.",
+          "href": "/medical-dermatology/eczema"
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Request a visit",
+          "text": "Book an online appointment that fits your day."
+        },
+        {
+          "label": "Step 2",
+          "title": "Meet by secure video",
+          "text": "See a board-certified dermatologist from home."
+        },
+        {
+          "label": "Step 3",
+          "title": "Get your care plan",
+          "text": "Leave with clear next steps, prescriptions if needed, and follow-up care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay on track",
+          "text": "Check in again by video, or come to the office if an in-person exam is best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Secure, private visits",
+      "text": [
+        "Video visits are private and secure. All you need is a phone, tablet or computer with a camera.",
+        "Some concerns, such as a full-body skin check or a growth that needs a biopsy, are best seen in person. We will tell you if that is the case."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can eczema be treated by video?",
+        "a": "Yes, especially flares and follow-ups."
+      },
+      {
+        "q": "Can my child be seen by video?",
+        "a": "Yes, with a parent present."
+      },
+      {
+        "q": "What if the skin looks infected?",
+        "a": "We may book an office visit."
+      },
+      {
+        "q": "What do I need?",
+        "a": "A device with a camera and good lighting."
+      }
+    ]
+  },
+  {
+    "slug": "follow-up-care",
+    "category": "teledermatology",
+    "group": "Virtual Visits For",
+    "name": "Follow-Up Care",
+    "localTopic": "Teledermatology for follow-up care",
+    "title": "Follow-Up Visits",
+    "accent": "by Video Visit",
+    "metaTitle": "Follow-Up Visits by Video Visit | Teledermatology in Torrance, CA | Oceanside Dermatology & Aesthetics",
+    "description": "Teledermatology follow-up visits with a board-certified dermatologist serving Torrance, CA.",
+    "lede": "Check in on your treatment without leaving home.",
+    "heroPosition": "center",
+    "photos": {
+      "hero": "/images/services/tele/follow-up-care/hero.webp",
+      "heroAlt": "Follow-Up Care at Oceanside Dermatology & Aesthetics in Torrance",
+      "one": "/images/services/tele/follow-up-care/one.webp",
+      "oneAlt": "Follow-Up Care consultation with Dr. Sandhu",
+      "two": "/images/services/tele/follow-up-care/two.webp",
+      "twoAlt": "Healthy, radiant skin after follow-up care"
+    },
+    "overview": {
+      "eyebrow": "Understanding Follow-Up Care",
+      "title": "Video",
+      "accent": "follow-up care",
+      "text": [
+        "Follow-up visits are one of the best uses of teledermatology. We check your progress, answer questions and adjust your plan.",
+        "They save time while keeping your care on track.",
+        "If anything needs a closer look, we will book an office visit."
+      ],
+      "facts": [
+        {
+          "label": "Visit",
+          "value": "Secure video"
+        },
+        {
+          "label": "Good for",
+          "value": "Progress checks"
+        },
+        {
+          "label": "From",
+          "value": "Home"
+        }
+      ]
+    },
+    "candidates": {
+      "title": "Is a video visit for follow-up care",
+      "accent": "right for you?",
+      "text": "A consultation with Dr. Sandhu is the best way to know which option fits your skin and goals.",
+      "conditionsTitle": "What we help with",
+      "conditions": [
+        "Acne follow-ups",
+        "Eczema follow-ups",
+        "Rosacea follow-ups",
+        "Psoriasis follow-ups",
+        "Medication checks",
+        "Post-treatment questions"
+      ],
+      "signsTitle": "Signs it is time to book",
+      "signs": [
+        "You are on an ongoing treatment",
+        "You need a medication check",
+        "You have questions after a visit",
+        "You want to save time",
+        "You want convenient care",
+        "You live or work far away"
+      ]
+    },
+    "options": {
+      "title": "Your treatment",
+      "accent": "options",
+      "text": "Dr. Sandhu chooses treatment based on your skin, your goals and the area being treated.",
+      "items": [
+        {
+          "title": "Progress review",
+          "text": "How your skin is responding."
+        },
+        {
+          "title": "Plan adjustments",
+          "text": "Changes to medicines or routine."
+        },
+        {
+          "title": "Prescriptions",
+          "text": "Refills when appropriate."
+        },
+        {
+          "title": "In-person if needed",
+          "text": "An office visit when best."
+        }
+      ]
+    },
+    "steps": {
+      "title": "What to",
+      "accent": "expect",
+      "text": "Here is how your care usually unfolds.",
+      "items": [
+        {
+          "label": "Step 1",
+          "title": "Request a visit",
+          "text": "Book an online appointment that fits your day."
+        },
+        {
+          "label": "Step 2",
+          "title": "Meet by secure video",
+          "text": "See a board-certified dermatologist from home."
+        },
+        {
+          "label": "Step 3",
+          "title": "Get your care plan",
+          "text": "Leave with clear next steps, prescriptions if needed, and follow-up care."
+        },
+        {
+          "label": "Follow-up",
+          "title": "Stay on track",
+          "text": "Check in again by video, or come to the office if an in-person exam is best."
+        }
+      ]
+    },
+    "safety": {
+      "title": "Secure, private visits",
+      "text": [
+        "Video visits are private and secure. All you need is a phone, tablet or computer with a camera.",
+        "Some concerns, such as a full-body skin check or a growth that needs a biopsy, are best seen in person. We will tell you if that is the case."
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What can be followed up by video?",
+        "a": "Many conditions, including acne, eczema, rosacea and psoriasis."
+      },
+      {
+        "q": "Can you refill prescriptions?",
+        "a": "Yes, when appropriate."
+      },
+      {
+        "q": "Do I need to come in at all?",
+        "a": "Some visits, like full skin checks, need to be in person."
+      },
+      {
+        "q": "How do I book?",
+        "a": "Request a visit online or call us."
+      }
+    ]
+  },
 ];
 
 export const getService = (category: string, slug: string) =>
