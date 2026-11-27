@@ -1,0 +1,39 @@
+---
+// Page not found: same dark hero as inner pages, with the most useful next steps.
+import PageLayout from "../layouts/PageLayout.astro";
+import { site } from "../data/site";
+
+const links = [
+  { label: "Our Services", text: "Medical, surgical, cosmetic and pediatric care", href: "/services" },
+  { label: "Meet Dr. Sandhu", text: "Board-certified dermatologist", href: "/dr-sophia-sandhu" },
+  { label: "Patient Reviews", text: "What South Bay patients say", href: "/reviews" },
+  { label: "Contact Us", text: `Call ${site.phone} or send a request`, href: "/contact" },
+];
+---
+<PageLayout
+  title="This page"
+  accent="has moved"
+  metaTitle={`Page not found | ${site.name}`}
+  eyebrow="Page not found"
+  lede="The page you were looking for is not here. It may have moved when we updated our website."
+  description="Page not found."
+  image="/images/palos-verdes-coast.webp"
+  imageAlt="Palos Verdes coastline in the South Bay"
+  position="center 55%"
+>
+  <section class="bg-white py-20 sm:py-28">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <p class="eyebrow"><span class="rule-gold"></span>Try one of these</p>
+      <div class="mt-8 grid gap-px overflow-hidden rounded-[var(--radius-photo)] border border-ink/10 bg-ink/10 sm:grid-cols-2 lg:grid-cols-4">
+        {links.map((l) => (
+          <a href={l.href} class="group relative flex flex-col bg-white px-7 py-9 transition-colors duration-500 hover:bg-[#fdfaf6]">
+            <span class="absolute left-0 top-0 h-px w-0 bg-gold transition-all duration-700 [transition-timing-function:var(--ease-tide)] group-hover:w-full" aria-hidden="true"></span>
+            <span class="font-display text-[1.45rem] text-ink transition-colors duration-500 group-hover:text-gold">{l.label}</span>
+            <span class="mt-2 text-[0.92rem] text-body">{l.text}</span>
+            <span class="mt-6 text-gold transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</PageLayout>

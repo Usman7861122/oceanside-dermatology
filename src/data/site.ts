@@ -31,7 +31,7 @@ export const site = {
 
 export const nav = [
   { label: "About", href: "/about" },
-  { label: "Services", href: "/#services" },
+  { label: "Services", href: "/services" },
   { label: "Dr. Sandhu", href: "/dr-sophia-sandhu" },
   { label: "Reviews", href: "/reviews" },
   { label: "Gallery", href: "/#gallery" },
