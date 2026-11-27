@@ -8,7 +8,7 @@ import { site } from "../../data/site";
     <div class="lg:col-span-5">
       <p class="eyebrow" data-reveal><span class="rule-gold"></span>Get in Touch</p>
       <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl lg:text-6xl" data-reveal style="--reveal-delay:100ms">
-        We look forward to <em class="text-seaglass-deep">meeting you</em>
+        We look forward to <em class="text-gold">meeting you</em>
       </h2>
       <p class="mt-6 max-w-md text-body" data-reveal style="--reveal-delay:200ms">
         Send us a note and our team will reach out to schedule your visit. For anything urgent, please call.
@@ -18,18 +18,18 @@ import { site } from "../../data/site";
         <div class="flex gap-5">
           <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Visit</dt>
           <dd>
-            <a href={site.mapsUrl} target="_blank" rel="noopener" class="font-display text-[1.45rem] leading-snug text-ink hover:text-seaglass-deep">
+            <a href={site.mapsUrl} target="_blank" rel="noopener" class="font-display text-[1.45rem] leading-snug text-ink hover:text-gold">
               {site.address.street}<br />{site.address.city}, {site.address.region} {site.address.zip}
             </a>
           </dd>
         </div>
         <div class="flex gap-5">
           <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Call</dt>
-          <dd><a href={site.phoneHref} class="font-display text-[1.45rem] text-ink hover:text-seaglass-deep">{site.phone}</a><span class="block text-sm text-muted">Fax {site.fax}</span></dd>
+          <dd><a href={site.phoneHref} class="font-display text-[1.45rem] text-ink hover:text-gold">{site.phone}</a><span class="block text-sm text-muted">Fax {site.fax}</span></dd>
         </div>
         <div class="flex gap-5">
           <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Email</dt>
-          <dd><a href={`mailto:${site.email}`} class="font-display text-[1.45rem] text-ink hover:text-seaglass-deep">{site.email}</a></dd>
+          <dd><a href={`mailto:${site.email}`} class="font-display text-[1.45rem] text-ink hover:text-gold">{site.email}</a></dd>
         </div>
         <div class="flex gap-5">
           <dt class="w-20 shrink-0 pt-1 text-[0.68rem] tracking-[0.2em] uppercase text-muted">Hours</dt>

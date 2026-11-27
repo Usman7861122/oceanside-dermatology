@@ -44,7 +44,7 @@ export default function WhyTimeline({ stops }: { stops: Stop[] }) {
               viewport={{ once: true, margin: "0px 0px -20% 0px" }}
               transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
             >
-              <p className="text-[0.7rem] font-medium tracking-[0.22em] uppercase text-seaglass-deep">{s.place}</p>
+              <p className="text-[0.7rem] font-medium tracking-[0.22em] uppercase text-gold">{s.place}</p>
               <h3 className="mt-2 text-3xl sm:text-[2.1rem]">{s.reason}</h3>
               <p className={`mt-3 max-w-md text-[0.98rem] text-body ${right ? "" : "md:ml-auto"}`}>{s.detail}</p>
             </motion.div>

@@ -61,7 +61,7 @@ const CSS = `
 .sig-grain{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 70% 55% at 50% 100%,rgb(255 255 255/.55),transparent 70%)}
 .sig-copy{position:absolute;left:50%;top:calc(var(--u) * 3 + 96px);transform:translateX(-50%);width:min(90%,calc(var(--u) * 48));display:grid;text-align:center;z-index:3}
 .sig-txt{grid-area:1/1;will-change:opacity,transform}
-.sig-eyebrow{font-size:max(11px,calc(var(--u) * .78));letter-spacing:3px;text-transform:uppercase;font-weight:300;color:var(--color-seaglass-deep);display:inline-flex;align-items:center;gap:.9rem;justify-content:center}
+.sig-eyebrow{font-size:max(11px,calc(var(--u) * .78));letter-spacing:3px;text-transform:uppercase;font-weight:300;color:var(--color-gold);display:inline-flex;align-items:center;gap:.9rem;justify-content:center}
 .sig-title{margin:calc(var(--u) * .9) 0 0;font-family:var(--font-display);font-size:max(30px,calc(var(--u) * 3.6));font-weight:400;line-height:1.08;color:var(--color-ink)}
 .sig-desc{margin:calc(var(--u) * 1) auto 0;max-width:34em;font-size:max(14px,calc(var(--u) * 1.02));line-height:1.65;color:var(--color-body)}
 .sig-cta{margin-top:calc(var(--u) * 1.8);display:flex;justify-content:center}

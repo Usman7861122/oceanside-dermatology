@@ -47,7 +47,7 @@ function MegaMenu({ appointmentHref, onClose }: { appointmentHref: string; onClo
           </li>
         ))}
         <li className="pt-6">
-          <a href="/services" onClick={onClose} className="text-[0.72rem] font-medium tracking-[0.2em] uppercase text-seaglass-deep hover:text-gold">
+          <a href="/services" onClick={onClose} className="text-[0.72rem] font-medium tracking-[0.2em] uppercase text-gold hover:text-gold">
             View all services →
           </a>
         </li>
