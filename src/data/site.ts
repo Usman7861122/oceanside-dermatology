@@ -126,9 +126,9 @@ export const testimonials = [
 
 export const gallery = [
   { src: "/images/practice/waiting-room.webp", alt: "Bright waiting room with curved wooden chairs and a pendant light", title: "A Calm Welcome", caption: "A bright, quiet space to settle in before your visit." },
-  { src: "/images/practice/exam-welcome.webp", alt: "Dr. Sophia Sandhu smiling while talking with a patient", title: "Time With Dr. Sandhu", caption: "Unhurried visits, with every question answered." },
+  { src: "/images/practice/treatment-explained.webp", alt: "Dr. Sophia Sandhu smiling in her exam room", title: "Time With Dr. Sandhu", caption: "Unhurried visits, with every question answered." },
   { src: "/images/practice/reception.webp", alt: "Reception desk with an olive tree and the Sophia Sandhu M.D. name", title: "Our Torrance Office", caption: "Light-filled and easy to find on Hawthorne Blvd." },
   { src: "/images/practice/skin-exam-face.webp", alt: "Dr. Sandhu examining a patient's face with a dermatoscope", title: "Careful Skin Exams", caption: "A close, thorough look at every concern." },
   { src: "/images/practice/team-hallway.webp", alt: "Dr. Sandhu laughing with a team member in the hallway", title: "A Friendly Team", caption: "People who know you by name." },
-  { src: "/images/practice/scalp-check.webp", alt: "Dr. Sandhu checking a smiling patient's scalp", title: "Skin, Hair and Nails", caption: "Care for every part of your skin health." },
+  { src: "/images/practice/front-desk-team.webp", alt: "Smiling front desk team member at the reception desk", title: "Easy Booking", caption: "A front desk team ready to help you find a time." },
 ];
