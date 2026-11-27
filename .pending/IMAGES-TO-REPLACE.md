@@ -4,13 +4,10 @@ Every file in section B is a marble placeholder. Replace the file at the same pa
 
 Photo rules: Shutterstock Unlimited only (check for the "not included" banner before downloading), fair-skinned and modestly dressed models (no bare backs, lingerie or nudity), no needles, syringes or jewelry, premium and clear.
 
-## A. Real photos that break the photo rule (12, swap first)
+## A. Real photos that break the photo rule (9, swap first)
 
 | File | Suggested Shutterstock ID |
 |---|---|
-| public/images/gallery/radiance.webp | 720691987 |
-| public/images/services/medical.webp | 2483124275 |
-| public/images/services/index/medical-hero.webp | 2845313533 |
 | public/images/services/shingles/one.webp | 2544549089 |
 | public/images/services/skin-cancer-screenings/hero.webp | 2344287683 |
 | public/images/services/skin-cancer-screenings/one.webp | 2838912187 |

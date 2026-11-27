@@ -7,8 +7,8 @@ export const servicesIndex = {
   lede: "Medical, surgical, cosmetic, pediatric and virtual dermatology, all in one calm, welcoming practice.",
   description:
     "Explore dermatology services at Oceanside Dermatology & Aesthetics in Torrance, CA: medical, surgical, cosmetic and pediatric dermatology, plus teledermatology.",
-  image: "/images/services/index/services-hero.webp",
-  imageAlt: "Bright, elegant clinic lounge with soft daylight",
+  image: "/images/practice/exam-conversation-wide.webp",
+  imageAlt: "Dr. Sophia Sandhu talking through a treatment plan with a patient",
   intro: [
     "We offer expert, evidence-based care for the full spectrum of skin, hair and nail conditions in patients of all ages and all skin types.",
     "Whether you are seeking medical, surgical or cosmetic dermatology, we provide comprehensive services in one convenient, welcoming setting.",
@@ -26,7 +26,7 @@ export const categoryContent: Record<string, {
     description:
       "Board-certified medical dermatology in Torrance, CA: acne, eczema, psoriasis, rosacea, hair loss, rashes, skin infections, growths and skin cancer screenings.",
     image: "/images/services/index/medical-hero.webp",
-    imageAlt: "Dermatologist gently examining a young woman's facial skin",
+    imageAlt: "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope",
     introTitle: "Comprehensive care for",
     introAccent: "all skin types",
     intro: [
