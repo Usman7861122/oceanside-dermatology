@@ -34,7 +34,7 @@ export const nav = [
   { label: "Services", href: "/services" },
   { label: "Dr. Sandhu", href: "/dr-sophia-sandhu" },
   { label: "Reviews", href: "/reviews" },
-  { label: "Gallery", href: "/#gallery" },
+  { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
 ];
 
