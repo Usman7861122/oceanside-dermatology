@@ -37,7 +37,7 @@ export const serviceMenu: MenuCategory[] = [
     href: "/medical-dermatology",
     blurb: "Expert care for skin, hair and nail conditions, for every skin type.",
     image: "/images/services/medical.webp",
-    imageAlt: "Dr. Sophia Sandhu talking with a patient in her exam room",
+    imageAlt: "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope",
     groups: [
       { title: "Acne & Inflammation", items: items("/medical-dermatology", ["Acne", "Rosacea", "Eczema", "Psoriasis", "Contact Dermatitis", "Perioral Dermatitis", "Hidradenitis Suppurativa", "Seborrheic Dermatitis"]) },
       { title: "Pigment", items: items("/medical-dermatology", ["Melasma", "Hyperpigmentation", "Vitiligo", "Pigmentary Disorders"]) },
@@ -53,7 +53,7 @@ export const serviceMenu: MenuCategory[] = [
     href: "/surgical-dermatology",
     blurb: "Precise removal of skin cancers and growths, with natural-looking results.",
     image: "/images/practice/dr-gloves.webp",
-    imageAlt: "Dr. Sophia Sandhu, wearing gloves, in her exam room",
+    imageAlt: "Patient smiling during a skin check with Dr. Sophia Sandhu",
     groups: [
       { title: "Skin Cancer Treatment", items: items("/surgical-dermatology", ["Basal Cell Carcinoma", "Squamous Cell Carcinoma", "Melanoma", "Precancerous Lesions"]) },
       { title: "Procedures", items: items("/surgical-dermatology", ["Excisions", "Electrodesiccation and Curettage", "Cryosurgery", "Incision and Drainage"]) },

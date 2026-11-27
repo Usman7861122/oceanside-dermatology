@@ -17,7 +17,7 @@ export const doctor = {
   role: "Board-Certified Dermatologist",
   languages: site.languages,
   image: "/images/practice/dr-at-work.webp",
-  imageAlt: "Dr. Sophia Sandhu talking in her Torrance exam room",
+  imageAlt: "Dr. Sophia Sandhu explaining a treatment in her Torrance exam room",
   bio: [
     "Dr. Sandhu is a board-certified dermatologist with comprehensive expertise in medical, cosmetic and surgical dermatology. Born and raised in Southern California, she brings a deep understanding of the unique dermatologic needs of her community, along with a commitment to individualized, patient-centered care.",
     "She earned her Bachelor of Science in Psychobiology from UCLA, where she was a member of the College Honors Program and was inducted into both Alpha Lambda Delta and Phi Beta Kappa honor societies. She went on to receive her medical degree from Eastern Virginia Medical School and completed her internal medicine internship at Rush University Medical Center in Chicago.",
@@ -58,7 +58,7 @@ export const credentials = {
 export const approach = {
   title: "Our approach to your skin",
   image: "/images/practice/dr-explains.webp",
-  imageAlt: "Dr. Sophia Sandhu explaining a treatment in her exam room",
+  imageAlt: "Dr. Sophia Sandhu explaining a treatment",
   intro:
     "Our mission is to deliver exceptional, personalized dermatologic care with warmth, integrity and clinical excellence.",
   points: [
