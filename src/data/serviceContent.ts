@@ -3723,7 +3723,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/basal-cell-carcinoma/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/surgical/basal-cell-carcinoma/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/surgical/basal-cell-carcinoma/two.webp",
@@ -3867,7 +3867,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/surgical/squamous-cell-carcinoma/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/surgical/squamous-cell-carcinoma/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining what to expect",
       "two": "/images/services/surgical/squamous-cell-carcinoma/two.webp",
@@ -4014,7 +4014,7 @@ export const serviceContent: ServiceContent[] = [
       "hero": "/images/services/surgical/melanoma/hero.webp",
       "heroAlt": "Dr. Sophia Sandhu smiling in the exam room",
       "one": "/images/services/surgical/melanoma/one.webp",
-      "oneAlt": "Dr. Sophia Sandhu laughing in her exam room",
+      "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/surgical/melanoma/two.webp",
       "twoAlt": "Dr. Sophia Sandhu smiling as she explains a treatment"
     },
@@ -4586,7 +4586,7 @@ export const serviceContent: ServiceContent[] = [
       "hero": "/images/services/surgical/cryosurgery/hero.webp",
       "heroAlt": "Dr. Sophia Sandhu explaining a treatment in her exam room",
       "one": "/images/services/surgical/cryosurgery/one.webp",
-      "oneAlt": "Dr. Sophia Sandhu laughing in her exam room",
+      "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/surgical/cryosurgery/two.webp",
       "twoAlt": "Dr. Sophia Sandhu smiling as she explains a treatment"
     },
@@ -5729,7 +5729,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/angiomas/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/angiomas/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking in her exam room",
       "two": "/images/services/angiomas/two.webp",
@@ -6016,7 +6016,7 @@ export const serviceContent: ServiceContent[] = [
       "hero": "/images/services/keloids/hero.webp",
       "heroAlt": "Dr. Sophia Sandhu in her Torrance exam room",
       "one": "/images/services/keloids/one.webp",
-      "oneAlt": "Dr. Sophia Sandhu laughing in her exam room",
+      "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/keloids/two.webp",
       "twoAlt": "Dr. Sophia Sandhu smiling as she explains a treatment"
     },
@@ -6301,7 +6301,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/botox-and-dysport/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/cosmetic/botox-and-dysport/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining a treatment in the exam room",
       "two": "/images/services/cosmetic/botox-and-dysport/two.webp",
@@ -8620,7 +8620,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/tattoo-removal/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/cosmetic/tattoo-removal/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling in the exam room",
       "two": "/images/services/cosmetic/tattoo-removal/two.webp",
@@ -9634,7 +9634,7 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/cosmetic/prp-for-hair-loss/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/cosmetic/prp-for-hair-loss/one.webp",
       "oneAlt": "Dr. Sophia Sandhu preparing for a treatment",
       "two": "/images/services/cosmetic/prp-for-hair-loss/two.webp",
@@ -9924,7 +9924,7 @@ export const serviceContent: ServiceContent[] = [
       "hero": "/images/services/pediatric/acne/hero.webp",
       "heroAlt": "Dr. Sophia Sandhu laughing with a team member",
       "one": "/images/services/pediatric/acne/one.webp",
-      "oneAlt": "Dr. Sophia Sandhu laughing in her exam room",
+      "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/pediatric/acne/two.webp",
       "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
     },
@@ -10643,9 +10643,9 @@ export const serviceContent: ServiceContent[] = [
     "heroPosition": "center",
     "photos": {
       "hero": "/images/services/pediatric/molluscum/hero.webp",
-      "heroAlt": "Dr. Sophia Sandhu laughing in her Torrance exam room",
+      "heroAlt": "Dr. Sophia Sandhu smiling in her Torrance exam room",
       "one": "/images/services/pediatric/molluscum/one.webp",
-      "oneAlt": "Dr. Sophia Sandhu laughing in her exam room",
+      "oneAlt": "Dr. Sophia Sandhu smiling in her exam room",
       "two": "/images/services/pediatric/molluscum/two.webp",
       "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
     },

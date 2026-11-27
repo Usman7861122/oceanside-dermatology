@@ -13,7 +13,7 @@ const p = (name: string) => `/images/practice/${name}.webp`;
 
 export const galleryPhotos: GalleryPhoto[] = [
   { src: p("reception-sign"), alt: "Oceanside Dermatology & Aesthetics sign on the white reception wall", title: "Welcome to Oceanside", topic: "practice" },
-  { src: p("patient-stories"), alt: "Dr. Sophia Sandhu laughing in her exam room", title: "A warm welcome", topic: "care" },
+  { src: p("patient-stories"), alt: "Dr. Sophia Sandhu smiling in her exam room", title: "A warm welcome", topic: "care" },
   { src: p("waiting-room"), alt: "Bright waiting room with curved wooden chairs, a round table and a pendant light", title: "Our waiting room", topic: "practice" },
   { src: p("front-desk-team"), alt: "Front desk team member smiling at the reception desk", title: "Friendly front desk", topic: "team" },
   { src: p("dr-gloves"), alt: "Dr. Sophia Sandhu, wearing gloves, in her exam room", title: "Gentle, careful hands", topic: "care" },

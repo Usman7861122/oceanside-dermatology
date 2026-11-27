@@ -71,7 +71,7 @@ export const categoryContent: Record<string, {
     description:
       "Pediatric dermatology in Torrance, CA for babies, children and teens: eczema, acne, psoriasis, rashes, warts, molluscum, impetigo, fungal infections and alopecia areata.",
     image: "/images/services/index/pediatric-hero.webp",
-    imageAlt: "Dr. Sophia Sandhu laughing in her Torrance exam room",
+    imageAlt: "Dr. Sophia Sandhu smiling in her Torrance exam room",
     introTitle: "Expert skin care",
     introAccent: "at every age",
     intro: [
