@@ -16,10 +16,11 @@ interface Props {
   local?: string;
   crumbs?: { label: string; href?: string }[];
   nearby?: string;
+  veil?: "default" | "light";
 }
 const p = Astro.props;
 ---
 <BaseLayout title={p.metaTitle ?? `${p.title}${p.accent ? " " + p.accent : ""} | Oceanside Dermatology & Aesthetics`} description={p.description} image={p.image}>
-  <PageHero title={p.title} accent={p.accent} eyebrow={p.eyebrow} lede={p.lede} image={p.image} imageAlt={p.imageAlt} position={p.position} local={p.local} crumbs={p.crumbs} nearby={p.nearby} />
+  <PageHero title={p.title} accent={p.accent} eyebrow={p.eyebrow} lede={p.lede} image={p.image} imageAlt={p.imageAlt} position={p.position} local={p.local} crumbs={p.crumbs} nearby={p.nearby} veil={p.veil} />
   <slot />
 </BaseLayout>

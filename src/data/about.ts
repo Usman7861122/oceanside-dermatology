@@ -3,9 +3,9 @@ import { site } from "./site";
 
 export const aboutHero = {
   eyebrow: "About Oceanside",
-  title: "About Dr. Sophia Sandhu,",
-  accent: "Board-Certified Dermatologist in Torrance",
-  lede: "Evidence-based medicine and warm, individual care for every age and every skin type.",
+  title: "About Oceanside Dermatology",
+  accent: "& Aesthetics in Torrance",
+  lede: "Where high-quality, evidence-based medicine meets compassionate, individualized care.",
   description:
     "Meet Dr. Sophia Sandhu, MD, FAAD, a board-certified dermatologist in Torrance, CA. Harbor-UCLA Chief Resident with advanced training at UCSF, caring for the South Bay.",
   image: "/images/about/hero-lounge.webp",
@@ -68,3 +68,33 @@ export const approach = {
     { title: "Every age, every skin type", text: "Patients of all ages and all skin types, from newborns to adults." },
   ],
 };
+
+// Dr. Sandhu page
+export const drHero = {
+  title: "Dr. Sophia Sandhu, MD, FAAD",
+  accent: "Board-Certified Dermatologist",
+  lede: "Born and raised in Southern California, now caring for her own community in Torrance.",
+  description:
+    "Meet Dr. Sophia Sandhu, MD, FAAD, a board-certified dermatologist in Torrance, CA. UCLA graduate, Harbor-UCLA Chief Resident, with advanced training at UCSF. Speaks English, Spanish and Punjabi.",
+  image: "/images/about/dr-sandhu-hero.webp",
+  imageAlt: "Dr. Sophia Sandhu smiling in her white coat",
+};
+
+export const focusAreas = [
+  { title: "Medical Dermatology", text: "Skin, hair and nail conditions, from acne and eczema to skin cancer screenings.", href: "/medical-dermatology" },
+  { title: "Surgical Dermatology", text: "Precise removal of skin cancers and growths, with natural-looking results.", href: "/surgical-dermatology" },
+  { title: "Cosmetic Dermatology", text: "Less is more. Natural beauty, thoughtfully enhanced.", href: "/cosmetic-dermatology" },
+  { title: "Pediatric Dermatology", text: "Gentle, board-certified care from newborns to teens.", href: "/pediatric-dermatology" },
+];
+
+export const languages = [
+  { name: "English", native: "English" },
+  { name: "Spanish", native: "Español" },
+  { name: "Punjabi", native: "ਪੰਜਾਬੀ" },
+];
+
+export const practiceWelcome = [
+  "Welcome to Oceanside Dermatology & Aesthetics, where high-quality, evidence-based medicine meets compassionate, individualized care.",
+  "We offer expert care for the full spectrum of skin, hair and nail conditions in patients of all ages and all skin types. Whether you are seeking medical, surgical or cosmetic dermatology, we provide comprehensive services in one convenient, welcoming setting.",
+  "At the heart of our practice is a dedication to prevention, education and long-term skin health. We believe in creating lasting relationships with our patients through individualized, patient-centered care.",
+];
