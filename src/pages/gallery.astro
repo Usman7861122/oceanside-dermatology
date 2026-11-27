@@ -2,12 +2,12 @@
 // Gallery page: topic filter, square photo grid with a few large tiles, and a lightbox
 // (arrow keys, Escape, swipe). Photos come from src/data/gallery.ts.
 import PageLayout from "../layouts/PageLayout.astro";
+import GalleryLighthouse from "../islands/GalleryLighthouse";
 import { galleryPhotos, galleryTopics } from "../data/gallery";
 import { localFor } from "../data/local";
 import { site } from "../data/site";
 
 const local = localFor("Gallery", "about");
-const counts = Object.fromEntries(galleryTopics.map((t) => [t.key, galleryPhotos.filter((p) => p.topic === t.key).length]));
 ---
 <PageLayout
   title="Gallery"
@@ -20,36 +20,17 @@ const counts = Object.fromEntries(galleryTopics.map((t) => [t.key, galleryPhotos
   imageAlt="Bright, modern clinic interior at Oceanside Dermatology & Aesthetics"
   local={local.banner}
 >
-  <section class="bg-white py-20 sm:py-28">
+  <section class="marble-deep relative isolate overflow-hidden py-20 text-white sm:py-28">
     <div class="mx-auto max-w-7xl px-5 sm:px-8">
-      <div class="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-        <div>
-          <p class="eyebrow" data-reveal><span class="rule-gold"></span>Browse</p>
-          <h2 class="mt-6 text-4xl [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">Inside <em class="text-gold">Oceanside</em></h2>
-        </div>
-        <div class="flex flex-wrap gap-2" role="group" aria-label="Filter photos" data-reveal>
-          <button type="button" class="gal-filter is-active" data-filter="all" aria-pressed="true">All <span>{galleryPhotos.length}</span></button>
-          {galleryTopics.map((t) => (
-            <button type="button" class="gal-filter" data-filter={t.key} aria-pressed="false">{t.label} <span>{counts[t.key]}</span></button>
-          ))}
-        </div>
+      <div class="max-w-2xl">
+        <p class="eyebrow !text-gold-soft" data-reveal><span class="rule-gold"></span>Browse</p>
+        <h2 class="mt-6 text-4xl !text-white [text-wrap:balance] sm:text-5xl" data-reveal style="--reveal-delay:100ms">Inside <em class="text-gold-soft">Oceanside</em></h2>
+        <p class="mt-5 text-white/70" data-reveal style="--reveal-delay:160ms">A slow beam of light moves across the photos. Move your cursor to light them yourself, or tap any photo to see it full size.</p>
       </div>
-
-      <ul id="gal-grid" class="mt-12 grid list-none grid-cols-2 gap-3 p-0 [grid-auto-flow:dense] sm:gap-4 lg:grid-cols-4">
-        {galleryPhotos.map((p, i) => (
-          <li class={`gal-item ${p.big ? "col-span-2 row-span-2" : ""}`} data-topic={p.topic}>
-            <button type="button" class="gal-tile group relative block aspect-square w-full overflow-hidden rounded-[var(--radius-photo)] bg-mist" data-index={i} aria-label={`Open photo: ${p.title}`}>
-              <img src={p.src} alt={p.alt} width="1400" height="1400" loading={i < 6 ? "eager" : "lazy"} class="absolute inset-0 h-full w-full object-cover transition-transform duration-[1.4s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.05]" />
-              <span class="absolute inset-0 bg-gradient-to-t from-ink/75 via-ink/0 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100 group-focus-visible:opacity-100" aria-hidden="true"></span>
-              <span class="absolute inset-x-0 bottom-0 flex items-end justify-between gap-3 p-4 text-left opacity-0 transition-all duration-500 [transform:translateY(8px)] group-hover:opacity-100 group-hover:[transform:none] group-focus-visible:opacity-100 group-focus-visible:[transform:none] sm:p-5">
-                <span class="font-display text-[1.05rem] leading-snug text-white sm:text-[1.25rem]">{p.title}</span>
-                <svg class="h-5 w-5 shrink-0 text-gold-soft" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" /></svg>
-              </span>
-            </button>
-          </li>
-        ))}
-      </ul>
-      <p class="mt-8 text-[0.85rem] text-muted">Photos of people are models, not patients.</p>
+      <div class="mt-10">
+        <GalleryLighthouse client:visible photos={galleryPhotos} topics={[...galleryTopics]} />
+      </div>
+      <p class="mt-8 text-[0.85rem] text-white/50">Photos of people are models, not patients.</p>
     </div>
   </section>
 
@@ -75,25 +56,7 @@ const counts = Object.fromEntries(galleryTopics.map((t) => [t.key, galleryPhotos
 </PageLayout>
 
 <style>
-  .gal-filter {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    border: 1px solid rgb(15 34 41 / 0.15);
-    border-radius: 3px;
-    padding: 0.6rem 1rem;
-    font-size: 0.78rem;
-    letter-spacing: 0.08em;
-    color: var(--color-ink);
-    transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-  }
-  .gal-filter span { font-size: 0.68rem; color: var(--color-muted); transition: color 0.3s; }
-  .gal-filter:hover { border-color: var(--color-gold); }
-  .gal-filter.is-active { background: var(--color-ink); border-color: var(--color-ink); color: #fff; }
-  .gal-filter.is-active span { color: var(--color-gold-soft); }
-  .gal-tile:focus-visible, .gal-filter:focus-visible, .lb-btn:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }
-  .gal-item { animation: gal-in 0.6s var(--ease-tide) both; }
-  @keyframes gal-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  .lb-btn:focus-visible { outline: 2px solid var(--color-gold); outline-offset: 3px; }
   .lb-btn {
     display: flex;
     height: 3rem;
@@ -108,36 +71,17 @@ const counts = Object.fromEntries(galleryTopics.map((t) => [t.key, galleryPhotos
   }
   .lb-btn:hover { border-color: var(--color-gold); color: var(--color-gold-soft); }
   .lb-btn svg { height: 1.3rem; width: 1.3rem; }
-  @media (prefers-reduced-motion: reduce) { .gal-item { animation: none; } }
 </style>
 
 <script>
   import { galleryPhotos } from "../data/gallery";
 
-  const items = [...document.querySelectorAll<HTMLLIElement>(".gal-item")];
-  const filters = [...document.querySelectorAll<HTMLButtonElement>(".gal-filter")];
-  let visible = items.map((_, i) => i);
-
-  filters.forEach((btn) =>
-    btn.addEventListener("click", () => {
-      const f = btn.dataset.filter;
-      filters.forEach((b) => { b.classList.toggle("is-active", b === btn); b.setAttribute("aria-pressed", String(b === btn)); });
-      visible = [];
-      items.forEach((li, i) => {
-        const show = f === "all" || li.dataset.topic === f;
-        li.hidden = !show;
-        // Large tiles only in the full view, so filtered grids stay tidy.
-        li.classList.toggle("col-span-2", show && f === "all" && !!galleryPhotos[i].big);
-        li.classList.toggle("row-span-2", show && f === "all" && !!galleryPhotos[i].big);
-        if (show) { visible.push(i); li.style.animation = "none"; void li.offsetWidth; li.style.animation = ""; }
-      });
-    })
-  );
-
+  // Lightbox, opened by the gallery island with { list: photo indexes in view, pos }.
   const lb = document.getElementById("lightbox")!;
   const img = document.getElementById("lb-img") as HTMLImageElement;
   const title = document.getElementById("lb-title")!;
   const count = document.getElementById("lb-count")!;
+  let visible: number[] = [];
   let pos = 0;
   let opener: HTMLElement | null = null;
 
@@ -147,20 +91,20 @@ const counts = Object.fromEntries(galleryTopics.map((t) => [t.key, galleryPhotos
     img.src = ph.src; img.alt = ph.alt; title.textContent = ph.title;
     count.textContent = `${pos + 1} / ${visible.length}`;
   };
-  const open = (index: number, from: HTMLElement) => {
-    opener = from;
-    show(visible.indexOf(index));
-    lb.classList.remove("hidden"); lb.classList.add("flex");
-    document.body.style.overflow = "hidden";
-    document.getElementById("lb-close")?.focus();
-  };
   const close = () => {
     lb.classList.add("hidden"); lb.classList.remove("flex");
     document.body.style.overflow = "";
     opener?.focus();
   };
-
-  document.querySelectorAll<HTMLButtonElement>(".gal-tile").forEach((t) => t.addEventListener("click", () => open(Number(t.dataset.index), t)));
+  window.addEventListener("gallery:open", (e) => {
+    const d = (e as CustomEvent<{ list: number[]; pos: number }>).detail;
+    opener = document.activeElement as HTMLElement | null;
+    visible = d.list;
+    show(d.pos);
+    lb.classList.remove("hidden"); lb.classList.add("flex");
+    document.body.style.overflow = "hidden";
+    document.getElementById("lb-close")?.focus();
+  });
   document.getElementById("lb-close")?.addEventListener("click", close);
   document.getElementById("lb-prev")?.addEventListener("click", () => show(pos - 1));
   document.getElementById("lb-next")?.addEventListener("click", () => show(pos + 1));

@@ -34,4 +34,5 @@ export const galleryPhotos: GalleryPhoto[] = [
   { src: "/images/services/actinic-keratoses/two.webp", alt: "Smiling woman in a sun hat applying sunscreen", title: "Sun care, every day", topic: "skin" },
   { src: "/images/services/vitiligo/two.webp", alt: "Dermatologist showing a patient results on a tablet", title: "Clear explanations", topic: "care" },
   { src: "/images/services/melasma/two.webp", alt: "Woman with an even, glowing complexion in warm light", title: "An even complexion", topic: "skin" },
+  { src: "/images/services/pigmentary-disorders/hero.webp", alt: "Woman with smooth, healthy skin touching her cheek", title: "Long-term skin health", topic: "skin" },
 ];

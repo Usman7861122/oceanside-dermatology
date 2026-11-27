@@ -23,6 +23,14 @@
   --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
 
   --radius-photo: 6px;
+  /* shadcn-style tokens used by components in src/components/ui (kept to the site palette) */
+  --color-card: #0f2229;
+  --color-card-foreground: #ffffff;
+  --color-border: rgb(255 255 255 / 0.1);
+  --color-ring: #EC8F2E;
+  --color-muted-foreground: #6b7d82;
+  --radius-xl: 6px;
+  --radius-2xl: 8px;
   --ease-tide: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
