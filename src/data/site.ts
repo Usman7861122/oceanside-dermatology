@@ -25,7 +25,7 @@ export const site = {
   ],
   languages: ["English", "Spanish", "Punjabi"],
   // Every appointment button points here. Change it once when the booking form is connected.
-  appointmentHref: "/#contact",
+  appointmentHref: "/contact#request",
 };
 
 export const nav = [
@@ -34,7 +34,7 @@ export const nav = [
   { label: "Dr. Sandhu", href: "/dr-sophia-sandhu" },
   { label: "Reviews", href: "/reviews" },
   { label: "Gallery", href: "/#gallery" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 // Hero line: "Care for ___". These words rotate.

@@ -8,7 +8,12 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   integrations: [react()],
   // Keep the old site's doctor page address working.
-  redirects: { '/meet-our-doctor': '/dr-sophia-sandhu' },
+  redirects: {
+    '/meet-our-doctor': '/dr-sophia-sandhu',
+    '/terms-conditions': '/terms',
+    '/privacy-policy': '/privacy',
+    '/contact-us': '/contact',
+  },
 
   vite: {
     plugins: [tailwindcss()]

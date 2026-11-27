@@ -1,0 +1,72 @@
+---
+// Appointment request form, shared by the home page and /contact.
+// The form is not connected yet: it shows a clear note instead of sending.
+import AppointmentButton from "./AppointmentButton.astro";
+import { site } from "../data/site";
+interface Props { title?: string }
+const { title = "Request an appointment" } = Astro.props;
+const field =
+  "peer w-full rounded-[3px] border border-line bg-white/80 px-4 pb-2.5 pt-6 text-[0.98rem] text-ink outline-none transition-colors placeholder-transparent focus:border-gold focus:bg-white";
+const label =
+  "pointer-events-none absolute left-4 top-2 text-[0.66rem] font-medium tracking-[0.2em] uppercase text-muted transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-[0.9rem] peer-placeholder-shown:tracking-normal peer-placeholder-shown:normal-case peer-focus:top-2 peer-focus:text-[0.66rem] peer-focus:tracking-[0.2em] peer-focus:uppercase";
+---
+<form
+  id="appointment-form"
+  data-phone={site.phone}
+  class="rounded-[var(--radius-photo)] border border-white bg-white/70 p-7 shadow-[0_40px_80px_-50px_rgb(15_34_41/0.45)] backdrop-blur-md sm:p-10"
+  novalidate
+>
+  <h3 class="text-3xl">{title}</h3>
+  <p class="mt-2 text-sm text-muted">Please do not include private medical details in this form.</p>
+
+  <div class="mt-8 grid gap-4 sm:grid-cols-2">
+    <div class="relative sm:col-span-2">
+      <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Full name" class={field} />
+      <label for="f-name" class={label}>Full name</label>
+    </div>
+    <div class="relative">
+      <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="Email" class={field} />
+      <label for="f-email" class={label}>Email</label>
+    </div>
+    <div class="relative">
+      <input id="f-phone" name="phone" type="tel" autocomplete="tel" required placeholder="Phone" class={field} />
+      <label for="f-phone" class={label}>Phone</label>
+    </div>
+    <div class="relative">
+      <input id="f-dob" name="dob" type="text" inputmode="numeric" placeholder="Date of birth (MM/DD/YYYY)" class={field} />
+      <label for="f-dob" class={label}>Date of birth (MM/DD/YYYY)</label>
+    </div>
+    <div class="relative">
+      <select id="f-service" name="service" class={`${field} appearance-none`}>
+        <option>Medical dermatology</option>
+        <option>Surgical / skin cancer</option>
+        <option>Cosmetic injectables</option>
+        <option>Laser &amp; light</option>
+        <option>Pediatric dermatology</option>
+        <option>Teledermatology</option>
+        <option>Not sure yet</option>
+      </select>
+      <label for="f-service" class="pointer-events-none absolute left-4 top-2 text-[0.66rem] font-medium tracking-[0.2em] uppercase text-muted">Interested in</label>
+    </div>
+    <div class="relative sm:col-span-2">
+      <textarea id="f-msg" name="message" rows="4" placeholder="How can we help?" class={`${field} resize-none`}></textarea>
+      <label for="f-msg" class={label}>How can we help?</label>
+    </div>
+  </div>
+
+  <div class="mt-8 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
+    <AppointmentButton type="submit" label="Send Request" />
+    <p id="form-note" class="text-sm text-muted" role="status"></p>
+  </div>
+</form>
+
+<script>
+  // TODO: connect to the real form service. Until then, show a clear message instead of sending.
+  const form = document.getElementById("appointment-form") as HTMLFormElement | null;
+  const note = document.getElementById("form-note");
+  const phone = form?.dataset.phone ?? "";
+  form?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    if (note) note.textContent = `Online requests are coming soon. Please call ${phone}.`;
+  });
+</script>

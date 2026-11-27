@@ -61,10 +61,12 @@ const year = new Date().getFullYear();
   <div class="border-t border-white/10">
     <div class="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-6 pb-24 text-[0.8rem] text-white/50 sm:flex-row sm:justify-between sm:px-8 lg:pb-6">
       <p>© {year} {site.name}. All rights reserved.</p>
-      <p class="flex gap-6">
+      <p class="flex flex-wrap gap-x-6 gap-y-2">
         <a href="/privacy" class="hover:text-white">Privacy</a>
-        <a href="/accessibility" class="hover:text-white">Accessibility</a>
         <a href="/terms" class="hover:text-white">Terms</a>
+        <a href="/accessibility" class="hover:text-white">Accessibility</a>
+        <a href="/cookie-policy" class="hover:text-white">Cookies</a>
+        <button type="button" data-cookie-settings class="hover:text-white">Cookie settings</button>
       </p>
     </div>
   </div>

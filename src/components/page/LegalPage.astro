@@ -1,0 +1,83 @@
+---
+// Legal page shell: hero, a sticky contents list, and readable prose sections.
+// Content lives in src/data/legal.ts. Paragraphs may hold simple inline HTML (links, strong).
+import PageLayout from "../../layouts/PageLayout.astro";
+import type { LegalDoc } from "../../data/legal";
+import { legalDocs, legalUpdated } from "../../data/legal";
+import { site } from "../../data/site";
+
+interface Props { doc: LegalDoc }
+const { doc } = Astro.props;
+const others = legalDocs.filter((d) => d.href !== doc.href);
+---
+<PageLayout
+  title={doc.title}
+  accent={doc.accent}
+  metaTitle={`${doc.title} ${doc.accent} | ${site.name}`}
+  eyebrow={doc.eyebrow}
+  lede={doc.lede}
+  description={doc.description}
+  image="/images/palos-verdes-coast.webp"
+  imageAlt="Palos Verdes coastline in the South Bay"
+  position="center 55%"
+  local={`Last updated ${legalUpdated}`}
+>
+  <section class="bg-white py-20 sm:py-28">
+    <div class="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-12 lg:gap-20">
+      <aside class="lg:col-span-4">
+        <nav aria-label="On this page" class="lg:sticky lg:top-32">
+          <p class="eyebrow"><span class="rule-gold"></span>On this page</p>
+          <ol class="mt-6 list-none space-y-1 border-l border-ink/10 p-0">
+            {doc.sections.map((s) => (
+              <li><a href={`#${s.id}`} class="toc-link -ml-px block border-l border-transparent py-1.5 pl-5 text-[0.95rem] text-body hover:border-gold hover:text-ink">{s.title}</a></li>
+            ))}
+          </ol>
+          <div class="mt-10 rounded-[var(--radius-photo)] border border-ink/10 bg-mist/40 p-6">
+            <p class="m-0 font-display text-[1.2rem] text-ink">Questions?</p>
+            <p class="m-0 mt-2 text-[0.9rem] text-body">Call <a href={site.phoneHref} class="text-ink underline decoration-gold/50 underline-offset-2 hover:decoration-gold">{site.phone}</a> or email <a href={`mailto:${site.email}`} class="text-ink underline decoration-gold/50 underline-offset-2 hover:decoration-gold">{site.email}</a>.</p>
+          </div>
+        </nav>
+      </aside>
+
+      <article class="legal lg:col-span-8">
+        {doc.intro.map((p) => <p class="text-[1.12rem] leading-relaxed text-ink" set:html={p} />)}
+        {doc.sections.map((s) => (
+          <section id={s.id} class="scroll-mt-28 border-t border-ink/10 pt-10">
+            <h2 class="text-3xl">{s.title}</h2>
+            {s.body.map((p) => <p set:html={p} />)}
+            {s.list && <ul>{s.list.map((li) => <li set:html={li} />)}</ul>}
+            {s.after?.map((p) => <p set:html={p} />)}
+          </section>
+        ))}
+      </article>
+    </div>
+  </section>
+
+  <section class="marble-light border-t border-ink/10 py-16">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <p class="eyebrow"><span class="rule-gold"></span>More policies</p>
+      <div class="mt-6 grid gap-px overflow-hidden rounded-[var(--radius-photo)] border border-ink/10 bg-ink/10 sm:grid-cols-3">
+        {others.map((d) => (
+          <a href={d.href} class="group flex items-center justify-between gap-4 bg-white/85 px-6 py-6 transition-colors duration-500 hover:bg-white">
+            <span class="font-display text-[1.25rem] text-ink transition-colors duration-500 group-hover:text-gold">{d.title} {d.accent}</span>
+            <span class="text-gold transition-transform duration-500 group-hover:translate-x-1" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .legal { max-width: 46rem; }
+  .legal > p + section, .legal > section + section { margin-top: 2.75rem; }
+  .legal :global(section p), .legal :global(section li) { color: var(--color-body); font-size: 1.02rem; line-height: 1.75; }
+  .legal :global(section p) { margin-top: 1.1rem; }
+  .legal :global(ul) { margin-top: 1rem; padding-left: 0; list-style: none; }
+  .legal :global(li) { position: relative; padding-left: 1.5rem; margin-top: 0.55rem; }
+  .legal :global(li)::before { content: ""; position: absolute; left: 0; top: 0.8em; width: 0.6rem; height: 1px; background: var(--color-gold); }
+  .legal :global(a) { color: var(--color-ink); text-decoration: underline; text-decoration-color: rgb(236 143 46 / 0.5); text-underline-offset: 3px; }
+  .legal :global(a:hover) { text-decoration-color: var(--color-gold); }
+  .legal :global(strong) { color: var(--color-ink); font-weight: 500; }
+  .toc-link { transition: color 0.3s, border-color 0.3s; }
+</style>
