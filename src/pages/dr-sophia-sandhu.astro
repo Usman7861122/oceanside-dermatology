@@ -44,7 +44,7 @@ const personLd = {
           <span class="absolute left-0 top-0 h-px w-16 bg-gold" aria-hidden="true"></span>
           <p class="m-0 font-display text-[1.7rem] leading-tight text-ink">{doctor.name}</p>
           <p class="m-0 mt-2 text-[0.72rem] tracking-[0.2em] uppercase text-muted">{doctor.role}</p>
-          <dl class="m-0 mt-8 divide-y divide-line border-y border-line">
+          <dl class="-mx-4 m-0 mt-8 divide-y divide-line border-y border-line">
             {[
               ["Board certification", "Fellow, American Academy of Dermatology"],
               ["Residency", "Harbor-UCLA Medical Center, Chief Resident"],
@@ -52,9 +52,10 @@ const personLd = {
               ["Medical school", "Eastern Virginia Medical School"],
               ["Languages", doctor.languages.join(", ")],
             ].map(([k, v]) => (
-              <div class="py-4">
-                <dt class="text-[0.65rem] font-medium tracking-[0.2em] uppercase text-gold">{k}</dt>
-                <dd class="m-0 mt-1 text-[0.95rem] text-ink">{v}</dd>
+              <div class="glance-row group relative px-4 py-4">
+                <span class="absolute inset-y-3 left-0 w-px origin-top scale-y-0 bg-gold transition-transform duration-500 [transition-timing-function:var(--ease-tide)] group-hover:scale-y-100" aria-hidden="true"></span>
+                <dt class="text-[0.65rem] font-medium tracking-[0.2em] uppercase text-gold transition-[letter-spacing] duration-500 group-hover:tracking-[0.26em]">{k}</dt>
+                <dd class="m-0 mt-1 text-[0.95rem] text-ink transition-all duration-500 [transition-timing-function:var(--ease-tide)] group-hover:translate-x-1.5 group-hover:text-gold">{v}</dd>
               </div>
             ))}
           </dl>
@@ -220,6 +221,10 @@ const personLd = {
   .approach { transition: background-color 0.6s var(--ease-tide); }
   .approach:hover { background-color: #fff; }
   @media (prefers-reduced-motion: reduce) { .award:hover { transform: none; } }
+  .glance-row { transition: background-color 0.5s var(--ease-tide); }
+  .glance-row:hover { background-color: rgb(255 255 255 / 0.9); }
+  .glance { transition: box-shadow 0.7s var(--ease-tide), border-color 0.7s var(--ease-tide); }
+  .glance:hover { border-color: rgb(236 143 46 / 0.45); box-shadow: 0 30px 60px -35px rgb(15 34 41 / 0.3); }
   .focus { transition: background-color 0.6s var(--ease-tide); }
   .focus:hover { background-color: #fff; }
 </style>
