@@ -16,7 +16,7 @@ export const services: Service[] = [
     title: "Medical Dermatology",
     kind: "Medical",
     image: "/images/services/medical.webp",
-    alt: "Dr. Sophia Sandhu examining a patient's skin near his ear",
+    alt: "Dr. Sophia Sandhu talking with a patient in her exam room",
     summary:
       "Expert diagnosis and treatment for skin, hair and nail conditions, for every skin type.",
     treatments: ["Acne and rosacea", "Eczema and psoriasis", "Hair loss", "Melasma and pigment"],
@@ -25,8 +25,8 @@ export const services: Service[] = [
   {
     title: "Surgical & Skin Cancer",
     kind: "Surgical",
-    image: "/images/practice/skin-check.webp",
-    alt: "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
+    image: "/images/practice/dr-gloves.webp",
+    alt: "Dr. Sophia Sandhu, wearing gloves, in her exam room",
     summary:
       "Thorough skin cancer screenings and precise removal of growths, with natural-looking results.",
     treatments: ["Skin cancer screenings", "Basal cell, squamous cell, melanoma", "Mole, cyst and lipoma removal", "Earlobe repair"],
