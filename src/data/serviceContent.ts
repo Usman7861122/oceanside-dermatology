@@ -3727,7 +3727,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/basal-cell-carcinoma/one.webp",
       "oneAlt": "Reception desk under the Oceanside sign",
       "two": "/images/services/surgical/basal-cell-carcinoma/two.webp",
-      "twoAlt": "Oceanside Dermatology & Aesthetics sign in the reception area"
+      "twoAlt": "Clinician examining a woman's arm"
     },
     "overview": {
       "eyebrow": "Understanding Basal Cell Carcinoma",
@@ -3871,7 +3871,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/squamous-cell-carcinoma/one.webp",
       "oneAlt": "Reception desk under the Oceanside sign",
       "two": "/images/services/surgical/squamous-cell-carcinoma/two.webp",
-      "twoAlt": "Oceanside Dermatology & Aesthetics sign in the reception area"
+      "twoAlt": "Clinician examining a woman's facial skin"
     },
     "overview": {
       "eyebrow": "Understanding Squamous Cell Carcinoma",
@@ -4016,7 +4016,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/melanoma/one.webp",
       "oneAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp",
       "two": "/images/services/surgical/melanoma/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
+      "twoAlt": "Doctor checking a mole with a dermatoscope"
     },
     "overview": {
       "eyebrow": "Understanding Melanoma",
@@ -4160,7 +4160,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/precancerous-lesions/one.webp",
       "oneAlt": "Dr. Sophia Sandhu and a team member in the hallway",
       "two": "/images/services/surgical/precancerous-lesions/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu talking with a patient in the exam room"
+      "twoAlt": "Mature woman in a sun hat holding sunscreen"
     },
     "overview": {
       "eyebrow": "Understanding Precancerous Lesions",
@@ -4304,7 +4304,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/excisions/one.webp",
       "oneAlt": "Waiting room seating under a pendant light",
       "two": "/images/services/surgical/excisions/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope"
+      "twoAlt": "Doctor putting on medical gloves"
     },
     "overview": {
       "eyebrow": "Understanding Excisions",
@@ -4446,7 +4446,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/electrodesiccation-and-curettage/one.webp",
       "oneAlt": "Reception desk with the Sophia Sandhu M.D. name",
       "two": "/images/services/surgical/electrodesiccation-and-curettage/two.webp",
-      "twoAlt": "Waiting room with curved wooden chairs"
+      "twoAlt": "Smiling patient in a dermatology clinic"
     },
     "overview": {
       "eyebrow": "Understanding Electrodesiccation and Curettage",
@@ -4588,7 +4588,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/cryosurgery/one.webp",
       "oneAlt": "Reception desk with the Sophia Sandhu M.D. name",
       "two": "/images/services/surgical/cryosurgery/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient"
+      "twoAlt": "Cryotherapy treatment in a clinic"
     },
     "overview": {
       "eyebrow": "Understanding Cryosurgery",
@@ -4731,7 +4731,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/incision-and-drainage/one.webp",
       "oneAlt": "Front desk under the Oceanside sign",
       "two": "/images/services/surgical/incision-and-drainage/two.webp",
-      "twoAlt": "Team member on the phone helping a patient book a visit"
+      "twoAlt": "Caring for a small wound with a bandage"
     },
     "overview": {
       "eyebrow": "Understanding Incision and Drainage",
@@ -4874,7 +4874,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/benign-growth-removal/one.webp",
       "oneAlt": "Dr. Sophia Sandhu smiling with a patient in the exam room",
       "two": "/images/services/surgical/benign-growth-removal/two.webp",
-      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Doctor examining a patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Benign Growth Removal",
@@ -5019,7 +5019,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/cyst-and-lipoma-removal/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/surgical/cyst-and-lipoma-removal/two.webp",
-      "twoAlt": "Smiling front desk team member"
+      "twoAlt": "Dermatologist examining a smiling patient's skin"
     },
     "overview": {
       "eyebrow": "Understanding Cyst and Lipoma Removal",
@@ -5162,7 +5162,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/surgical/earlobe-repair/one.webp",
       "oneAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "two": "/images/services/surgical/earlobe-repair/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet"
+      "twoAlt": "Woman touching her ear"
     },
     "overview": {
       "eyebrow": "Understanding Earlobe Repair",
@@ -5304,7 +5304,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/bacterial-infections/one.webp",
       "oneAlt": "Woman applying a healing ointment to her arm",
       "two": "/images/services/bacterial-infections/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu explaining a treatment to a patient"
+      "twoAlt": "Dermatologist checking a child's skin with a dermatoscope"
     },
     "overview": {
       "eyebrow": "Understanding Bacterial Infections",
@@ -5446,7 +5446,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cysts/one.webp",
       "oneAlt": "Doctor examining a woman's shoulder",
       "two": "/images/services/cysts/two.webp",
-      "twoAlt": "Reception desk with the Sophia Sandhu M.D. name"
+      "twoAlt": "Smiling woman touching her smooth jawline"
     },
     "overview": {
       "eyebrow": "Understanding Cysts",
@@ -5590,7 +5590,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/lipoma/one.webp",
       "oneAlt": "Smiling front desk team member",
       "two": "/images/services/lipoma/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp"
+      "twoAlt": "Woman applying lotion to her shoulder"
     },
     "overview": {
       "eyebrow": "Understanding Lipoma",
@@ -5733,7 +5733,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/angiomas/one.webp",
       "oneAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/angiomas/two.webp",
-      "twoAlt": "Reception desk with the Sophia Sandhu M.D. name"
+      "twoAlt": "Woman with smooth, clear skin touching her face"
     },
     "overview": {
       "eyebrow": "Understanding Angiomas",
@@ -5876,7 +5876,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/seborrheic-keratoses/one.webp",
       "oneAlt": "Reception desk with the Sophia Sandhu M.D. name",
       "two": "/images/services/seborrheic-keratoses/two.webp",
-      "twoAlt": "Waiting room with curved wooden chairs"
+      "twoAlt": "Mature woman checking her skin in a mirror"
     },
     "overview": {
       "eyebrow": "Understanding Seborrheic Keratoses",
@@ -6018,7 +6018,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/keloids/one.webp",
       "oneAlt": "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope",
       "two": "/images/services/keloids/two.webp",
-      "twoAlt": "Waiting room with curved wooden chairs"
+      "twoAlt": "Hands caring for a small mark on the skin"
     },
     "overview": {
       "eyebrow": "Understanding Keloids",
@@ -6160,7 +6160,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/scars/one.webp",
       "oneAlt": "Dr. Sophia Sandhu and a team member in the hallway",
       "two": "/images/services/scars/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu explaining a treatment to a patient"
+      "twoAlt": "Woman touching her smooth chin"
     },
     "overview": {
       "eyebrow": "Understanding Scars",
@@ -6305,7 +6305,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/botox-and-dysport/one.webp",
       "oneAlt": "Dr. Sophia Sandhu preparing a Botox treatment for a patient",
       "two": "/images/services/cosmetic/botox-and-dysport/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet"
+      "twoAlt": "Mature woman with silver hair smoothing her forehead"
     },
     "overview": {
       "eyebrow": "Understanding Botox & Dysport",
@@ -6449,7 +6449,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/hyaluronic-acid-fillers/one.webp",
       "oneAlt": "Dr. Sophia Sandhu treating a relaxed patient's face",
       "two": "/images/services/cosmetic/hyaluronic-acid-fillers/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
+      "twoAlt": "Woman touching her smooth cheek"
     },
     "overview": {
       "eyebrow": "Understanding Hyaluronic Acid Fillers",
@@ -6593,7 +6593,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/sculptra/one.webp",
       "oneAlt": "Dr. Sophia Sandhu performing a facial treatment",
       "two": "/images/services/cosmetic/sculptra/two.webp",
-      "twoAlt": "Reception desk with the Sophia Sandhu M.D. name"
+      "twoAlt": "Mature woman caring for her skin"
     },
     "overview": {
       "eyebrow": "Understanding Sculptra",
@@ -6737,7 +6737,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/m22-stellar-ipl/one.webp",
       "oneAlt": "Dr. Sophia Sandhu and a team member in the hallway",
       "two": "/images/services/cosmetic/m22-stellar-ipl/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu examining a patient's skin with a dermatoscope"
+      "twoAlt": "Woman receiving an IPL facial treatment"
     },
     "overview": {
       "eyebrow": "Understanding M22 Stellar IPL",
@@ -6882,7 +6882,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/ultraclear-laser/one.webp",
       "oneAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/cosmetic/ultraclear-laser/two.webp",
-      "twoAlt": "Reception desk with the Sophia Sandhu M.D. name"
+      "twoAlt": "Smiling woman with fresh, glowing skin"
     },
     "overview": {
       "eyebrow": "Understanding UltraClear Laser",
@@ -7026,7 +7026,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/resurfx/one.webp",
       "oneAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu",
       "two": "/images/services/cosmetic/resurfx/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet"
+      "twoAlt": "Smiling woman with cream on her cheek"
     },
     "overview": {
       "eyebrow": "Understanding ResurFX",
@@ -7170,7 +7170,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/q-switched-nd-yag/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/cosmetic/q-switched-nd-yag/two.webp",
-      "twoAlt": "Smiling front desk team member"
+      "twoAlt": "Woman receiving a laser treatment for pigment"
     },
     "overview": {
       "eyebrow": "Understanding Q-Switched Nd:YAG",
@@ -7315,7 +7315,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/multi-spot-nd-yag/one.webp",
       "oneAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/cosmetic/multi-spot-nd-yag/two.webp",
-      "twoAlt": "Reception desk with the Sophia Sandhu M.D. name"
+      "twoAlt": "Woman wearing eye protection during a laser treatment"
     },
     "overview": {
       "eyebrow": "Understanding Multi-Spot Nd:YAG",
@@ -7461,7 +7461,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/fractional-laser-resurfacing/one.webp",
       "oneAlt": "Team member on the phone helping a patient book a visit",
       "two": "/images/services/cosmetic/fractional-laser-resurfacing/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin"
+      "twoAlt": "Patient relaxing during a laser skin treatment"
     },
     "overview": {
       "eyebrow": "Understanding Fractional Laser Resurfacing",
@@ -7606,7 +7606,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/medical-grade-microneedling/one.webp",
       "oneAlt": "Reception desk under the Oceanside sign",
       "two": "/images/services/cosmetic/medical-grade-microneedling/two.webp",
-      "twoAlt": "Oceanside Dermatology & Aesthetics sign in the reception area"
+      "twoAlt": "Woman applying a serum to glowing skin"
     },
     "overview": {
       "eyebrow": "Understanding Medical-Grade Microneedling",
@@ -7750,7 +7750,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/chemical-peels/one.webp",
       "oneAlt": "Waiting room seating under a pendant light",
       "two": "/images/services/cosmetic/chemical-peels/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient"
+      "twoAlt": "Chemical peel being applied with a soft brush"
     },
     "overview": {
       "eyebrow": "Understanding Customized Chemical Peels",
@@ -7893,7 +7893,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/acne-scar-treatment/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/cosmetic/acne-scar-treatment/two.webp",
-      "twoAlt": "Smiling front desk team member"
+      "twoAlt": "Woman with clear, smooth skin"
     },
     "overview": {
       "eyebrow": "Understanding Acne Scar Treatment",
@@ -8040,7 +8040,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/scar-treatment/one.webp",
       "oneAlt": "Front desk under the Oceanside sign",
       "two": "/images/services/cosmetic/scar-treatment/two.webp",
-      "twoAlt": "Team member on the phone helping a patient book a visit"
+      "twoAlt": "Woman gently massaging lotion into her arm"
     },
     "overview": {
       "eyebrow": "Understanding Scar Treatment",
@@ -8187,7 +8187,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/sun-spots-and-sun-damage/one.webp",
       "oneAlt": "Reception desk under the Oceanside sign",
       "two": "/images/services/cosmetic/sun-spots-and-sun-damage/two.webp",
-      "twoAlt": "Oceanside Dermatology & Aesthetics sign in the reception area"
+      "twoAlt": "Woman applying sunscreen to her face"
     },
     "overview": {
       "eyebrow": "Understanding Sun Spots & Sun Damage",
@@ -8333,7 +8333,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/rosacea-and-redness/one.webp",
       "oneAlt": "Waiting room seating under a pendant light",
       "two": "/images/services/cosmetic/rosacea-and-redness/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu explaining a treatment to a patient"
+      "twoAlt": "Woman with calm, clear skin"
     },
     "overview": {
       "eyebrow": "Understanding Rosacea & Redness",
@@ -8479,7 +8479,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/facial-and-leg-veins/one.webp",
       "oneAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics",
       "two": "/images/services/cosmetic/facial-and-leg-veins/two.webp",
-      "twoAlt": "Reception desk with the Sophia Sandhu M.D. name"
+      "twoAlt": "Woman with smooth, calm skin touching her face"
     },
     "overview": {
       "eyebrow": "Understanding Facial & Leg Veins",
@@ -8624,7 +8624,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/tattoo-removal/one.webp",
       "oneAlt": "Dr. Sophia Sandhu, wearing gloves, checking a patient's skin",
       "two": "/images/services/cosmetic/tattoo-removal/two.webp",
-      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Laser tattoo removal on an arm"
     },
     "overview": {
       "eyebrow": "Understanding Tattoo Removal",
@@ -8768,7 +8768,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/sebaceous-hyperplasia/one.webp",
       "oneAlt": "Dr. Sophia Sandhu treating a small growth on a patient's face",
       "two": "/images/services/cosmetic/sebaceous-hyperplasia/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu smiling with a patient in the exam room"
+      "twoAlt": "Woman with cream on her cheek in profile"
     },
     "overview": {
       "eyebrow": "Understanding Sebaceous Hyperplasia",
@@ -8913,7 +8913,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/skin-tags/one.webp",
       "oneAlt": "Dr. Sophia Sandhu removing a small skin growth",
       "two": "/images/services/cosmetic/skin-tags/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu explaining a treatment plan to a patient"
+      "twoAlt": "Woman touching the smooth skin of her neck"
     },
     "overview": {
       "eyebrow": "Understanding Skin Tags",
@@ -9058,7 +9058,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/moles/one.webp",
       "oneAlt": "Dr. Sophia Sandhu checking a smiling patient's scalp",
       "two": "/images/services/cosmetic/moles/two.webp",
-      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Woman with flawless skin in profile"
     },
     "overview": {
       "eyebrow": "Understanding Moles",
@@ -9203,7 +9203,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/seborrheic-keratoses/one.webp",
       "oneAlt": "Dr. Sophia Sandhu laughing with a team member",
       "two": "/images/services/cosmetic/seborrheic-keratoses/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu and a team member in the hallway"
+      "twoAlt": "Smiling mature woman with healthy skin"
     },
     "overview": {
       "eyebrow": "Understanding Seborrheic Keratoses",
@@ -9348,7 +9348,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/dermatosis-papulosa-nigra/one.webp",
       "oneAlt": "Dr. Sophia Sandhu treating small facial spots",
       "two": "/images/services/cosmetic/dermatosis-papulosa-nigra/two.webp",
-      "twoAlt": "Front desk under the Oceanside sign"
+      "twoAlt": "Smiling woman with an even complexion"
     },
     "overview": {
       "eyebrow": "Understanding Dermatosis Papulosa Nigra",
@@ -9493,7 +9493,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/angiomas/one.webp",
       "oneAlt": "Dr. Sophia Sandhu treating a small spot on a patient's face",
       "two": "/images/services/cosmetic/angiomas/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu smiling with a patient in the exam room"
+      "twoAlt": "Woman with glowing skin touching her cheeks"
     },
     "overview": {
       "eyebrow": "Understanding Angiomas",
@@ -9638,7 +9638,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/cosmetic/prp-for-hair-loss/one.webp",
       "oneAlt": "Reception desk with the Sophia Sandhu M.D. name",
       "two": "/images/services/cosmetic/prp-for-hair-loss/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu talking with a patient in the exam room"
+      "twoAlt": "Woman brushing long, healthy hair"
     },
     "overview": {
       "eyebrow": "Understanding PRP for Hair Loss",
@@ -9782,7 +9782,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/atopic-dermatitis-and-eczema/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/pediatric/atopic-dermatitis-and-eczema/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
+      "twoAlt": "Mother applying cream to her son's face"
     },
     "overview": {
       "eyebrow": "Understanding Eczema",
@@ -9926,7 +9926,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/acne/one.webp",
       "oneAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "two": "/images/services/pediatric/acne/two.webp",
-      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Teenager washing her face at the mirror"
     },
     "overview": {
       "eyebrow": "Understanding Acne",
@@ -10070,7 +10070,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/psoriasis/one.webp",
       "oneAlt": "Smiling front desk team member",
       "two": "/images/services/pediatric/psoriasis/two.webp",
-      "twoAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu"
+      "twoAlt": "Mother applying cream to her baby's arm"
     },
     "overview": {
       "eyebrow": "Understanding Psoriasis",
@@ -10214,7 +10214,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/rashes/one.webp",
       "oneAlt": "Waiting room with curved wooden chairs",
       "two": "/images/services/pediatric/rashes/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu laughing with a team member"
+      "twoAlt": "Parent applying cream to a baby's skin"
     },
     "overview": {
       "eyebrow": "Understanding Rashes",
@@ -10358,7 +10358,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/insect-bites/one.webp",
       "oneAlt": "Reception desk with the Sophia Sandhu M.D. name",
       "two": "/images/services/pediatric/insect-bites/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu and a team member in the hallway"
+      "twoAlt": "Parent applying insect repellent to a child's arm"
     },
     "overview": {
       "eyebrow": "Understanding Insect Bites",
@@ -10502,7 +10502,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/warts/one.webp",
       "oneAlt": "Dr. Sophia Sandhu laughing with a team member",
       "two": "/images/services/pediatric/warts/two.webp",
-      "twoAlt": "Waiting room seating under a pendant light"
+      "twoAlt": "Parent holding a child's hand"
     },
     "overview": {
       "eyebrow": "Understanding Warts",
@@ -10647,7 +10647,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/molluscum/one.webp",
       "oneAlt": "Team member on the phone helping a patient book a visit",
       "two": "/images/services/pediatric/molluscum/two.webp",
-      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Mother and toddler after bath time"
     },
     "overview": {
       "eyebrow": "Understanding Molluscum",
@@ -10791,7 +10791,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/impetigo-and-bacterial-infections/one.webp",
       "oneAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet",
       "two": "/images/services/pediatric/impetigo-and-bacterial-infections/two.webp",
-      "twoAlt": "Front desk under the Oceanside sign"
+      "twoAlt": "Pediatrician talking with a young patient and her mother"
     },
     "overview": {
       "eyebrow": "Understanding Impetigo",
@@ -10935,7 +10935,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/fungal-infections/one.webp",
       "oneAlt": "Dr. Sophia Sandhu talking with a patient in the exam room",
       "two": "/images/services/pediatric/fungal-infections/two.webp",
-      "twoAlt": "Waiting room seating under a pendant light"
+      "twoAlt": "Child's bare feet in the grass"
     },
     "overview": {
       "eyebrow": "Understanding Fungal Infections",
@@ -11079,7 +11079,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/pediatric/alopecia-areata/one.webp",
       "oneAlt": "Smiling front desk team member",
       "two": "/images/services/pediatric/alopecia-areata/two.webp",
-      "twoAlt": "Waiting room seating under a pendant light"
+      "twoAlt": "Mother brushing her daughter's hair"
     },
     "overview": {
       "eyebrow": "Understanding Alopecia Areata",
@@ -11223,7 +11223,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/tele/new-rashes/one.webp",
       "oneAlt": "Dr. Sophia Sandhu explaining a treatment to a patient",
       "two": "/images/services/tele/new-rashes/two.webp",
-      "twoAlt": "Front desk at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Woman on an online visit with her doctor"
     },
     "overview": {
       "eyebrow": "Understanding New Rashes",
@@ -11367,7 +11367,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/tele/acne/one.webp",
       "oneAlt": "Team member on the phone helping a patient book a visit",
       "two": "/images/services/tele/acne/two.webp",
-      "twoAlt": "Patient smiling during a skin check with Dr. Sophia Sandhu"
+      "twoAlt": "Young woman on a video visit with her doctor"
     },
     "overview": {
       "eyebrow": "Understanding Acne",
@@ -11511,7 +11511,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/tele/eczema/one.webp",
       "oneAlt": "Smiling front desk team member",
       "two": "/images/services/tele/eczema/two.webp",
-      "twoAlt": "Bright waiting room at Oceanside Dermatology & Aesthetics"
+      "twoAlt": "Dermatologist on a video consultation"
     },
     "overview": {
       "eyebrow": "Understanding Eczema",
@@ -11655,7 +11655,7 @@ export const serviceContent: ServiceContent[] = [
       "one": "/images/services/tele/follow-up-care/one.webp",
       "oneAlt": "Reception desk with the Sophia Sandhu M.D. name",
       "two": "/images/services/tele/follow-up-care/two.webp",
-      "twoAlt": "Dr. Sophia Sandhu and a team member reviewing a tablet"
+      "twoAlt": "Doctor smiling during a telehealth visit"
     },
     "overview": {
       "eyebrow": "Understanding Follow-Up Care",
