@@ -32,7 +32,7 @@ const personLd = {
   imageAlt={drHero.imageAlt}
   position="right bottom"
   local={local.banner}
-  veil="light"
+  portrait={{ src: doctor.image, alt: doctor.imageAlt }}
 >
   <script type="application/ld+json" set:html={JSON.stringify(personLd)} />
 

@@ -20,15 +20,22 @@ interface Props {
   nearby?: string;
   // "light" keeps the right side of the photo bright (for portraits).
   veil?: "default" | "light";
+  // Show this photo as a framed portrait beside the title instead of a full background (faces never crop).
+  portrait?: { src: string; alt: string };
 }
-const { title, accent, eyebrow, lede, image, imageAlt, position = "center", local, crumbs = [], nearby, veil = "default" } = Astro.props;
+const { title, accent, eyebrow, lede, image, imageAlt, position = "center", local, crumbs = [], nearby, veil = "default", portrait } = Astro.props;
 ---
 <section class="relative isolate flex min-h-[78svh] items-end overflow-hidden bg-ink pb-20 pt-40 text-white">
-  <img src={image} alt={imageAlt || `${title} ${accent ?? ""}, Oceanside Dermatology & Aesthetics`} class="absolute inset-0 -z-20 h-full w-full object-cover" style={`object-position:${position}`} />
-  <div class={`absolute inset-0 -z-10 ${veil === "light" ? "bg-[linear-gradient(90deg,rgb(15_34_41/0.92)_0%,rgb(15_34_41/0.75)_42%,rgb(15_34_41/0.12)_72%,rgb(15_34_41/0)_100%)]" : "bg-[linear-gradient(90deg,rgb(15_34_41/0.88)_0%,rgb(15_34_41/0.6)_55%,rgb(15_34_41/0.35)_100%)]"}`}></div>
+  {portrait ? (
+    <div class="marble-deep absolute inset-0 -z-20" aria-hidden="true"></div>
+  ) : (
+    <img src={image} alt={imageAlt || `${title} ${accent ?? ""}, Oceanside Dermatology & Aesthetics`} class="absolute inset-0 -z-20 h-full w-full object-cover" style={`object-position:${position}`} />
+  )}
+  <div class={`${portrait ? "hidden " : ""}absolute inset-0 -z-10 ${veil === "light" ? "bg-[linear-gradient(90deg,rgb(15_34_41/0.92)_0%,rgb(15_34_41/0.75)_42%,rgb(15_34_41/0.12)_72%,rgb(15_34_41/0)_100%)]" : "bg-[linear-gradient(90deg,rgb(15_34_41/0.88)_0%,rgb(15_34_41/0.6)_55%,rgb(15_34_41/0.35)_100%)]"}`}></div>
   <div class="absolute inset-x-0 bottom-0 -z-10 h-1/2 bg-gradient-to-t from-ink/70 to-transparent"></div>
 
-  <div class="mx-auto w-full max-w-7xl px-5 sm:px-8">
+  <div class={`mx-auto w-full max-w-7xl px-5 sm:px-8 ${portrait ? "grid items-end gap-12 lg:grid-cols-12 lg:gap-16" : ""}`}>
+    <div class={portrait ? "lg:col-span-7" : ""}>
     <nav aria-label="Breadcrumb" class="text-[0.75rem] tracking-[0.18em] uppercase text-white/60" data-reveal>
       <ol class="m-0 flex list-none flex-wrap items-center gap-y-2 p-0">
         {[{ label: "Home", href: "/" }, ...crumbs].map((c) => (
@@ -57,6 +64,15 @@ const { title, accent, eyebrow, lede, image, imageAlt, position = "center", loca
         <svg class="mt-[0.2em] h-5 w-5 shrink-0 text-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" /></svg>
         <span class="max-w-4xl">{nearby}</span>
       </p>
+    )}
+    </div>
+    {portrait && (
+      <figure class="group relative mx-auto w-full max-w-[19rem] sm:max-w-sm lg:col-span-5 lg:mr-0 lg:max-w-md" data-reveal style="--reveal-delay:200ms">
+        <div class="absolute -bottom-4 -right-4 h-full w-full rounded-[var(--radius-photo)] border border-gold/60" aria-hidden="true"></div>
+        <div class="relative overflow-hidden rounded-[var(--radius-photo)] bg-white shadow-[0_50px_90px_-40px_rgb(0_0_0/0.7)]">
+          <img src={portrait.src} alt={portrait.alt} width="1024" height="1280" class="aspect-[4/5] w-full object-cover object-top transition-transform duration-[1.6s] [transition-timing-function:var(--ease-tide)] group-hover:scale-[1.03]" />
+        </div>
+      </figure>
     )}
   </div>
 </section>
